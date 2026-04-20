@@ -27,7 +27,8 @@ def main() -> int:
     from tts_piper import synthesize_to_wav
 
     words: list[str] = []
-    for p in sorted(VOCAB_DIR.glob("session_*.csv")):
+    csv_files = sorted(VOCAB_DIR.glob("session_*.csv")) + sorted(VOCAB_DIR.glob("reference_*.csv"))
+    for p in csv_files:
         with open(p, newline="", encoding="utf-8") as f:
             for row in csv.DictReader(f):
                 w = row.get("spanish", "").strip()

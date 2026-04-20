@@ -100,6 +100,7 @@
     border-collapse: collapse;
     margin-bottom: 1.2em;
     font-size: 10.5pt;
+    break-inside: auto;
   }
   table.vocab thead tr {
     background: #8b3a0f;
@@ -115,6 +116,10 @@
   }
   table.vocab tbody tr:nth-child(even) { background: #ede0c4; }
   table.vocab tbody tr:nth-child(odd)  { background: #f5ead0; }
+  table.vocab tbody tr {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
   table.vocab tbody td {
     padding: 0.28em 0.5em;
     border-bottom: 1px solid #c9a87a;
@@ -131,6 +136,7 @@
     border-collapse: collapse;
     margin-bottom: 1em;
     font-size: 10pt;
+    break-inside: auto;
   }
   table.grammar thead th {
     background: #5c3a1e;
@@ -143,6 +149,10 @@
   table.grammar tbody td {
     padding: 0.25em 0.5em;
     border-bottom: 1px solid #c9a87a;
+  }
+  table.grammar tbody tr {
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
   table.grammar tbody tr:nth-child(even) { background: #ede0c4; }
   table.grammar td.pronoun { font-weight: bold; color: #5c1a00; }
@@ -265,6 +275,7 @@
   <div class="framing-box">{{ session.framing }}</div>
   {% endif %}
 
+  {% for chunk in session.words | chunks(25) %}
   <table class="vocab">
     <thead>
       <tr>
@@ -275,7 +286,7 @@
       </tr>
     </thead>
     <tbody>
-      {% for word in session.words %}
+      {% for word in chunk %}
       {% if word.spanish %}
       <tr>
         <td class="es">{{ word.spanish }}</td>
@@ -294,6 +305,7 @@
       {% endfor %}
     </tbody>
   </table>
+  {% endfor %}
 </div>
 {% endfor %}
 
@@ -386,6 +398,24 @@
     {{ s }}<br>
     {% endfor %}
   </div>
+  {% endif %}
+
+  {% if grammar.colors.adjectives %}
+  <div class="verb-header">{{ grammar.colors.adjectives_title }}</div>
+  <div class="framing-box" style="margin-bottom:0.5em;">{{ grammar.colors.adjectives_framing }}</div>
+  <table class="grammar">
+    <thead><tr><th>Masculin (-o)</th><th>Féminin (-a)</th><th>Français</th><th>Ejemplo</th></tr></thead>
+    <tbody>
+    {% for a in grammar.colors.adjectives %}
+    <tr>
+      <td class="conj">{{ a.spanish_m }}</td>
+      <td class="conj">{{ a.spanish_f }}</td>
+      <td>{{ a.french }}</td>
+      <td class="example">{{ a.example }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
   {% endif %}
 </div>
 {% endif %}
@@ -531,10 +561,11 @@
 <div class="session-page">
   <h2 class="session-title">{{ ref.title }}</h2>
   <h3 class="session-subtitle">{{ ref.subtitle }}</h3>
+  {% for chunk in ref.words | chunks(28) %}
   <table class="vocab">
     <thead><tr><th>Español</th><th>Français</th><th>Catégorie</th><th>Notes</th></tr></thead>
     <tbody>
-    {% for word in ref.words %}
+    {% for word in chunk %}
     <tr>
       <td class="es">{{ word.spanish }}</td>
       <td class="fr">{{ word.french }}</td>
@@ -544,6 +575,7 @@
     {% endfor %}
     </tbody>
   </table>
+  {% endfor %}
 </div>
 {% endfor %}
 

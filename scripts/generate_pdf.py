@@ -87,6 +87,7 @@ REFERENCE_TITLES = {
     "reference_equipment": ("El Equipo del Aventurero", "Armes, armures et équipement de base"),
     "reference_spells":    ("Los Hechizos",             "Sorts courants et écoles de magie"),
     "reference_enemies":   ("Los Enemigos",             "Monstres courants par niveau de défi"),
+    "reference_lugares":   ("Los Lugares",              "Lieux, bâtiments et zones à explorer"),
 }
 
 
@@ -133,6 +134,7 @@ def main() -> int:
     reference_tables = load_reference_tables()
 
     env = Environment(loader=FileSystemLoader(str(TEMPLATE_DIR)), autoescape=False)
+    env.filters["chunks"] = lambda lst, n: [lst[i:i + n] for i in range(0, len(lst), n)]
     template = env.get_template("livre_aventurier.html")
 
     html_content = template.render(

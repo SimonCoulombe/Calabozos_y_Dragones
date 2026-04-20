@@ -73,10 +73,12 @@ def load_config() -> dict:
 
 
 def load_all_words() -> list[dict]:
-    """Load all vocabulary CSVs, tagged with session number."""
+    """Load all vocabulary CSVs (session and reference), tagged with source."""
     words = []
-    for p in sorted(VOCAB_DIR.glob("session_*.csv")):
-        num = p.stem.split("_")[1]
+    csv_files = sorted(VOCAB_DIR.glob("session_*.csv")) + sorted(VOCAB_DIR.glob("reference_*.csv"))
+    for p in csv_files:
+        is_session = p.stem.startswith("session_")
+        num = p.stem.split("_")[1] if is_session else None
         with open(p, newline="", encoding="utf-8") as f:
             for row in csv.DictReader(f):
                 if row.get("spanish", "").strip():
@@ -88,7 +90,7 @@ def load_all_words() -> list[dict]:
                         "tags": [t.strip() for t in row["tags"].split(",") if t.strip()],
                         "notes": row["notes"].strip(),
                         "session": num,
-                        "session_name": SESSION_NAMES.get(num, f"Séance {num}"),
+                        "session_name": SESSION_NAMES.get(num, f"Séance {num}") if num else p.stem,
                     })
     return words
 

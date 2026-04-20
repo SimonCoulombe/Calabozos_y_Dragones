@@ -27,3 +27,31 @@ practice_sentences:
   - "Tengo un escudo azul y plateado."
   - "El dragón es negro y poderoso."
   - "La poción verde cura diez puntos de golpe."
+
+adjectives_title: "Otros adjetivos útiles"
+adjectives_framing: >
+  Ces adjectifs s'accordent de la même façon : -o au masculin, -a au féminin.
+  Sauf ceux en -e ou -l qui ne changent pas (grande, joven, débil…).
+
+adjectives:
+  - {spanish_m: grande,     spanish_f: grande,     french: "grand / gros",       example: "un dragón grande"}
+  - {spanish_m: pequeño,    spanish_f: pequeña,    french: "petit",               example: "un goblin pequeño"}
+  - {spanish_m: nuevo,      spanish_f: nueva,      french: "nouveau / neuf",      example: "una espada nueva"}
+  - {spanish_m: viejo,      spanish_f: vieja,      french: "vieux",               example: "un escudo viejo"}
+  - {spanish_m: gastado,    spanish_f: gastada,    french: "usé / abîmé",         example: "una armadura gastada"}
+  - {spanish_m: joven,      spanish_f: joven,      french: "jeune",               example: "un elfo joven"}
+  - {spanish_m: rico,       spanish_f: rica,       french: "riche",               example: "el mercader rico"}
+  - {spanish_m: pobre,      spanish_f: pobre,      french: "pauvre",              example: "el aldeano pobre"}
+  - {spanish_m: fuerte,     spanish_f: fuerte,     french: "fort / puissant",     example: "el guerrero fuerte"}
+  - {spanish_m: débil,      spanish_f: débil,      french: "faible",              example: "el enemigo débil"}
+  - {spanish_m: rápido,     spanish_f: rápida,     french: "rapide",              example: "el ladrón rápido"}
+  - {spanish_m: lento,      spanish_f: lenta,      french: "lent",                example: "el troll lento"}
+  - {spanish_m: oscuro,     spanish_f: oscura,     french: "sombre / obscur",     example: "un pasillo oscuro"}
+  - {spanish_m: luminoso,   spanish_f: luminosa,   french: "lumineux",            example: "un hechizo luminoso"}
+  - {spanish_m: peligroso,  spanish_f: peligrosa,  french: "dangereux",           example: "la trampa peligrosa"}
+  - {spanish_m: seguro,     spanish_f: segura,     french: "sûr / en sécurité",   example: "un lugar seguro"}
+  - {spanish_m: mágico,     spanish_f: mágica,     french: "magique",             example: "un objeto mágico"}
+  - {spanish_m: misterioso, spanish_f: misteriosa, french: "mystérieux",          example: "una puerta misteriosa"}
+  - {spanish_m: antiguo,    spanish_f: antigua,    french: "ancien / vieux",      example: "un mapa antiguo"}
+  - {spanish_m: pesado,     spanish_f: pesada,     french: "lourd",               example: "una armadura pesada"}
+  - {spanish_m: ligero,     spanish_f: ligera,     french: "léger",               example: "un arco ligero"}
