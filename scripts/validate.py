@@ -56,11 +56,11 @@ def check_yaml(path: Path) -> None:
 
 
 def main() -> int:
-    csv_files = sorted(VOCAB_DIR.glob("session_*.csv"))
+    csv_files = sorted(VOCAB_DIR.glob("session_*.csv")) + sorted(VOCAB_DIR.glob("reference_*.csv"))
     yaml_files = sorted((VOCAB_DIR / "grammar").glob("*.yaml"))
 
     if not csv_files:
-        errors.append(f"No session CSV files found in {VOCAB_DIR}")
+        errors.append(f"No session or reference CSV files found in {VOCAB_DIR}")
     if not yaml_files:
         warnings.append(f"No grammar YAML files found in {VOCAB_DIR / 'grammar'}")
 

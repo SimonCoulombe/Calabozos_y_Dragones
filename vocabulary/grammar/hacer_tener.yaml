@@ -1,0 +1,37 @@
+title: "HACER y TENER"
+subtitle: "Faire et Avoir — deux verbes essentiels"
+framing: >
+  HACER = faire quelque chose (une action).
+  TENER = avoir, posséder (un objet, un attribut, des PV).
+  Ces deux verbes sont irréguliers à la 1ère personne (hago / tengo).
+
+tables:
+  - verb: hacer
+    meaning: "faire"
+    tip: "hago (je fais) est irrégulier — les autres suivent une logique régulière."
+    rows:
+      - {pronoun: yo,        conjugation: hago,   french: "je fais",      example: "Hago un ataque."}
+      - {pronoun: tú,        conjugation: haces,  french: "tu fais",      example: "¿Qué haces?"}
+      - {pronoun: él/ella,   conjugation: hace,   french: "il/elle fait", example: "El mago hace magia."}
+      - {pronoun: nosotros,  conjugation: hacemos,french: "nous faisons",  example: "Hacemos equipo."}
+      - {pronoun: ellos,     conjugation: hacen,  french: "ils font",     example: "¿Qué hacen los enemigos?"}
+
+  - verb: tener
+    meaning: "avoir / posséder"
+    tip: "tengo (j'ai) est irrégulier. Très utile : Tengo [N] puntos de golpe."
+    rows:
+      - {pronoun: yo,        conjugation: tengo,  french: "j'ai",         example: "Tengo una espada."}
+      - {pronoun: tú,        conjugation: tienes, french: "tu as",        example: "¿Tienes una poción?"}
+      - {pronoun: él/ella,   conjugation: tiene,  french: "il/elle a",    example: "El goblin tiene un hacha."}
+      - {pronoun: nosotros,  conjugation: tenemos,french: "nous avons",   example: "Tenemos quince monedas."}
+      - {pronoun: ellos,     conjugation: tienen, french: "ils ont",      example: "Los héroes tienen experiencia."}
+
+dnd_examples:
+  hacer:
+    - "¿Qué haces? — Hago un ataque cuerpo a cuerpo."
+    - "El pícaro hace una tirada de sigilo."
+    - "Hacemos un descanso largo."
+  tener:
+    - "Tengo diez puntos de golpe."
+    - "¿Cuánta fuerza tienes? — Tengo dieciocho de fuerza."
+    - "El guerrero tiene una armadura de placas."

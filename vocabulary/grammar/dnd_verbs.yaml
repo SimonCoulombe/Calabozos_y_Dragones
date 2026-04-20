@@ -1,0 +1,61 @@
+title: "Verbos de Aventura"
+subtitle: "Les verbes indispensables de D&D"
+framing: >
+  Voici les verbes que tu utiliseras le plus souvent en jeu.
+  Mémorise-les par catégorie — chaque aventure les réutilise tous !
+
+categories:
+  - name: "⚔️ Combat"
+    verbs:
+      - {spanish: atacar,      french: "attaquer",            type: "-AR", example: "Ataco al dragón."}
+      - {spanish: defender,    french: "défendre",            type: "-ER", example: "Me defiendo con el escudo."}
+      - {spanish: lanzar,      french: "lancer (un sort/arme)", type: "-AR", example: "Lanzo una bola de fuego."}
+      - {spanish: esquivar,    french: "esquiver",            type: "-AR", example: "Esquivo el ataque."}
+      - {spanish: golpear,     french: "frapper",             type: "-AR", example: "Golpeo al orco."}
+      - {spanish: herir,       french: "blesser",             type: "-IR", example: "El bandido me hiere."}
+      - {spanish: matar,       french: "tuer",                type: "-AR", example: "Mato al goblin."}
+      - {spanish: curar,       french: "soigner / guérir",   type: "-AR", example: "El clérigo me cura."}
+      - {spanish: escapar,     french: "s'échapper",         type: "-AR", example: "¡Escapamos!"}
+
+  - name: "🔍 Exploration"
+    verbs:
+      - {spanish: buscar,      french: "chercher",            type: "-AR", example: "Busco trampas."}
+      - {spanish: encontrar,   french: "trouver",             type: "-AR (irreg)", example: "Encuentro un cofre."}
+      - {spanish: abrir,       french: "ouvrir",              type: "-IR", example: "Abro la puerta."}
+      - {spanish: cerrar,      french: "fermer",              type: "-AR (irreg)", example: "Cierro la trampa."}
+      - {spanish: ver,         french: "voir",                type: "irreg", example: "Veo algo raro."}
+      - {spanish: escuchar,    french: "écouter",             type: "-AR", example: "Escucho un ruido."}
+      - {spanish: entrar,      french: "entrer",              type: "-AR", example: "Entro en la mazmorra."}
+      - {spanish: salir,       french: "sortir",              type: "irreg", example: "¡Salimos!"}
+      - {spanish: subir,       french: "monter / progresser", type: "-IR", example: "Subimos de nivel."}
+      - {spanish: bajar,       french: "descendre",           type: "-AR", example: "Bajamos a la cripta."}
+
+  - name: "💬 Interaction avec les PNJ"
+    verbs:
+      - {spanish: hablar,      french: "parler",              type: "-AR", example: "Hablo con el tabernero."}
+      - {spanish: preguntar,   french: "demander / poser une question", type: "-AR", example: "Pregunto por la misión."}
+      - {spanish: responder,   french: "répondre",            type: "-ER", example: "El NPC responde."}
+      - {spanish: comprar,     french: "acheter",             type: "-AR", example: "Compro una poción."}
+      - {spanish: vender,      french: "vendre",              type: "-ER", example: "Vendo el tesoro."}
+      - {spanish: negociar,    french: "négocier",            type: "-AR", example: "Negocio el precio."}
+      - {spanish: intimidar,   french: "intimider",           type: "-AR", example: "Intimido al guardia."}
+      - {spanish: persuadir,   french: "persuader",           type: "-IR", example: "El bardo persuade al rey."}
+
+  - name: "✨ Magie"
+    verbs:
+      - {spanish: lanzar,      french: "lancer (un sort)",    type: "-AR", example: "Lanzo magia misil."}
+      - {spanish: conjurar,    french: "invoquer / conjurer", type: "-AR", example: "El mago conjura un familiar."}
+      - {spanish: encantar,    french: "enchanter",           type: "-AR", example: "El hechicero encanta al guardia."}
+      - {spanish: concentrar,  french: "se concentrer",       type: "-AR", example: "Me concentro en el hechizo."}
+      - {spanish: preparar,    french: "préparer",            type: "-AR", example: "El clérigo prepara sus hechizos."}
+
+  - name: "🎲 Mécanique de jeu"
+    verbs:
+      - {spanish: tirar,       french: "lancer (les dés)",    type: "-AR", example: "Tiro el dado de veinte."}
+      - {spanish: sacar,       french: "obtenir (au dé)",     type: "-AR", example: "Saco un quince."}
+      - {spanish: pasar,       french: "réussir (un test)",   type: "-AR", example: "Paso la tirada de salvación."}
+      - {spanish: fallar,      french: "rater / échouer",     type: "-AR", example: "Fallo el ataque."}
+      - {spanish: descansar,   french: "se reposer",          type: "-AR", example: "Descansamos una hora."}
+      - {spanish: subir,       french: "monter (de niveau)",  type: "-IR", example: "¡Subimos al nivel dos!"}
+      - {spanish: ganar,       french: "gagner",              type: "-AR", example: "Ganamos experiencia."}
+      - {spanish: perder,      french: "perdre",              type: "-ER (irreg)", example: "Pierdo puntos de golpe."}

@@ -1,0 +1,32 @@
+spanish,french,category,icon,tags,notes
+la magia misil,le projectile magique,hechizos,magic-swirl,reference hechizos nivel-1,"Nivel 1. Tres dardos de fuerza. Siempre impacta."
+el escudo arcano,le bouclier arcanique,hechizos,shield,reference hechizos nivel-1,Nivel 1. +5 CA hasta el próximo turno.
+el sueño,le sommeil,hechizos,night-sleep,reference hechizos nivel-1,"Nivel 1. Duerme hasta 5d8 PV de criaturas."
+el rayo de escarcha,le rayon de givre,hechizos,frozen-ring,reference hechizos trucco,Truco. Daño por frío + ralentiza al objetivo.
+la mano de mago,la main du mage,hechizos,magic-swirl,reference hechizos trucco,Truco. Mano espectral que mueve objetos.
+la luz,la lumière,hechizos,torch,reference hechizos trucco,Truco. Ilumina un objeto durante 1 hora.
+el rayo de fuego,le rayon de feu,hechizos,fire,reference hechizos trucco,Truco. Dos rayos de fuego.
+el toque de taumaturgia,la thaumaturgie,hechizos,lightning-storm,reference hechizos trucco,Truco del clérigo. Efectos menores.
+curar heridas,soins,hechizos,heart-plus,reference hechizos nivel-1,"Nivel 1. Restaura 1d8+mod PV. Toque."
+la bendición,la bénédiction,hechizos,angel-wings,reference hechizos nivel-1,Nivel 1. +1d4 a ataques y tiradas de salvación.
+el guía,guidage,hechizos,compass,reference hechizos trucco,Truco druida. +1d4 a una habilidad.
+el veneno en aerosol,vaporisation de poison,hechizos,poison,reference hechizos trucco,Truco druida. Daño venenoso.
+el paso brumoso,foulée brumeuse,hechizos,run,reference hechizos nivel-2,Nivel 2. Teletransportación corta (bonificación).
+la bola de fuego,boule de feu,hechizos,fire,reference hechizos nivel-3,"Nivel 3. 8d6 fuego, radio 6 m. El clásico."
+el vuelo,vol,hechizos,angel-wings,reference hechizos nivel-3,"Nivel 3. Velocidad de vuelo 18 m, 10 min."
+la invisibilidad,invisibilité,hechizos,hidden,reference hechizos nivel-2,"Nivel 2. Objetivo invisible hasta que ataca."
+la curación en masa,soins de groupe,hechizos,heart-plus,reference hechizos nivel-5,Nivel 5. Cura a todos los aliados visibles.
+la resurrección,résurrection,hechizos,skull-crack,reference hechizos nivel-7,Nivel 7. Devuelve la vida a un muerto.
+el rayo del sol,rayon de soleil,hechizos,sun,reference hechizos trucco,Truco del clérigo.
+la palabra de curación,mot de guérison,hechizos,heart-plus,reference hechizos nivel-1,"Nivel 1. Cura a distancia como acción adicional."
+la escuela de abjuración,école d'abjuration,magia,shield,reference escuelas,Escuela mágica — protección y barreras.
+la escuela de conjuración,école de conjuration,magia,magic-swirl,reference escuelas,Escuela mágica — invocar y teletransportar.
+la escuela de adivinación,école de divination,magia,eye,reference escuelas,Escuela mágica — conocimiento y previsión.
+la escuela de encantamiento,école d'enchantement,magia,music-spell,reference escuelas,Escuela mágica — controlar mentes.
+la escuela de evocación,école d'évocation,magia,fire,reference escuelas,Escuela mágica — energía y daño elemental.
+la escuela de ilusión,école d'illusion,magia,hidden,reference escuelas,Escuela mágica — engaño visual y auditivo.
+la escuela de nigromancia,école de nécromancie,magia,skull-crack,reference escuelas,Escuela mágica — muerte y no-muertos.
+la escuela de transmutación,école de transmutation,magia,recycle,reference escuelas,Escuela mágica — transformar y alterar.
+,,,,,
+,,,,,
+,,,,,

@@ -183,7 +183,9 @@ def build_deck(child: dict, words: list[dict], config: dict, out_dir: Path, audi
             if str(icon_path) not in media_files:
                 media_files.append(str(icon_path))
 
-        audio_path = audio_dir / f"{word['spanish'].replace(' ', '_').replace('/', '-')}.wav"
+        safe_for_path = word['spanish'].replace(' ', '_').replace('/', '-')
+        safe_for_path = ''.join(c for c in safe_for_path if c.isalnum() or c in '_-áéíóúüñÁÉÍÓÚÜÑ')
+        audio_path = audio_dir / f"{safe_for_path}.wav"
         if audio_path.exists() and str(audio_path) not in media_files:
             media_files.append(str(audio_path))
 

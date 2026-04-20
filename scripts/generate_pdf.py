@@ -70,6 +70,9 @@ def load_grammar() -> dict:
         ("numbers_1_20.yaml", "numbers"),
         ("colors.yaml", "colors"),
         ("ir_poder_hay.yaml", "ir_poder_hay"),
+        ("hacer_tener.yaml", "hacer_tener"),
+        ("regular_verbs.yaml", "regular_verbs"),
+        ("dnd_verbs.yaml", "dnd_verbs"),
     ]:
         p = grammar_dir / name
         if p.exists():
@@ -77,6 +80,34 @@ def load_grammar() -> dict:
                 grammar[key] = yaml.safe_load(f)
 
     return grammar
+
+
+REFERENCE_TITLES = {
+    "reference_races":     ("Las Razas y las Clases",   "Toutes les races et classes jouables"),
+    "reference_equipment": ("El Equipo del Aventurero", "Armes, armures et équipement de base"),
+    "reference_spells":    ("Los Hechizos",             "Sorts courants et écoles de magie"),
+    "reference_enemies":   ("Los Enemigos",             "Monstres courants par niveau de défi"),
+}
+
+
+def load_reference_tables() -> list[dict]:
+    tables = []
+    for stem, (title, subtitle) in REFERENCE_TITLES.items():
+        p = VOCAB_DIR / f"{stem}.csv"
+        if not p.exists():
+            continue
+        words = []
+        with open(p, newline="", encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                if row.get("spanish", "").strip():
+                    words.append({
+                        "spanish": row.get("spanish", "").strip(),
+                        "french":  row.get("french",  "").strip(),
+                        "category": row.get("category", "").strip(),
+                        "notes":   row.get("notes",   "").strip(),
+                    })
+        tables.append({"title": title, "subtitle": subtitle, "words": words})
+    return tables
 
 
 def main() -> int:
@@ -99,6 +130,7 @@ def main() -> int:
         sessions.append(s)
 
     grammar = load_grammar()
+    reference_tables = load_reference_tables()
 
     env = Environment(loader=FileSystemLoader(str(TEMPLATE_DIR)), autoescape=False)
     template = env.get_template("livre_aventurier.html")
@@ -107,6 +139,7 @@ def main() -> int:
         campaign=config["campaign"],
         sessions=sessions,
         grammar=grammar,
+        reference_tables=reference_tables,
     )
 
     out_path = out_dir / "livre_aventurier.pdf"

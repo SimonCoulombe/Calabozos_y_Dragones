@@ -1,0 +1,28 @@
+spanish,french,category,icon,tags,notes
+el enano,le nain,razas,dwarf-king,reference razas,"Corto y robusto. +2 Constitución. Vive bajo tierra."
+la enana,la naine,razas,dwarf-king,reference razas,Forme féminine de enano.
+el elfo,l'elfe,razas,elf-ear,reference razas,"Alto y esbelto. +2 Destreza. Vive en los bosques."
+la elfa,l'elfe (f.),razas,elf-ear,reference razas,Forme féminine de elfo.
+el mediano,le petit-peuple (halfling),razas,fairy,reference razas,"Pequeño y ágil. +2 Destreza. Pies peludos."
+el humano,l'humain,razas,person,reference razas,"+1 a todos los atributos. La raza más versátil."
+el draconido,le draconide,razas,dragon-head,reference razas,"Descendiente de dragones. +2 Fuerza, +1 Carisma."
+el gnomo,le gnome,razas,fairy,reference razas,"+2 Inteligencia. Pequeño, curioso, inventor."
+el semielfo,le demi-elfe,razas,elf-ear,reference razas,"+2 Carisma, +1 a dos atributos. Lo mejor de dos mundos."
+el semiorco,le demi-orc,razas,ogre,reference razas,"+2 Fuerza, +1 Constitución. Resistente y feroz."
+el tiefling,le tieffelin,razas,demon-skull,reference razas,"+2 Carisma, +1 Inteligencia. Sangre infernal."
+el brujo,le sorcier (warlock),clases,magic-swirl,reference clases,Clase — pacto con una entidad poderosa.
+el bárbaro,le barbare,clases,axe-sword,reference clases,"Clase — rabia en combate, muy resistente."
+el bardo,le barde,clases,music-spell,reference clases,Clase — magia y persuasión con música.
+el clérigo,le clerc,clases,holy-grail,reference clases,Clase — curación y magia divina.
+el druida,le druide,clases,druid-sign,reference clases,Clase — magia natural y transformación.
+el explorador,le rôdeur (ranger),clases,bow-arrow,reference clases,Clase — rastreador y arquero del bosque.
+el guerrero,le guerrier,clases,sword,reference clases,Clase — combatiente versátil con armas.
+el hechicero,l'ensorceleur,clases,magic-swirl,reference clases,Clase — magia innata en la sangre.
+el mago,le magicien,clases,wizard-staff,reference clases,"Clase — inteligencia, conjuros aprendidos."
+el monje,le moine,clases,meditation,reference clases,Clase — artes marciales y ki.
+el paladín,le paladin,clases,holy-grail,reference clases,Clase — guerrero sagrado con poderes divinos.
+el pícaro,le roublard,clases,hood,reference clases,"Clase — sigilo, trampas y ataques furtivos."
+,,,,,
+,,,,,
+,,,,,
+,,,,,

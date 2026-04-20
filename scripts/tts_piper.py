@@ -48,12 +48,16 @@ async def _synthesize_async(text: str, host: str, port: int) -> bytes:
     if not raw_pcm:
         return b""
 
+    # Prepend 200ms of silence so PipeWire/ALSA doesn't clip the first syllable
+    silence_frames = int(0.20 * rate)
+    padded_pcm = (b"\x00" * silence_frames * channels * sampwidth) + raw_pcm
+
     wav_io = io.BytesIO()
     with wave.open(wav_io, "wb") as wf:
         wf.setnchannels(channels)
         wf.setsampwidth(sampwidth)
         wf.setframerate(rate)
-        wf.writeframes(raw_pcm)
+        wf.writeframes(padded_pcm)
     return wav_io.getvalue()
 
 

@@ -1,0 +1,87 @@
+title: "Los Verbos Regulares"
+subtitle: "Le patron de conjugaison — une règle, mille verbes"
+framing: >
+  En espagnol, la plupart des verbes suivent un patron régulier selon leur terminaison :
+  -AR (hablar, atacar, comprar…), -ER (comer, correr, vender…), -IR (vivir, abrir, escribir…).
+  Apprends le patron une fois → tu peux conjuguer des centaines de verbes !
+
+pattern:
+  - pronoun: yo
+    ar: "-o"
+    er: "-o"
+    ir: "-o"
+    note: "Toujours -o pour yo dans les 3 groupes"
+  - pronoun: tú
+    ar: "-as"
+    er: "-es"
+    ir: "-es"
+    note: ""
+  - pronoun: él/ella
+    ar: "-a"
+    er: "-e"
+    ir: "-e"
+    note: ""
+  - pronoun: nosotros
+    ar: "-amos"
+    er: "-emos"
+    ir: "-imos"
+    note: ""
+  - pronoun: ellos
+    ar: "-an"
+    er: "-en"
+    ir: "-en"
+    note: ""
+
+examples:
+  - verb: atacar
+    type: "-AR"
+    meaning: "attaquer"
+    rows:
+      - {pronoun: yo,       form: ataco,    example: "Ataco al goblin."}
+      - {pronoun: tú,       form: atacas,   example: "¿Atacas o corres?"}
+      - {pronoun: él/ella,  form: ataca,    example: "El bandido ataca."}
+      - {pronoun: nosotros, form: atacamos, example: "Atacamos juntos."}
+      - {pronoun: ellos,    form: atacan,   example: "Los orcos atacan."}
+
+  - verb: correr
+    type: "-ER"
+    meaning: "courir / fuir"
+    rows:
+      - {pronoun: yo,       form: corro,    example: "¡Corro!"}
+      - {pronoun: tú,       form: corres,   example: "¿Corres?"}
+      - {pronoun: él/ella,  form: corre,    example: "El pícaro corre."}
+      - {pronoun: nosotros, form: corremos, example: "Corremos hacia la salida."}
+      - {pronoun: ellos,    form: corren,   example: "Los enemigos corren."}
+
+  - verb: abrir
+    type: "-IR"
+    meaning: "ouvrir"
+    rows:
+      - {pronoun: yo,       form: abro,    example: "Abro la puerta."}
+      - {pronoun: tú,       form: abres,   example: "¿Abres el cofre?"}
+      - {pronoun: él/ella,  form: abre,    example: "El clérigo abre el libro."}
+      - {pronoun: nosotros, form: abrimos, example: "Abrimos la mazmorra."}
+      - {pronoun: ellos,    form: abren,   example: "Los enanos abren el portal."}
+
+useful_ar_verbs:
+  - {spanish: atacar,    french: "attaquer",          example: "Ataco con mi espada."}
+  - {spanish: comprar,   french: "acheter",           example: "Compro una poción."}
+  - {spanish: buscar,    french: "chercher",          example: "Busco una trampa."}
+  - {spanish: lanzar,    french: "lancer (un sort)",  example: "Lanzo un hechizo."}
+  - {spanish: escuchar,  french: "écouter",           example: "Escucho un ruido."}
+  - {spanish: hablar,    french: "parler",            example: "Hablo con el NPC."}
+  - {spanish: caminar,   french: "marcher",           example: "Caminamos al norte."}
+  - {spanish: descansar, french: "se reposer",        example: "Descansamos en la taberna."}
+
+useful_er_verbs:
+  - {spanish: correr,    french: "courir / fuir",     example: "¡Corro!"}
+  - {spanish: comer,     french: "manger",            example: "Como las provisiones."}
+  - {spanish: vender,    french: "vendre",            example: "El mercader vende espadas."}
+  - {spanish: defender,  french: "défendre",          example: "Defiendo a mi compañero."}
+  - {spanish: romper,    french: "casser / briser",   example: "Rompo la trampa."}
+
+useful_ir_verbs:
+  - {spanish: abrir,     french: "ouvrir",            example: "Abro la puerta."}
+  - {spanish: vivir,     french: "vivre",             example: "¡Vivimos!"}
+  - {spanish: subir,     french: "monter / progresser", example: "¡Subimos de nivel!"}
+  - {spanish: escribir,  french: "écrire",            example: "El mago escribe un hechizo."}
