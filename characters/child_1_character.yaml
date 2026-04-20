@@ -1,0 +1,28 @@
+# Fiche de personnage — Enfant 1
+# Remplir pendant la Séance 0 avec le MJ
+
+child_name: ""               # prénom de l'enfant
+character_name: ""           # me llamo…
+race: ""                     # el elfo / el orco / el humano / el enano / el gnomo
+class: ""                    # el guerrero / la maga / el pícaro / el clérigo / el arquero
+level: 1
+
+# Attributs (lancer 4d6, retirer le plus bas, 6 fois)
+attributes:
+  fuerza: 0        # force
+  destreza: 0      # dextérité
+  constitucion: 0  # constitution
+  inteligencia: 0  # intelligence
+  sabiduria: 0     # sagesse
+  carisma: 0       # charisme
+
+puntos_de_golpe: 0   # points de vie
+
+equipment:
+  - ""
+  - ""
+  - ""
+
+notes: >
+  Quelques notes sur le personnage, ses motivations, son histoire.
+  À remplir au fil des sessions.

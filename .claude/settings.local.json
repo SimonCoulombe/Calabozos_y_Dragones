@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(python scripts/validate.py)",
+      "Bash(python3 -c \"import yaml\")",
+      "Bash(python3 scripts/validate.py)",
+      "Bash(python3 -c \"import weasyprint, jinja2, yaml\")",
+      "Bash(python3 -m venv .venv)",
+      "Bash(.venv/bin/pip install *)"
+    ]
+  }
+}

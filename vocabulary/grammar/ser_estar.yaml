@@ -1,0 +1,30 @@
+title: "SER vs ESTAR"
+subtitle: "Ta fiche de personnage vs ta barre de vie"
+framing: >
+  SER = qui tu es pour toujours (ta fiche de personnage).
+  ESTAR = comment tu vas en ce moment (ta barre de vie).
+
+tables:
+  - verb: ser
+    examples:
+      - "Soy un elfo. (Je suis un elfe.)"
+      - "Eres un guerrero. (Tu es un guerrier.)"
+      - "Somos héroes. (Nous sommes des héros.)"
+    rows:
+      - {pronoun: yo,        conjugation: soy,    french: "je suis",       example: "Soy un orco."}
+      - {pronoun: tú,        conjugation: eres,   french: "tu es",          example: "Eres un elfo."}
+      - {pronoun: él/ella,   conjugation: es,     french: "il/elle est",    example: "Es un dragón."}
+      - {pronoun: nosotros,  conjugation: somos,  french: "nous sommes",    example: "Somos héroes."}
+      - {pronoun: ellos,     conjugation: son,    french: "ils/elles sont", example: "Son los enemigos."}
+
+  - verb: estar
+    examples:
+      - "Estoy herido. (Je suis blessé.)"
+      - "¿Estás bien? (Tu vas bien ?)"
+      - "Está muerto. (Il est mort.)"
+    rows:
+      - {pronoun: yo,        conjugation: estoy,  french: "je suis (état)",   example: "Estoy herido."}
+      - {pronoun: tú,        conjugation: estás,  french: "tu es (état)",     example: "¿Estás bien?"}
+      - {pronoun: él/ella,   conjugation: está,   french: "il/elle est",      example: "Está muerto."}
+      - {pronoun: nosotros,  conjugation: estamos,french: "nous sommes",      example: "Estamos listos."}
+      - {pronoun: ellos,     conjugation: están,  french: "ils/elles sont",   example: "Están aquí."}

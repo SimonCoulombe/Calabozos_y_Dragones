@@ -1,0 +1,35 @@
+title: "IR + PODER + HAY"
+subtitle: "Se déplacer, pouvoir agir, et ce qui existe"
+framing: >
+  Trois outils essentiels pour l'aventure :
+  IR = aller quelque part. PODER = être capable de faire. HAY = il y a (ce qui est dans la pièce).
+
+tables:
+  - verb: ir
+    meaning: "aller"
+    tip: "ir + a + [lieu] = aller à [endroit]"
+    rows:
+      - {pronoun: yo,       conjugation: voy,   french: "je vais",    example: "Voy al castillo."}
+      - {pronoun: tú,       conjugation: vas,   french: "tu vas",     example: "¿Vas al norte?"}
+      - {pronoun: él/ella,  conjugation: va,    french: "il/elle va", example: "Va a la mazmorra."}
+      - {pronoun: nosotros, conjugation: vamos, french: "nous allons",example: "¡Vamos!"}
+      - {pronoun: ellos,    conjugation: van,   french: "ils vont",   example: "Los héroes van al norte."}
+
+  - verb: poder
+    meaning: "pouvoir"
+    tip: "poder + [infinitif] = pouvoir + [verbe]. Ex : Puedo atacar. = Je peux attaquer."
+    rows:
+      - {pronoun: yo,       conjugation: puedo,  french: "je peux",     example: "Puedo lanzar un hechizo."}
+      - {pronoun: tú,       conjugation: puedes, french: "tu peux",     example: "¿Puedes ayudarme?"}
+      - {pronoun: él/ella,  conjugation: puede,  french: "il/elle peut",example: "El mago puede volar."}
+      - {pronoun: nosotros, conjugation: podemos,french: "nous pouvons",example: "Podemos ganar."}
+      - {pronoun: ellos,    conjugation: pueden, french: "ils peuvent", example: "Pueden atacar."}
+
+hay:
+  meaning: "il y a (invariable — ne change jamais)"
+  examples:
+    - {spanish: "Hay un río.",         french: "Il y a une rivière."}
+    - {spanish: "Hay tres goblins.",   french: "Il y a trois gobelins."}
+    - {spanish: "Hay una trampa.",     french: "Il y a un piège."}
+    - {spanish: "Hay mucho oro.",      french: "Il y a beaucoup d'or."}
+    - {spanish: "No hay salida.",      french: "Il n'y a pas de sortie."}

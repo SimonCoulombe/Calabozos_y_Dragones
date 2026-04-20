@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=IM+Fell+English:ital@0;1&family=Cinzel:wght@400;700&display=swap');
+
+  @page {
+    size: A4;
+    margin: 2cm 2.2cm 2.2cm 2.2cm;
+    @bottom-center {
+      content: counter(page);
+      font-family: 'IM Fell English', serif;
+      font-size: 10pt;
+      color: #5c3a1e;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    font-family: 'IM Fell English', serif;
+    font-size: 11pt;
+    color: #2c1a0e;
+    background: #f5ead0;
+    line-height: 1.5;
+  }
+
+  /* ── Cover page ── */
+  .cover {
+    page-break-after: always;
+    text-align: center;
+    padding-top: 6cm;
+    background: #f5ead0;
+  }
+  .cover h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 32pt;
+    color: #5c1a00;
+    text-shadow: 1px 1px 0 #a0522d;
+    margin: 0 0 0.3em;
+    letter-spacing: 0.05em;
+  }
+  .cover h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 18pt;
+    color: #7a3a10;
+    margin: 0 0 2em;
+  }
+  .cover .cover-divider {
+    font-size: 24pt;
+    color: #a0522d;
+    margin: 1em 0;
+  }
+  .cover .cover-subtitle {
+    font-family: 'IM Fell English', serif;
+    font-style: italic;
+    font-size: 12pt;
+    color: #5c3a1e;
+  }
+
+  /* ── Section page ── */
+  .session-page {
+    page-break-before: always;
+  }
+  .session-page:first-of-type {
+    page-break-before: avoid;
+  }
+
+  h2.session-title {
+    font-family: 'Cinzel', serif;
+    font-size: 20pt;
+    color: #5c1a00;
+    border-bottom: 2px solid #a0522d;
+    padding-bottom: 0.2em;
+    margin-bottom: 0.2em;
+  }
+  h3.session-subtitle {
+    font-family: 'IM Fell English', serif;
+    font-style: italic;
+    font-size: 12pt;
+    color: #7a3a10;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  .framing-box {
+    background: #ede0c4;
+    border-left: 4px solid #a0522d;
+    padding: 0.5em 0.8em;
+    margin-bottom: 1em;
+    font-style: italic;
+    font-size: 10.5pt;
+    color: #3a2010;
+  }
+
+  /* ── Vocabulary table ── */
+  table.vocab {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.2em;
+    font-size: 10.5pt;
+  }
+  table.vocab thead tr {
+    background: #8b3a0f;
+    color: #f5ead0;
+  }
+  table.vocab thead th {
+    font-family: 'Cinzel', serif;
+    font-size: 9pt;
+    font-weight: 700;
+    padding: 0.35em 0.5em;
+    text-align: left;
+    letter-spacing: 0.04em;
+  }
+  table.vocab tbody tr:nth-child(even) { background: #ede0c4; }
+  table.vocab tbody tr:nth-child(odd)  { background: #f5ead0; }
+  table.vocab tbody td {
+    padding: 0.28em 0.5em;
+    border-bottom: 1px solid #c9a87a;
+    vertical-align: middle;
+  }
+  table.vocab td.es  { font-weight: bold; color: #5c1a00; }
+  table.vocab td.fr  { color: #2c1a0e; }
+  table.vocab td.ex  { font-style: italic; color: #5c3a1e; font-size: 9.5pt; }
+  table.vocab td.blank { color: #c9a87a; font-style: italic; }
+
+  /* ── Grammar table ── */
+  table.grammar {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    font-size: 10pt;
+  }
+  table.grammar thead th {
+    background: #5c3a1e;
+    color: #f5ead0;
+    font-family: 'Cinzel', serif;
+    font-size: 9pt;
+    padding: 0.3em 0.5em;
+    text-align: left;
+  }
+  table.grammar tbody td {
+    padding: 0.25em 0.5em;
+    border-bottom: 1px solid #c9a87a;
+  }
+  table.grammar tbody tr:nth-child(even) { background: #ede0c4; }
+  table.grammar td.pronoun { font-weight: bold; color: #5c1a00; }
+  table.grammar td.conj    { font-weight: bold; color: #5c1a00; font-size: 11pt; }
+  table.grammar td.example { font-style: italic; color: #5c3a1e; font-size: 9.5pt; }
+
+  .verb-header {
+    font-family: 'Cinzel', serif;
+    font-size: 13pt;
+    color: #5c1a00;
+    margin: 0.8em 0 0.3em;
+  }
+
+  /* ── Numbers table ── */
+  .numbers-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.4em;
+    margin-bottom: 1em;
+  }
+  .number-cell {
+    background: #ede0c4;
+    border: 1px solid #c9a87a;
+    border-radius: 4px;
+    text-align: center;
+    padding: 0.3em;
+  }
+  .number-cell .num { font-size: 18pt; font-weight: bold; color: #5c1a00; }
+  .number-cell .es  { font-weight: bold; color: #2c1a0e; font-size: 10pt; }
+  .number-cell .fr  { color: #7a3a10; font-size: 9pt; font-style: italic; }
+  .number-cell .dnd { font-size: 8pt; color: #a0522d; font-style: italic; }
+
+  /* ── Colors table ── */
+  .color-swatch {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #5c3a1e;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin-right: 4px;
+  }
+
+  /* ── Character sheet ── */
+  .character-sheet {
+    page-break-before: always;
+    border: 2px solid #a0522d;
+    padding: 1em;
+    background: #fdf6e3;
+  }
+  .character-sheet h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 18pt;
+    color: #5c1a00;
+    text-align: center;
+    border-bottom: 1px solid #a0522d;
+    padding-bottom: 0.3em;
+    margin-bottom: 0.8em;
+  }
+  .attr-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.6em;
+    margin-bottom: 1em;
+  }
+  .attr-box {
+    background: #ede0c4;
+    border: 1px solid #a0522d;
+    border-radius: 4px;
+    text-align: center;
+    padding: 0.4em;
+  }
+  .attr-box .attr-name { font-family: 'Cinzel', serif; font-size: 9pt; color: #5c1a00; }
+  .attr-box .attr-val  { font-size: 24pt; font-weight: bold; color: #2c1a0e; line-height: 1; }
+  .attr-box .attr-fr   { font-size: 8pt; color: #7a3a10; font-style: italic; }
+
+  /* ── Blank words page ── */
+  .blank-page {
+    page-break-before: always;
+  }
+  .blank-line {
+    border-bottom: 1px solid #c9a87a;
+    height: 1.8em;
+    margin-bottom: 0.1em;
+  }
+
+  /* ── Decorative divider ── */
+  .divider {
+    text-align: center;
+    color: #a0522d;
+    font-size: 16pt;
+    margin: 0.5em 0;
+    letter-spacing: 0.3em;
+  }
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<div class="cover">
+  <div class="cover-divider">⚔ ✦ ⚔</div>
+  <h1>{{ campaign.pdf_title }}</h1>
+  <h2>{{ campaign.title }}</h2>
+  <div class="cover-divider">✦</div>
+  <div class="cover-subtitle">
+    Un guide pour les aventuriers qui apprennent l'espagnol<br>
+    en explorant des donjons, en combattant des dragons,<br>
+    et en devenant des héros.
+  </div>
+  <div class="cover-divider" style="margin-top:3em;">⚔ ✦ ⚔</div>
+</div>
+
+<!-- SESSIONS -->
+{% for session in sessions %}
+<div class="session-page">
+  <h2 class="session-title">{{ session.title }}</h2>
+  {% if session.subtitle %}<h3 class="session-subtitle">{{ session.subtitle }}</h3>{% endif %}
+
+  {% if session.framing %}
+  <div class="framing-box">{{ session.framing }}</div>
+  {% endif %}
+
+  <table class="vocab">
+    <thead>
+      <tr>
+        <th>Español</th>
+        <th>Français</th>
+        <th>Catégorie</th>
+        <th>Exemple</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for word in session.words %}
+      {% if word.spanish %}
+      <tr>
+        <td class="es">{{ word.spanish }}</td>
+        <td class="fr">{{ word.french }}</td>
+        <td>{{ word.category }}</td>
+        <td class="ex">{{ word.notes }}</td>
+      </tr>
+      {% else %}
+      <tr>
+        <td class="blank">……………</td>
+        <td class="blank">……………</td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+      </tr>
+      {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endfor %}
+
+<!-- GRAMMAR: SER / ESTAR -->
+{% if grammar.ser_estar %}
+<div class="session-page">
+  <h2 class="session-title">{{ grammar.ser_estar.title }}</h2>
+  <h3 class="session-subtitle">{{ grammar.ser_estar.subtitle }}</h3>
+  <div class="framing-box">{{ grammar.ser_estar.framing }}</div>
+
+  {% for table in grammar.ser_estar.tables %}
+  <div class="verb-header">{{ table.verb | upper }}</div>
+  <table class="grammar">
+    <thead><tr><th>Pronombre</th><th>{{ table.verb | upper }}</th><th>Français</th><th>Ejemplo</th></tr></thead>
+    <tbody>
+      {% for row in table.rows %}
+      <tr>
+        <td class="pronoun">{{ row.pronoun }}</td>
+        <td class="conj">{{ row.conjugation }}</td>
+        <td>{{ row.french }}</td>
+        <td class="example">{{ row.example }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- GRAMMAR: NUMBERS -->
+{% if grammar.numbers %}
+<div class="session-page">
+  <h2 class="session-title">{{ grammar.numbers.title }}</h2>
+  <h3 class="session-subtitle">{{ grammar.numbers.subtitle }}</h3>
+  <div class="framing-box">{{ grammar.numbers.framing }}</div>
+
+  <div class="numbers-grid">
+    {% for n in grammar.numbers.numbers %}
+    <div class="number-cell">
+      <div class="num">{{ n.number }}</div>
+      <div class="es">{{ n.spanish }}</div>
+      <div class="fr">{{ n.french }}</div>
+      {% if n.dnd_note %}<div class="dnd">{{ n.dnd_note }}</div>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+
+  {% if grammar.numbers.useful_phrases %}
+  <div class="divider">✦</div>
+  <table class="vocab">
+    <thead><tr><th>Español</th><th>Français</th><th>Ejemplo</th></tr></thead>
+    <tbody>
+    {% for p in grammar.numbers.useful_phrases %}
+    <tr>
+      <td class="es">{{ p.spanish }}</td>
+      <td class="fr">{{ p.french }}</td>
+      <td class="ex">{{ p.example }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+</div>
+{% endif %}
+
+<!-- GRAMMAR: COLORS -->
+{% if grammar.colors %}
+<div class="session-page">
+  <h2 class="session-title">{{ grammar.colors.title }}</h2>
+  <h3 class="session-subtitle">{{ grammar.colors.subtitle }}</h3>
+  <div class="framing-box">{{ grammar.colors.framing }}</div>
+
+  <table class="grammar">
+    <thead><tr><th>Masculin (-o)</th><th>Féminin (-a)</th><th>Français</th><th>Ejemplo</th></tr></thead>
+    <tbody>
+    {% for c in grammar.colors.colors %}
+    <tr>
+      <td class="conj">{{ c.spanish_m }}</td>
+      <td class="conj">{{ c.spanish_f }}</td>
+      <td>{{ c.french }}</td>
+      <td class="example">{{ c.example }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+
+  {% if grammar.colors.practice_sentences %}
+  <div class="framing-box">
+    {% for s in grammar.colors.practice_sentences %}
+    {{ s }}<br>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+{% endif %}
+
+<!-- GRAMMAR: IR / PODER / HAY -->
+{% if grammar.ir_poder_hay %}
+<div class="session-page">
+  <h2 class="session-title">{{ grammar.ir_poder_hay.title }}</h2>
+  <h3 class="session-subtitle">{{ grammar.ir_poder_hay.subtitle }}</h3>
+  <div class="framing-box">{{ grammar.ir_poder_hay.framing }}</div>
+
+  {% for table in grammar.ir_poder_hay.tables %}
+  <div class="verb-header">{{ table.verb | upper }} — {{ table.meaning }}</div>
+  {% if table.tip %}<div class="framing-box" style="margin-bottom:0.5em;">💡 {{ table.tip }}</div>{% endif %}
+  <table class="grammar">
+    <thead><tr><th>Pronombre</th><th>{{ table.verb | upper }}</th><th>Français</th><th>Ejemplo</th></tr></thead>
+    <tbody>
+    {% for row in table.rows %}
+    <tr>
+      <td class="pronoun">{{ row.pronoun }}</td>
+      <td class="conj">{{ row.conjugation }}</td>
+      <td>{{ row.french }}</td>
+      <td class="example">{{ row.example }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  {% endfor %}
+
+  {% if grammar.ir_poder_hay.hay %}
+  <div class="verb-header">HAY — {{ grammar.ir_poder_hay.hay.meaning }}</div>
+  <table class="grammar">
+    <thead><tr><th>Español</th><th>Français</th></tr></thead>
+    <tbody>
+    {% for ex in grammar.ir_poder_hay.hay.examples %}
+    <tr>
+      <td class="conj">{{ ex.spanish }}</td>
+      <td class="example">{{ ex.french }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+</div>
+{% endif %}
+
+<!-- BLANK WORDS PAGE -->
+<div class="blank-page">
+  <h2 class="session-title">Mis Palabras</h2>
+  <h3 class="session-subtitle">Mes mots à moi — à remplir au fil de l'aventure</h3>
+  <table class="vocab">
+    <thead><tr><th>Español</th><th>Français</th><th>Notes</th></tr></thead>
+    <tbody>
+    {% for i in range(30) %}
+    <tr>
+      <td class="blank"> </td>
+      <td class="blank"> </td>
+      <td class="blank"> </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>

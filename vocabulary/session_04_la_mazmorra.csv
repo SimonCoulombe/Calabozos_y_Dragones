@@ -1,0 +1,30 @@
+spanish,french,category,icon,tags,notes
+la mazmorra,le donjon,lugares,dungeon-gate,lieux,Entramos en la mazmorra oscura.
+la trampa,le piège,peligros,bear-trap,danger,¡Hay una trampa en el suelo!
+el cofre,le coffre,tesoro,open-chest,trésor,Hay un cofre en la esquina.
+la llave,la clé,objetos,key,objets,Necesito la llave para abrir la puerta.
+el tesoro,le trésor,tesoro,coins,trésor,¡Encontramos un tesoro!
+la antorcha,la torche,equipo,torch,équipement,Necesito una antorcha para ver.
+el pasillo,le couloir,lugares,corridor,lieux,Hay tres puertas en el pasillo.
+a la izquierda,à gauche,direcciones,return-arrow,directions,La puerta está a la izquierda.
+a la derecha,à droite,direcciones,curved-arrow,directions,Giro a la derecha.
+recto,tout droit,direcciones,straight-arrow,directions,Sigo recto.
+arriba,en haut,direcciones,arrow-cursor,directions,Las escaleras están arriba.
+abajo,en bas,direcciones,arrow-cursor,directions,La mazmorra está abajo.
+el monstruo,le monstre,enemigos,daemon-skull,ennemi,Hay un monstruo en la sala.
+el esqueleto,le squelette,enemigos,skeleton-inside,ennemi,El esqueleto ataca con una espada.
+el troll,le troll,enemigos,troll,ennemi,El troll es muy fuerte. ¡Cuidado!
+lanzo un hechizo,je lance un sort,magia,magic-swirl,magie combat,Lanzo un hechizo de fuego.
+el fuego,le feu,magia,fire,magie,¡Bola de fuego!
+el hielo,la glace,magia,frozen-ring,magie,Un rayo de hielo congela al enemigo.
+la oscuridad,l'obscurité,entorno,dark,environnement,Hay mucha oscuridad en la mazmorra.
+el sonido,le son,percepción,sound-waves,perception,Escucho un sonido extraño.
+huele raro,ça sent bizarre,percepción,nose,perception,Huele raro en este pasillo.
+el suelo está mojado,le sol est mouillé,entorno,water-drop,environnement,El suelo está mojado — hay agua.
+encuentro,je trouve,verbes,magnifying-glass,action,Encuentro una llave en el cofre.
+abro el cofre,j'ouvre le coffre,frases,open-chest,action,Abro el cofre. ¡Hay oro!
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

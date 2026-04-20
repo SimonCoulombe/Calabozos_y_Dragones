@@ -1,0 +1,54 @@
+spanish,french,category,icon,tags,notes
+me llamo,je m'appelle,phrases,conversation-bubbles,identité,Me llamo Zara.
+soy,je suis (permanent),verbes,person,ser,Soy un elfo. / Soy una guerrera.
+eres,tu es (permanent),verbes,person,ser,¿Eres un mago?
+es,il/elle est,verbes,person,ser,Es un dragón.
+somos,nous sommes,verbes,persons,ser,Somos héroes.
+son,ils/elles sont,verbes,persons,ser,Son los enemigos.
+¿de dónde eres?,d'où es-tu?,phrases,world-map,identité,¿De dónde eres? — Soy de las montañas.
+¿cuál es tu trabajo?,quel est ton métier?,phrases,scroll-quill,identité,clase del personaje
+¿qué quieres hacer?,que veux-tu faire?,phrases,discussion,action,Quiero atacar. / Quiero correr.
+quiero,je veux,verbes,wish,action,Quiero una espada.
+puedo,je peux,verbes,power-lightning,action,Puedo lanzar un hechizo.
+tengo,j'ai,verbes,backpack,possession,Tengo 15 de fuerza.
+el guerrero,le guerrier,clases,sword,clase,un guerrero humano
+la maga,la magicienne,clases,magic-swirl,clase,una maga elfa
+el pícaro,le voleur,clases,hood,clase,un pícaro gnomo
+el clérigo,le clerc,clases,holy-grail,clase,un clérigo enano
+el arquero,l'archer,clases,bow-arrow,clase,una arquera elfa
+el elfo,l'elfe,razas,pointed-hat,raza,Soy un elfo.
+la elfa,l'elfe (f.),razas,pointed-hat,raza,Soy una elfa.
+el enano,le nain,razas,dwarf-king,raza,Es un enano.
+el orco,l'orc,razas,ogre,raza,Soy un orco.
+el humano,l'humain,razas,person,raza,Somos humanos.
+el gnomo,le gnome,razas,fairy,raza,Es un gnomo.
+la fuerza,la force,atributos,biceps,atributos,Tengo 18 de fuerza.
+la destreza,la dextérité,atributos,juggler,atributos,Tengo 14 de destreza.
+la inteligencia,l'intelligence,atributos,brain,atributos,Tengo 16 de inteligencia.
+la sabiduría,la sagesse,atributos,meditation,atributos,Tengo 12 de sabiduría.
+el carisma,le charisme,atributos,angel-wings,atributos,Tengo 10 de carisma.
+uno,un,números,dice-one,números,Saqué un uno. ¡Fallo crítico!
+dos,deux,números,dice-two,números,
+tres,trois,números,dice-three,números,
+cuatro,quatre,números,dice-four,números,
+cinco,cinq,números,dice-five,números,
+seis,six,números,dice-six,números,Saqué un seis.
+siete,sept,números,d4,números,
+ocho,huit,números,d6,números,
+nueve,neuf,números,d8,números,
+diez,dix,números,d10,números,Tengo diez puntos de golpe.
+once,onze,números,d12,números,
+doce,douze,números,d12,números,
+trece,treize,números,d20,números,
+catorce,quatorze,números,d20,números,
+quince,quinze,números,d20,números,Saqué un quince.
+dieciséis,seize,números,d20,números,
+diecisiete,dix-sept,números,d20,números,
+dieciocho,dix-huit,números,d20,números,¡18 de fuerza!
+diecinueve,dix-neuf,números,d20,números,
+veinte,vingt,números,d20,números,Saqué un veinte. ¡Golpe crítico!
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

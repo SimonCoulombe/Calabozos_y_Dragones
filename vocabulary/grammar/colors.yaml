@@ -1,0 +1,29 @@
+title: "Los Colores"
+subtitle: "Décris ton équipement !"
+framing: >
+  En espagnol, l'adjectif se place APRÈS le nom et s'accorde en genre.
+  una espada roja (une épée rouge) — rouge → roja car espada est féminin
+  un escudo rojo (un bouclier rouge) — rouge → rojo car escudo est masculin
+
+agreement_rule:
+  masculine: "-o  → el escudo rojo, el casco negro"
+  feminine: "-a  → la espada roja, la capa negra"
+  exception: "certains adjectifs ne changent pas : verde, azul, gris"
+
+colors:
+  - {spanish_m: rojo,    spanish_f: roja,   french: rouge,   example: "una espada roja"}
+  - {spanish_m: azul,    spanish_f: azul,   french: bleu,    example: "un escudo azul"}
+  - {spanish_m: verde,   spanish_f: verde,  french: vert,    example: "una poción verde"}
+  - {spanish_m: negro,   spanish_f: negra,  french: noir,    example: "una capa negra"}
+  - {spanish_m: blanco,  spanish_f: blanca, french: blanc,   example: "un dragón blanco"}
+  - {spanish_m: amarillo,spanish_f: amarilla,french: jaune,  example: "el oro amarillo"}
+  - {spanish_m: gris,    spanish_f: gris,   french: gris,    example: "un casco gris"}
+  - {spanish_m: morado,  spanish_f: morada, french: violet,  example: "una gema morada"}
+  - {spanish_m: plateado,spanish_f: plateada,french: argenté,"example": "una espada plateada"}
+  - {spanish_m: dorado,  spanish_f: dorada, french: doré,    example: "una armadura dorada"}
+
+practice_sentences:
+  - "Quiero una espada grande y roja."
+  - "Tengo un escudo azul y plateado."
+  - "El dragón es negro y poderoso."
+  - "La poción verde cura diez puntos de golpe."
