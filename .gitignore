@@ -1,6 +1,7 @@
 output/pdfs/
 output/anki/
 output/audio/
+=*
 __pycache__/
 *.pyc
 *.pyo
