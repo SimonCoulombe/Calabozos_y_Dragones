@@ -1,34 +1,34 @@
 spanish,french,category,icon,tags,notes
-la ciudad,la ville,lugares,city,reference lugares,"Grande agglomération avec marchands, gardes, tavernes."
-el pueblo,le village,lugares,village,reference lugares,Petit village. Souvent le point de départ.
-la aldea,le hameau,lugares,village,reference lugares,Très petit village rural.
-la taberna,la taverne,lugares,tavern,reference lugares,"Lieu de repos, d'info et de recrutement."
-la posada,l'auberge,lugares,tavern,reference lugares,Auberge avec chambres pour dormir.
-la tienda,la boutique,lugares,shop,reference lugares,Magasin du marchand.
-el mercado,le marché,lugares,shop,reference lugares,Zone commerciale avec plusieurs marchands.
-el castillo,le château,lugares,castle,reference lugares,Forteresse noble ou royale.
-la torre,la tour,lugares,tower,reference lugares,Tour de guet ou tour du mage.
-el palacio,le palais,lugares,castle,reference lugares,Résidence du roi ou d'un noble puissant.
-el templo,le temple,lugares,pentacle,reference lugares,Lieu de culte d'un dieu.
-la biblioteca,la bibliothèque,lugares,book,reference lugares,Lieu où trouver des parchemins et de l'info.
-el calabozo,le cachot,lugares,chains,reference lugares,Prison souterraine ou cellule.
-la mazmorra,le donjon,lugares,dungeon,reference lugares,Lieu d'exploration souterrain.
-la cueva,la grotte / caverne,lugares,cave,reference lugares,Grotte naturelle souvent habitée par des monstres.
-el pasillo,le couloir,lugares,dungeon,reference lugares,Corridor dans un donjon ou un château.
-la entrada,l'entrée,lugares,door,reference lugares,"Entrée d'un lieu, porte principale."
-la salida,la sortie,lugares,exit-door,reference lugares,Sortie d'un lieu.
-la trampa,le piège,lugares,trap,reference lugares,Mécanisme caché qui blesse.
-el tesoro,le trésor,lugares,chest,reference lugares,Coffre ou cache de richesses.
-el bosque,la forêt,lugares,forest,reference lugares,Zone forestière avec animaux et bandits.
-el camino,le chemin / la route,lugares,road,reference lugares,Route entre deux destinations.
-el río,la rivière,lugares,wave,reference lugares,Cours d'eau à traverser ou longer.
-la montaña,la montagne,lugares,mountain,reference lugares,Zone montagnarde difficile à traverser.
-la llanura,la plaine,lugares,grass,reference lugares,Zone plate ouverte.
-el desierto,le désert,lugares,sand-dune,reference lugares,Zone aride avec chaleur intense.
-el pantano,le marécage,lugares,poison-gas,reference lugares,Zone humide qui ralentit le mouvement.
-la isla,l'île,lugares,island,reference lugares,Terre entourée d'eau.
-el puente,le pont,lugares,bridge,reference lugares,Construction pour traverser une rivière.
-el puerto,le port,lugares,anchor,reference lugares,Port maritime ou fluvial.
+la ciudad,la ville,lugares,city,reference lugares,"Gran ciudad con mercaderes, guardias y tabernas."
+el pueblo,le village,lugares,village,reference lugares,Pueblo pequeño. Suele ser el punto de partida.
+la aldea,le hameau,lugares,village,reference lugares,Aldea muy pequeña y rural.
+la taberna,la taverne,lugares,tavern,reference lugares,"Lugar de descanso, información y reclutamiento."
+la posada,l'auberge,lugares,tavern,reference lugares,Posada con habitaciones para dormir.
+la tienda,la boutique,lugares,shop,reference lugares,Tienda del mercader.
+el mercado,le marché,lugares,shop,reference lugares,Zona comercial con varios mercaderes.
+el castillo,le château,lugares,castle,reference lugares,Fortaleza noble o real.
+la torre,la tour,lugares,tower,reference lugares,Torre de vigilancia o torre del mago.
+el palacio,le palais,lugares,castle,reference lugares,Residencia del rey o de un noble poderoso.
+el templo,le temple,lugares,pentacle,reference lugares,Lugar de culto a un dios.
+la biblioteca,la bibliothèque,lugares,book,reference lugares,Lugar para encontrar pergaminos e información.
+el calabozo,le cachot,lugares,chains,reference lugares,Prisión subterránea o celda.
+la mazmorra,le donjon,lugares,dungeon,reference lugares,Lugar de exploración subterráneo.
+la cueva,la grotte / caverne,lugares,cave,reference lugares,Cueva natural habitada frecuentemente por monstruos.
+el pasillo,le couloir,lugares,dungeon,reference lugares,Corredor en una mazmorra o en un castillo.
+la entrada,l'entrée,lugares,door,reference lugares,"Entrada de un lugar, puerta principal."
+la salida,la sortie,lugares,exit-door,reference lugares,Salida de un lugar.
+la trampa,le piège,lugares,trap,reference lugares,Mecanismo oculto que hace daño.
+el tesoro,le trésor,lugares,chest,reference lugares,Cofre o escondite de riquezas.
+el bosque,la forêt,lugares,forest,reference lugares,Zona boscosa con animales y bandidos.
+el camino,le chemin / la route,lugares,road,reference lugares,Camino entre dos destinos.
+el río,la rivière,lugares,wave,reference lugares,Río que cruzar o seguir.
+la montaña,la montagne,lugares,mountain,reference lugares,Zona montañosa difícil de atravesar.
+la llanura,la plaine,lugares,grass,reference lugares,Zona plana y abierta.
+el desierto,le désert,lugares,sand-dune,reference lugares,Zona árida con calor intenso.
+el pantano,le marécage,lugares,poison-gas,reference lugares,Zona húmeda que ralentiza el movimiento.
+la isla,l'île,lugares,island,reference lugares,Tierra rodeada de agua.
+el puente,le pont,lugares,bridge,reference lugares,Construcción para cruzar un río.
+el puerto,le port,lugares,anchor,reference lugares,Puerto marítimo o fluvial.
 ,,,,,
 ,,,,,
 ,,,,,

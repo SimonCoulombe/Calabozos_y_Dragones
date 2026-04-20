@@ -6,7 +6,7 @@
   @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=IM+Fell+English:ital@0;1&family=Cinzel:wght@400;700&display=swap');
 
   @page {
-    size: A4;
+    size: Letter;
     margin: 2cm 2.2cm 2.2cm 2.2cm;
     @bottom-center {
       content: counter(page);
@@ -164,6 +164,8 @@
     font-size: 13pt;
     color: #5c1a00;
     margin: 0.8em 0 0.3em;
+    break-after: avoid;
+    page-break-after: avoid;
   }
 
   /* ── Numbers table ── */

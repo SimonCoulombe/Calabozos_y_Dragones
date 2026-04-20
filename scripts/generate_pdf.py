@@ -145,9 +145,17 @@ def main() -> int:
     )
 
     out_path = out_dir / "livre_aventurier.pdf"
-    HTML(string=html_content, base_url=str(BASE)).write_pdf(str(out_path))
+    HTML(string=html_content, base_url=str(BASE)).write_pdf(
+        str(out_path), finisher=_pdf_finisher
+    )
     print(f"  PDF  →  {out_path}")
     return 0
+
+
+def _pdf_finisher(document, pdf) -> None:
+    """Inject viewer preferences directly into the pydyf PDF catalog."""
+    pdf.catalog["PageLayout"] = "/OneColumn"
+    pdf.catalog["PageMode"] = "/UseNone"
 
 
 if __name__ == "__main__":
