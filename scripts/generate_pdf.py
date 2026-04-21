@@ -71,7 +71,6 @@ def load_grammar() -> dict:
         ("ser_estar.yaml", "ser_estar"),
         ("hacer_tener.yaml", "hacer_tener"),        
         ("ir_poder_hay.yaml", "ir_poder_hay"),        
-        ("numbers_1_20.yaml", "numbers"),
         ("colors.yaml", "colors")
     ]:
         p = grammar_dir / name
@@ -89,6 +88,7 @@ REFERENCE_TITLES = {
     "reference_enemies":   ("Los Enemigos",             "Monstres courants par niveau de défi"),
     "reference_lugares":   ("Los Lugares",              "Lieux, bâtiments et zones à explorer"),
     "reference_mis_palabras":   ("Mis Palabras",              "Mes nouveaux mots"),
+    "reference_numbers":   ("Los Números",              "1 → 20 — pour lancer les dés !"),
 }
 
 
