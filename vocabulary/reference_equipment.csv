@@ -24,7 +24,7 @@ la capa,la cape,ropa,cloak,reference ropa,Prenda de viaje.
 las botas de cuero,les bottes de cuir,ropa,boots,reference ropa,Calzado estándar de aventurero.
 el saco de dormir,le sac de couchage,equipo,bed,reference equipo,Para descansar largo.
 la mochila,le sac à dos,equipo,backpack,reference equipo,Lleva el equipo.
-la cuerda (15 m),la corde (15 m),equipo,rope-coil,reference equipo,Muy útil en la mazmorra.
+la cuerda,la corde,equipo,rope-coil,reference equipo,Muy útil en la mazmorra.
 la antorcha,la torche,equipo,torch,reference equipo,"Ilumina 6 m. Dura 1 hora."
 el sílex y el pedernal,le briquet (silex et amadou),equipo,fire,reference equipo,Para encender fuego.
 la ración de viaje,la ration de voyage,equipo,bread,reference equipo,Comida para un día.
