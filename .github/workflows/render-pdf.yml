@@ -1,0 +1,43 @@
+name: Render PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "vocabulary/**"
+      - "templates/**"
+      - "content/**"
+
+jobs:
+  render-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y \
+            libcairo2 libpangocairo-1.0-0 libgdk-pixbuf2.0-0 \
+            libffi-dev shared-mime-info fonts-noto
+
+      - name: Install Python dependencies
+        run: pip install --quiet weasyprint pyyaml jinja2
+
+      - name: Validate vocabulary
+        run: python scripts/validate.py
+
+      - name: Generate PDF
+        run: PYTHONPATH=scripts python scripts/generate_pdf.py
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: livre-aventurier
+          path: output/pdfs/livre_aventurier.pdf
+          retention-days: 90
