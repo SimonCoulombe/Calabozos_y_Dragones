@@ -28,8 +28,7 @@ tables:
 hay:
   meaning: "il y a (invariable — ne change jamais)"
   examples:
-    - {spanish: "Hay un río.",         french: "Il y a une rivière."}
-    - {spanish: "Hay tres goblins.",   french: "Il y a trois gobelins."}
     - {spanish: "Hay una trampa.",     french: "Il y a un piège."}
+    - {spanish: "Hay tres goblins.",   french: "Il y a trois gobelins."}
     - {spanish: "Hay mucho oro.",      french: "Il y a beaucoup d'or."}
     - {spanish: "No hay salida.",      french: "Il n'y a pas de sortie."}

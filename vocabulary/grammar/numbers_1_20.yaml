@@ -29,9 +29,6 @@ numbers:
   - {number: 20, spanish: veinte,    french: vingt,       dnd_note: "¡Golpe crítico!"}
 
 useful_phrases:
-  - spanish: "Saqué un…"
-    french: "J'ai fait un…"
-    example: "Saqué un quince."
   - spanish: "Tengo… puntos de golpe"
     french: "J'ai… points de vie"
     example: "Tengo diez puntos de golpe."

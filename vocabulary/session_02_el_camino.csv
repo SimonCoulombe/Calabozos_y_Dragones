@@ -15,19 +15,9 @@ la montaña,la montagne,entorno,mountain-road,environnement,Veo una montaña eno
 el camino,le chemin,entorno,path-distance,environnement,Seguimos el camino.
 la cueva,la caverne,entorno,cave-entrance,environnement,Hay una cueva en la montaña.
 el puente,le pont,entorno,bridge,environnement,Cruzamos el puente.
-la puerta,la porte,edificios,door-handle,lieux,Hay una puerta cerrada.
 oscuro/a,sombre,adjetivos,night-sleep,adjectifs,El bosque está muy oscuro.
 ruidoso/a,bruyant(e),adjetivos,sound-waves,adjectifs,El río es ruidoso.
 peligroso/a,dangereux(se),adjetivos,warning,adjectifs,¡El camino es peligroso!
 ataco,j'attaque,combate,sword-clash,combat,Ataco al goblin.
 me defiendo,je me défends,combate,shield-reflect,combat,Me defiendo con mi escudo.
-saqué un…,j'ai fait un…,dados,dice-twenty-faces,dés,Saqué un quince. ¡Impacto!
-el goblin,le gobelin,enemigos,goblin,ennemi,Un goblin ataca.
-el bandido,le bandit,enemigos,thief,ennemi,Hay tres bandidos en el camino.
-está herido/a,il/elle est blessé(e),estados,half-heart,état,El goblin está herido.
-estoy bien,je vais bien,estados,heart-plus,état,Después de la poción: estoy bien.
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
+el mapa,la carte,equipo,treasure-map,équipement,El mapa muestra el camino.

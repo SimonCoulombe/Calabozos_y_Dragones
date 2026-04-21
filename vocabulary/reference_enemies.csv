@@ -16,7 +16,6 @@ el lobo,le loup,monstruos,wolf-head,reference enemigos nivel-bajo,"NC 1/4. En ma
 el araña gigante,l'araignée géante,monstruos,spider-face,reference enemigos nivel-bajo,"NC 1. Veneno que paraliza."
 el dragón joven rojo,le jeune dragon rouge,monstruos,dragon-head,reference enemigos nivel-alto,"NC 10. Aliento de fuego, vuela."
 el dragón joven azul,le jeune dragon bleu,monstruos,dragon-head,reference enemigos nivel-alto,"NC 9. Aliento de rayo, desértico."
-el dragón joven verde,le jeune dragon vert,monstruos,dragon-head,reference enemigos nivel-alto,"NC 8. Aliento de gas venenoso."
 el necromante,le nécromancien,monstruos,skull-crack,reference enemigos nivel-medio,"NC 9. Lanza hechizos de muerte."
 el vampiro,le vampire,monstruos,bat,reference enemigos nivel-alto,"NC 13. No-muerto poderoso. Drena vida."
 el no-muerto,le mort-vivant,monstruos,skull-crack,reference enemigos categoría,Categoría general de criaturas muertas animadas.
@@ -25,6 +24,3 @@ el humanoide,l'humanoïde,monstruos,person,reference enemigos categoría,Categor
 el gigante de fuego,le géant de feu,monstruos,fire,reference enemigos nivel-alto,"NC 9. Fuego e inmunidad. Enorme."
 el elemental de fuego,l'élémentaire de feu,monstruos,fire,reference enemigos nivel-medio,"NC 5. Invocado por magos. Daño de fuego."
 el elemental de tierra,l'élémentaire de terre,monstruos,stone-wall,reference enemigos nivel-medio,"NC 5. Lento pero brutal."
-,,,,,
-,,,,,
-,,,,,
