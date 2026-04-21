@@ -88,6 +88,8 @@ REFERENCE_TITLES = {
     "reference_enemies":   ("Los Enemigos",             "Monstres courants par niveau de défi"),
     "reference_lugares":   ("Los Lugares",              "Lieux, bâtiments et zones à explorer"),
     "reference_numbers":   ("Los Números",              "1 → 20 — pour lancer les dés !"),
+    "reference_colors":   ("Los Colores",             "Décris ton équipement !"),
+    "reference_adjectives": ("Otros Adjetivos",         "Adjectifs utiles pour décrire le monde"),
     "reference_mis_palabras":   ("Mis Palabras",              "Mes nouveaux mots"),    
 }
 
