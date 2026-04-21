@@ -102,10 +102,11 @@
     font-size: 10.5pt;
     break-inside: auto;
   }
-  table.vocab thead tr {
-    background: #8b3a0f;
-    color: #f5ead0;
-  }
+   table.vocab thead tr {
+     background: #8b3a0f;
+     color: #f5ead0;
+     display: table-row;
+   }
   table.vocab thead th {
     font-family: 'Cinzel', serif;
     font-size: 9pt;
@@ -277,7 +278,6 @@
   <div class="framing-box">{{ session.framing }}</div>
   {% endif %}
 
-  {% for chunk in session.words | chunks(25) %}
   <table class="vocab">
     <thead>
       <tr>
@@ -288,7 +288,7 @@
       </tr>
     </thead>
     <tbody>
-      {% for word in chunk %}
+      {% for word in session.words %}
       {% if word.spanish %}
       <tr>
         <td class="es">{{ word.spanish }}</td>
@@ -307,7 +307,6 @@
       {% endfor %}
     </tbody>
   </table>
-  {% endfor %}
 </div>
 {% endfor %}
 
@@ -479,15 +478,21 @@
 
 
 <!-- REFERENCE TABLES -->
-{% for ref in reference_tables %}
+  {% for ref in reference_tables %}
 <div class="session-page">
   <h2 class="session-title">{{ ref.title }}</h2>
   <h3 class="session-subtitle">{{ ref.subtitle }}</h3>
-  {% for chunk in ref.words | chunks(28) %}
   <table class="vocab">
-    <thead><tr><th>Español</th><th>Français</th><th>Catégorie</th><th>Notes</th></tr></thead>
+    <thead>
+      <tr>
+        <th>Español</th>
+        <th>Français</th>
+        <th>Catégorie</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
     <tbody>
-    {% for word in chunk %}
+    {% for word in ref.words %}
     <tr>
       <td class="es">{{ word.spanish }}</td>
       <td class="fr">{{ word.french }}</td>
@@ -497,7 +502,6 @@
     {% endfor %}
     </tbody>
   </table>
-  {% endfor %}
 </div>
 {% endfor %}
 

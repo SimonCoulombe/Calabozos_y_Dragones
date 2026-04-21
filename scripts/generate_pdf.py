@@ -87,8 +87,8 @@ REFERENCE_TITLES = {
     "reference_spells":    ("Los Hechizos",             "Sorts courants et écoles de magie"),
     "reference_enemies":   ("Los Enemigos",             "Monstres courants par niveau de défi"),
     "reference_lugares":   ("Los Lugares",              "Lieux, bâtiments et zones à explorer"),
-    "reference_mis_palabras":   ("Mis Palabras",              "Mes nouveaux mots"),
     "reference_numbers":   ("Los Números",              "1 → 20 — pour lancer les dés !"),
+    "reference_mis_palabras":   ("Mis Palabras",              "Mes nouveaux mots"),    
 }
 
 
