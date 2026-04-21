@@ -311,252 +311,172 @@
 </div>
 {% endfor %}
 
-<!-- GRAMMAR: SER / ESTAR -->
-{% if grammar.ser_estar %}
+<!-- GRAMMAR -->
+{% for key, data in grammar.items() %}
 <div class="session-page">
-  <h2 class="session-title">{{ grammar.ser_estar.title }}</h2>
-  <h3 class="session-subtitle">{{ grammar.ser_estar.subtitle }}</h3>
-  <div class="framing-box">{{ grammar.ser_estar.framing }}</div>
+  <h2 class="session-title">{{ data.title }}</h2>
+  <h3 class="session-subtitle">{{ data.subtitle }}</h3>
+  {% if data.framing %}<div class="framing-box">{{ data.framing }}</div>{% endif %}
 
-  {% for table in grammar.ser_estar.tables %}
-  <div class="verb-header">{{ table.verb | upper }}</div>
-  <table class="grammar">
-    <thead><tr><th>Pronombre</th><th>{{ table.verb | upper }}</th><th>Français</th><th>Ejemplo</th></tr></thead>
-    <tbody>
-      {% for row in table.rows %}
-      <tr>
-        <td class="pronoun">{{ row.pronoun }}</td>
-        <td class="conj">{{ row.conjugation }}</td>
-        <td>{{ row.french }}</td>
-        <td class="example">{{ row.example }}</td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table>
-  {% endfor %}
-</div>
-{% endif %}
+  {% if key == 'ser_estar' %}
+    {% for table in data.tables %}
+    <div class="verb-header">{{ table.verb | upper }}</div>
+    <table class="grammar">
+      <thead><tr><th>Pronombre</th><th>{{ table.verb | upper }}</th><th>Français</th><th>Ejemplo</th></tr></thead>
+      <tbody>
+        {% for row in table.rows %}
+        <tr>
+          <td class="pronoun">{{ row.pronoun }}</td>
+          <td class="conj">{{ row.conjugation }}</td>
+          <td>{{ row.french }}</td>
+          <td class="example">{{ row.example }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endfor %}
 
-<!-- GRAMMAR: NUMBERS -->
-{% if grammar.numbers %}
-<div class="session-page">
-  <h2 class="session-title">{{ grammar.numbers.title }}</h2>
-  <h3 class="session-subtitle">{{ grammar.numbers.subtitle }}</h3>
-  <div class="framing-box">{{ grammar.numbers.framing }}</div>
+  {% elif key == 'ir_poder_hay' %}
+    {% for table in data.tables %}
+    <div class="verb-header">{{ table.verb | upper }} — {{ table.meaning }}</div>
+    {% if table.tip %}<div class="framing-box" style="margin-bottom:0.5em;">💡 {{ table.tip }}</div>{% endif %}
+    <table class="grammar">
+      <thead><tr><th>Pronombre</th><th>{{ table.verb | upper }}</th><th>Français</th><th>Ejemplo</th></tr></thead>
+      <tbody>
+        {% for row in table.rows %}
+        <tr>
+          <td class="pronoun">{{ row.pronoun }}</td>
+          <td class="conj">{{ row.conjugation }}</td>
+          <td>{{ row.french }}</td>
+          <td class="example">{{ row.example }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endfor %}
+    {% if data.hay %}
+    <div class="verb-header">HAY — {{ data.hay.meaning }}</div>
+    <table class="grammar">
+      <thead><tr><th>Español</th><th>Français</th></tr></thead>
+      <tbody>
+        {% for ex in data.hay.examples %}
+        <tr>
+          <td class="conj">{{ ex.spanish }}</td>
+          <td class="example">{{ ex.french }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endif %}
 
-  <div class="numbers-grid">
-    {% for n in grammar.numbers.numbers %}
-    <div class="number-cell">
-      <div class="num">{{ n.number }}</div>
-      <div class="es">{{ n.spanish }}</div>
-      <div class="fr">{{ n.french }}</div>
-      {% if n.dnd_note %}<div class="dnd">{{ n.dnd_note }}</div>{% endif %}
+  {% elif key == 'hacer_tener' %}
+    {% for table in data.tables %}
+    <div class="verb-header">{{ table.verb | upper }} — {{ table.meaning }}</div>
+    {% if table.tip %}<div class="framing-box" style="margin-bottom:0.5em;">💡 {{ table.tip }}</div>{% endif %}
+    <table class="grammar">
+      <thead><tr><th>Pronombre</th><th>{{ table.verb | upper }}</th><th>Français</th><th>Ejemplo</th></tr></thead>
+      <tbody>
+        {% for row in table.rows %}
+        <tr>
+          <td class="pronoun">{{ row.pronoun }}</td>
+          <td class="conj">{{ row.conjugation }}</td>
+          <td>{{ row.french }}</td>
+          <td class="example">{{ row.example }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endfor %}
+
+  {% elif key == 'regular_verbs' %}
+    <table class="grammar">
+      <thead><tr><th>Pronombre</th><th>-AR (ex: atacar)</th><th>-ER (ex: correr)</th><th>-IR (ex: abrir)</th></tr></thead>
+      <tbody>
+        {% for row in data.pattern %}
+        <tr>
+          <td class="pronoun">{{ row.pronoun }}</td>
+          <td class="conj">{{ row.ar }}</td>
+          <td class="conj">{{ row.er }}</td>
+          <td class="conj">{{ row.ir }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <div class="divider">✦</div>
+    {% for ex in data.examples %}
+    <div class="verb-header">{{ ex.verb }} ({{ ex.type }}) — {{ ex.meaning }}</div>
+    <table class="grammar">
+      <thead><tr><th>Pronombre</th><th>Forma</th><th>Ejemplo</th></tr></thead>
+      <tbody>
+        {% for row in ex.rows %}
+        <tr>
+          <td class="pronoun">{{ row.pronoun }}</td>
+          <td class="conj">{{ row.form }}</td>
+          <td class="example">{{ row.example }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endfor %}
+
+  {% elif key == 'dnd_verbs' %}
+    {% for cat in data.categories %}
+    <div class="verb-header">{{ cat.name }}</div>
+    <table class="vocab">
+      <thead><tr><th>Español</th><th>Français</th><th>Type</th><th>Ejemplo</th></tr></thead>
+      <tbody>
+        {% for v in cat.verbs %}
+        <tr>
+          <td class="es">{{ v.spanish }}</td>
+          <td class="fr">{{ v.french }}</td>
+          <td style="font-size:9pt;color:#7a3a10;">{{ v.type }}</td>
+          <td class="ex">{{ v.example }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endfor %}
+
+  {% elif key == 'colors' %}
+    <table class="grammar">
+      <thead><tr><th>Masculin (-o)</th><th>Féminin (-a)</th><th>Français</th><th>Ejemplo</th></tr></thead>
+      <tbody>
+        {% for c in data.colors %}
+        <tr>
+          <td class="conj">{{ c.spanish_m }}</td>
+          <td class="conj">{{ c.spanish_f }}</td>
+          <td>{{ c.french }}</td>
+          <td class="example">{{ c.example }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% if data.practice_sentences %}
+    <div class="framing-box">
+      {% for s in data.practice_sentences %}{{ s }}<br>{% endfor %}
     </div>
-    {% endfor %}
-  </div>
-
-  {% if grammar.numbers.useful_phrases %}
-  <div class="divider">✦</div>
-  <table class="vocab">
-    <thead><tr><th>Español</th><th>Français</th><th>Ejemplo</th></tr></thead>
-    <tbody>
-    {% for p in grammar.numbers.useful_phrases %}
-    <tr>
-      <td class="es">{{ p.spanish }}</td>
-      <td class="fr">{{ p.french }}</td>
-      <td class="ex">{{ p.example }}</td>
-    </tr>
-    {% endfor %}
-    </tbody>
-  </table>
+    {% endif %}
+    {% if data.adjectives %}
+    <div class="verb-header">{{ data.adjectives_title }}</div>
+    <div class="framing-box" style="margin-bottom:0.5em;">{{ data.adjectives_framing }}</div>
+    <table class="grammar">
+      <thead><tr><th>Masculin (-o)</th><th>Féminin (-a)</th><th>Français</th><th>Ejemplo</th></tr></thead>
+      <tbody>
+        {% for a in data.adjectives %}
+        <tr>
+          <td class="conj">{{ a.spanish_m }}</td>
+          <td class="conj">{{ a.spanish_f }}</td>
+          <td>{{ a.french }}</td>
+          <td class="example">{{ a.example }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endif %}
   {% endif %}
 </div>
-{% endif %}
+{% endfor %}
 
-<!-- GRAMMAR: COLORS -->
-{% if grammar.colors %}
-<div class="session-page">
-  <h2 class="session-title">{{ grammar.colors.title }}</h2>
-  <h3 class="session-subtitle">{{ grammar.colors.subtitle }}</h3>
-  <div class="framing-box">{{ grammar.colors.framing }}</div>
-
-  <table class="grammar">
-    <thead><tr><th>Masculin (-o)</th><th>Féminin (-a)</th><th>Français</th><th>Ejemplo</th></tr></thead>
-    <tbody>
-    {% for c in grammar.colors.colors %}
-    <tr>
-      <td class="conj">{{ c.spanish_m }}</td>
-      <td class="conj">{{ c.spanish_f }}</td>
-      <td>{{ c.french }}</td>
-      <td class="example">{{ c.example }}</td>
-    </tr>
-    {% endfor %}
-    </tbody>
-  </table>
-
-  {% if grammar.colors.practice_sentences %}
-  <div class="framing-box">
-    {% for s in grammar.colors.practice_sentences %}
-    {{ s }}<br>
-    {% endfor %}
-  </div>
-  {% endif %}
-
-  {% if grammar.colors.adjectives %}
-  <div class="verb-header">{{ grammar.colors.adjectives_title }}</div>
-  <div class="framing-box" style="margin-bottom:0.5em;">{{ grammar.colors.adjectives_framing }}</div>
-  <table class="grammar">
-    <thead><tr><th>Masculin (-o)</th><th>Féminin (-a)</th><th>Français</th><th>Ejemplo</th></tr></thead>
-    <tbody>
-    {% for a in grammar.colors.adjectives %}
-    <tr>
-      <td class="conj">{{ a.spanish_m }}</td>
-      <td class="conj">{{ a.spanish_f }}</td>
-      <td>{{ a.french }}</td>
-      <td class="example">{{ a.example }}</td>
-    </tr>
-    {% endfor %}
-    </tbody>
-  </table>
-  {% endif %}
-</div>
-{% endif %}
-
-<!-- GRAMMAR: IR / PODER / HAY -->
-{% if grammar.ir_poder_hay %}
-<div class="session-page">
-  <h2 class="session-title">{{ grammar.ir_poder_hay.title }}</h2>
-  <h3 class="session-subtitle">{{ grammar.ir_poder_hay.subtitle }}</h3>
-  <div class="framing-box">{{ grammar.ir_poder_hay.framing }}</div>
-
-  {% for table in grammar.ir_poder_hay.tables %}
-  <div class="verb-header">{{ table.verb | upper }} — {{ table.meaning }}</div>
-  {% if table.tip %}<div class="framing-box" style="margin-bottom:0.5em;">💡 {{ table.tip }}</div>{% endif %}
-  <table class="grammar">
-    <thead><tr><th>Pronombre</th><th>{{ table.verb | upper }}</th><th>Français</th><th>Ejemplo</th></tr></thead>
-    <tbody>
-    {% for row in table.rows %}
-    <tr>
-      <td class="pronoun">{{ row.pronoun }}</td>
-      <td class="conj">{{ row.conjugation }}</td>
-      <td>{{ row.french }}</td>
-      <td class="example">{{ row.example }}</td>
-    </tr>
-    {% endfor %}
-    </tbody>
-  </table>
-  {% endfor %}
-
-  {% if grammar.ir_poder_hay.hay %}
-  <div class="verb-header">HAY — {{ grammar.ir_poder_hay.hay.meaning }}</div>
-  <table class="grammar">
-    <thead><tr><th>Español</th><th>Français</th></tr></thead>
-    <tbody>
-    {% for ex in grammar.ir_poder_hay.hay.examples %}
-    <tr>
-      <td class="conj">{{ ex.spanish }}</td>
-      <td class="example">{{ ex.french }}</td>
-    </tr>
-    {% endfor %}
-    </tbody>
-  </table>
-  {% endif %}
-</div>
-{% endif %}
-
-<!-- GRAMMAR: HACER / TENER -->
-{% if grammar.hacer_tener %}
-<div class="session-page">
-  <h2 class="session-title">{{ grammar.hacer_tener.title }}</h2>
-  <h3 class="session-subtitle">{{ grammar.hacer_tener.subtitle }}</h3>
-  <div class="framing-box">{{ grammar.hacer_tener.framing }}</div>
-
-  {% for table in grammar.hacer_tener.tables %}
-  <div class="verb-header">{{ table.verb | upper }} — {{ table.meaning }}</div>
-  {% if table.tip %}<div class="framing-box" style="margin-bottom:0.5em;">💡 {{ table.tip }}</div>{% endif %}
-  <table class="grammar">
-    <thead><tr><th>Pronombre</th><th>{{ table.verb | upper }}</th><th>Français</th><th>Ejemplo</th></tr></thead>
-    <tbody>
-    {% for row in table.rows %}
-    <tr>
-      <td class="pronoun">{{ row.pronoun }}</td>
-      <td class="conj">{{ row.conjugation }}</td>
-      <td>{{ row.french }}</td>
-      <td class="example">{{ row.example }}</td>
-    </tr>
-    {% endfor %}
-    </tbody>
-  </table>
-  {% endfor %}
-</div>
-{% endif %}
-
-<!-- GRAMMAR: REGULAR VERBS -->
-{% if grammar.regular_verbs %}
-<div class="session-page">
-  <h2 class="session-title">{{ grammar.regular_verbs.title }}</h2>
-  <h3 class="session-subtitle">{{ grammar.regular_verbs.subtitle }}</h3>
-  <div class="framing-box">{{ grammar.regular_verbs.framing }}</div>
-
-  <table class="grammar">
-    <thead><tr><th>Pronombre</th><th>-AR (ex: atacar)</th><th>-ER (ex: correr)</th><th>-IR (ex: abrir)</th></tr></thead>
-    <tbody>
-    {% for row in grammar.regular_verbs.pattern %}
-    <tr>
-      <td class="pronoun">{{ row.pronoun }}</td>
-      <td class="conj">{{ row.ar }}</td>
-      <td class="conj">{{ row.er }}</td>
-      <td class="conj">{{ row.ir }}</td>
-    </tr>
-    {% endfor %}
-    </tbody>
-  </table>
-
-  <div class="divider">✦</div>
-
-  {% for ex in grammar.regular_verbs.examples %}
-  <div class="verb-header">{{ ex.verb }} ({{ ex.type }}) — {{ ex.meaning }}</div>
-  <table class="grammar">
-    <thead><tr><th>Pronombre</th><th>Forma</th><th>Ejemplo</th></tr></thead>
-    <tbody>
-    {% for row in ex.rows %}
-    <tr>
-      <td class="pronoun">{{ row.pronoun }}</td>
-      <td class="conj">{{ row.form }}</td>
-      <td class="example">{{ row.example }}</td>
-    </tr>
-    {% endfor %}
-    </tbody>
-  </table>
-  {% endfor %}
-</div>
-{% endif %}
-
-<!-- GRAMMAR: D&D VERBS -->
-{% if grammar.dnd_verbs %}
-<div class="session-page">
-  <h2 class="session-title">{{ grammar.dnd_verbs.title }}</h2>
-  <h3 class="session-subtitle">{{ grammar.dnd_verbs.subtitle }}</h3>
-  <div class="framing-box">{{ grammar.dnd_verbs.framing }}</div>
-
-  {% for cat in grammar.dnd_verbs.categories %}
-  <div class="verb-header">{{ cat.name }}</div>
-  <table class="vocab">
-    <thead><tr><th>Español</th><th>Français</th><th>Type</th><th>Ejemplo</th></tr></thead>
-    <tbody>
-    {% for v in cat.verbs %}
-    <tr>
-      <td class="es">{{ v.spanish }}</td>
-      <td class="fr">{{ v.french }}</td>
-      <td style="font-size:9pt;color:#7a3a10;">{{ v.type }}</td>
-      <td class="ex">{{ v.example }}</td>
-    </tr>
-    {% endfor %}
-    </tbody>
-  </table>
-  {% endfor %}
-</div>
-{% endif %}
 
 <!-- REFERENCE TABLES -->
 {% for ref in reference_tables %}
