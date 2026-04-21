@@ -43,11 +43,16 @@ jobs:
       - name: Generate PDF
         run: PYTHONPATH=scripts python scripts/generate_pdf.py
 
-      - name: Prepare Pages site
+      - name: Copy PDF to site folder
         run: |
           mkdir -p _site
           cp output/pdfs/livre_aventurier.pdf _site/
-          cat > _site/index.html <<'EOF'
+          echo "PDF size: $(du -h _site/livre_aventurier.pdf | cut -f1)"
+
+      - name: Create landing page
+        run: |
+          python3 - <<'PY'
+          html = """\
           <!doctype html>
           <html lang="fr">
           <head>
@@ -59,11 +64,13 @@ jobs:
             </style>
           </head>
           <body>
-            <h1>📖 El Libro del Aventurero</h1>
-            <p><a href="livre_aventurier.pdf">Télécharger le PDF</a></p>
+            <h1>El Libro del Aventurero</h1>
+            <p><a href="livre_aventurier.pdf">Telecharger le PDF</a></p>
           </body>
           </html>
-          EOF
+          """
+          open("_site/index.html", "w").write(html)
+          PY
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
