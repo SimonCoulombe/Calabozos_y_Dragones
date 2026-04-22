@@ -115,11 +115,12 @@ def get_audio_and_icon(
     if not skip_tts and audio_path.exists():
         audio_html = f"[sound:{audio_filename}]"
 
-    icon_slug = word["icon"] or config["images"].get("fallback_icon", "help")
-    if config["images"]["provider"] == "game_icons" and icon_slug:
-        png_bytes = icon_to_png_bytes(icon_slug)
+    icon_ref = word["icon"].strip() or config["images"].get("fallback_icon")
+    if config["images"]["provider"] == "game_icons" and icon_ref and "/" in icon_ref:
+        png_bytes = icon_to_png_bytes(icon_ref)
         if png_bytes:
-            icon_filename = f"icon_{icon_slug}.png"
+            safe_name = icon_ref.replace("/", "_").replace(".svg", "")
+            icon_filename = f"icon_{safe_name}.png"
             icon_html = f'<img src="{icon_filename}">'
             return audio_html, icon_html, png_bytes, icon_filename
 

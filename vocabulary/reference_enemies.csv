@@ -1,26 +1,26 @@
 spanish,french,category,icon,tags,notes
-el goblin,le gobelin,monstruos,goblin,reference enemigos nivel-bajo,"NC 1/4. Pequeño, furtivo, vive en cuevas."
-el kobold,le kobold,monstruos,lizardman,reference enemigos nivel-bajo,"NC 1/8. Reptil pequeño, en grupos, trampas."
-la rata gigante,le rat géant,monstruos,rat,reference enemigos nivel-bajo,NC 1/8. En las mazmorras y alcantarillas.
-el bandido,le bandit,monstruos,thief,reference enemigos nivel-bajo,NC 1/8. Humano criminal. Arma sencilla.
-el esqueleto,le squelette,monstruos,skeleton-inside,reference enemigos nivel-bajo,NC 1/4. No-muerto. Inmune a veneno.
-el zombi,le zombie,monstruos,daemon-skull,reference enemigos nivel-bajo,NC 1/4. No-muerto lento pero resistente.
-el orco,l'orc,monstruos,ogre,reference enemigos nivel-bajo,NC 1/2. Fuerza bruta. +5 a ataques.
-el hobgoblin,le hobgobelin,monstruos,goblin,reference enemigos nivel-bajo,"NC 1/2. Goblin militar, disciplinado."
-el bugbear,l'ogroblin,monstruos,goblin,reference enemigos nivel-bajo,"NC 1. Goblin enorme, furtivo para su tamaño."
-el gnoll,le gnoll,monstruos,wolf-head,reference enemigos nivel-bajo,"NC 1/2. Hiena humanoide, salvaje."
-el troll,le troll,monstruos,troll,reference enemigos nivel-medio,NC 5. Regenera PV. Fuego o ácido para matarlo.
-el ogro,l'ogre,monstruos,ogre,reference enemigos nivel-medio,"NC 2. Grande, torpe pero muy fuerte."
-el oso pardo,l'ours brun,monstruos,bear-face,reference enemigos nivel-medio,NC 1. Animal. Garras y mordisco.
-el lobo,le loup,monstruos,wolf-head,reference enemigos nivel-bajo,NC 1/4. En manada. Derriba al objetivo.
-el araña gigante,l'araignée géante,monstruos,spider-face,reference enemigos nivel-bajo,NC 1. Veneno que paraliza.
-el dragón joven rojo,le jeune dragon rouge,monstruos,dragon-head,reference enemigos nivel-alto,"NC 10. Aliento de fuego, vuela."
-el dragón joven azul,le jeune dragon bleu,monstruos,dragon-head,reference enemigos nivel-alto,"NC 9. Aliento de rayo, desértico."
-el necromante,le nécromancien,monstruos,skull-crack,reference enemigos nivel-medio,NC 9. Lanza hechizos de muerte.
-el vampiro,le vampire,monstruos,bat,reference enemigos nivel-alto,NC 13. No-muerto poderoso. Drena vida.
-el no-muerto,le mort-vivant,monstruos,skull-crack,reference enemigos categoría,Categoría general de criaturas muertas animadas.
-la bestia,la bête,monstruos,bear-face,reference enemigos categoría,Categoría general de animales sin inteligencia.
-el humanoide,l'humanoïde,monstruos,person,reference enemigos categoría,Categoría: orcos/goblins/humanos enemigos.
-el gigante de fuego,le géant de feu,monstruos,fire,reference enemigos nivel-alto,NC 9. Fuego e inmunidad. Enorme.
-el elemental de fuego,l'élémentaire de feu,monstruos,fire,reference enemigos nivel-medio,NC 5. Invocado por magos. Daño de fuego.
-el elemental de tierra,l'élémentaire de terre,monstruos,stone-wall,reference enemigos nivel-medio,NC 5. Lento pero brutal.
+el goblin,le gobelin,monstruos,caro-asercion/goblin.svg,reference enemigos nivel-bajo,"NC 1/4. Pequeño, furtivo, vive en cuevas."
+el kobold,le kobold,monstruos,lorc/lizardman.svg,reference enemigos nivel-bajo,"NC 1/8. Reptil pequeño, en grupos, trampas."
+la rata gigante,le rat géant,monstruos,delapouite/rat.svg,reference enemigos nivel-bajo,NC 1/8. En las mazmorras y alcantarillas.
+el bandido,le bandit,monstruos,delapouite/robber.svg,reference enemigos nivel-bajo,NC 1/8. Humano criminal. Arma sencilla.
+el esqueleto,le squelette,monstruos,lorc/skeleton-inside.svg,reference enemigos nivel-bajo,NC 1/4. No-muerto. Inmune a veneno.
+el zombi,le zombie,monstruos,lorc/daemon-skull.svg,reference enemigos nivel-bajo,NC 1/4. No-muerto lento pero resistente.
+el orco,l'orc,monstruos,delapouite/ogre.svg,reference enemigos nivel-bajo,NC 1/2. Fuerza bruta. +5 a ataques.
+el hobgoblin,le hobgobelin,monstruos,caro-asercion/goblin.svg,reference enemigos nivel-bajo,"NC 1/2. Goblin militar, disciplinado."
+el bugbear,l'ogroblin,monstruos,caro-asercion/goblin.svg,reference enemigos nivel-bajo,"NC 1. Goblin enorme, furtivo para su tamaño."
+el gnoll,le gnoll,monstruos,lorc/wolf-head.svg,reference enemigos nivel-bajo,"NC 1/2. Hiena humanoide, salvaje."
+el troll,le troll,monstruos,skoll/troll.svg,reference enemigos nivel-medio,NC 5. Regenera PV. Fuego o ácido para matarlo.
+el ogro,l'ogre,monstruos,delapouite/ogre.svg,reference enemigos nivel-medio,"NC 2. Grande, torpe pero muy fuerte."
+el oso pardo,l'ours brun,monstruos,sparker/bear-face.svg,reference enemigos nivel-medio,NC 1. Animal. Garras y mordisco.
+el lobo,le loup,monstruos,lorc/wolf-head.svg,reference enemigos nivel-bajo,NC 1/4. En manada. Derriba al objetivo.
+el araña gigante,l'araignée géante,monstruos,carl-olsen/spider-face.svg,reference enemigos nivel-bajo,NC 1. Veneno que paraliza.
+el dragón joven rojo,le jeune dragon rouge,monstruos,lorc/dragon-head.svg,reference enemigos nivel-alto,"NC 10. Aliento de fuego, vuela."
+el dragón joven azul,le jeune dragon bleu,monstruos,lorc/dragon-head.svg,reference enemigos nivel-alto,"NC 9. Aliento de rayo, desértico."
+el necromante,le nécromancien,monstruos,lorc/skull-crack.svg,reference enemigos nivel-medio,NC 9. Lanza hechizos de muerte.
+el vampiro,le vampire,monstruos,skoll/bat.svg,reference enemigos nivel-alto,NC 13. No-muerto poderoso. Drena vida.
+el no-muerto,le mort-vivant,monstruos,lorc/skull-crack.svg,reference enemigos categoría,Categoría general de criaturas muertas animadas.
+la bestia,la bête,monstruos,sparker/bear-face.svg,reference enemigos categoría,Categoría general de animales sin inteligencia.
+el humanoide,l'humanoïde,monstruos,delapouite/person.svg,reference enemigos categoría,Categoría: orcos/goblins/humanos enemigos.
+el gigante de fuego,le géant de feu,monstruos,sbed/fire.svg,reference enemigos nivel-alto,NC 9. Fuego e inmunidad. Enorme.
+el elemental de fuego,l'élémentaire de feu,monstruos,sbed/fire.svg,reference enemigos nivel-medio,NC 5. Invocado por magos. Daño de fuego.
+el elemental de tierra,l'élémentaire de terre,monstruos,delapouite/stone-wall.svg,reference enemigos nivel-medio,NC 5. Lento pero brutal.

@@ -1,27 +1,27 @@
 spanish,french,category,icon,tags,notes
-el enano,le nain,razas,dwarf-king,reference razas,Corto y robusto. +2 Constitución. Vive bajo tierra.
-la enana,la naine,razas,dwarf-king,reference razas,Forme féminine de enano.
-el elfo,l'elfe,razas,elf-ear,reference razas,Alto y esbelto. +2 Destreza. Vive en los bosques.
-la elfa,l'elfe (f.),razas,elf-ear,reference razas,Forme féminine de elfo.
-el mediano,le petit-peuple (halfling),razas,fairy,reference razas,Pequeño y ágil. +2 Destreza. Pies peludos.
-el humano,l'humain,razas,person,reference razas,+1 a todos los atributos. La raza más versátil.
-el draconido,le draconide,razas,dragon-head,reference razas,"Descendiente de dragones. +2 Fuerza, +1 Carisma."
-el gnomo,le gnome,razas,fairy,reference razas,"+2 Inteligencia. Pequeño, curioso, inventor."
-el semielfo,le demi-elfe,razas,elf-ear,reference razas,"+2 Carisma, +1 a dos atributos. Lo mejor de dos mundos."
-el semiorco,le demi-orc,razas,ogre,reference razas,"+2 Fuerza, +1 Constitución. Resistente y feroz."
-el tiefling,le tieffelin,razas,demon-skull,reference razas,"+2 Carisma, +1 Inteligencia. Sangre infernal."
-el brujo,le sorcier (warlock),clases,magic-swirl,reference clases,Clase — pacto con una entidad poderosa.
-el bárbaro,le barbare,clases,axe-sword,reference clases,"Clase — rabia en combate, muy resistente."
-el bardo,le barde,clases,music-spell,reference clases,Clase — magia y persuasión con música.
-el clérigo,le clerc,clases,holy-grail,reference clases,Clase — curación y magia divina.
-el druida,le druide,clases,druid-sign,reference clases,Clase — magia natural y transformación.
-el explorador,le rôdeur (ranger),clases,bow-arrow,reference clases,Clase — rastreador y arquero del bosque.
-el guerrero,le guerrier,clases,swordman,reference clases,Clase — combatiente versátil con armas.
-el hechicero,l'ensorceleur,clases,magic-swirl,reference clases,Clase — magia innata en la sangre.
-el mago,le magicien,clases,wizard-staff,reference clases,"Clase — inteligencia, conjuros aprendidos."
-el monje,le moine,clases,meditation,reference clases,Clase — artes marciales y ki.
-el paladín,le paladin,clases,holy-grail,reference clases,Clase — guerrero sagrado con poderes divinos.
-el pícaro,le roublard,clases,hood,reference clases,"Clase — sigilo, trampas y ataques furtivos."
+el enano,le nain,razas,kier-heyl/dwarf-king.svg,reference razas,Corto y robusto. +2 Constitución. Vive bajo tierra.
+la enana,la naine,razas,kier-heyl/dwarf-king.svg,reference razas,Forme féminine de enano.
+el elfo,l'elfe,razas,delapouite/elf-ear.svg,reference razas,Alto y esbelto. +2 Destreza. Vive en los bosques.
+la elfa,l'elfe (f.),razas,delapouite/elf-ear.svg,reference razas,Forme féminine de elfo.
+el mediano,le petit-peuple (halfling),razas,lorc/fairy.svg,reference razas,Pequeño y ágil. +2 Destreza. Pies peludos.
+el humano,l'humain,razas,delapouite/person.svg,reference razas,+1 a todos los atributos. La raza más versátil.
+el draconido,le draconide,razas,lorc/dragon-head.svg,reference razas,"Descendiente de dragones. +2 Fuerza, +1 Carisma."
+el gnomo,le gnome,razas,lorc/fairy.svg,reference razas,"+2 Inteligencia. Pequeño, curioso, inventor."
+el semielfo,le demi-elfe,razas,delapouite/elf-ear.svg,reference razas,"+2 Carisma, +1 a dos atributos. Lo mejor de dos mundos."
+el semiorco,le demi-orc,razas,delapouite/ogre.svg,reference razas,"+2 Fuerza, +1 Constitución. Resistente y feroz."
+el tiefling,le tieffelin,razas,lorc/daemon-skull.svg,reference razas,"+2 Carisma, +1 Inteligencia. Sangre infernal."
+el brujo,le sorcier (warlock),clases,lorc/magic-swirl.svg,reference clases,Clase — pacto con una entidad poderosa.
+el bárbaro,le barbare,clases,delapouite/axe-sword.svg,reference clases,"Clase — rabia en combate, muy resistente."
+el bardo,le barde,clases,lorc/music-spell.svg,reference clases,Clase — magia y persuasión con música.
+el clérigo,le clerc,clases,lorc/holy-grail.svg,reference clases,Clase — curación y magia divina.
+el druida,le druide,clases,sbed/clover.svg,reference clases,Clase — magia natural y transformación.
+el explorador,le rôdeur (ranger),clases,delapouite/bow-arrow.svg,reference clases,Clase — rastreador y arquero del bosque.
+el guerrero,le guerrier,clases,cathelineau/swordman.svg,reference clases,Clase — combatiente versátil con armas.
+el hechicero,l'ensorceleur,clases,lorc/magic-swirl.svg,reference clases,Clase — magia innata en la sangre.
+el mago,le magicien,clases,lorc/wizard-staff.svg,reference clases,"Clase — inteligencia, conjuros aprendidos."
+el monje,le moine,clases,lorc/meditation.svg,reference clases,Clase — artes marciales y ki.
+el paladín,le paladin,clases,lorc/holy-grail.svg,reference clases,Clase — guerrero sagrado con poderes divinos.
+el pícaro,le roublard,clases,lorc/hood.svg,reference clases,"Clase — sigilo, trampas y ataques furtivos."
 ,,,,,
 ,,,,,
 ,,,,,

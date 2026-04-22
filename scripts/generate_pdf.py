@@ -22,11 +22,14 @@ def load_config() -> dict:
         return yaml.safe_load(f)
 
 
-def _icon_to_data_uri(slug: str) -> str | None:
-    """Convert a cached SVG icon to a base64 data URI for embedding in HTML."""
-    if not slug:
+def _icon_to_data_uri(icon_ref: str) -> str | None:
+    """Convert a cached SVG icon to a base64 data URI for embedding in HTML.
+
+    icon_ref is either 'author/filename.svg' or bare 'filename'.
+    """
+    if not icon_ref:
         return None
-    svg_path = ICONS_DIR / f"{slug}.svg"
+    svg_path = ICONS_DIR / icon_ref
     if not svg_path.exists():
         return None
     try:
@@ -47,13 +50,13 @@ def load_session_csv(path: Path) -> dict:
     with open(path, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            icon_slug = row.get("icon", "").strip()
-            icon_uri = _icon_to_data_uri(icon_slug)
+            icon_ref = row.get("icon", "").strip()
+            icon_uri = _icon_to_data_uri(icon_ref)
             words.append({
                 "spanish": row.get("spanish", "").strip(),
                 "french": row.get("french", "").strip(),
                 "category": row.get("category", "").strip(),
-                "icon": icon_slug,
+                "icon": icon_ref,
                 "icon_uri": icon_uri,
                 "tags": row.get("tags", "").strip(),
                 "notes": row.get("notes", "").strip(),
@@ -124,13 +127,13 @@ def load_reference_tables() -> list[dict]:
         with open(p, newline="", encoding="utf-8") as f:
             for row in csv.DictReader(f):
                 if row.get("spanish", "").strip():
-                    icon_slug = row.get("icon", "").strip()
-                    icon_uri = _icon_to_data_uri(icon_slug)
+                    icon_ref = row.get("icon", "").strip()
+                    icon_uri = _icon_to_data_uri(icon_ref)
                     words.append({
                         "spanish": row.get("spanish", "").strip(),
                         "french":  row.get("french",  "").strip(),
                         "category": row.get("category", "").strip(),
-                        "icon": icon_slug,
+                        "icon": icon_ref,
                         "icon_uri": icon_uri,
                         "notes":   row.get("notes",   "").strip(),
                     })

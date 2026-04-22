@@ -1,23 +1,23 @@
 spanish,french,category,icon,tags,notes
-la misión,la mission / la quête,lugares,scroll-quill,misión,Tenemos una misión importante.
-necesito ayuda,j'ai besoin d'aide,frases,two-shadows,misión,El anciano dice: Necesito ayuda.
-¿puedes ayudarme?,peux-tu m'aider?,frases,helping-hand,misión,¿Puedes ayudarme? — ¡Sí puedo!
-el enemigo,l'ennemi,personajes,evil-minion,enemigo,El enemigo se esconde en el norte.
-corro,je cours,verbos,run,acción,Corro hacia el río.
-¿dónde está?,où est-il/elle?,frases,map-pin,direcciones,¿Dónde está el castillo del enemigo?
-el castillo,le château,lugares,castle,lugares,El castillo está al norte.
-la recompensa,la récompense,tesoro,trophy,misión,¿Cuál es la recompensa? — Cien monedas.
-cien,cent,números,d20,números,Cien monedas de oro.
-importante,important(e),adjetivos,exclamación,adjetivos,Una misión muy importante.
-la taberna,la taverne,lugares,barrel,lugares,Nos reunimos en la taberna.
-el anciano,le vieillard,personajes,wizard-staff,pnj,El anciano nos da la misión.
-¿cuál es el plan?,quel est le plan?,frases,scroll-quill,estrategia,¿Cuál es el plan de ataque?
-adónde vamos,où allons-nous,frases,path-distance,direcciones,¿Adónde vamos primero?
-peligroso,dangereux,adjetivos,laser-warning,adjetivos,El camino al norte es peligroso.
-¡cuidado!,attention !,exclamaciones,laser-warning,exclamación,¡Cuidado! Hay una trampa.
-¡silencio!,silence !,exclamaciones,pear,exclamación,¡Silencio! Hay guardias cerca.
-¿entiendes?,tu comprends?,frases,conversation-bubbles,comunicación,¿Entiendes la misión?
-sí entiendo,oui je comprends,frases,check-mark,comunicación,Sí entiendo. Vamos.
-no entiendo,je ne comprends pas,frases,uncertainty,comunicación,No entiendo — ¿puedes repetir?
-ataco,j'attaque,combate,sword-clash,combate,Ataco al goblin.
-me defiendo,je me défends,combate,shield-reflect,combate,Me defiendo con mi escudo.
+la misión,la mission / la quête,lugares,delapouite/scroll-quill.svg,misión,Tenemos una misión importante.
+necesito ayuda,j'ai besoin d'aide,frases,lorc/two-shadows.svg,misión,El anciano dice: Necesito ayuda.
+¿puedes ayudarme?,peux-tu m'aider?,frases,sbed/help.svg,misión,¿Puedes ayudarme? — ¡Sí puedo!
+el enemigo,l'ennemi,personajes,lorc/evil-minion.svg,enemigo,El enemigo se esconde en el norte.
+corro,je cours,verbos,lorc/run.svg,acción,Corro hacia el río.
+¿dónde está?,où est-il/elle?,frases,delapouite/position-marker.svg,direcciones,¿Dónde está el castillo del enemigo?
+el castillo,le château,lugares,delapouite/castle.svg,lugares,El castillo está al norte.
+la recompensa,la récompense,tesoro,lorc/trophy.svg,misión,¿Cuál es la recompensa? — Cien monedas.
+cien,cent,números,delapouite/dice-twenty-faces-twenty.svg,números,Cien monedas de oro.
+importante,important(e),adjetivos,lorc/butterfly-warning.svg,adjetivos,Una misión muy importante.
+la taberna,la taverne,lugares,delapouite/barrel.svg,lugares,Nos reunimos en la taberna.
+el anciano,le vieillard,personajes,lorc/wizard-staff.svg,pnj,El anciano nos da la misión.
+¿cuál es el plan?,quel est le plan?,frases,delapouite/scroll-quill.svg,estrategia,¿Cuál es el plan de ataque?
+adónde vamos,où allons-nous,frases,delapouite/path-distance.svg,direcciones,¿Adónde vamos primero?
+peligroso,dangereux,adjetivos,lorc/laser-warning.svg,adjetivos,El camino al norte es peligroso.
+¡cuidado!,attention !,exclamaciones,lorc/laser-warning.svg,exclamación,¡Cuidado! Hay una trampa.
+¡silencio!,silence !,exclamaciones,delapouite/pear.svg,exclamación,¡Silencio! Hay guardias cerca.
+¿entiendes?,tu comprends?,frases,lorc/conversation.svg,comunicación,¿Entiendes la misión?
+sí entiendo,oui je comprends,frases,delapouite/check-mark.svg,comunicación,Sí entiendo. Vamos.
+no entiendo,je ne comprends pas,frases,lorc/uncertainty.svg,comunicación,No entiendo — ¿puedes repetir?
+ataco,j'attaque,combate,lorc/sword-clash.svg,combate,Ataco al goblin.
+me defiendo,je me défends,combate,lorc/shield-reflect.svg,combate,Me defiendo con mi escudo.

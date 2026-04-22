@@ -1,24 +1,24 @@
 spanish,french,category,icon,tags,notes
-la tienda,la boutique,lugares,shop,lugares,Vamos a la tienda.
-quiero comprar,je veux acheter,frases,shopping-cart,compra,Quiero comprar una espada.
-¿cuánto cuesta?,combien ça coûte?,frases,coins,compra,¿Cuánto cuesta el escudo?
-cuesta,ça coûte,verbos,coins,compra,Cuesta diez monedas de oro.
-tengo… monedas,j'ai… pièces,frases,gold-bar,compra,Tengo quince monedas de oro.
-¿tienes…?,tu as… ?,frases,open-chest,compra,¿Tienes una poción de curación?
-el vendedor,le marchand,personajes,merchant,pnj,El vendedor tiene muchas cosas.
+la tienda,la boutique,lugares,delapouite/shop.svg,lugares,Vamos a la tienda.
+quiero comprar,je veux acheter,frases,delapouite/shopping-cart.svg,compra,Quiero comprar una espada.
+¿cuánto cuesta?,combien ça coûte?,frases,delapouite/coins.svg,compra,¿Cuánto cuesta el escudo?
+cuesta,ça coûte,verbos,delapouite/coins.svg,compra,Cuesta diez monedas de oro.
+tengo… monedas,j'ai… pièces,frases,willdabeast/gold-bar.svg,compra,Tengo quince monedas de oro.
+¿tienes…?,tu as… ?,frases,skoll/open-chest.svg,compra,¿Tienes una poción de curación?
+el vendedor,le marchand,personajes,delapouite/shop.svg,pnj,El vendedor tiene muchas cosas.
 barato / barata, peu cher / peu chère, frases,  , compra,  Esta poción es barata
 caro / cara, cher / chère, frases, , compare , Esta espada es demasiado cara
-la espada,l'épée,armas,swordman,armas equipamiento,Quiero una espada grande.
-la daga,la dague,armas,daggers,armas equipamiento,Una daga para el pícaro.
-el arco,l'arc,armas,bow-arrow,armas equipamiento,El arquero necesita un arco.
-el hacha,la hache,armas,battle-axe,armas equipamiento,El enano tiene un hacha.
-el bastón mágico,le bâton magique,armas,wizard-staff,armas magia,La maga tiene un bastón mágico.
-el escudo,le bouclier,armadura,shield,armadura equipamiento,Un escudo para protegerte.
-el casco,le casque,armadura,visored-helm,armadura equipamiento,Quiero un casco de hierro.
-la armadura,l'armure,armadura,breastplate,armadura equipamiento,Una armadura de cuero.
-las botas,les bottes,ropa,boots,ropa equipamiento,Unas botas de cuero.
-la capa,la cape,ropa,cloak,ropa equipamiento,Una capa oscura para el pícaro.
-la poción de curación,la potion de soin,magia,potion-ball,magia,¿Cuántas pociones tienes?
-la antorcha,la torche,equipo,torch,equipamiento,Necesito una antorcha.
-la cuerda,la corde,equipo,rope-coil,equipamiento,La cuerda es muy útil.
-las provisiones,les provisions,equipo,bread,equipamiento,Comida para el viaje.
+la espada,l'épée,armas,cathelineau/swordman.svg,armas equipamiento,Quiero una espada grande.
+la daga,la dague,armas,lorc/daggers.svg,armas equipamiento,Una daga para el pícaro.
+el arco,l'arc,armas,delapouite/bow-arrow.svg,armas equipamiento,El arquero necesita un arco.
+el hacha,la hache,armas,lorc/battle-axe.svg,armas equipamiento,El enano tiene un hacha.
+el bastón mágico,le bâton magique,armas,lorc/wizard-staff.svg,armas magia,La maga tiene un bastón mágico.
+el escudo,le bouclier,armadura,sbed/shield.svg,armadura equipamiento,Un escudo para protegerte.
+el casco,le casque,armadura,lorc/visored-helm.svg,armadura equipamiento,Quiero un casco de hierro.
+la armadura,l'armure,armadura,lorc/breastplate.svg,armadura equipamiento,Una armadura de cuero.
+las botas,les bottes,ropa,lorc/boots.svg,ropa equipamiento,Unas botas de cuero.
+la capa,la cape,ropa,lucasms/cloak.svg,ropa equipamiento,Una capa oscura para el pícaro.
+la poción de curación,la potion de soin,magia,lorc/potion-ball.svg,magia,¿Cuántas pociones tienes?
+la antorcha,la torche,equipo,delapouite/torch.svg,equipamiento,Necesito una antorcha.
+la cuerda,la corde,equipo,delapouite/rope-coil.svg,equipamiento,La cuerda es muy útil.
+las provisiones,les provisions,equipo,delapouite/bread.svg,equipamiento,Comida para el viaje.

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Fetch and cache SVG icons from game-icons.net.
 
-Icons are stored in assets/icons/<slug>.svg.
+Icons are stored in assets/icons/<author>/<slug>.svg.
 The function returns a PNG bytes object for embedding in Anki cards.
 """
 
@@ -10,235 +10,62 @@ import sys
 from pathlib import Path
 
 import requests
-import yaml
 
 BASE = Path(__file__).parent.parent
 ICONS_DIR = BASE / "assets" / "icons"
-CONFIG_FILE = BASE / "config.yaml"
 
 log = logging.getLogger(__name__)
 
 GAME_ICONS_BASE = "https://raw.githubusercontent.com/game-icons/icons/master/{author}/{slug}.svg"
 
-ICON_AUTHORS: dict[str, str] = {
-    "sword": "delapouite",
-    "daggers": "lorc",
-    "bow-arrow": "lorc",
-    "battle-axe": "lorc",
-    "magic-wand": "lorc",
-    "shield": "delapouite",
-    "visored-helm": "lorc",
-    "breastplate": "lorc",
-    "boots": "delapouite",
-    "cloak": "lorc",
-    "potion": "lorc",
-    "torch": "delapouite",
-    "rope-coil": "lorc",
-    "treasure-map": "lorc",
-    "bread": "lorc",
-    "coins": "delapouite",
-    "gold-bar": "lorc",
-    "open-chest": "lorc",
-    "shop": "lorc",
-    "merchant": "delapouite",
-    "eye": "delapouite",
-    "ear": "lorc",
-    "pine-tree": "delapouite",
-    "river": "lorc",
-    "mountain-road": "lorc",
-    "path-distance": "lorc",
-    "cave-entrance": "lorc",
-    "bridge": "delapouite",
-    "door-handle": "delapouite",
-    "sword-clash": "lorc",
-    "shield-reflect": "lorc",
-    "dice-twenty-faces": "lorc",
-    "goblin": "lorc",
-    "thief": "delapouite",
-    "half-heart": "lorc",
-    "heart-plus": "lorc",
-    "dungeon-gate": "lorc",
-    "bear-trap": "lorc",
-    "key": "delapouite",
-    "corridor": "lorc",
-    "return-arrow": "delapouite",
-    "curved-arrow": "delapouite",
-    "straight-arrow": "delapouite",
-    "daemon-skull": "lorc",
-    "skeleton-inside": "lorc",
-    "troll": "lorc",
-    "magic-swirl": "lorc",
-    "fire": "lorc",
-    "frozen-ring": "lorc",
-    "sound-waves": "lorc",
-    "water-drop": "delapouite",
-    "magnifying-glass": "delapouite",
-    "scroll-quill": "lorc",
-    "conversation-bubbles": "lorc",
-    "world-map": "delapouite",
-    "person": "delapouite",
-    "persons": "delapouite",
-    "wizard-staff": "lorc",
-    "boss-key": "lorc",
-    "white-flag": "delapouite",
-    "trophy": "delapouite",
-    "victory-hand": "lorc",
-    "castle": "delapouite",
-    "barrel": "delapouite",
-    "compass": "delapouite",
-    "d4": "delapouite",
-    "d6": "delapouite",
-    "d8": "delapouite",
-    "d10": "delapouite",
-    "d12": "delapouite",
-    "d20": "delapouite",
-    "dice-one": "lorc",
-    "dice-two": "lorc",
-    "dice-three": "lorc",
-    "dice-four": "lorc",
-    "dice-five": "lorc",
-    "dice-six": "lorc",
-    "help": "delapouite",
-    "backpack": "delapouite",
-    "biceps": "lorc",
-    "brain": "lorc",
-    "angel-wings": "lorc",
-    "power-lightning": "lorc",
-    "pointed-hat": "lorc",
-    "dwarf-king": "lorc",
-    "ogre": "lorc",
-    "fairy": "lorc",
-    "run": "lorc",
-    "hood": "lorc",
-    "holy-grail": "lorc",
-    "wish": "lorc",
-    "check-mark": "delapouite",
-    "warning": "lorc",
-    "map-pin": "delapouite",
-    "snail": "lorc",
-    "sprint": "lorc",
-    "footprint": "delapouite",
-    "swords-power": "lorc",
-    "night-sleep": "lorc",
-    "hidden": "lorc",
-    "juggler": "lorc",
-    "meditation": "lorc",
-    "dark": "lorc",
-    "helping-hand": "lorc",
-    "two-shadows": "lorc",
-    "letter": "delapouite",
-    "discussion": "lorc",
-    "uncertainty": "lorc",
-    "anvil-impact": "lorc",
-    "wood-beam": "lorc",
-    "resize-up": "delapouite",
-    "resize-down": "delapouite",
-    "exclamation": "lorc",
-    "evil-minion": "lorc",
-    "shopping-cart": "delapouite",
-    "nose": "lorc",
-    "arrow-cursor": "delapouite",
-    "person-silhouette": "delapouite",
-    "anchor": "lorc",
-    "axe-sword": "lorc",
-    "bat": "lorc",
-    "bear-face": "lorc",
-    "bed": "lorc",
-    "book": "lorc",
-    "cave": "lorc",
-    "chains": "lorc",
-    "chest": "lorc",
-    "city": "delapouite",
-    "crossbow": "lorc",
-    "demon-skull": "lorc",
-    "door": "delapouite",
-    "dragon-head": "lorc",
-    "druid-sign": "lorc",
-    "dungeon": "lorc",
-    "elf-ear": "lorc",
-    "exclamación": "lorc",
-    "exit-door": "lorc",
-    "forest": "delapouite",
-    "grass": "delapouite",
-    "island": "delapouite",
-    "lightning-storm": "lorc",
-    "lizard": "delapouite",
-    "mace": "lorc",
-    "mail-shirt": "lorc",
-    "mountain": "delapouite",
-    "music-spell": "lorc",
-    "pentacle": "lorc",
-    "plate-armor": "lorc",
-    "poison": "lorc",
-    "poison-gas": "lorc",
-    "rat": "lorc",
-    "recycle": "delapouite",
-    "road": "delapouite",
-    "sand-dune": "delapouite",
-    "skull-crack": "lorc",
-    "spear": "lorc",
-    "spider-face": "lorc",
-    "stone-wall": "delapouite",
-    "sun": "delapouite",
-    "tavern": "lorc",
-    "tower": "delapouite",
-    "trap": "lorc",
-    "village": "delapouite",
-    "wave": "delapouite",
-    "wolf-head": "lorc",
-    "zweihander": "lorc",
-}
+
+def icon_path(icon_ref: str) -> Path:
+    """Get the local path for an icon reference.
+
+    icon_ref is 'author/filename.svg'.
+    """
+    return ICONS_DIR / icon_ref
 
 
-def icon_path(slug: str) -> Path:
-    return ICONS_DIR / f"{slug}.svg"
+def fetch_icon(icon_ref: str, force: bool = False) -> Path | None:
+    """Download icon SVG to cache. Returns local path or None on failure.
 
+    icon_ref is 'author/filename.svg'.
+    """
+    author, filename = icon_ref.split("/", 1)
+    slug = filename.replace(".svg", "")
 
-def fetch_icon(slug: str, force: bool = False) -> Path | None:
-    """Download icon SVG to cache. Returns local path or None on failure."""
-    dest = icon_path(slug)
+    dest = ICONS_DIR / f"{author}/{slug}.svg"
     if dest.exists() and not force:
         return dest
 
-    authors_to_try = [ICON_AUTHORS.get(slug, "delapouite")]
-    if authors_to_try[0] == "lorc":
-        authors_to_try.append("delapouite")
-    elif authors_to_try[0] == "delapouite":
-        authors_to_try.append("lorc")
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    url = GAME_ICONS_BASE.format(author=author, slug=slug)
+    try:
+        resp = requests.get(url, timeout=3)
+        if resp.status_code == 200:
+            dest.write_bytes(resp.content)
+            log.info("Fetched icon: %s/%s", author, slug)
+            return dest
+    except Exception as e:
+        log.debug("Could not fetch icon %r from %s: %s", slug, author, e)
 
-    ICONS_DIR.mkdir(parents=True, exist_ok=True)
-    for author in authors_to_try:
-        url = GAME_ICONS_BASE.format(author=author, slug=slug)
-        try:
-            resp = requests.get(url, timeout=3)
-            if resp.status_code == 200:
-                dest.write_bytes(resp.content)
-                log.info("Fetched icon: %s (by %s)", slug, author)
-                return dest
-        except Exception as e:
-            log.debug("Could not fetch icon %r from %s: %s", slug, author, e)
-
-    log.debug("Could not fetch icon %r from any author", slug)
+    log.debug("Could not fetch icon %r", slug)
     return None
 
 
-def icon_to_png_bytes(slug: str, size: int = 64) -> bytes | None:
+def icon_to_png_bytes(icon_ref: str, size: int = 64) -> bytes | None:
     """Return PNG bytes for an icon, fetching from game-icons.net if needed."""
     import cairosvg
 
-    svg_path = fetch_icon(slug)
-    if svg_path is None:
-        # Try fallback only if it's already cached — don't make another network call
-        fallback = icon_path("help")
-        svg_path = fallback if fallback.exists() else None
-
+    svg_path = fetch_icon(icon_ref)
     if svg_path is None:
         return None
 
     try:
         return cairosvg.svg2png(url=str(svg_path), output_width=size, output_height=size)
     except Exception as e:
-        log.debug("Could not convert icon %r to PNG: %s", slug, e)
+        log.debug("Could not convert icon %r to PNG: %s", icon_ref, e)
         return None
 
 
@@ -247,24 +74,24 @@ def prefetch_all() -> None:
     import csv
 
     vocab_dir = BASE / "vocabulary"
-    slugs: set[str] = set()
+    icon_refs: set[str] = set()
 
     for csv_file in list(vocab_dir.glob("theme_*.csv")) + list(vocab_dir.glob("reference_*.csv")):
         with open(csv_file, newline="", encoding="utf-8") as f:
             for row in csv.DictReader(f):
-                slug = row.get("icon", "").strip()
-                if slug:
-                    slugs.add(slug)
+                icon_ref = row.get("icon", "").strip()
+                if icon_ref:
+                    icon_refs.add(icon_ref)
 
-    print(f"Fetching {len(slugs)} icons...")
+    print(f"Fetching {len(icon_refs)} icons...")
     ok = 0
-    for slug in sorted(slugs):
-        result = fetch_icon(slug)
+    for icon_ref in sorted(icon_refs):
+        result = fetch_icon(icon_ref)
         if result:
             ok += 1
         else:
-            print(f"  MISSING: {slug}")
-    print(f"  {ok}/{len(slugs)} icons cached in {ICONS_DIR}")
+            print(f"  MISSING: {icon_ref}")
+    print(f"  {ok}/{len(icon_refs)} icons cached in {ICONS_DIR}")
 
 
 if __name__ == "__main__":

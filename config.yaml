@@ -8,7 +8,7 @@ tts:
 images:
   provider: game_icons       # "game_icons" or "none" — set to game_icons after running: make icons
   cache_dir: assets/icons
-  fallback_icon: "help"
+  fallback_icon: "delapouite/notebook.svg"
 
 output:
   pdf_dir: output/pdfs

@@ -1,34 +1,34 @@
 spanish,french,category,icon,tags,notes
-la ciudad,la ville,lugares,city-car,reference lugares,"Gran ciudad con mercaderes, guardias y tabernas."
-el pueblo,le village,lugares,village,reference lugares,Pueblo pequeño. Suele ser el punto de partida.
-la aldea,le hameau,lugares,village,reference lugares,Aldea muy pequeña y rural.
-la taberna,la taverne,lugares,tavern-sign,reference lugares,"Lugar de descanso, información y reclutamiento."
-la posada,l'auberge,lugares,tavern-sign,reference lugares,Posada con habitaciones para dormir.
-la tienda,la boutique,lugares,shop,reference lugares,Tienda del mercader.
-el mercado,le marché,lugares,shop,reference lugares,Zona comercial con varios mercaderes.
-el castillo,le château,lugares,castle,reference lugares,Fortaleza noble o real.
-la torre,la tour,lugares,tv-tower,reference lugares,Torre de vigilancia o torre del mago.
-el palacio,le palais,lugares,castle,reference lugares,Residencia del rey o de un noble poderoso.
-el templo,le temple,lugares,pentacle,reference lugares,Lugar de culto a un dios.
-la biblioteca,la bibliothèque,lugares,notebook,reference lugares,Lugar para encontrar pergaminos e información.
-el calabozo,le cachot,lugares,chainsaw,reference lugares,Prisión subterránea o celda.
-la mazmorra,le donjon,lugares,dungeon-gate,reference lugares,Lugar de exploración subterráneo.
-la cueva,la grotte / caverne,lugares,caveman,reference lugares,Cueva natural habitada frecuentemente por monstruos.
-el pasillo,le couloir,lugares,dungeon-gate,reference lugares,Corredor en una mazmorra o en un castillo.
-la entrada,l'entrée,lugares,door,reference lugares,"Entrada de un lugar, puerta principal."
-la salida,la sortie,lugares,exit-door,reference lugares,Salida de un lugar.
-la trampa,le piège,lugares,mantrap,reference lugares,Mecanismo oculto que hace daño.
-el tesoro,le trésor,lugares,chest,reference lugares,Cofre o escondite de riquezas.
-el bosque,la forêt,lugares,forest,reference lugares,Zona boscosa con animales y bandidos.
-el camino,le chemin / la route,lugares,road,reference lugares,Camino entre dos destinos.
-el río,la rivière,lugares,waves,reference lugares,Río que cruzar o seguir.
-la montaña,la montagne,lugares,mountains,reference lugares,Zona montañosa difícil de atravesar.
-la llanura,la plaine,lugares,grass,reference lugares,Zona plana y abierta.
-el desierto,le désert,lugares,sand-dune,reference lugares,Zona árida con calor intenso.
-el pantano,le marécage,lugares,poison-gas,reference lugares,Zona húmeda que ralentiza el movimiento.
-la isla,l'île,lugares,island,reference lugares,Tierra rodeada de agua.
-el puente,le pont,lugares,bridge,reference lugares,Construcción para cruzar un río.
-el puerto,le port,lugares,anchor,reference lugares,Puerto marítimo o fluvial.
+la ciudad,la ville,lugares,delapouite/city-car.svg,reference lugares,"Gran ciudad con mercaderes, guardias y tabernas."
+el pueblo,le village,lugares,delapouite/village.svg,reference lugares,Pueblo pequeño. Suele ser el punto de partida.
+la aldea,le hameau,lugares,delapouite/village.svg,reference lugares,Aldea muy pequeña y rural.
+la taberna,la taverne,lugares,delapouite/tavern-sign.svg,reference lugares,"Lugar de descanso, información y reclutamiento."
+la posada,l'auberge,lugares,delapouite/tavern-sign.svg,reference lugares,Posada con habitaciones para dormir.
+la tienda,la boutique,lugares,delapouite/shop.svg,reference lugares,Tienda del mercader.
+el mercado,le marché,lugares,delapouite/shop.svg,reference lugares,Zona comercial con varios mercaderes.
+el castillo,le château,lugares,delapouite/castle.svg,reference lugares,Fortaleza noble o real.
+la torre,la tour,lugares,delapouite/tv-tower.svg,reference lugares,Torre de vigilancia o torre del mago.
+el palacio,le palais,lugares,delapouite/castle.svg,reference lugares,Residencia del rey o de un noble poderoso.
+el templo,le temple,lugares,skoll/pentacle.svg,reference lugares,Lugar de culto a un dios.
+la biblioteca,la bibliothèque,lugares,delapouite/notebook.svg,reference lugares,Lugar para encontrar pergaminos e información.
+el calabozo,le cachot,lugares,delapouite/chainsaw.svg,reference lugares,Prisión subterránea o celda.
+la mazmorra,le donjon,lugares,delapouite/dungeon-gate.svg,reference lugares,Lugar de exploración subterráneo.
+la cueva,la grotte / caverne,lugares,delapouite/caveman.svg,reference lugares,Cueva natural habitada frecuentemente por monstruos.
+el pasillo,le couloir,lugares,delapouite/dungeon-gate.svg,reference lugares,Corredor en una mazmorra o en un castillo.
+la entrada,l'entrée,lugares,delapouite/door.svg,reference lugares,"Entrada de un lugar, puerta principal."
+la salida,la sortie,lugares,delapouite/exit-door.svg,reference lugares,Salida de un lugar.
+la trampa,le piège,lugares,lorc/mantrap.svg,reference lugares,Mecanismo oculto que hace daño.
+el tesoro,le trésor,lugares,delapouite/chest.svg,reference lugares,Cofre o escondite de riquezas.
+el bosque,la forêt,lugares,delapouite/forest.svg,reference lugares,Zona boscosa con animales y bandidos.
+el camino,le chemin / la route,lugares,delapouite/road.svg,reference lugares,Camino entre dos destinos.
+el río,la rivière,lugares,lorc/waves.svg,reference lugares,Río que cruzar o seguir.
+la montaña,la montagne,lugares,lorc/mountains.svg,reference lugares,Zona montañosa difícil de atravesar.
+la llanura,la plaine,lugares,delapouite/grass.svg,reference lugares,Zona plana y abierta.
+el desierto,le désert,lugares,delapouite/desert.svg,reference lugares,Zona árida con calor intenso.
+el pantano,le marécage,lugares,lorc/poison-gas.svg,reference lugares,Zona húmeda que ralentiza el movimiento.
+la isla,l'île,lugares,delapouite/island.svg,reference lugares,Tierra rodeada de agua.
+el puente,le pont,lugares,lorc/bridge.svg,reference lugares,Construcción para cruzar un río.
+el puerto,le port,lugares,lorc/anchor.svg,reference lugares,Puerto marítimo o fluvial.
 ,,,,,
 ,,,,,
 ,,,,,

@@ -1,24 +1,24 @@
 spanish,french,category,icon,tags,notes
-la mazmorra,le donjon,lugares,dungeon-gate,lugares,Entramos en la mazmorra oscura.
-la trampa,le piège,peligros,bear-trap,peligro,¡Hay una trampa en el suelo!
-el cofre,le coffre,tesoro,open-chest,tesoro,Hay un cofre en la esquina.
-la llave,la clé,objetos,key,objetos,Necesito la llave para abrir la puerta.
-el tesoro,le trésor,tesoro,coins,tesoro,¡Encontramos un tesoro!
-la antorcha,la torche,equipo,torch,equipamiento,Necesito una antorcha para ver.
-el pasillo,le couloir,lugares,corridor,lugares,Hay tres puertas en el pasillo.
-a la izquierda,à gauche,direcciones,return-arrow,direcciones,La puerta está a la izquierda.
-a la derecha,à droite,direcciones,curved-arrow,direcciones,Giro a la derecha.
-recto,tout droit,direcciones,straight-arrow,direcciones,Sigo recto.
-arriba,en haut,direcciones,arrow-cursor,direcciones,Las escaleras están arriba.
-abajo,en bas,direcciones,arrow-cursor,direcciones,La mazmorra está abajo.
-el monstruo,le monstre,enemigos,daemon-skull,enemigo,Hay un monstruo en la sala.
-el esqueleto,le squelette,enemigos,skeleton-inside,enemigo,El esqueleto ataca con una espada.
-el troll,le troll,enemigos,troll,enemigo,El troll es muy fuerte. ¡Cuidado!
-lanzo un hechizo,je lance un sort,magia,magic-swirl,magia combate,Lanzo un hechizo de fuego.
-el fuego,le feu,magia,fire,magia,¡Bola de fuego!
-el hielo,la glace,magia,frozen-ring,magia,Un rayo de hielo congela al enemigo.
-la oscuridad,l'obscurité,entorno,dark-squad,entorno,Hay mucha oscuridad en la mazmorra.
-el sonido,le son,percepción,sound-waves,percepción,Escucho un sonido extraño.
-huele raro,ça sent bizarre,percepción,nose-side,percepción,Huele raro en este pasillo.
-el suelo está mojado,le sol est mouillé,entorno,water-drop,entorno,El suelo está mojado — hay agua.
-encuentro,je trouve,verbos,magnifying-glass,acción,Encuentro una llave en el cofre.
+la mazmorra,le donjon,lugares,delapouite/dungeon-gate.svg,lugares,Entramos en la mazmorra oscura.
+la trampa,le piège,peligros,lorc/wolf-trap.svg,peligro,¡Hay una trampa en el suelo!
+el cofre,le coffre,tesoro,skoll/open-chest.svg,tesoro,Hay un cofre en la esquina.
+la llave,la clé,objetos,sbed/key.svg,objetos,Necesito la llave para abrir la puerta.
+el tesoro,le trésor,tesoro,delapouite/coins.svg,tesoro,¡Encontramos un tesoro!
+la antorcha,la torche,equipo,delapouite/torch.svg,equipamiento,Necesito una antorcha para ver.
+el pasillo,le couloir,lugares,lorc/doorway.svg,lugares,Hay tres puertas en el pasillo.
+a la izquierda,à gauche,direcciones,lorc/return-arrow.svg,direcciones,La puerta está a la izquierda.
+a la derecha,à droite,direcciones,lorc/return-arrow.svg,direcciones,Giro a la derecha.
+recto,tout droit,direcciones,lorc/forward-field.svg,direcciones,Sigo recto.
+arriba,en haut,direcciones,delapouite/arrow-cursor.svg,direcciones,Las escaleras están arriba.
+abajo,en bas,direcciones,delapouite/arrow-cursor.svg,direcciones,La mazmorra está abajo.
+el monstruo,le monstre,enemigos,lorc/daemon-skull.svg,enemigo,Hay un monstruo en la sala.
+el esqueleto,le squelette,enemigos,lorc/skeleton-inside.svg,enemigo,El esqueleto ataca con una espada.
+el troll,le troll,enemigos,skoll/troll.svg,enemigo,El troll es muy fuerte. ¡Cuidado!
+lanzo un hechizo,je lance un sort,magia,lorc/magic-swirl.svg,magia combate,Lanzo un hechizo de fuego.
+el fuego,le feu,magia,sbed/fire.svg,magia,¡Bola de fuego!
+el hielo,la glace,magia,delapouite/frozen-ring.svg,magia,Un rayo de hielo congela al enemigo.
+la oscuridad,l'obscurité,entorno,lorc/dark-squad.svg,entorno,Hay mucha oscuridad en la mazmorra.
+el sonido,le son,percepción,skoll/sound-waves.svg,percepción,Escucho un sonido extraño.
+huele raro,ça sent bizarre,percepción,delapouite/nose-side.svg,percepción,Huele raro en este pasillo.
+el suelo está mojado,le sol est mouillé,entorno,sbed/water-drop.svg,entorno,El suelo está mojado — hay agua.
+encuentro,je trouve,verbos,lorc/magnifying-glass.svg,acción,Encuentro una llave en el cofre.
