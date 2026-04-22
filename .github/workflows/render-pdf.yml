@@ -7,6 +7,8 @@ on:
       - "vocabulary/**"
       - "templates/**"
       - "content/**"
+      - ".github/workflows/render-pdf.yml"
+  workflow_dispatch:
 
 permissions:
   contents: read
