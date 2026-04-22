@@ -18,7 +18,7 @@ CONFIG_FILE = BASE / "config.yaml"
 
 log = logging.getLogger(__name__)
 
-GAME_ICONS_BASE = "https://raw.githubusercontent.com/game-icons/icons/master/{author}/originals/svg/{slug}.svg"
+GAME_ICONS_BASE = "https://raw.githubusercontent.com/game-icons/icons/master/{author}/{slug}.svg"
 
 ICON_AUTHORS: dict[str, str] = {
     "sword": "delapouite",
@@ -139,6 +139,54 @@ ICON_AUTHORS: dict[str, str] = {
     "nose": "lorc",
     "arrow-cursor": "delapouite",
     "person-silhouette": "delapouite",
+    "anchor": "lorc",
+    "axe-sword": "lorc",
+    "bat": "lorc",
+    "bear-face": "lorc",
+    "bed": "lorc",
+    "book": "lorc",
+    "cave": "lorc",
+    "chains": "lorc",
+    "chest": "lorc",
+    "city": "delapouite",
+    "crossbow": "lorc",
+    "demon-skull": "lorc",
+    "door": "delapouite",
+    "dragon-head": "lorc",
+    "druid-sign": "lorc",
+    "dungeon": "lorc",
+    "elf-ear": "lorc",
+    "exclamación": "lorc",
+    "exit-door": "lorc",
+    "forest": "delapouite",
+    "grass": "delapouite",
+    "island": "delapouite",
+    "lightning-storm": "lorc",
+    "lizard": "delapouite",
+    "mace": "lorc",
+    "mail-shirt": "lorc",
+    "mountain": "delapouite",
+    "music-spell": "lorc",
+    "pentacle": "lorc",
+    "plate-armor": "lorc",
+    "poison": "lorc",
+    "poison-gas": "lorc",
+    "rat": "lorc",
+    "recycle": "delapouite",
+    "road": "delapouite",
+    "sand-dune": "delapouite",
+    "skull-crack": "lorc",
+    "spear": "lorc",
+    "spider-face": "lorc",
+    "stone-wall": "delapouite",
+    "sun": "delapouite",
+    "tavern": "lorc",
+    "tower": "delapouite",
+    "trap": "lorc",
+    "village": "delapouite",
+    "wave": "delapouite",
+    "wolf-head": "lorc",
+    "zweihander": "lorc",
 }
 
 
@@ -152,19 +200,26 @@ def fetch_icon(slug: str, force: bool = False) -> Path | None:
     if dest.exists() and not force:
         return dest
 
-    author = ICON_AUTHORS.get(slug, "delapouite")
-    url = GAME_ICONS_BASE.format(author=author, slug=slug)
+    authors_to_try = [ICON_AUTHORS.get(slug, "delapouite")]
+    if authors_to_try[0] == "lorc":
+        authors_to_try.append("delapouite")
+    elif authors_to_try[0] == "delapouite":
+        authors_to_try.append("lorc")
 
-    try:
-        resp = requests.get(url, timeout=3)
-        resp.raise_for_status()
-        ICONS_DIR.mkdir(parents=True, exist_ok=True)
-        dest.write_bytes(resp.content)
-        log.info("Fetched icon: %s", slug)
-        return dest
-    except Exception as e:
-        log.debug("Could not fetch icon %r: %s", slug, e)
-        return None
+    ICONS_DIR.mkdir(parents=True, exist_ok=True)
+    for author in authors_to_try:
+        url = GAME_ICONS_BASE.format(author=author, slug=slug)
+        try:
+            resp = requests.get(url, timeout=3)
+            if resp.status_code == 200:
+                dest.write_bytes(resp.content)
+                log.info("Fetched icon: %s (by %s)", slug, author)
+                return dest
+        except Exception as e:
+            log.debug("Could not fetch icon %r from %s: %s", slug, author, e)
+
+    log.debug("Could not fetch icon %r from any author", slug)
+    return None
 
 
 def icon_to_png_bytes(slug: str, size: int = 64) -> bytes | None:
@@ -194,7 +249,7 @@ def prefetch_all() -> None:
     vocab_dir = BASE / "vocabulary"
     slugs: set[str] = set()
 
-    for csv_file in vocab_dir.glob("theme_*.csv"):
+    for csv_file in list(vocab_dir.glob("theme_*.csv")) + list(vocab_dir.glob("reference_*.csv")):
         with open(csv_file, newline="", encoding="utf-8") as f:
             for row in csv.DictReader(f):
                 slug = row.get("icon", "").strip()

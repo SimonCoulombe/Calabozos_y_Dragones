@@ -6,7 +6,7 @@ tts:
   skip_on_failure: true      # generate deck without audio if server unreachable
 
 images:
-  provider: none             # "game_icons" or "none" — set to game_icons after running: make icons
+  provider: game_icons       # "game_icons" or "none" — set to game_icons after running: make icons
   cache_dir: assets/icons
   fallback_icon: "help"
 

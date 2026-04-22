@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate El Libro del Aventurero PDF from vocabulary CSVs and grammar YAMLs."""
 
+import base64
 import csv
 import sys
 from pathlib import Path
@@ -13,11 +14,27 @@ BASE = Path(__file__).parent.parent
 VOCAB_DIR = BASE / "vocabulary"
 TEMPLATE_DIR = BASE / "templates"
 CONFIG_FILE = BASE / "config.yaml"
+ICONS_DIR = BASE / "assets" / "icons"
 
 
 def load_config() -> dict:
     with open(CONFIG_FILE, encoding="utf-8") as f:
         return yaml.safe_load(f)
+
+
+def _icon_to_data_uri(slug: str) -> str | None:
+    """Convert a cached SVG icon to a base64 data URI for embedding in HTML."""
+    if not slug:
+        return None
+    svg_path = ICONS_DIR / f"{slug}.svg"
+    if not svg_path.exists():
+        return None
+    try:
+        svg_bytes = svg_path.read_bytes()
+        b64 = base64.b64encode(svg_bytes).decode("ascii")
+        return f"data:image/svg+xml;base64,{b64}"
+    except Exception:
+        return None
 
 
 def load_session_csv(path: Path) -> dict:
@@ -30,11 +47,14 @@ def load_session_csv(path: Path) -> dict:
     with open(path, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
+            icon_slug = row.get("icon", "").strip()
+            icon_uri = _icon_to_data_uri(icon_slug)
             words.append({
                 "spanish": row.get("spanish", "").strip(),
                 "french": row.get("french", "").strip(),
                 "category": row.get("category", "").strip(),
-                "icon": row.get("icon", "").strip(),
+                "icon": icon_slug,
+                "icon_uri": icon_uri,
                 "tags": row.get("tags", "").strip(),
                 "notes": row.get("notes", "").strip(),
             })
@@ -104,10 +124,14 @@ def load_reference_tables() -> list[dict]:
         with open(p, newline="", encoding="utf-8") as f:
             for row in csv.DictReader(f):
                 if row.get("spanish", "").strip():
+                    icon_slug = row.get("icon", "").strip()
+                    icon_uri = _icon_to_data_uri(icon_slug)
                     words.append({
                         "spanish": row.get("spanish", "").strip(),
                         "french":  row.get("french",  "").strip(),
                         "category": row.get("category", "").strip(),
+                        "icon": icon_slug,
+                        "icon_uri": icon_uri,
                         "notes":   row.get("notes",   "").strip(),
                     })
         tables.append({"title": title, "subtitle": subtitle, "words": words})

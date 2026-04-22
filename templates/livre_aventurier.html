@@ -130,6 +130,8 @@
   table.vocab td.fr  { color: #2c1a0e; }
   table.vocab td.ex  { font-style: italic; color: #5c3a1e; font-size: 9.5pt; }
   table.vocab td.blank { color: #c9a87a; font-style: italic; }
+  table.vocab td.icon { width: 32px; text-align: center; }
+  table.vocab td.icon img { width: 24px; height: 24px; vertical-align: middle; }
 
   /* ── Grammar table ── */
   table.grammar {
@@ -281,6 +283,7 @@
   <table class="vocab">
     <thead>
       <tr>
+        <th></th>
         <th>Español</th>
         <th>Français</th>
         <th>Categoría</th>
@@ -291,6 +294,7 @@
       {% for word in session.words %}
       {% if word.spanish %}
       <tr>
+        <td class="icon">{% if word.icon_uri %}<img src="{{ word.icon_uri }}" alt="">{% endif %}</td>
         <td class="es">{{ word.spanish }}</td>
         <td class="fr">{{ word.french }}</td>
         <td>{{ word.category }}</td>
@@ -298,6 +302,7 @@
       </tr>
       {% else %}
       <tr>
+        <td class="blank"></td>
         <td class="blank">……………</td>
         <td class="blank">……………</td>
         <td class="blank"></td>
@@ -422,10 +427,11 @@
     {% for cat in data.categories %}
     <div class="verb-header">{{ cat.name }}</div>
     <table class="vocab">
-      <thead><tr><th>Español</th><th>Français</th><th>Tipo</th><th>Ejemplo</th></tr></thead>
+      <thead><tr><th></th><th>Español</th><th>Français</th><th>Tipo</th><th>Ejemplo</th></tr></thead>
       <tbody>
         {% for v in cat.verbs %}
         <tr>
+          <td class="icon">{% if v.icon_uri %}<img src="{{ v.icon_uri }}" alt="">{% endif %}</td>
           <td class="es">{{ v.spanish }}</td>
           <td class="fr">{{ v.french }}</td>
           <td style="font-size:9pt;color:#7a3a10;">{{ v.type }}</td>
@@ -485,6 +491,7 @@
   <table class="vocab">
     <thead>
       <tr>
+        <th></th>
         <th>Español</th>
         <th>Français</th>
         <th>Categoría</th>
@@ -494,6 +501,7 @@
     <tbody>
     {% for word in ref.words %}
     <tr>
+      <td class="icon">{% if word.icon_uri %}<img src="{{ word.icon_uri }}" alt="">{% endif %}</td>
       <td class="es">{{ word.spanish }}</td>
       <td class="fr">{{ word.french }}</td>
       <td>{{ word.category }}</td>
