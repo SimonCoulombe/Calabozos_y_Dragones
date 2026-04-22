@@ -84,11 +84,11 @@ def load_all_words() -> list[dict]:
                 if row.get("spanish", "").strip():
                     words.append({
                         "spanish": row["spanish"].strip(),
-                        "french": row["french"].strip(),
-                        "category": row["category"].strip(),
-                        "icon": row["icon"].strip(),
-                        "tags": [t.strip() for t in row["tags"].split(",") if t.strip()],
-                        "notes": row["notes"].strip(),
+                        "french": row.get("french", "").strip(),
+                        "category": row.get("category", "").strip(),
+                        "icon": row.get("icon", "").strip(),
+                        "tags": [t.strip() for t in row.get("tags", "").split(",") if t.strip()],
+                        "notes": row.get("notes", "").strip(),
                         "session": num,
                         "session_name": SESSION_NAMES.get(num, f"Tema {num}") if num else p.stem,
                     })
