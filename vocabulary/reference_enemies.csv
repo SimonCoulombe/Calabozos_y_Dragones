@@ -13,14 +13,13 @@ el troll,le troll,monstruos,skoll/troll.svg,reference enemigos nivel-medio,NC 5.
 el ogro,l'ogre,monstruos,delapouite/ogre.svg,reference enemigos nivel-medio,"NC 2. Grande, torpe pero muy fuerte."
 el oso pardo,l'ours brun,monstruos,sparker/bear-face.svg,reference enemigos nivel-medio,NC 1. Animal. Garras y mordisco.
 el lobo,le loup,monstruos,lorc/wolf-head.svg,reference enemigos nivel-bajo,NC 1/4. En manada. Derriba al objetivo.
-el araña gigante,l'araignée géante,monstruos,carl-olsen/spider-face.svg,reference enemigos nivel-bajo,NC 1. Veneno que paraliza.
-el dragón joven rojo,le jeune dragon rouge,monstruos,lorc/dragon-head.svg,reference enemigos nivel-alto,"NC 10. Aliento de fuego, vuela."
+la araña gigante,l'araignée géante,monstruos,carl-olsen/spider-face.svg,reference enemigos nivel-bajo,NC 1. Veneno que paraliza.
 el dragón joven azul,le jeune dragon bleu,monstruos,lorc/dragon-head.svg,reference enemigos nivel-alto,"NC 9. Aliento de rayo, desértico."
 el necromante,le nécromancien,monstruos,lorc/skull-crack.svg,reference enemigos nivel-medio,NC 9. Lanza hechizos de muerte.
 el vampiro,le vampire,monstruos,skoll/bat.svg,reference enemigos nivel-alto,NC 13. No-muerto poderoso. Drena vida.
 el no-muerto,le mort-vivant,monstruos,lorc/skull-crack.svg,reference enemigos categoría,Categoría general de criaturas muertas animadas.
-la bestia,la bête,monstruos,sparker/bear-face.svg,reference enemigos categoría,Categoría general de animales sin inteligencia.
-el humanoide,l'humanoïde,monstruos,delapouite/person.svg,reference enemigos categoría,Categoría: orcos/goblins/humanos enemigos.
 el gigante de fuego,le géant de feu,monstruos,sbed/fire.svg,reference enemigos nivel-alto,NC 9. Fuego e inmunidad. Enorme.
-el elemental de fuego,l'élémentaire de feu,monstruos,sbed/fire.svg,reference enemigos nivel-medio,NC 5. Invocado por magos. Daño de fuego.
-el elemental de tierra,l'élémentaire de terre,monstruos,delapouite/stone-wall.svg,reference enemigos nivel-medio,NC 5. Lento pero brutal.
+el elemental de fuego,l'élémentaire de feu,monstruos,,reference enemigos nivel-medio,NC 5. Invocado por magos. Daño de fuego.
+el elemental de agua,l'élémentaire d'eau,monstruos,,reference enemigos nivel-medio,NC 5. Fluye por cualquier espacio. Daño de agua.
+el elemental de tierra,l'élémentaire de terre,monstruos,,reference enemigos nivel-medio,NC 5. Lento pero brutal. Daño de aplastamiento.
+el elemental de aire,l'élémentaire d'air,monstruos,,reference enemigos nivel-medio,NC 5. Invisible en la niebla. Daño de rayo.

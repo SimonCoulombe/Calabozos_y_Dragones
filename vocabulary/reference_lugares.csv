@@ -11,13 +11,12 @@ la torre,la tour,lugares,delapouite/tv-tower.svg,reference lugares,Torre de vigi
 el palacio,le palais,lugares,delapouite/castle.svg,reference lugares,Residencia del rey o de un noble poderoso.
 el templo,le temple,lugares,skoll/pentacle.svg,reference lugares,Lugar de culto a un dios.
 la biblioteca,la bibliothèque,lugares,delapouite/notebook.svg,reference lugares,Lugar para encontrar pergaminos e información.
-el calabozo,le cachot,lugares,delapouite/chainsaw.svg,reference lugares,Prisión subterránea o celda.
+el calabozo,le cachot,lugares,,reference lugares,Prisión subterránea o celda.
 la mazmorra,le donjon,lugares,delapouite/dungeon-gate.svg,reference lugares,Lugar de exploración subterráneo.
 la cueva,la grotte / caverne,lugares,delapouite/caveman.svg,reference lugares,Cueva natural habitada frecuentemente por monstruos.
 el pasillo,le couloir,lugares,delapouite/dungeon-gate.svg,reference lugares,Corredor en una mazmorra o en un castillo.
 la entrada,l'entrée,lugares,delapouite/door.svg,reference lugares,"Entrada de un lugar, puerta principal."
 la salida,la sortie,lugares,delapouite/exit-door.svg,reference lugares,Salida de un lugar.
-la trampa,le piège,lugares,lorc/mantrap.svg,reference lugares,Mecanismo oculto que hace daño.
 el tesoro,le trésor,lugares,delapouite/chest.svg,reference lugares,Cofre o escondite de riquezas.
 el bosque,la forêt,lugares,delapouite/forest.svg,reference lugares,Zona boscosa con animales y bandidos.
 el camino,le chemin / la route,lugares,delapouite/road.svg,reference lugares,Camino entre dos destinos.
@@ -29,6 +28,3 @@ el pantano,le marécage,lugares,lorc/poison-gas.svg,reference lugares,Zona húme
 la isla,l'île,lugares,delapouite/island.svg,reference lugares,Tierra rodeada de agua.
 el puente,le pont,lugares,lorc/bridge.svg,reference lugares,Construcción para cruzar un río.
 el puerto,le port,lugares,lorc/anchor.svg,reference lugares,Puerto marítimo o fluvial.
-,,,,,
-,,,,,
-,,,,,

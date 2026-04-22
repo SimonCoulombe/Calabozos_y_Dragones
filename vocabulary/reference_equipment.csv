@@ -1,7 +1,7 @@
 spanish,french,category,icon,tags,notes
 la espada corta,l'épée courte,armas,cathelineau/swordman.svg,reference armas,Daño: 1d6 perforante. Ligera. Ideal para el pícaro.
 la espada larga,l'épée longue,armas,cathelineau/swordman.svg,reference armas,Daño: 1d8 cortante (1d10 a dos manos).
-la espada bastarda,l'épée bâtarde,armas,cathelineau/swordman.svg,reference armas,Daño: 1d8 (1d10 a dos manos).
+la espada bastarda,l'épée bâtarde,armas,cathelineau/swordman.svg,reference armas,Daño: 1d8 cortante (1d10 a dos manos).
 el espadón,l'espadon,armas,lorc/broadsword.svg,reference armas,Daño: 2d6 cortante. A dos manos. Muy poderoso.
 la daga,la dague,armas,lorc/daggers.svg,reference armas,Daño: 1d4 perforante. Lanzable. Pícaro.
 el puñal,le poignard,armas,lorc/daggers.svg,reference armas,Sinónimo de daga.
@@ -35,7 +35,3 @@ las monedas de cobre,les pièces de cuivre (pc),dinero,delapouite/coins.svg,refe
 la poción de curación,la potion de soin,magia,lorc/potion-ball.svg,reference magia,Restaura 2d4+2 puntos de golpe.
 el antídoto,l'antidote,magia,lorc/potion-ball.svg,reference magia,Cura el veneno.
 el componente de hechizo,la composante de sort,magia,lorc/magic-swirl.svg,reference magia,Necesario para algunos hechizos.
-,,,,,
-,,,,,
-,,,,,
-,,,,,

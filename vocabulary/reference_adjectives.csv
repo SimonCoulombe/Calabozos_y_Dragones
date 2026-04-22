@@ -1,12 +1,12 @@
 spanish,french,category,icon,tags,notes
-mi,mon / ma,posesivos,,reference adjectifs,
-mis,mes,posesivos,,reference adjectifs,
-tu,ton / ta,posesivos,,reference adjectifs,
-tus,tes,posesivos,,reference adjectifs,
+mi,mon / ma,posesivos,,reference adjectifs,Mi espada es nueva.
+mis,mes,posesivos,,reference adjectifs,Mis puntos de golpe son bajos.
+tu,ton / ta,posesivos,,reference adjectifs,¿Tu personaje es un mago?
+tus,tes,posesivos,,reference adjectifs,¿Cuáles son tus habilidades?
 su,son / sa,posesivos,,reference adjectifs,"mais aussi ""votre"" pour vouvoyer une personne"
 sus,ses,posesivos,,reference adjectifs,"mais aussi ""votre"" pour vouvoyer une personne"
-nuestro / nuestra,notre,posesivos,,reference adjectifs,
-nuestros / nuestras,nos,posesivos,,reference adjectifs,
+nuestro / nuestra,notre,posesivos,,reference adjectifs,Nuestro grupo entra en la mazmorra.
+nuestros / nuestras,nos,posesivos,,reference adjectifs,Nuestros enemigos son muy fuertes.
 vuestro / vuestra,votre,posesivos,,reference adjectifs,pour tutoyer un groupe
 vuestros / vuestras,vos,posesivos,,reference adjectifs,pour tutoyer un groupe
 su,leur,posesivos,,reference adjectifs,"mais aussi ""votre"" pour vouvoyer un groupe"
@@ -23,12 +23,31 @@ fuerte / fuerte,fort / puissant,adjetivos,,reference adjectifs,el guerrero fuert
 débil / débil,faible,adjetivos,,reference adjectifs,el enemigo débil
 rápido / rápida,rapide,adjetivos,,reference adjectifs,el ladrón rápido
 lento / lenta,lent,adjetivos,,reference adjectifs,el troll lento
-oscuro / oscura,sombre / obscur,adjetivos,,reference adjectifs,un pasillo oscuro
+oscuro/a,sombre,adjetivos,delapouite/night-sleep.svg,adjetivos,El bosque está muy oscuro.
+ruidoso/a,bruyant(e),adjetivos,skoll/sound-waves.svg,adjetivos,El río es ruidoso.
 luminoso / luminosa,lumineux,adjetivos,,reference adjectifs,un hechizo luminoso
-peligroso / peligrosa,dangereux,adjetivos,,reference adjectifs,la trampa peligrosa
+peligroso/a,dangereux(se),adjetivos,lorc/laser-warning.svg,adjetivos,¡El camino es peligroso!
 seguro / segura,sûr / en sécurité,adjetivos,,reference adjectifs,un lugar seguro
 mágico / mágica,magique,adjetivos,,reference adjectifs,un objeto mágico
 misterioso / misteriosa,mystérieux,adjetivos,,reference adjectifs,una puerta misteriosa
 antiguo / antigua,ancien / vieux,adjetivos,,reference adjectifs,un mapa antiguo
 pesado / pesada,lourd,adjetivos,,reference adjectifs,una armadura pesada
 ligero / ligera,léger,adjetivos,,reference adjectifs,un arco ligero
+cerca,près,adverbios,,reference adjectifs,La aldea está cerca.
+lejos,loin,adverbios,,reference adjectifs,El castillo está lejos.
+cercano / cercana,proche,adjetivos,,reference adjectifs,un pueblo cercano
+lejano / lejana,lointain / éloigné,adjetivos,,reference adjectifs,un reino lejano
+importante,important(e),adjetivos,,reference adjectifs,una misión importante
+extraño / extraña,étrange / bizarre,adjetivos,,reference adjectifs,un sonido extraño
+enorme,énorme,adjetivos,,reference adjectifs,un dragón enorme
+vacío / vacía,vide,adjetivos,,reference adjectifs,una sala vacía
+poderoso / poderosa,puissant(e),adjetivos,,reference adjectifs,un guerrero poderoso
+mojado / mojada,mouillé(e),adjetivos,,reference adjectifs,el suelo mojado
+seco / seca,sec / sèche,adjetivos,,reference adjectifs,un desierto seco
+útil,utile,adjetivos,,reference adjectifs,una cuerda útil
+silencioso / silenciosa,silencieux(se),adjetivos,,reference adjectifs,un pícaro silencioso
+frío / fría,froid(e),adjetivos,,reference adjectifs,la mazmorra fría
+caliente,chaud(e),adjetivos,,reference adjectifs,la lava caliente
+primero / primera,premier / première,adjetivos,,reference adjectifs,el primer nivel
+penúltimo / penúltima,avant-dernier / avant-dernière,adjetivos,,reference adjectifs,la penúltima sala de la mazmorra
+último / última,dernier / dernière,adjetivos,,reference adjectifs,el último nivel

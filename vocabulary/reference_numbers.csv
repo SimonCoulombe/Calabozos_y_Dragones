@@ -1,24 +1,24 @@
 spanish,french,category,icon,tags,notes
 uno,un,números,delapouite/dice-twenty-faces-one.svg,reference números,¡Fallo crítico!
-dos,deux,números,,reference números,
-tres,trois,números,,reference números,
-cuatro,quatre,números,,reference números,
-cinco,cinq,números,,reference números,
+dos,deux,números,,reference números,Hay dos salidas en esta sala.
+tres,trois,números,,reference números,El goblin tiene tres puntos de golpe.
+cuatro,quatre,números,,reference números,Saqué un cuatro. ¡Fallo!
+cinco,cinq,números,,reference números,Cinco enemigos nos rodean.
 seis,six,números,,reference números,Saqué un seis.
-siete,sept,números,,reference números,
-ocho,huit,números,,reference números,
-nueve,neuf,números,,reference números,
+siete,sept,números,,reference números,Hay siete puertas en el pasillo.
+ocho,huit,números,,reference números,Lanzo un dado de ocho caras.
+nueve,neuf,números,,reference números,Tengo nueve monedas de plata.
 diez,dix,números,,reference números,Tengo diez puntos de golpe.
-once,onze,números,,reference números,
-doce,douze,números,,reference números,
-trece,treize,números,,reference números,
-catorce,quatorze,números,,reference números,
+once,onze,números,,reference números,Mi clase de armadura es once.
+doce,douze,números,,reference números,El monstruo tiene doce puntos de golpe.
+trece,treize,números,,reference números,Trece escalones bajan a la mazmorra.
+catorce,quatorze,números,,reference números,Mi destreza es catorce.
 quince,quinze,números,,reference números,Saqué un quince. ¡Impacto!
-dieciséis,seize,números,,reference números,
-diecisiete,dix-sept,números,,reference números,
+dieciséis,seize,números,,reference números,El puente tiene dieciséis metros de largo.
+diecisiete,dix-sept,números,,reference números,Saqué un diecisiete. ¡Impacto seguro!
 dieciocho,dix-huit,números,,reference números,¡18 de fuerza! Eres muy fuerte.
-diecinueve,dix-neuf,números,,reference números,
+diecinueve,dix-neuf,números,,reference números,Diecinueve de sabiduría. ¡Increíble!
 veinte,vingt,números,delapouite/dice-twenty-faces-twenty.svg,reference números,¡Golpe crítico!
-cincuenta,cinquante,números,,reference números,
-cien,cent,números,,reference números,
-mil,mille,números,,reference números,
+cincuenta,cinquante,números,,reference números,La recompensa es cincuenta monedas de oro.
+cien,cent,números,,reference números,Hay cien monedas en el cofre.
+mil,mille,números,,reference números,El dragón guarda mil monedas de oro.

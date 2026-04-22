@@ -2,6 +2,7 @@ spanish,french,category,icon,tags,notes
 el jefe,le boss / le chef,enemigos,delapouite/boss-key.svg,enemigo,El jefe del castillo aparece.
 ¡ríndete!,rends-toi !,frases,delapouite/peace-dove.svg,combate,¡Ríndete o te derroto!
 ¡nunca!,jamais !,frases,cathelineau/swordman.svg,combate,El jefe grita: ¡Nunca me rendiré!
+me rindo,je me rends,frases,,combate,Me rindo. No puedo más.
 la victoria,la victoire,resultado,lorc/trophy.svg,combate,¡La victoria es nuestra!
 hemos ganado,nous avons gagné,frases,skoll/fist.svg,combate,¡Hemos ganado la batalla!
 derroté al jefe,j'ai vaincu le boss,frases,cathelineau/swordman.svg,combate,Derroté al jefe. ¡Soy el héroe!
@@ -11,7 +12,7 @@ el reino,le royaume,lugares,delapouite/castle.svg,lugares,El siguiente reino nos
 la siguiente aventura,la prochaine aventure,frases,lorc/compass.svg,misión,¿Estás listo para la siguiente aventura?
 poderoso/a,puissant(e),adjetivos,lorc/power-lightning.svg,adjetivos,El jefe es muy poderoso.
 fuerte,fort(e),adjetivos,delapouite/biceps.svg,adjetivos,El troll es fuerte pero lento.
-lento/a,lent(e),adjetivos,lorc/snail.svg,adjetivos,El troll es lento — ¡corre!
+lento/a,lent(e),adjetivos,lorc/snail.svg,adjetivos,El troll es lento. ¡Corre!
 rápido/a,rapide,adjetivos,lorc/sprint.svg,adjetivos,El pícaro es muy rápido.
 fui,je suis allé(e),verbos,lorc/footprint.svg,pasado,Fui al castillo.
 vi,j'ai vu,verbos,delapouite/angry-eyes.svg,pasado,Vi al jefe.
@@ -20,4 +21,4 @@ encontré,j'ai trouvé,verbos,skoll/open-chest.svg,pasado,Encontré el tesoro.
 la siguiente sesión,la prochaine séance,frases,delapouite/scroll-quill.svg,meta,¿Qué pasó la última vez?
 ¿qué pasó?,qu'est-ce qui s'est passé?,frases,lorc/conversation.svg,ritual,Ritual de apertura de cada sesión.
 abro el cofre,j'ouvre le coffre,frases,skoll/open-chest.svg,acción,Abro el cofre. ¡Hay oro!
-ganar un nivel, gagner un niveau, verbos, , acción, 
+ganar un nivel,gagner un niveau,verbos,,acción,¡Gané un nivel después de derrotar al jefe!

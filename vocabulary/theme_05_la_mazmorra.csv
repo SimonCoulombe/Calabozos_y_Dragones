@@ -15,5 +15,10 @@ el hielo,la glace,magia,delapouite/frozen-ring.svg,magia,Un rayo de hielo congel
 la oscuridad,l'obscurité,entorno,lorc/dark-squad.svg,entorno,Hay mucha oscuridad en la mazmorra.
 el sonido,le son,percepción,skoll/sound-waves.svg,percepción,Escucho un sonido extraño.
 huele raro,ça sent bizarre,percepción,delapouite/nose-side.svg,percepción,Huele raro en este pasillo.
-el suelo está mojado,le sol est mouillé,entorno,sbed/water-drop.svg,entorno,El suelo está mojado — hay agua.
+el suelo está mojado,le sol est mouillé,entorno,sbed/water-drop.svg,entorno,El suelo está mojado. Hay agua cerca.
 encuentro,je trouve,verbos,lorc/magnifying-glass.svg,acción,Encuentro una llave en el cofre.
+la sala,la salle,lugares,,lugares,La sala está vacía... o eso parece.
+la escalera,l'escalier,lugares,,lugares,Las escaleras bajan a un nivel más oscuro.
+la puerta secreta,la porte secrète,objetos,,objetos,El pícaro encuentra una puerta secreta en la pared.
+el veneno,le poison,peligros,,peligro,La trampa tiene veneno. ¡No la toques!
+la telaraña,la toile d'araignée,entorno,,entorno,Hay telarañas en el techo de la cueva.

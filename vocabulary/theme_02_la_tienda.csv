@@ -6,8 +6,8 @@ cuesta,ça coûte,verbos,delapouite/coins.svg,compra,Cuesta diez monedas de oro.
 tengo… monedas,j'ai… pièces,frases,willdabeast/gold-bar.svg,compra,Tengo quince monedas de oro.
 ¿tienes…?,tu as… ?,frases,skoll/open-chest.svg,compra,¿Tienes una poción de curación?
 el vendedor,le marchand,personajes,delapouite/shop.svg,pnj,El vendedor tiene muchas cosas.
-barato / barata, peu cher / peu chère, frases,  , compra,  Esta poción es barata
-caro / cara, cher / chère, frases, , compare , Esta espada es demasiado cara
+barato / barata,peu cher / peu chère,frases,,compra,Esta poción es barata.
+caro / cara,cher / chère,frases,,compra,Esta espada es demasiado cara.
 la espada,l'épée,armas,cathelineau/swordman.svg,armas equipamiento,Quiero una espada grande.
 la daga,la dague,armas,lorc/daggers.svg,armas equipamiento,Una daga para el pícaro.
 el arco,l'arc,armas,delapouite/bow-arrow.svg,armas equipamiento,El arquero necesita un arco.

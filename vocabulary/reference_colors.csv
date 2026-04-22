@@ -9,15 +9,15 @@ gris / gris,gris,colores,,reference colores,un casco gris
 morado / morada,violet,colores,,reference colores,una gema morada
 plateado / plateada,argenté,colores,,reference colores,una espada plateada
 dorado / dorada,doré,colores,,reference colores,una armadura dorada
-un poquito,un petit peu,cantidad,,reference colores,un poquito de pan
-un poco,un peu,cantidad,,reference colores,un poco de agua
-mucho,beaucoup,cantidad,,reference colores,mucho oro
-demasiado,trop,cantidad,,reference colores,Esta espada es demasiado cara
-pobre,médiocre,calidad,,reference colores,un equipo pobre
-promedio,moyen,calidad,,reference colores,un resultado promedio
-bueno,bon,calidad,,reference colores,un guerrero bueno
-excelente,excellent,calidad,,reference colores,una magia excelente
-de hierro,en fer,materiales,,reference colores,un casco de hierro
-de madera,en bois,materiales,,reference colores,un bastón de madera
-de cuero,de cuir,materiales,,reference colores,una armadura de cuero
-de cobre,de cuivre,materiales,,reference colores,una moneda de cobre
+un poquito,un petit peu,cantidad,,reference cantidad,un poquito de pan
+un poco,un peu,cantidad,,reference cantidad,un poco de agua
+mucho,beaucoup,cantidad,,reference cantidad,mucho oro
+demasiado,trop,cantidad,,reference cantidad,Esta espada es demasiado cara.
+malo / mala,mauvais / mauvaise,calidad,,reference calidad,un equipo malo
+promedio,moyen,calidad,,reference calidad,un resultado promedio
+bueno,bon,calidad,,reference calidad,un guerrero bueno
+excelente,excellent,calidad,,reference calidad,una magia excelente
+de hierro,en fer,materiales,,reference materiales,un casco de hierro
+de madera,en bois,materiales,,reference materiales,un bastón de madera
+de cuero,de cuir,materiales,,reference materiales,una armadura de cuero
+de cobre,de cuivre,materiales,,reference materiales,una moneda de cobre

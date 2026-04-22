@@ -1,11 +1,11 @@
 spanish,french,category,icon,tags,notes
 el enano,le nain,razas,kier-heyl/dwarf-king.svg,reference razas,Corto y robusto. +2 Constitución. Vive bajo tierra.
-la enana,la naine,razas,kier-heyl/dwarf-king.svg,reference razas,Forme féminine de enano.
+la enana,la naine,razas,kier-heyl/dwarf-king.svg,reference razas,Forma femenina de enano.
 el elfo,l'elfe,razas,delapouite/elf-ear.svg,reference razas,Alto y esbelto. +2 Destreza. Vive en los bosques.
-la elfa,l'elfe (f.),razas,delapouite/elf-ear.svg,reference razas,Forme féminine de elfo.
+la elfa,l'elfe (f.),razas,delapouite/elf-ear.svg,reference razas,Forma femenina de elfo.
 el mediano,le petit-peuple (halfling),razas,lorc/fairy.svg,reference razas,Pequeño y ágil. +2 Destreza. Pies peludos.
 el humano,l'humain,razas,delapouite/person.svg,reference razas,+1 a todos los atributos. La raza más versátil.
-el draconido,le draconide,razas,lorc/dragon-head.svg,reference razas,"Descendiente de dragones. +2 Fuerza, +1 Carisma."
+el dracónido,le draconide,razas,lorc/dragon-head.svg,reference razas,"Descendiente de dragones. +2 Fuerza, +1 Carisma."
 el gnomo,le gnome,razas,lorc/fairy.svg,reference razas,"+2 Inteligencia. Pequeño, curioso, inventor."
 el semielfo,le demi-elfe,razas,delapouite/elf-ear.svg,reference razas,"+2 Carisma, +1 a dos atributos. Lo mejor de dos mundos."
 el semiorco,le demi-orc,razas,delapouite/ogre.svg,reference razas,"+2 Fuerza, +1 Constitución. Resistente y feroz."
@@ -22,7 +22,3 @@ el mago,le magicien,clases,lorc/wizard-staff.svg,reference clases,"Clase — int
 el monje,le moine,clases,lorc/meditation.svg,reference clases,Clase — artes marciales y ki.
 el paladín,le paladin,clases,lorc/holy-grail.svg,reference clases,Clase — guerrero sagrado con poderes divinos.
 el pícaro,le roublard,clases,lorc/hood.svg,reference clases,"Clase — sigilo, trampas y ataques furtivos."
-,,,,,
-,,,,,
-,,,,,
-,,,,,

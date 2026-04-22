@@ -1,7 +1,7 @@
 spanish,french,category,icon,tags,notes
 la misión,la mission / la quête,lugares,delapouite/scroll-quill.svg,misión,Tenemos una misión importante.
 necesito ayuda,j'ai besoin d'aide,frases,lorc/two-shadows.svg,misión,El anciano dice: Necesito ayuda.
-¿puedes ayudarme?,peux-tu m'aider?,frases,sbed/help.svg,misión,¿Puedes ayudarme? Sí puedo.
+¿puedes ayudarme?,peux-tu m'aider?,frases,sbed/help.svg,misión,¿Puedes ayudarme? Sí, puedo.
 ¿qué?,quoi? que? qu'est-ce que?,los interrogativos,,los interrogativos,¿Qué hay en ese cofre?
 ¿cuándo?,quand?,los interrogativos,,los interrogativos,¿Cuándo empieza la misión?
 ¿cómo?,comment?,los interrogativos,,los interrogativos,¿Cómo derrotamos al dragón?
@@ -12,14 +12,14 @@ necesito ayuda,j'ai besoin d'aide,frases,lorc/two-shadows.svg,misión,El anciano
 ¿cuánto? / ¿cuánta? / ¿cuántos? / ¿cuántas?,combien (de) ?,los interrogativos,,los interrogativos,¿Cuántas pociones tenemos?
 porque,parce que,,,,No vamos porque es demasiado peligroso.
 el enemigo,l'ennemi,personajes,lorc/evil-minion.svg,enemigo,El enemigo se esconde en el norte.
-el castillo,le château,lugares,delapouite/castle.svg,lugares,El castillo está al norte.
+el castillo,le château,lugares,delapouite/castle.svg,lugares,Hay un dragón en el castillo.
 la recompensa,la récompense,tesoro,lorc/trophy.svg,misión,¿Cuál es la recompensa? Cien monedas.
 cien,cent,números,,números,Cien monedas de oro.
-importante,important(e),adjetivos,,adjetivos,Una misión muy importante.
+importante,important(e),adjetivos,,adjetivos,El anciano tiene información importante.
 la taberna,la taverne,lugares,delapouite/barrel.svg,lugares,Nos reunimos en la taberna.
 el anciano,le vieillard,personajes,lorc/wizard-staff.svg,pnj,El anciano nos da la misión.
 adónde vamos,où allons-nous,frases,delapouite/path-distance.svg,direcciones,¿Adónde vamos primero?
-peligroso,dangereux,adjetivos,lorc/laser-warning.svg,adjetivos,El camino al norte es peligroso.
+peligroso,dangereux,adjetivos,lorc/laser-warning.svg,adjetivos,La cueva es muy peligrosa.
 ¡cuidado!,attention !,exclamaciones,lorc/laser-warning.svg,exclamación,¡Cuidado! Hay una trampa.
 ¡silencio!,silence !,exclamaciones,,exclamación,¡Silencio! Hay guardias cerca.
 ¿entiendes?,tu comprends?,frases,,comunicación,¿Entiendes la misión?

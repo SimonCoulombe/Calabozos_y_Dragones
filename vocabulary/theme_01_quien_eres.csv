@@ -11,14 +11,14 @@ son,ils/elles sont,verbos,delapouite/meeple-group.svg,ser,Son los enemigos.
 quiero,je veux,verbos,,acción,Quiero una espada.
 puedo,je peux,verbos,,acción,Puedo lanzar un hechizo.
 tengo,j'ai,verbos,,posesión,Tengo 15 de fuerza.
-el personaje, le personnage, ,,, ¡Has matado a mi personaje!
-el jugador, le joueur, , , , 
-el grupo, le groupe,  , , , 
-un dado, un dé, , delapouite/dice-six-faces-six.svg, , Lanzo diez dados d8 para determinar el daño.
-la raza,  la race, , , , 
-la clase, la classe, , , , 
+el personaje,le personnage,,,, ¡Has matado a mi personaje!
+el jugador,le joueur,,,,Hay cinco jugadores en nuestra mesa.
+el grupo,le groupe,,,,Nuestro grupo entra en la mazmorra.
+un dado,un dé,,delapouite/dice-six-faces-six.svg,,Lanzo diez dados d8 para determinar el daño.
+la raza,la race,,,,¿Cuál es tu raza? — Soy un elfo.
+la clase,la classe,,,,¿Cuál es tu clase? — Soy un guerrero.
 el guerrero,le guerrier,clases,cathelineau/swordman.svg,clase,un guerrero humano
-el mago / la maga, le magicien / la magicienne,clases,lorc/magic-swirl.svg,clase,una maga elfa
+el mago / la maga,le magicien / la magicienne,clases,lorc/magic-swirl.svg,clase,una maga elfa
 el pícaro,le voleur,clases,lorc/hood.svg,clase,un pícaro gnomo
 el clérigo,le clerc,clases,lorc/holy-grail.svg,clase,un clérigo enano
 el arquero,l'archer,clases,delapouite/bow-arrow.svg,clase,una arquera elfa
@@ -28,21 +28,21 @@ el enano,le nain,razas,delapouite/dwarf-face.svg,raza,Es un enano.
 el orco,l'orc,razas,delapouite/orc-head.svg,raza,Soy un orco.
 el humano,l'humain,razas,delapouite/person.svg,raza,Somos humanos.
 el gnomo,le gnome,razas,cathelineau/bad-gnome.svg,raza,Es un gnomo.
-el nivel, le niveau,  atributos,,atributos, Soy de nivel uno.
-el alineamiento, l'alignement, atributos, , atributos, Brueno es dee alineamiento legal bueno
-legal, loyal, atributos, , atributos, La mayoría de los enanos son legales buenos
-neutral , neutre, atributos, , atributos, La mayoría de los druidas son neutrales
-caótico , chaotique, atributos, , atributos, Los unicornios son caóticos buenos
-bueno , bon, atributos , , atributos, Muchos elfos son caóticos buenos
-malvado, mauvais, atributos , , atributos, Los demonios son caóticos malvados
-los puntos de golpe, les points de vie, atributos,lorc/angel-wings.svg,atributos,Tiene doce puntos de golpe.
+el nivel,le niveau,atributos,,atributos,Soy de nivel uno.
+el alineamiento,l'alignement,atributos,,atributos,Bruno es de alineamiento legal bueno.
+legal,loyal,atributos,,atributos,La mayoría de los enanos son legales buenos.
+neutral,neutre,atributos,,atributos,La mayoría de los druidas son neutrales.
+caótico,chaotique,atributos,,atributos,Los unicornios son caóticos buenos.
+bueno,bon,atributos,,atributos,Muchos elfos son caóticos buenos.
+malvado,mauvais,atributos,,atributos,Los demonios son caóticos malvados.
+los puntos de golpe,les points de vie,atributos,lorc/angel-wings.svg,atributos,Tiene doce puntos de golpe.
 la fuerza,la force,atributos,delapouite/biceps.svg,atributos,Tengo trece de fuerza.
 la destreza,la dextérité,atributos,lorc/juggler.svg,atributos,Tengo catorce de destreza.
 la inteligencia,l'intelligence,atributos,lorc/brain.svg,atributos,Tengo quince de inteligencia.
-la sabiduría,la sagesse,atributos,lorc/meditation.svg,atributos,Tengo dieciéis de sabiduría.
+la sabiduría,la sagesse,atributos,lorc/meditation.svg,atributos,Tengo dieciséis de sabiduría.
 el carisma,le charisme,atributos,lorc/angel-wings.svg,atributos,Tengo diecisiete de carisma.
-la constitución, la constitution,atributos,delapouite/strong-man.svg,atributos,Tengo dieciocho de constitución.
-el bonificador de competencia, le bonus de maîtrise, atributos, , atributos, Mi número de Puntos de Golpe es igual a 10 + mi modificador de Constitución
-la clase de armadura (CA), la classe d'armure (CA), atributos, ,  atributos , Sin armadura o escudo la CA de tu personaje es igual a 10 + tu modificador de Destreza.
-las idiomas,  les langues, atributos, , atributos, tu personaje puede hablar leer y escribir ciertos idiomas
-el equipo, l'équipement, , , , Voy à comprar mi equipo al mercado.
+la constitución,la constitution,atributos,delapouite/strong-man.svg,atributos,Tengo dieciocho de constitución.
+el bonificador de competencia,le bonus de maîtrise,atributos,,atributos,Mi número de Puntos de Golpe es igual a 10 + mi modificador de Constitución.
+la clase de armadura (CA),la classe d'armure (CA),atributos,,atributos,Sin armadura o escudo la CA de tu personaje es igual a 10 + tu modificador de Destreza.
+los idiomas,les langues,atributos,,atributos,Tu personaje puede hablar leer y escribir ciertos idiomas.
+el equipo,l'équipement,,,,Voy a comprar mi equipo al mercado.
