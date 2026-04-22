@@ -9,7 +9,7 @@ Two French-speaking kids (~age 10) are learning Spanish through a D&D campaign w
 - **Vocabulary word lists** per theme (CSV — editable directly in GitHub's web UI)
 - **Grammar reference tables** (YAML — conjugation tables, verb lists)
 - **Scripts** to generate Anki flashcard decks (with TTS audio) and a PDF reference book
-- **DM theme guides** and pre-theme bridging stories
+- **DM session guides** and pre-session bridging stories
 
 ## Quick Start
 
@@ -66,12 +66,12 @@ characters/
   child_2_character.yaml
 
 progress/
-  child_1_progress.yaml         ← Words owned vs. struggling (update after each theme)
+  child_1_progress.yaml         ← Words owned vs. struggling (update after each session)
   child_2_progress.yaml
 
 content/
-  sessions/                     ← DM guides per theme (Markdown)
-  stories/                      ← Pre-theme bridging stories (Markdown)
+  sessions/                     ← DM guides per session (Markdown)
+  stories/                      ← Pre-session bridging stories (Markdown)
 
 scripts/
   generate_pdf.py               ← CSV + YAML → WeasyPrint PDF
@@ -121,7 +121,7 @@ If the server is unreachable, Anki cards are still generated without audio (`ski
 
 ## Workflow After Each Session
 
-1. DM or parent opens the theme CSV on GitHub → adds new words to blank rows
+1. DM or parent opens the session CSV on GitHub → adds new words to blank rows
 2. Update `progress/child_N_progress.yaml` with words the child owned vs. struggled with
 3. Run `make all` to regenerate PDF and Anki decks
 4. Share updated PDF via Google Drive; send `.apkg` to child's AnkiDroid
