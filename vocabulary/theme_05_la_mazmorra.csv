@@ -5,14 +5,9 @@ el cofre,le coffre,tesoro,skoll/open-chest.svg,tesoro,Hay un cofre en la esquina
 la llave,la clé,objetos,sbed/key.svg,objetos,Necesito la llave para abrir la puerta.
 el tesoro,le trésor,tesoro,delapouite/coins.svg,tesoro,¡Encontramos un tesoro!
 la antorcha,la torche,equipo,delapouite/torch.svg,equipamiento,Necesito una antorcha para ver.
-el pasillo,le couloir,lugares,lorc/doorway.svg,lugares,Hay tres puertas en el pasillo.
-a la izquierda,à gauche,direcciones,lorc/return-arrow.svg,direcciones,La puerta está a la izquierda.
-a la derecha,à droite,direcciones,lorc/return-arrow.svg,direcciones,Giro a la derecha.
-recto,tout droit,direcciones,lorc/forward-field.svg,direcciones,Sigo recto.
-arriba,en haut,direcciones,delapouite/arrow-cursor.svg,direcciones,Las escaleras están arriba.
-abajo,en bas,direcciones,delapouite/arrow-cursor.svg,direcciones,La mazmorra está abajo.
+el pasillo,le couloir,lugares,,lugares,Hay tres puertas en el pasillo.
 el monstruo,le monstre,enemigos,lorc/daemon-skull.svg,enemigo,Hay un monstruo en la sala.
-el esqueleto,le squelette,enemigos,lorc/skeleton-inside.svg,enemigo,El esqueleto ataca con una espada.
+el esqueleto,le squelette,enemigos,skoll/skeleton.svg,enemigo,El esqueleto ataca con una espada.
 el troll,le troll,enemigos,skoll/troll.svg,enemigo,El troll es muy fuerte. ¡Cuidado!
 lanzo un hechizo,je lance un sort,magia,lorc/magic-swirl.svg,magia combate,Lanzo un hechizo de fuego.
 el fuego,le feu,magia,sbed/fire.svg,magia,¡Bola de fuego!

@@ -1,20 +1,20 @@
 spanish,french,category,icon,tags,notes
-me llamo,je m'appelle,frases,lorc/conversation.svg,identidad,Me llamo Zara.
+me llamo,je m'appelle,frases,,identidad,Me llamo Zara.
 soy,je suis (permanent),verbos,delapouite/person.svg,ser,Soy un elfo. / Soy una guerrera.
 eres,tu es (permanent),verbos,delapouite/person.svg,ser,¿Eres un mago?
 es,il/elle est,verbos,delapouite/person.svg,ser,Es un dragón.
 somos,nous sommes,verbos,delapouite/meeple-group.svg,ser,Somos héroes.
 son,ils/elles sont,verbos,delapouite/meeple-group.svg,ser,Son los enemigos.
-¿de dónde eres?,d'où es-tu?,frases,lorc/world.svg,identidad,¿De dónde eres? — Soy de las montañas.
-¿cuál es tu clase?,quelle est ta classe?,frases,delapouite/scroll-quill.svg,identidad,clase del personaje
-¿qué quieres hacer?,que veux-tu faire?,frases,delapouite/discussion.svg,acción,Quiero atacar. / Quiero correr.
-quiero,je veux,verbos,lorc/magic-lamp.svg,acción,Quiero una espada.
-puedo,je peux,verbos,lorc/power-lightning.svg,acción,Puedo lanzar un hechizo.
-tengo,j'ai,verbos,delapouite/backpack.svg,posesión,Tengo 15 de fuerza.
+¿de dónde eres?,d'où es-tu?,frases,,identidad,¿De dónde eres? — Soy de las montañas.
+¿cuál es tu clase?,quelle est ta classe?,frases,,identidad,clase del personaje
+¿qué quieres hacer?,que veux-tu faire?,frases,,acción,Quiero atacar. / Quiero correr.
+quiero,je veux,verbos,,acción,Quiero una espada.
+puedo,je peux,verbos,,acción,Puedo lanzar un hechizo.
+tengo,j'ai,verbos,,posesión,Tengo 15 de fuerza.
 el personaje, le personnage, ,,, ¡Has matado a mi personaje!
 el jugador, le joueur, , , , 
 el grupo, le groupe,  , , , 
-un dado, un dé, , , , Lanzo diez dados d8 para determinar el daño.
+un dado, un dé, , delapouite/dice-six-faces-six.svg, , Lanzo diez dados d8 para determinar el daño.
 la raza,  la race, , , , 
 la clase, la classe, , , , 
 el guerrero,le guerrier,clases,cathelineau/swordman.svg,clase,un guerrero humano
@@ -22,12 +22,12 @@ el mago / la maga, le magicien / la magicienne,clases,lorc/magic-swirl.svg,clase
 el pícaro,le voleur,clases,lorc/hood.svg,clase,un pícaro gnomo
 el clérigo,le clerc,clases,lorc/holy-grail.svg,clase,un clérigo enano
 el arquero,l'archer,clases,delapouite/bow-arrow.svg,clase,una arquera elfa
-el elfo,l'elfe,razas,delapouite/magic-hat.svg,raza,Soy un elfo.
-la elfa,l'elfe (f.),razas,delapouite/magic-hat.svg,raza,Soy una elfa.
-el enano,le nain,razas,kier-heyl/dwarf-king.svg,raza,Es un enano.
-el orco,l'orc,razas,delapouite/ogre.svg,raza,Soy un orco.
+el elfo,l'elfe,razas,delapouite/elf-ear.svg,raza,Soy un elfo.
+la elfa,l'elfe (f.),razas,delapouite/elf-ear.svg,raza,Soy una elfa.
+el enano,le nain,razas,delapouite/dwarf-face.svg,raza,Es un enano.
+el orco,l'orc,razas,delapouite/orc-head.svg,raza,Soy un orco.
 el humano,l'humain,razas,delapouite/person.svg,raza,Somos humanos.
-el gnomo,le gnome,razas,lorc/fairy.svg,raza,Es un gnomo.
+el gnomo,le gnome,razas,cathelineau/bad-gnome.svg,raza,Es un gnomo.
 el nivel, le niveau,  atributos,,atributos, Soy de nivel uno.
 el alineamiento, l'alignement, atributos, , atributos, Brueno es dee alineamiento legal bueno
 legal / neutral / caótico , loyal / neutre / chaotique, atributos, , atributos, Muchos elfos son caóticos buenos
@@ -38,7 +38,7 @@ la destreza,la dextérité,atributos,lorc/juggler.svg,atributos,Tengo catorce de
 la inteligencia,l'intelligence,atributos,lorc/brain.svg,atributos,Tengo quince de inteligencia.
 la sabiduría,la sagesse,atributos,lorc/meditation.svg,atributos,Tengo dieciéis de sabiduría.
 el carisma,le charisme,atributos,lorc/angel-wings.svg,atributos,Tengo diecisiete de carisma.
-la constitución, la constitution,atributos,lorc/angel-wings.svg,atributos,Tengo dieciocho de constitución.
+la constitución, la constitution,atributos,delapouite/strong-man.svg,atributos,Tengo dieciocho de constitución.
 el bonificador de competencia, le bonus de maîtrise, atributos, , atributos, Mi número de Puntos de Golpe es igual a 10 + mi modificador de Constitución
 la clase de armadura (CA), la classe d'armure (CA), atributos, ,  atributos , Sin armadura o escudo la CA de tu personaje es igual a 10 + tu modificador de Destreza.
 las idiomas,  les langues, atributos, , atributos, tu personaje puede hablar leer y escribir ciertos idiomas

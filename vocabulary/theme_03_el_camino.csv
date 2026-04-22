@@ -1,14 +1,16 @@
 spanish,french,category,icon,tags,notes
 el camino,le chemin,entorno,delapouite/path-distance.svg,entorno,Seguimos el camino.
-veo,je vois,verbos,delapouite/egg-eye.svg,percepción,Veo algo en el bosque.
-escucho,j'entends,verbos,delapouite/pear.svg,percepción,Escucho un ruido.
+veo,je vois,verbos,delapouite/angry-eyes.svg,percepción,Veo algo en el bosque.
+escucho,j'entends,verbos,delapouite/sound-on.svg,percepción,Escucho un ruido.
 huelo,je sens (odeur),verbos,delapouite/nose-side.svg,percepción,Huele raro aquí.
 hay,il y a,verbos,delapouite/position-marker.svg,entorno,Hay un río delante.
 voy / vamos, je vais / nous allons, verbos, , acción, vamos al norte
-el norte /  el sur / el este / el oeste , le nord / le sud / l'est / l'ouest, frases,lorc/forward-field.svg, direcciones, Vamos al norte.
-sigo recto,je continue tout droit,frases,lorc/forward-field.svg,direcciones,Sigo recto por el camino.
-giro a la izquierda,je tourne à gauche,frases,lorc/return-arrow.svg,direcciones,Giro a la izquierda en el cruce.
-giro a la derecha,je tourne à droite,frases,lorc/return-arrow.svg,direcciones,Giro a la derecha.
+el norte /  el sur / el este / el oeste , le nord / le sud / l'est / l'ouest, frases,lorc/compass.svg, direcciones, Vamos al norte.
+sigo recto,je continue tout droit,frases,,direcciones,Sigo recto por el camino.
+giro a la izquierda,je tourne à gauche,frases,,direcciones,Giro a la izquierda en el cruce.
+giro a la derecha,je tourne à droite,frases,,direcciones,Giro a la derecha.
+arriba,en haut,direcciones,delapouite/arrow-cursor.svg,direcciones,Las escaleras están arriba.
+abajo,en bas,direcciones,delapouite/arrow-cursor.svg,direcciones,La mazmorra está abajo.
 abro la puerta,j'ouvre la porte,frases,delapouite/door-handle.svg,acción,Abro la puerta lentamente.
 me escondo,je me cache,frases,lorc/hidden.svg,acción,Me escondo detrás del árbol.
 el bosque,la forêt,entorno,lorc/pine-tree.svg,entorno,Hay un bosque oscuro.

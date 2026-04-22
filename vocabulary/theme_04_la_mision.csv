@@ -7,17 +7,17 @@ corro,je cours,verbos,lorc/run.svg,acción,Corro hacia el río.
 ¿dónde está?,où est-il/elle?,frases,delapouite/position-marker.svg,direcciones,¿Dónde está el castillo del enemigo?
 el castillo,le château,lugares,delapouite/castle.svg,lugares,El castillo está al norte.
 la recompensa,la récompense,tesoro,lorc/trophy.svg,misión,¿Cuál es la recompensa? — Cien monedas.
-cien,cent,números,delapouite/dice-twenty-faces-twenty.svg,números,Cien monedas de oro.
-importante,important(e),adjetivos,lorc/butterfly-warning.svg,adjetivos,Una misión muy importante.
+cien,cent,números,,números,Cien monedas de oro.
+importante,important(e),adjetivos,,adjetivos,Una misión muy importante.
 la taberna,la taverne,lugares,delapouite/barrel.svg,lugares,Nos reunimos en la taberna.
 el anciano,le vieillard,personajes,lorc/wizard-staff.svg,pnj,El anciano nos da la misión.
 ¿cuál es el plan?,quel est le plan?,frases,delapouite/scroll-quill.svg,estrategia,¿Cuál es el plan de ataque?
 adónde vamos,où allons-nous,frases,delapouite/path-distance.svg,direcciones,¿Adónde vamos primero?
 peligroso,dangereux,adjetivos,lorc/laser-warning.svg,adjetivos,El camino al norte es peligroso.
 ¡cuidado!,attention !,exclamaciones,lorc/laser-warning.svg,exclamación,¡Cuidado! Hay una trampa.
-¡silencio!,silence !,exclamaciones,delapouite/pear.svg,exclamación,¡Silencio! Hay guardias cerca.
-¿entiendes?,tu comprends?,frases,lorc/conversation.svg,comunicación,¿Entiendes la misión?
-sí entiendo,oui je comprends,frases,delapouite/check-mark.svg,comunicación,Sí entiendo. Vamos.
-no entiendo,je ne comprends pas,frases,lorc/uncertainty.svg,comunicación,No entiendo — ¿puedes repetir?
+¡silencio!,silence !,exclamaciones,,exclamación,¡Silencio! Hay guardias cerca.
+¿entiendes?,tu comprends?,frases,,comunicación,¿Entiendes la misión?
+sí entiendo,oui je comprends,frases,,comunicación,Sí entiendo. Vamos.
+no entiendo,je ne comprends pas,frases,,comunicación,No entiendo — ¿puedes repetir?
 ataco,j'attaque,combate,lorc/sword-clash.svg,combate,Ataco al goblin.
 me defiendo,je me défends,combate,lorc/shield-reflect.svg,combate,Me defiendo con mi escudo.

@@ -1,5 +1,5 @@
 spanish,french,category,icon,tags,notes
-uno,un,números,,reference números,¡Fallo crítico!
+uno,un,números,delapouite/dice-twenty-faces-one.svg,reference números,¡Fallo crítico!
 dos,deux,números,,reference números,
 tres,trois,números,,reference números,
 cuatro,quatre,números,,reference números,
@@ -18,7 +18,7 @@ dieciséis,seize,números,,reference números,
 diecisiete,dix-sept,números,,reference números,
 dieciocho,dix-huit,números,,reference números,¡18 de fuerza! Eres muy fuerte.
 diecinueve,dix-neuf,números,,reference números,
-veinte,vingt,números,,reference números,¡Golpe crítico!
+veinte,vingt,números,delapouite/dice-twenty-faces-twenty.svg,reference números,¡Golpe crítico!
 cincuenta,cinquante,números,,reference números,
 cien,cent,números,,reference números,
 mil,mille,números,,reference números,
