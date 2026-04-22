@@ -1,11 +1,19 @@
-spanish,french,example
-rojo / roja,rouge,una espada roja
-azul / azul,bleu,un escudo azul
-verde / verde,vert,una poción verde
-negro / negra,noir,una capa negra
-blanco / blanca,blanc,un dragón blanco
-amarillo / amarilla,jaune,el oro amarillo
-gris / gris,gris,un casco gris
-morado / morada,violet,una gema morada
-plateado / plateada,argenté,una espada plateada
-dorado / dorada,doré,una armadura dorada
+spanish,french,example,category
+rojo / roja,rouge,una espada roja,colores
+azul / azul,bleu,un escudo azul,colores
+verde / verde,vert,una poción verde,colores
+negro / negra,noir,una capa negra,colores
+blanco / blanca,blanc,un dragón blanco,colores
+amarillo / amarilla,jaune,el oro amarillo,colores
+gris / gris,gris,un casco gris,colores
+morado / morada,violet,una gema morada,colores
+plateado / plateada,argenté,una espada plateada,colores
+dorado / dorada,doré,una armadura dorada,colores
+un poco,un peu,un poco de agua,quantity
+un poquito,un petit peu,un poquito de pan,quantity
+mucho,beaucoup,mucho oro,quantity
+pobre,médiocre,un equipo pobre,quality
+promedio,moyen,un resultado promedio,quality
+bueno,bon,un guerrero bueno,quality
+excelente,excellent,una magia excelente,quality
+
