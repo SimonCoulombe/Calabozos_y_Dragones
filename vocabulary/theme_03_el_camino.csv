@@ -1,8 +1,8 @@
 spanish,french,category,icon,tags,notes
 el camino,le chemin,entorno,path-distance,entorno,Seguimos el camino.
-veo,je vois,verbos,eye,percepción,Veo algo en el bosque.
-escucho,j'entends,verbos,ear,percepción,Escucho un ruido.
-huelo,je sens (odeur),verbos,nose,percepción,Huele raro aquí.
+veo,je vois,verbos,egg-eye,percepción,Veo algo en el bosque.
+escucho,j'entends,verbos,pear,percepción,Escucho un ruido.
+huelo,je sens (odeur),verbos,nose-side,percepción,Huele raro aquí.
 hay,il y a,verbos,map-pin,entorno,Hay un río delante.
 voy / vamos, je vais / nous allons, verbos, , acción, vamos al norte
 el norte /  el sur / el este / el oeste , le nord / le sud / l'est / l'ouest, frases, straight-arrow, direcciones, Vamos al norte.
@@ -18,7 +18,5 @@ la cueva,la caverne,entorno,cave-entrance,entorno,Hay una cueva en la montaña.
 el puente,le pont,entorno,bridge,entorno,Cruzamos el puente.
 oscuro/a,sombre,adjetivos,night-sleep,adjetivos,El bosque está muy oscuro.
 ruidoso/a,bruyant(e),adjetivos,sound-waves,adjetivos,El río es ruidoso.
-peligroso/a,dangereux(se),adjetivos,warning,adjetivos,¡El camino es peligroso!
-ataco,j'attaque,combate,sword-clash,combate,Ataco al goblin.
-me defiendo,je me défends,combate,shield-reflect,combate,Me defiendo con mi escudo.
+peligroso/a,dangereux(se),adjetivos,laser-warning,adjetivos,¡El camino es peligroso!
 el mapa,la carte,equipo,treasure-map,equipamiento,El mapa muestra el camino.

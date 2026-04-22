@@ -17,7 +17,7 @@ el grupo, le groupe,  , , ,
 un dado, un dé, , , , Lanzo diez dados d8 para determinar el daño.
 la raza,  la race, , , , 
 la clase, la classe, , , , 
-el guerrero,le guerrier,clases,sword,clase,un guerrero humano
+el guerrero,le guerrier,clases,swordman,clase,un guerrero humano
 el mago / la maga, le magicien / la magicienne,clases,magic-swirl,clase,una maga elfa
 el pícaro,le voleur,clases,hood,clase,un pícaro gnomo
 el clérigo,le clerc,clases,holy-grail,clase,un clérigo enano
@@ -43,4 +43,3 @@ el bonificador de competencia, le bonus de maîtrise, atributos, , atributos, Mi
 la clase de armadura (CA), la classe d'armure (CA), atributos, ,  atributos , Sin armadura o escudo la CA de tu personaje es igual a 10 + tu modificador de Destreza.
 las idiomas,  les langues, atributos, , atributos, tu personaje puede hablar leer y escribir ciertos idiomas
 el equipo, l'équipement, , , , Voy à comprar mi equipo al mercado.
-

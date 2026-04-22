@@ -1,39 +1,39 @@
 spanish,french,category,icon,tags,notes
-la espada corta,l'épée courte,armas,sword,reference armas,"Daño: 1d6 perforante. Ligera. Ideal para el pícaro."
-la espada larga,l'épée longue,armas,sword,reference armas,"Daño: 1d8 cortante (1d10 a dos manos)."
-la espada bastarda,l'épée bâtarde,armas,sword,reference armas,Daño: 1d8 (1d10 a dos manos).
-el espadón,l'espadon,armas,zweihander,reference armas,"Daño: 2d6 cortante. A dos manos. Muy poderoso."
-la daga,la dague,armas,daggers,reference armas,"Daño: 1d4 perforante. Lanzable. Pícaro."
+la espada corta,l'épée courte,armas,swordman,reference armas,Daño: 1d6 perforante. Ligera. Ideal para el pícaro.
+la espada larga,l'épée longue,armas,swordman,reference armas,Daño: 1d8 cortante (1d10 a dos manos).
+la espada bastarda,l'épée bâtarde,armas,swordman,reference armas,Daño: 1d8 (1d10 a dos manos).
+el espadón,l'espadon,armas,zweihander,reference armas,Daño: 2d6 cortante. A dos manos. Muy poderoso.
+la daga,la dague,armas,daggers,reference armas,Daño: 1d4 perforante. Lanzable. Pícaro.
 el puñal,le poignard,armas,daggers,reference armas,Sinónimo de daga.
-el hacha de mano,la hache de main,armas,battle-axe,reference armas,"Daño: 1d6 cortante. Lanzable."
-el hacha de batalla,la hache de bataille,armas,battle-axe,reference armas,"Daño: 1d8 cortante. Favorita de enanos."
-la maza,la masse,armas,mace,reference armas,"Daño: 1d6 contundente. Favorita de clérigos."
-la lanza,la lance,armas,spear,reference armas,"Daño: 1d6 perforante. Lanzable."
-el arco corto,l'arc court,armas,bow-arrow,reference armas,"Daño: 1d6 perforante. Alcance 80/320 m."
-el arco largo,l'arc long,armas,bow-arrow,reference armas,"Daño: 1d8 perforante. Alcance 150/600 m."
-la ballesta de mano,l'arbalète de poing,armas,crossbow,reference armas,"Daño: 1d6 perforante. Ligera."
-el bastón,le bâton (bourdon),armas,wizard-staff,reference armas,"Daño: 1d6 contundente. Arma de mago/druida."
-la armadura de cuero,l'armure de cuir,armadura,breastplate,reference armadura,"CA: 11 + Des. Ligera. Sin desventaja en sigilo."
-la armadura de cuero tachonado,l'armure de cuir clouté,armadura,breastplate,reference armadura,"CA: 12 + Des. Ligera."
-la cota de malla,la cotte de mailles,armadura,mail-shirt,reference armadura,"CA: 16. Media. Des máx +2."
-la armadura de escamas,l'armure d'écailles,armadura,breastplate,reference armadura,"CA: 14. Media. Des máx +2."
-la armadura de placas,l'armure de plaques,armadura,plate-armor,reference armadura,"CA: 18. Pesada. Sin bonus de Des. Muy cara."
-el escudo,le bouclier,armadura,shield,reference armadura,"+2 CA. Se lleva en una mano."
+el hacha de mano,la hache de main,armas,battle-axe,reference armas,Daño: 1d6 cortante. Lanzable.
+el hacha de batalla,la hache de bataille,armas,battle-axe,reference armas,Daño: 1d8 cortante. Favorita de enanos.
+la maza,la masse,armas,bone-mace,reference armas,Daño: 1d6 contundente. Favorita de clérigos.
+la lanza,la lance,armas,spears,reference armas,Daño: 1d6 perforante. Lanzable.
+el arco corto,l'arc court,armas,bow-arrow,reference armas,Daño: 1d6 perforante. Alcance 80/320 m.
+el arco largo,l'arc long,armas,bow-arrow,reference armas,Daño: 1d8 perforante. Alcance 150/600 m.
+la ballesta de mano,l'arbalète de poing,armas,crossbow,reference armas,Daño: 1d6 perforante. Ligera.
+el bastón,le bâton (bourdon),armas,wizard-staff,reference armas,Daño: 1d6 contundente. Arma de mago/druida.
+la armadura de cuero,l'armure de cuir,armadura,breastplate,reference armadura,CA: 11 + Des. Ligera. Sin desventaja en sigilo.
+la armadura de cuero tachonado,l'armure de cuir clouté,armadura,breastplate,reference armadura,CA: 12 + Des. Ligera.
+la cota de malla,la cotte de mailles,armadura,mail-shirt,reference armadura,CA: 16. Media. Des máx +2.
+la armadura de escamas,l'armure d'écailles,armadura,breastplate,reference armadura,CA: 14. Media. Des máx +2.
+la armadura de placas,l'armure de plaques,armadura,plate-armor,reference armadura,CA: 18. Pesada. Sin bonus de Des. Muy cara.
+el escudo,le bouclier,armadura,shield,reference armadura,+2 CA. Se lleva en una mano.
 el yelmo,le heaume / casque,armadura,visored-helm,reference armadura,Protege la cabeza.
 la capa,la cape,ropa,cloak,reference ropa,Prenda de viaje.
 las botas de cuero,les bottes de cuir,ropa,boots,reference ropa,Calzado estándar de aventurero.
 el saco de dormir,le sac de couchage,equipo,bed,reference equipo,Para descansar largo.
 la mochila,le sac à dos,equipo,backpack,reference equipo,Lleva el equipo.
 la cuerda,la corde,equipo,rope-coil,reference equipo,Muy útil en la mazmorra.
-la antorcha,la torche,equipo,torch,reference equipo,"Ilumina 6 m. Dura 1 hora."
+la antorcha,la torche,equipo,torch,reference equipo,Ilumina 6 m. Dura 1 hora.
 el sílex y el pedernal,le briquet (silex et amadou),equipo,fire,reference equipo,Para encender fuego.
 la ración de viaje,la ration de voyage,equipo,bread,reference equipo,Comida para un día.
 la bolsa de monedas,la bourse,equipo,coins,reference equipo,Guarda el oro.
-las monedas de oro,les pièces d'or (po),dinero,gold-bar,reference dinero,"1 po = 10 pp = 100 pc. Moneda principal."
+las monedas de oro,les pièces d'or (po),dinero,gold-bar,reference dinero,1 po = 10 pp = 100 pc. Moneda principal.
 las monedas de plata,les pièces d'argent (pa),dinero,coins,reference dinero,10 pa = 1 po.
 las monedas de cobre,les pièces de cuivre (pc),dinero,coins,reference dinero,100 pc = 1 po.
-la poción de curación,la potion de soin,magia,potion,reference magia,Restaura 2d4+2 puntos de golpe.
-el antídoto,l'antidote,magia,potion,reference magia,Cura el veneno.
+la poción de curación,la potion de soin,magia,potion-ball,reference magia,Restaura 2d4+2 puntos de golpe.
+el antídoto,l'antidote,magia,potion-ball,reference magia,Cura el veneno.
 el componente de hechizo,la composante de sort,magia,magic-swirl,reference magia,Necesario para algunos hechizos.
 ,,,,,
 ,,,,,

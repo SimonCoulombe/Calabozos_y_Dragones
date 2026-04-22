@@ -13,9 +13,11 @@ la taberna,la taverne,lugares,barrel,lugares,Nos reunimos en la taberna.
 el anciano,le vieillard,personajes,wizard-staff,pnj,El anciano nos da la misión.
 ¿cuál es el plan?,quel est le plan?,frases,scroll-quill,estrategia,¿Cuál es el plan de ataque?
 adónde vamos,où allons-nous,frases,path-distance,direcciones,¿Adónde vamos primero?
-peligroso,dangereux,adjetivos,warning,adjetivos,El camino al norte es peligroso.
-¡cuidado!,attention !,exclamaciones,warning,exclamación,¡Cuidado! Hay una trampa.
-¡silencio!,silence !,exclamaciones,ear,exclamación,¡Silencio! Hay guardias cerca.
+peligroso,dangereux,adjetivos,laser-warning,adjetivos,El camino al norte es peligroso.
+¡cuidado!,attention !,exclamaciones,laser-warning,exclamación,¡Cuidado! Hay una trampa.
+¡silencio!,silence !,exclamaciones,pear,exclamación,¡Silencio! Hay guardias cerca.
 ¿entiendes?,tu comprends?,frases,conversation-bubbles,comunicación,¿Entiendes la misión?
 sí entiendo,oui je comprends,frases,check-mark,comunicación,Sí entiendo. Vamos.
 no entiendo,je ne comprends pas,frases,uncertainty,comunicación,No entiendo — ¿puedes repetir?
+ataco,j'attaque,combate,sword-clash,combate,Ataco al goblin.
+me defiendo,je me défends,combate,shield-reflect,combate,Me defiendo con mi escudo.

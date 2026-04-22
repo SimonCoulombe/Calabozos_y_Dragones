@@ -17,8 +17,8 @@ el troll,le troll,enemigos,troll,enemigo,El troll es muy fuerte. ¡Cuidado!
 lanzo un hechizo,je lance un sort,magia,magic-swirl,magia combate,Lanzo un hechizo de fuego.
 el fuego,le feu,magia,fire,magia,¡Bola de fuego!
 el hielo,la glace,magia,frozen-ring,magia,Un rayo de hielo congela al enemigo.
-la oscuridad,l'obscurité,entorno,dark,entorno,Hay mucha oscuridad en la mazmorra.
+la oscuridad,l'obscurité,entorno,dark-squad,entorno,Hay mucha oscuridad en la mazmorra.
 el sonido,le son,percepción,sound-waves,percepción,Escucho un sonido extraño.
-huele raro,ça sent bizarre,percepción,nose,percepción,Huele raro en este pasillo.
+huele raro,ça sent bizarre,percepción,nose-side,percepción,Huele raro en este pasillo.
 el suelo está mojado,le sol est mouillé,entorno,water-drop,entorno,El suelo está mojado — hay agua.
 encuentro,je trouve,verbos,magnifying-glass,acción,Encuentro una llave en el cofre.

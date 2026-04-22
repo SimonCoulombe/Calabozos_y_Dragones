@@ -1,12 +1,12 @@
 spanish,french,category,icon,tags,notes
 el jefe,le boss / le chef,enemigos,boss-key,enemigo,El jefe del castillo aparece.
 ¡ríndete!,rends-toi !,frases,white-flag,combate,¡Ríndete o te derroto!
-¡nunca!,jamais !,frases,sword,combate,El jefe grita: ¡Nunca me rendiré!
+¡nunca!,jamais !,frases,swordman,combate,El jefe grita: ¡Nunca me rendiré!
 la victoria,la victoire,resultado,trophy,combate,¡La victoria es nuestra!
 hemos ganado,nous avons gagné,frases,victory-hand,combate,¡Hemos ganado la batalla!
-derroté al jefe,j'ai vaincu le boss,frases,sword,combate,Derroté al jefe. ¡Soy el héroe!
+derroté al jefe,j'ai vaincu le boss,frases,swordman,combate,Derroté al jefe. ¡Soy el héroe!
 encontramos,nous avons trouvé,verbos,magnifying-glass,acción,Encontramos el mapa del siguiente reino.
-una carta,une lettre,objetos,letter,objetos,Hay una carta en el cofre del jefe.
+una carta,une lettre,objetos,love-letter,objetos,Hay una carta en el cofre del jefe.
 el reino,le royaume,lugares,castle,lugares,El siguiente reino nos necesita.
 la siguiente aventura,la prochaine aventure,frases,compass,misión,¿Estás listo para la siguiente aventura?
 poderoso/a,puissant(e),adjetivos,power-lightning,adjetivos,El jefe es muy poderoso.
@@ -14,7 +14,7 @@ fuerte,fort(e),adjetivos,biceps,adjetivos,El troll es fuerte pero lento.
 lento/a,lent(e),adjetivos,snail,adjetivos,El troll es lento — ¡corre!
 rápido/a,rapide,adjetivos,sprint,adjetivos,El pícaro es muy rápido.
 fui,je suis allé(e),verbos,footprint,pasado,Fui al castillo.
-vi,j'ai vu,verbos,eye,pasado,Vi al jefe.
+vi,j'ai vu,verbos,egg-eye,pasado,Vi al jefe.
 luché,j'ai combattu,verbos,swords-power,pasado,Luché muy bien hoy.
 encontré,j'ai trouvé,verbos,open-chest,pasado,Encontré el tesoro.
 la siguiente sesión,la prochaine séance,frases,scroll-quill,meta,¿Qué pasó la última vez?
