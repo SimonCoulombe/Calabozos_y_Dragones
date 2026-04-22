@@ -40,6 +40,12 @@ def main() -> int:
 
     ok = skipped = failed = 0
     for word in words:
+        # For pronunciation, use only the part before the first "/" or "-"
+        pronounce = word
+        for sep in ('/', '-'):
+            idx = pronounce.find(sep)
+            if idx != -1:
+                pronounce = pronounce[:idx].strip()
         safe = word.replace(' ', '_').replace('/', '-')
         safe = ''.join(c for c in safe if c.isalnum() or c in '_-áéíóúüñÁÉÍÓÚÜÑ')
         filename = f"{safe}.wav"
@@ -47,7 +53,7 @@ def main() -> int:
         if out_path.exists():
             skipped += 1
             continue
-        success = synthesize_to_wav(word, out_path, tts["host"], tts["port"],
+        success = synthesize_to_wav(pronounce, out_path, tts["host"], tts["port"],
                                     skip_on_failure=tts.get("skip_on_failure", True))
         if success:
             ok += 1
