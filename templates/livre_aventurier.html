@@ -261,9 +261,9 @@
   <h2>{{ campaign.title }}</h2>
   <div class="cover-divider">✦</div>
   <div class="cover-subtitle">
-    Un guide pour les aventuriers qui apprennent l'espagnol<br>
-    en explorant des donjons, en combattant des dragons,<br>
-    et en devenant des héros.
+    Un guía para aventureros que aprenden español<br>
+    explorando mazmorras, combatiendo dragones,<br>
+    y convirtiéndose en héroes.
   </div>
   <div class="cover-divider" style="margin-top:3em;">⚔ ✦ ⚔</div>
 </div>
@@ -283,8 +283,8 @@
       <tr>
         <th>Español</th>
         <th>Français</th>
-        <th>Catégorie</th>
-        <th>Exemple</th>
+        <th>Categoría</th>
+        <th>Ejemplo</th>
       </tr>
     </thead>
     <tbody>
@@ -422,7 +422,7 @@
     {% for cat in data.categories %}
     <div class="verb-header">{{ cat.name }}</div>
     <table class="vocab">
-      <thead><tr><th>Español</th><th>Français</th><th>Type</th><th>Ejemplo</th></tr></thead>
+      <thead><tr><th>Español</th><th>Français</th><th>Tipo</th><th>Ejemplo</th></tr></thead>
       <tbody>
         {% for v in cat.verbs %}
         <tr>
@@ -438,7 +438,7 @@
 
   {% elif key == 'colors' %}
     <table class="grammar">
-      <thead><tr><th>Masculin (-o)</th><th>Féminin (-a)</th><th>Français</th><th>Ejemplo</th></tr></thead>
+      <thead><tr><th>Masculino (-o)</th><th>Femenino (-a)</th><th>Français</th><th>Ejemplo</th></tr></thead>
       <tbody>
         {% for c in data.colors %}
         <tr>
@@ -459,7 +459,7 @@
     <div class="verb-header">{{ data.adjectives_title }}</div>
     <div class="framing-box" style="margin-bottom:0.5em;">{{ data.adjectives_framing }}</div>
     <table class="grammar">
-      <thead><tr><th>Masculin (-o)</th><th>Féminin (-a)</th><th>Français</th><th>Ejemplo</th></tr></thead>
+      <thead><tr><th>Masculino (-o)</th><th>Femenino (-a)</th><th>Français</th><th>Ejemplo</th></tr></thead>
       <tbody>
         {% for a in data.adjectives %}
         <tr>
@@ -487,8 +487,8 @@
       <tr>
         <th>Español</th>
         <th>Français</th>
-        <th>Catégorie</th>
-        <th>Notes</th>
+        <th>Categoría</th>
+        <th>Notas</th>
       </tr>
     </thead>
     <tbody>
