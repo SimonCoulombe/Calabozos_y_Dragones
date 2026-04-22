@@ -1,24 +1,24 @@
 spanish,french,category,icon,tags,notes
-quiero comprar,je veux acheter,phrases,shopping-cart,achat,Quiero comprar una espada.
-¿cuánto cuesta?,combien ça coûte?,phrases,coins,achat,¿Cuánto cuesta el escudo?
-cuesta,ça coûte,verbes,coins,achat,Cuesta diez monedas de oro.
-tengo… monedas,j'ai… pièces,phrases,gold-bar,achat,Tengo quince monedas de oro.
-¿tienes…?,tu as… ?,phrases,open-chest,achat,¿Tienes una poción de curación?
-la espada,l'épée,armas,sword,armas équipement,Quiero una espada grande.
-la daga,la dague,armas,daggers,armas équipement,Una daga para el pícaro.
-el arco,l'arc,armas,bow-arrow,armas équipement,El arquero necesita un arco.
-el hacha,la hache,armas,battle-axe,armas équipement,El enano tiene un hacha.
-el bastón mágico,le bâton magique,armas,magic-wand,armas magie,La maga tiene un bastón mágico.
-el escudo,le bouclier,armadura,shield,armadura équipement,Un escudo para protegerte.
-el casco,le casque,armadura,visored-helm,armadura équipement,Quiero un casco de hierro.
-la armadura,l'armure,armadura,breastplate,armadura équipement,Una armadura de cuero.
-las botas,les bottes,ropa,boots,ropa équipement,Unas botas de cuero.
-el capa,la cape,ropa,cloak,ropa équipement,Una capa oscura para el pícaro.
-la poción de curación,la potion de soin,magia,potion,magie,¿Cuántas pociones tienes?
-la antorcha,la torche,equipo,torch,équipement,Necesito una antorcha.
-la cuerda,la corde,equipo,rope-coil,équipement,La cuerda es muy útil.
-las provisiones,les provisions,equipo,bread,équipement,Comida para el viaje.
-la tienda,la boutique,lugares,shop,lieux,Vamos a la tienda.
+quiero comprar,je veux acheter,frases,shopping-cart,compra,Quiero comprar una espada.
+¿cuánto cuesta?,combien ça coûte?,frases,coins,compra,¿Cuánto cuesta el escudo?
+cuesta,ça coûte,verbos,coins,compra,Cuesta diez monedas de oro.
+tengo… monedas,j'ai… pièces,frases,gold-bar,compra,Tengo quince monedas de oro.
+¿tienes…?,tu as… ?,frases,open-chest,compra,¿Tienes una poción de curación?
+la espada,l'épée,armas,sword,armas equipamiento,Quiero una espada grande.
+la daga,la dague,armas,daggers,armas equipamiento,Una daga para el pícaro.
+el arco,l'arc,armas,bow-arrow,armas equipamiento,El arquero necesita un arco.
+el hacha,la hache,armas,battle-axe,armas equipamiento,El enano tiene un hacha.
+el bastón mágico,le bâton magique,armas,magic-wand,armas magia,La maga tiene un bastón mágico.
+el escudo,le bouclier,armadura,shield,armadura equipamiento,Un escudo para protegerte.
+el casco,le casque,armadura,visored-helm,armadura equipamiento,Quiero un casco de hierro.
+la armadura,l'armure,armadura,breastplate,armadura equipamiento,Una armadura de cuero.
+las botas,les bottes,ropa,boots,ropa equipamiento,Unas botas de cuero.
+el capa,la cape,ropa,cloak,ropa equipamiento,Una capa oscura para el pícaro.
+la poción de curación,la potion de soin,magia,potion,magia,¿Cuántas pociones tienes?
+la antorcha,la torche,equipo,torch,equipamiento,Necesito una antorcha.
+la cuerda,la corde,equipo,rope-coil,equipamiento,La cuerda es muy útil.
+las provisiones,les provisions,equipo,bread,equipamiento,Comida para el viaje.
+la tienda,la boutique,lugares,shop,lugares,Vamos a la tienda.
 el vendedor,le marchand,personajes,merchant,pnj,El vendedor tiene muchas cosas.
-de hierro,en fer,materiales,anvil-impact,matériaux,un casco de hierro
-de madera,en bois,materiales,wood-beam,matériaux,un bastón de madera
+de hierro,en fer,materiales,anvil-impact,materiales,un casco de hierro
+de madera,en bois,materiales,wood-beam,materiales,un bastón de madera

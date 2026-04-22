@@ -1,16 +1,16 @@
 spanish,french,category,icon,tags,notes
-me llamo,je m'appelle,phrases,conversation-bubbles,identité,Me llamo Zara.
-soy,je suis (permanent),verbes,person,ser,Soy un elfo. / Soy una guerrera.
-eres,tu es (permanent),verbes,person,ser,¿Eres un mago?
-es,il/elle est,verbes,person,ser,Es un dragón.
-somos,nous sommes,verbes,persons,ser,Somos héroes.
-son,ils/elles sont,verbes,persons,ser,Son los enemigos.
-¿de dónde eres?,d'où es-tu?,phrases,world-map,identité,¿De dónde eres? — Soy de las montañas.
-¿cuál es tu trabajo?,quel est ton métier?,phrases,scroll-quill,identité,clase del personaje
-¿qué quieres hacer?,que veux-tu faire?,phrases,discussion,action,Quiero atacar. / Quiero correr.
-quiero,je veux,verbes,wish,action,Quiero una espada.
-puedo,je peux,verbes,power-lightning,action,Puedo lanzar un hechizo.
-tengo,j'ai,verbes,backpack,possession,Tengo 15 de fuerza.
+me llamo,je m'appelle,frases,conversation-bubbles,identidad,Me llamo Zara.
+soy,je suis (permanent),verbos,person,ser,Soy un elfo. / Soy una guerrera.
+eres,tu es (permanent),verbos,person,ser,¿Eres un mago?
+es,il/elle est,verbos,person,ser,Es un dragón.
+somos,nous sommes,verbos,persons,ser,Somos héroes.
+son,ils/elles sont,verbos,persons,ser,Son los enemigos.
+¿de dónde eres?,d'où es-tu?,frases,world-map,identidad,¿De dónde eres? — Soy de las montañas.
+¿cuál es tu trabajo?,quel est ton métier?,frases,scroll-quill,identidad,clase del personaje
+¿qué quieres hacer?,que veux-tu faire?,frases,discussion,acción,Quiero atacar. / Quiero correr.
+quiero,je veux,verbos,wish,acción,Quiero una espada.
+puedo,je peux,verbos,power-lightning,acción,Puedo lanzar un hechizo.
+tengo,j'ai,verbos,backpack,posesión,Tengo 15 de fuerza.
 el guerrero,le guerrier,clases,sword,clase,un guerrero humano
 la maga,la magicienne,clases,magic-swirl,clase,una maga elfa
 el pícaro,le voleur,clases,hood,clase,un pícaro gnomo

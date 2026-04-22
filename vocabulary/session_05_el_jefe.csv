@@ -1,22 +1,22 @@
 spanish,french,category,icon,tags,notes
-el jefe,le boss / le chef,enemigos,boss-key,ennemi,El jefe del castillo aparece.
-¡ríndete!,rends-toi !,frases,white-flag,combat,¡Ríndete o te derroto!
-¡nunca!,jamais !,frases,sword,combat,El jefe grita: ¡Nunca me rendiré!
-la victoria,la victoire,resultado,trophy,combat,¡La victoria es nuestra!
-hemos ganado,nous avons gagné,frases,victory-hand,combat,¡Hemos ganado la batalla!
-derroté al jefe,j'ai vaincu le boss,frases,sword,combat,Derroté al jefe. ¡Soy el héroe!
-encontramos,nous avons trouvé,verbes,magnifying-glass,action,Encontramos el mapa del siguiente reino.
-una carta,une lettre,objetos,letter,objets,Hay una carta en el cofre del jefe.
-el reino,le royaume,lugares,castle,lieux,El siguiente reino nos necesita.
-la siguiente aventura,la prochaine aventure,frases,compass,quête,¿Estás listo para la siguiente aventura?
-poderoso/a,puissant(e),adjetivos,power-lightning,adjectifs,El jefe es muy poderoso.
-fuerte,fort(e),adjetivos,biceps,adjectifs,El troll es fuerte pero lento.
-lento/a,lent(e),adjetivos,snail,adjectifs,El troll es lento — ¡corre!
-rápido/a,rapide,adjetivos,sprint,adjectifs,El pícaro es muy rápido.
-fui,je suis allé(e),verbes,footprint,passé,Fui al castillo.
-vi,j'ai vu,verbes,eye,passé,Vi al jefe.
-luché,j'ai combattu,verbes,swords-power,passé,Luché muy bien hoy.
-encontré,j'ai trouvé,verbes,open-chest,passé,Encontré el tesoro.
+el jefe,le boss / le chef,enemigos,boss-key,enemigo,El jefe del castillo aparece.
+¡ríndete!,rends-toi !,frases,white-flag,combate,¡Ríndete o te derroto!
+¡nunca!,jamais !,frases,sword,combate,El jefe grita: ¡Nunca me rendiré!
+la victoria,la victoire,resultado,trophy,combate,¡La victoria es nuestra!
+hemos ganado,nous avons gagné,frases,victory-hand,combate,¡Hemos ganado la batalla!
+derroté al jefe,j'ai vaincu le boss,frases,sword,combate,Derroté al jefe. ¡Soy el héroe!
+encontramos,nous avons trouvé,verbos,magnifying-glass,acción,Encontramos el mapa del siguiente reino.
+una carta,une lettre,objetos,letter,objetos,Hay una carta en el cofre del jefe.
+el reino,le royaume,lugares,castle,lugares,El siguiente reino nos necesita.
+la siguiente aventura,la prochaine aventure,frases,compass,misión,¿Estás listo para la siguiente aventura?
+poderoso/a,puissant(e),adjetivos,power-lightning,adjetivos,El jefe es muy poderoso.
+fuerte,fort(e),adjetivos,biceps,adjetivos,El troll es fuerte pero lento.
+lento/a,lent(e),adjetivos,snail,adjetivos,El troll es lento — ¡corre!
+rápido/a,rapide,adjetivos,sprint,adjetivos,El pícaro es muy rápido.
+fui,je suis allé(e),verbos,footprint,pasado,Fui al castillo.
+vi,j'ai vu,verbos,eye,pasado,Vi al jefe.
+luché,j'ai combattu,verbos,swords-power,pasado,Luché muy bien hoy.
+encontré,j'ai trouvé,verbos,open-chest,pasado,Encontré el tesoro.
 la siguiente sesión,la prochaine séance,frases,scroll-quill,meta,¿Qué pasó la última vez?
-¿qué pasó?,qu'est-ce qui s'est passé?,frases,conversation-bubbles,rituel,Ritual d'ouverture de chaque séance.
-abro el cofre,j'ouvre le coffre,frases,open-chest,action,Abro el cofre. ¡Hay oro!
+¿qué pasó?,qu'est-ce qui s'est passé?,frases,conversation-bubbles,ritual,Ritual de apertura de cada sesión.
+abro el cofre,j'ouvre le coffre,frases,open-chest,acción,Abro el cofre. ¡Hay oro!

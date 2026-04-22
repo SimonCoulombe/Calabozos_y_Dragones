@@ -1,21 +1,21 @@
 spanish,french,category,icon,tags,notes
-necesito ayuda,j'ai besoin d'aide,phrases,two-shadows,quête,El anciano dice: Necesito ayuda.
-¿puedes ayudarme?,peux-tu m'aider?,phrases,helping-hand,quête,¿Puedes ayudarme? — ¡Sí puedo!
-la misión,la mission / la quête,lugares,scroll-quill,quête,Tenemos una misión importante.
-el enemigo,l'ennemi,personajes,evil-minion,ennemi,El enemigo se esconde en el norte.
-¿dónde está?,où est-il/elle?,phrases,map-pin,directions,¿Dónde está el castillo del enemigo?
-el castillo,le château,lugares,castle,lieux,El castillo está al norte.
-la recompensa,la récompense,tesoro,trophy,quête,¿Cuál es la recompensa? — Cien monedas.
+necesito ayuda,j'ai besoin d'aide,frases,two-shadows,misión,El anciano dice: Necesito ayuda.
+¿puedes ayudarme?,peux-tu m'aider?,frases,helping-hand,misión,¿Puedes ayudarme? — ¡Sí puedo!
+la misión,la mission / la quête,lugares,scroll-quill,misión,Tenemos una misión importante.
+el enemigo,l'ennemi,personajes,evil-minion,enemigo,El enemigo se esconde en el norte.
+¿dónde está?,où est-il/elle?,frases,map-pin,direcciones,¿Dónde está el castillo del enemigo?
+el castillo,le château,lugares,castle,lugares,El castillo está al norte.
+la recompensa,la récompense,tesoro,trophy,misión,¿Cuál es la recompensa? — Cien monedas.
 cien,cent,números,d20,números,Cien monedas de oro.
-importante,important(e),adjetivos,exclamation,adjectifs,Una misión muy importante.
-la taberna,la taverne,lugares,barrel,lieux,Nos reunimos en la taberna.
+importante,important(e),adjetivos,exclamación,adjetivos,Una misión muy importante.
+la taberna,la taverne,lugares,barrel,lugares,Nos reunimos en la taberna.
 el anciano,le vieillard,personajes,wizard-staff,pnj,El anciano nos da la misión.
-¿cuál es el plan?,quel est le plan?,phrases,scroll-quill,stratégie,¿Cuál es el plan de ataque?
-vamos al norte,allons au nord,phrases,compass,directions,Vamos al norte del bosque.
-adónde vamos,où allons-nous,phrases,path-distance,directions,¿Adónde vamos primero?
-peligroso,dangereux,adjetivos,warning,adjectifs,El camino al norte es peligroso.
-¡cuidado!,attention !,exclamaciones,warning,exclamation,¡Cuidado! Hay una trampa.
-¡silencio!,silence !,exclamaciones,ear,exclamation,¡Silencio! Hay guardias cerca.
-¿entiendes?,tu comprends?,phrases,conversation-bubbles,communication,¿Entiendes la misión?
-sí entiendo,oui je comprends,phrases,check-mark,communication,Sí entiendo. Vamos.
-no entiendo,je ne comprends pas,phrases,uncertainty,communication,No entiendo — ¿puedes repetir?
+¿cuál es el plan?,quel est le plan?,frases,scroll-quill,estrategia,¿Cuál es el plan de ataque?
+vamos al norte,allons au nord,frases,compass,direcciones,Vamos al norte del bosque.
+adónde vamos,où allons-nous,frases,path-distance,direcciones,¿Adónde vamos primero?
+peligroso,dangereux,adjetivos,warning,adjetivos,El camino al norte es peligroso.
+¡cuidado!,attention !,exclamaciones,warning,exclamación,¡Cuidado! Hay una trampa.
+¡silencio!,silence !,exclamaciones,ear,exclamación,¡Silencio! Hay guardias cerca.
+¿entiendes?,tu comprends?,frases,conversation-bubbles,comunicación,¿Entiendes la misión?
+sí entiendo,oui je comprends,frases,check-mark,comunicación,Sí entiendo. Vamos.
+no entiendo,je ne comprends pas,frases,uncertainty,comunicación,No entiendo — ¿puedes repetir?

@@ -82,15 +82,15 @@ def load_grammar() -> dict:
 
 
 REFERENCE_TITLES = {
-    "reference_races":     ("Las Razas y las Clases",   "Toutes les races et classes jouables"),
-    "reference_equipment": ("El Equipo del Aventurero", "Armes, armures et équipement de base"),
-    "reference_spells":    ("Los Hechizos",             "Sorts courants et écoles de magie"),
-    "reference_enemies":   ("Los Enemigos",             "Monstres courants par niveau de défi"),
-    "reference_lugares":   ("Los Lugares",              "Lieux, bâtiments et zones à explorer"),
-    "reference_numbers":   ("Los Números",              "1 → 20 — pour lancer les dés !"),
-    "reference_colors":   ("Los Colores",             "Décris ton équipement !"),
-    "reference_adjectives": ("Otros Adjetivos",         "Adjectifs utiles pour décrire le monde"),
-    "reference_mis_palabras":   ("Mis Palabras",              "Mes nouveaux mots"),    
+    "reference_races":     ("Las Razas y las Clases",   "Todas las razas y clases jugables"),
+    "reference_equipment": ("El Equipo del Aventurero", "Armas, armaduras y equipo básico"),
+    "reference_spells":    ("Los Hechizos",             "Hechizos comunes y escuelas de magia"),
+    "reference_enemies":   ("Los Enemigos",             "Monstruos comunes por nivel de desafío"),
+    "reference_lugares":   ("Los Lugares",              "Lugares, edificios y zonas por explorar"),
+    "reference_numbers":   ("Los Números",              "1 → 20 — ¡para tirar los dados!"),
+    "reference_colors":   ("Los Colores",             "¡Describe tu equipo!"),
+    "reference_adjectives": ("Otros Adjetivos",         "Adjetivos útiles para describir el mundo"),
+    "reference_mis_palabras":   ("Mis Palabras",              "Mis nuevas palabras"),    
 }
 
 
