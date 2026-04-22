@@ -18,12 +18,12 @@ VOCAB_DIR = BASE / "vocabulary"
 CONFIG_FILE = BASE / "config.yaml"
 
 SESSION_NAMES = {
-    "00": "Séance 0 — ¿Quién eres tú ?",
-    "01": "Séance 1 — La Tienda",
-    "02": "Séance 2 — El Camino",
-    "03": "Séance 3 — La Misión",
-    "04": "Séance 4 — La Mazmorra",
-    "05": "Séance 5 — El Jefe",
+    "01": "Tema 1 — ¿Quién eres tú ?",
+    "02": "Tema 2 — La Tienda",
+    "03": "Tema 3 — El Camino",
+    "04": "Tema 4 — La Misión",
+    "05": "Tema 5 — La Mazmorra",
+    "06": "Tema 6 — El Jefe",
 }
 
 CARD_CSS = """
@@ -75,9 +75,9 @@ def load_config() -> dict:
 def load_all_words() -> list[dict]:
     """Load all vocabulary CSVs (session and reference), tagged with source."""
     words = []
-    csv_files = sorted(VOCAB_DIR.glob("session_*.csv")) + sorted(VOCAB_DIR.glob("reference_*.csv"))
+    csv_files = sorted(VOCAB_DIR.glob("theme_*.csv")) + sorted(VOCAB_DIR.glob("reference_*.csv"))
     for p in csv_files:
-        is_session = p.stem.startswith("session_")
+        is_session = p.stem.startswith("theme_")
         num = p.stem.split("_")[1] if is_session else None
         with open(p, newline="", encoding="utf-8") as f:
             for row in csv.DictReader(f):
@@ -90,7 +90,7 @@ def load_all_words() -> list[dict]:
                         "tags": [t.strip() for t in row["tags"].split(",") if t.strip()],
                         "notes": row["notes"].strip(),
                         "session": num,
-                        "session_name": SESSION_NAMES.get(num, f"Séance {num}") if num else p.stem,
+                        "session_name": SESSION_NAMES.get(num, f"Tema {num}") if num else p.stem,
                     })
     return words
 

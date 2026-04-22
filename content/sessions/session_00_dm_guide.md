@@ -1,4 +1,4 @@
-# Séance 0 — ¿Quién eres tú ? (Guide du MJ)
+# Tema 1 — ¿Quién eres tú ? (Guide du MJ)
 
 **Durée** : 45 minutes  
 **Objectif linguistique** : se présenter, nommer sa race et sa classe, comprendre les nombres 1–20
@@ -7,7 +7,7 @@
 
 ## Avant la séance
 
-Envoie au joueur le vocabulaire de `session_00_quien_eres.csv` 3 jours avant (en PDF ou en image).  
+Envoie au joueur le vocabulaire de `theme_01_quien_eres.csv` 3 jours avant (en PDF ou en image).  
 Dis-lui que c'est son "Parchemin du Guerrier" — il doit le lire une fois pour être prêt.
 
 ---
@@ -85,7 +85,7 @@ Montre des options : ataque (mime un coup d'épée), corre (mime courir), se esc
 
 > "¡Perfecto! Ahora eres [nom du personnage], el/la [classe]. ¡Bienvenido/a a la aventura!"
 
-**Annonce le rituel de début de séance** qui s'appliquera à partir de la Séance 1 :
+**Annonce le rituel de début de séance** qui s'appliquera à partir du Tema 2 :
 > "Au début de chaque séance, je te poserai une question : *¿Qué pasó la última vez?* — Qu'est-ce qui s'est passé la dernière fois ? Tu me répondras en espagnol."
 
 ---

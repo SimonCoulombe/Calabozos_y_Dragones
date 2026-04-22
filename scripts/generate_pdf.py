@@ -21,10 +21,10 @@ def load_config() -> dict:
 
 
 def load_session_csv(path: Path) -> dict:
-    """Load a session CSV and return a session dict for the template."""
-    session_num = path.stem.split("_")[1]
+    """Load a theme CSV and return a session dict for the template."""
+    theme_num = path.stem.split("_")[1]
     raw_title = path.stem.split("_", 2)[2] if len(path.stem.split("_")) > 2 else ""
-    title = f"Séance {int(session_num)} — {raw_title.replace('_', ' ').title()}"
+    title = f"Tema {int(theme_num)} — {raw_title.replace('_', ' ').title()}"
 
     words = []
     with open(path, newline="", encoding="utf-8") as f:
@@ -43,21 +43,21 @@ def load_session_csv(path: Path) -> dict:
 
 
 SESSION_TITLES = {
-    "00": ("Séance 0 — ¿Quién eres tú ?", "Créer ton personnage"),
-    "01": ("Séance 1 — La Tienda", "Acheter de l'équipement"),
-    "02": ("Séance 2 — El Camino", "Voyager et se battre"),
-    "03": ("Séance 3 — La Misión", "Recevoir une quête"),
-    "04": ("Séance 4 — La Mazmorra", "Explorer le donjon"),
-    "05": ("Séance 5 — El Jefe", "Affronter le boss"),
+    "01": ("Tema 1 — ¿Quién eres tú ?", "Créer ton personnage"),
+    "02": ("Tema 2 — La Tienda", "Acheter de l'équipement"),
+    "03": ("Tema 3 — El Camino", "Voyager et se battre"),
+    "04": ("Tema 4 — La Misión", "Recevoir une quête"),
+    "05": ("Tema 5 — La Mazmorra", "Explorer le donjon"),
+    "06": ("Tema 6 — El Jefe", "Affronter le boss"),
 }
 
 SESSION_FRAMINGS = {
-    "00": "Avant de partir à l'aventure, tu dois créer ton personnage. Réponds aux questions du Maître de Donjon en espagnol !",
-    "01": "Tu arrives en ville avec de l'or mais sans équipement. Le marchand ne parle qu'espagnol — nomme ce que tu veux acheter !",
-    "02": "Sur la route, tu dois décrire ce que tu vois, entends et fais. En espagnol, bien sûr !",
-    "03": "Un vieil homme t'aborde dans la taverne. Il a besoin d'aide. Comprends sa mission et pose tes questions.",
-    "04": "L'obscurité t'entoure. Tu dois explorer, trouver des trésors et éviter les pièges — en décrivant tout en espagnol.",
-    "05": "Le boss final attend. Tout ce que tu as appris va servir dans ce combat épique !",
+    "01": "Avant de partir à l'aventure, tu dois créer ton personnage. Réponds aux questions du Maître de Donjon en espagnol !",
+    "02": "Tu arrives en ville avec de l'or mais sans équipement. Le marchand ne parle qu'espagnol — nomme ce que tu veux acheter !",
+    "03": "Sur la route, tu dois décrire ce que tu vois, entends et fais. En espagnol, bien sûr !",
+    "04": "Un vieil homme t'aborde dans la taverne. Il a besoin d'aide. Comprends sa mission et pose tes questions.",
+    "05": "L'obscurité t'entoure. Tu dois explorer, trouver des trésors et éviter les pièges — en décrivant tout en espagnol.",
+    "06": "Le boss final attend. Tout ce que tu as appris va servir dans ce combat épique !",
 }
 
 
@@ -119,9 +119,9 @@ def main() -> int:
     out_dir = BASE / config["output"]["pdf_dir"]
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    csv_files = sorted(VOCAB_DIR.glob("session_*.csv"))
+    csv_files = sorted(VOCAB_DIR.glob("theme_*.csv"))
     if not csv_files:
-        print("ERROR: no session CSV files found in vocabulary/")
+        print("ERROR: no theme CSV files found in vocabulary/")
         return 1
 
     sessions = []

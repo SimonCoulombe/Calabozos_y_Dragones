@@ -6,10 +6,10 @@ Spanish D&D learning campaign for French-speaking children, run by a Spanish-spe
 
 Two French-speaking kids (~age 10) are learning Spanish through a D&D campaign with a Spanish teacher who loves D&D. This repo contains:
 
-- **Vocabulary word lists** per session (CSV — editable directly in GitHub's web UI)
+- **Vocabulary word lists** per theme (CSV — editable directly in GitHub's web UI)
 - **Grammar reference tables** (YAML — conjugation tables, verb lists)
 - **Scripts** to generate Anki flashcard decks (with TTS audio) and a PDF reference book
-- **DM session guides** and pre-session bridging stories
+- **DM theme guides** and pre-theme bridging stories
 
 ## Quick Start
 
@@ -32,7 +32,7 @@ make icons      # pre-cache game-icons.net SVGs (optional)
 
 ## Editing Vocabulary (no coding needed)
 
-Open any `vocabulary/session_XX_*.csv` or `vocabulary/reference_*.csv` file on GitHub — it displays as an interactive table. Click the pencil icon to edit. Add words to the blank rows at the bottom. Commit.
+Open any `vocabulary/theme_XX_*.csv` or `vocabulary/reference_*.csv` file on GitHub — it displays as an interactive table. Click the pencil icon to edit. Add words to the blank rows at the bottom. Commit.
 
 After editing, run `make all` locally to regenerate the PDF and Anki decks.
 
@@ -42,12 +42,12 @@ A GitHub Actions workflow automatically validates all files on every push (green
 
 ```
 vocabulary/
-  session_00_quien_eres.csv     ← Session 0: character creation, numbers
-  session_01_la_tienda.csv      ← Session 1: shopping, equipment
-  session_02_el_camino.csv      ← Session 2: travel, directions, combat
-  session_03_la_mision.csv      ← Session 3: quest giver, key phrases
-  session_04_la_mazmorra.csv    ← Session 4: dungeon exploration
-  session_05_el_jefe.csv        ← Session 5: boss fight, past tense intro
+  theme_01_quien_eres.csv       ← Theme 1: character creation, numbers
+  theme_02_la_tienda.csv        ← Theme 2: shopping, equipment
+  theme_03_el_camino.csv        ← Theme 3: travel, directions, combat
+  theme_04_la_mision.csv        ← Theme 4: quest giver, key phrases
+  theme_05_la_mazmorra.csv      ← Theme 5: dungeon exploration
+  theme_06_el_jefe.csv          ← Theme 6: boss fight, past tense intro
   reference_races.csv           ← All 9 races + 12 classes
   reference_equipment.csv       ← Weapons, armor, gear (level 1)
   reference_spells.csv          ← Common spells + magic schools
@@ -66,12 +66,12 @@ characters/
   child_2_character.yaml
 
 progress/
-  child_1_progress.yaml         ← Words owned vs. struggling (update after each session)
+  child_1_progress.yaml         ← Words owned vs. struggling (update after each theme)
   child_2_progress.yaml
 
 content/
-  sessions/                     ← DM guides per session (Markdown)
-  stories/                      ← Pre-session bridging stories (Markdown)
+  sessions/                     ← DM guides per theme (Markdown)
+  stories/                      ← Pre-theme bridging stories (Markdown)
 
 scripts/
   generate_pdf.py               ← CSV + YAML → WeasyPrint PDF
@@ -121,7 +121,7 @@ If the server is unreachable, Anki cards are still generated without audio (`ski
 
 ## Workflow After Each Session
 
-1. DM or parent opens the session CSV on GitHub → adds new words to blank rows
+1. DM or parent opens the theme CSV on GitHub → adds new words to blank rows
 2. Update `progress/child_N_progress.yaml` with words the child owned vs. struggled with
 3. Run `make all` to regenerate PDF and Anki decks
 4. Share updated PDF via Google Drive; send `.apkg` to child's AnkiDroid

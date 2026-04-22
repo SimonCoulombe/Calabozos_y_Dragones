@@ -1,5 +1,5 @@
 # El Primer Día en la Ciudad
-### Une histoire à lire avant la Séance 1
+### Une histoire à lire avant le Tema 2
 
 *Lis cette histoire avant ta prochaine séance. Les mots en gras sont ceux que tu vas utiliser avec ton Maître de Donjon — essaie de les retenir !*
 

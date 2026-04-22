@@ -1,4 +1,4 @@
-# Séance 2 — El Camino (Guide du MJ)
+# Tema 3 — El Camino (Guide du MJ)
 
 **Durée** : 45 minutes  
 **Objectif linguistique** : décrire l'environnement, les directions, premier combat
@@ -9,7 +9,7 @@
 
 > "¿Qué pasó la última vez?"
 
-L'enfant raconte les séances 0 et 1. Guide :
+L'enfant raconte les temas 1 et 2. Guide :
 > "¿Compraste algo en la tienda? ¿Qué compraste?"
 
 Utilise le passé composé en français si besoin pour expliquer, mais reste en espagnol dans le jeu.
@@ -76,7 +76,7 @@ Le goblin portait un message.
 
 > "El goblin tiene una nota. Dice: *'Los bandidos se esconden en la cueva del norte.'*"
 
-(C'est l'accroche pour la Séance 3.)
+(C'est l'accroche pour le Tema 4.)
 
 ---
 
@@ -93,5 +93,5 @@ Inscris l'état du personnage. Annonce :
 
 - Les verbes de perception (`veo, escucho, huelo`) sont très puissants pour l'immersion — utilise-les pour décrire CHAQUE nouvelle scène.
 - Si l'enfant est bloqué en combat, donne des options visuelles : montre les dés, mime l'action.
-- **Spirale de répétition** : utilise des mots des séances précédentes (`espada`, `monedas`, les nombres) dans de nouveaux contextes.
-- L'accroche de la Séance 3 doit être simple et mystérieuse — ne résous pas tout maintenant.
+- **Spirale de répétition** : utilise des mots des temas précédents (`espada`, `monedas`, les nombres) dans de nouveaux contextes.
+- L'accroche du Tema 4 doit être simple et mystérieuse — ne résous pas tout maintenant.

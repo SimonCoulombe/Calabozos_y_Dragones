@@ -1,4 +1,4 @@
-# Séance 1 — La Tienda (Guide du MJ)
+# Tema 2 — La Tienda (Guide du MJ)
 
 **Durée** : 45 minutes  
 **Objectif linguistique** : nommer l'équipement, acheter en espagnol, utiliser les nombres pour les prix
@@ -9,7 +9,7 @@
 
 > "¡Hola, [nom du personnage]! ¿Qué pasó la última vez?"
 
-L'enfant doit te raconter la Séance 0 en espagnol. Guide avec des questions si besoin :
+L'enfant doit te raconter le Tema 1 en espagnol. Guide avec des questions si besoin :
 
 > "¿Cómo te llamas? ¿Qué eres? ¿Cuánto tienes de fuerza?"
 

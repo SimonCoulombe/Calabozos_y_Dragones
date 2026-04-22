@@ -194,7 +194,7 @@ def prefetch_all() -> None:
     vocab_dir = BASE / "vocabulary"
     slugs: set[str] = set()
 
-    for csv_file in vocab_dir.glob("session_*.csv"):
+    for csv_file in vocab_dir.glob("theme_*.csv"):
         with open(csv_file, newline="", encoding="utf-8") as f:
             for row in csv.DictReader(f):
                 slug = row.get("icon", "").strip()
