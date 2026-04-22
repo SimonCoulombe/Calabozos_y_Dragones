@@ -1,24 +1,24 @@
-spanish,french,category,notes
-uno,un,,¡Fallo crítico!
-dos,deux,,
-tres,trois,,
-cuatro,quatre,,
-cinco,cinq,,
-seis,six,,Saqué un seis.
-siete,sept,,
-ocho,huit,,
-nueve,neuf,,
-diez,dix,,Tengo diez puntos de golpe.
-once,onze,,
-doce,douze,,
-trece,treize,,
-catorce,quatorze,,
-quince,quinze,,Saqué un quince. ¡Impacto!
-dieciséis,seize,,
-diecisiete,dix-sept,,
-dieciocho,dix-huit,,¡18 de fuerza! Eres muy fuerte.
-diecinueve,dix-neuf,,
-veinte,vingt,,¡Golpe crítico!
-cincuenta,cinquante,,
-cien,cent,,
-mil,mille,,
+spanish,french,category,icon,tags,notes
+uno,un,numéros,,reference números,¡Fallo crítico!
+dos,deux,numéros,,reference números,
+tres,trois,numéros,,reference números,
+cuatro,quatre,numéros,,reference números,
+cinco,cinq,numéros,,reference números,
+seis,six,numéros,,reference números,Saqué un seis.
+siete,sept,numéros,,reference números,
+ocho,huit,numéros,,reference números,
+nueve,neuf,numéros,,reference números,
+diez,dix,numéros,,reference números,Tengo diez puntos de golpe.
+once,onze,numéros,,reference números,
+doce,douze,numéros,,reference números,
+trece,treize,numéros,,reference números,
+catorce,quatorze,numéros,,reference números,
+quince,quinze,numéros,,reference números,Saqué un quince. ¡Impacto!
+dieciséis,seize,numéros,,reference números,
+diecisiete,dix-sept,numéros,,reference números,
+dieciocho,dix-huit,numéros,,reference números,¡18 de fuerza! Eres muy fuerte.
+diecinueve,dix-neuf,numéros,,reference números,
+veinte,vingt,numéros,,reference números,¡Golpe crítico!
+cincuenta,cinquante,numéros,,reference números,
+cien,cent,numéros,,reference números,
+mil,mille,numéros,,reference números,

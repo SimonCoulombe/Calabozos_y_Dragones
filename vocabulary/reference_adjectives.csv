@@ -1,34 +1,34 @@
-spanish,french,example
-mi, mon / ma 
-mis, mes
-tu, ton / ta
-tus, tes
-su ,son / sa (mais aussi "votre" pour vouvoyer une personne)
-sus,ses (mais aussi "votre" pour vouvoyer une personne )
-nuestro / nuestra, notre
-nuestros / nuestras, nos
-vuestro / vuestra,  votre (pour tutoyer un groupe(!)
-vuestros / vuestras,vos (pour tutoyer un groupe(!)
-su,  leur  (mais aussi "votre" pour vouvoyer un groupe)
-sus, leurs  (mais aussi "vos" pour vouvoyer un groupe)
-grande / grande,grand / gros,un dragón grande
-pequeño / pequeña,petit,un goblin pequeño
-nuevo / nueva,nouveau / neuf,una espada nueva
-viejo / vieja,vieux,un escudo viejo
-gastado / gastada,usé / abîmé,una armadura gastada
-joven / joven,jeune,un elfo joven
-rico / rica,riche,el mercader rico
-pobre / pobre,pauvre,el aldeano pobre
-fuerte / fuerte,fort / puissant,el guerrero fuerte
-débil / débil,faible,el enemigo débil
-rápido / rápida,rapide,el ladrón rápido
-lento / lenta,lent,el troll lento
-oscuro / oscura,sombre / obscur,un pasillo oscuro
-luminoso / luminosa,lumineux,un hechizo luminoso
-peligroso / peligrosa,dangereux,la trampa peligrosa
-seguro / segura,sûr / en sécurité,un lugar seguro
-mágico / mágica,magique,un objeto mágico
-misterioso / misteriosa,mystérieux,una puerta misteriosa
-antiguo / antigua,ancien / vieux,un mapa antiguo
-pesado / pesada,lourd,una armadura pesada
-ligero / ligera,léger,un arco ligero
+spanish,french,category,icon,tags,notes
+mi,mon / ma,posesivos,,reference adjectifs,
+mis,mes,posesivos,,reference adjectifs,
+tu,ton / ta,posesivos,,reference adjectifs,
+tus,tes,posesivos,,reference adjectifs,
+su,son / sa,posesivos,,reference adjectifs,"mais aussi ""votre"" pour vouvoyer une personne"
+sus,ses,posesivos,,reference adjectifs,"mais aussi ""votre"" pour vouvoyer une personne"
+nuestro / nuestra,notre,posesivos,,reference adjectifs,
+nuestros / nuestras,nos,posesivos,,reference adjectifs,
+vuestro / vuestra,votre,posesivos,,reference adjectifs,pour tutoyer un groupe
+vuestros / vuestras,vos,posesivos,,reference adjectifs,pour tutoyer un groupe
+su,leur,posesivos,,reference adjectifs,"mais aussi ""votre"" pour vouvoyer un groupe"
+sus,leurs,posesivos,,reference adjectifs,"mais aussi ""vos"" pour vouvoyer un groupe"
+grande / grande,grand / gros,tamaño,,reference adjectifs,un dragón grande
+pequeño / pequeña,petit,tamaño,,reference adjectifs,un goblin pequeño
+nuevo / nueva,nouveau / neuf,état,,reference adjectifs,una espada nueva
+viejo / vieja,vieux,état,,reference adjectifs,un escudo viejo
+gastado / gastada,usé / abîmé,état,,reference adjectifs,una armadura gastada
+joven / jeune,jeune,âge,,reference adjectifs,un elfo joven
+rico / rica,riche,richesse,,reference adjectifs,el mercader rico
+pobre / pobre,pauvre,richesse,,reference adjectifs,el aldeano pobre
+fuerte / fuerte,fort / puissant,force,,reference adjectifs,el guerrero fuerte
+débil / débil,faible,force,,reference adjectifs,el enemigo débil
+rápido / rápida,rapide,vitesse,,reference adjectifs,el ladrón rápido
+lento / lenta,lent,vitesse,,reference adjectifs,el troll lento
+oscuro / oscura,sombre / obscur,lumière,,reference adjectifs,un pasillo oscuro
+luminoso / luminosa,lumineux,lumière,,reference adjectifs,un hechizo luminoso
+peligroso / peligrosa,dangereux,danger,,reference adjectifs,la trampa peligrosa
+seguro / segura,sûr / en sécurité,sécurité,,reference adjectifs,un lugar seguro
+mágico / mágica,magique,magie,,reference adjectifs,un objeto mágico
+misterioso / misteriosa,mystérieux,mystère,,reference adjectifs,una puerta misteriosa
+antiguo / antigua,ancien / vieux,temps,,reference adjectifs,un mapa antiguo
+pesado / pesada,lourd,poids,,reference adjectifs,una armadura pesada
+ligero / ligera,léger,poids,,reference adjectifs,un arco ligero

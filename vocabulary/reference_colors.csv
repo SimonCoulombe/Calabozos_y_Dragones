@@ -1,23 +1,23 @@
-spanish,french,example,category
-rojo / roja,rouge,una espada roja,colores
-azul / azul,bleu,un escudo azul,colores
-verde / verde,vert,una poción verde,colores
-negro / negra,noir,una capa negra,colores
-blanco / blanca,blanc,un dragón blanco,colores
-amarillo / amarilla,jaune,el oro amarillo,colores
-gris / gris,gris,un casco gris,colores
-morado / morada,violet,una gema morada,colores
-plateado / plateada,argenté,una espada plateada,colores
-dorado / dorada,doré,una armadura dorada,colores
-un poquito,un petit peu,un poquito de pan,cantidad
-un poco,un peu,un poco de agua,cantidad
-mucho,beaucoup,mucho oro,cantidad
-demasiado, trop, Esta espada es demasiado cara, cantidad
-pobre,médiocre,un equipo pobre,calidad
-promedio,moyen,un resultado promedio,calidad
-bueno,bon,un guerrero bueno,calidad
-excelente,excellent,una magia excelente,calidad
-de hierro,en fer,materiales, un casco de hierro
-de madera,en bois,materiales,un bastón de madera
-de cuero, de cuir, materiales,  una armadura de cuero
-de cobre, de cuivre, materiales,  una moneda de cobre
+spanish,french,category,icon,tags,notes
+rojo / roja,rouge,colores,,reference colores,una espada roja
+azul / azul,bleu,colores,,reference colores,un escudo azul
+verde / verde,vert,colores,,reference colores,una poción verde
+negro / negra,noir,colores,,reference colores,una capa negra
+blanco / blanca,blanc,colores,,reference colores,un dragón blanco
+amarillo / amarilla,jaune,colores,,reference colores,el oro amarillo
+gris / gris,gris,colores,,reference colores,un casco gris
+morado / morada,violet,colores,,reference colores,una gema morada
+plateado / plateada,argenté,colores,,reference colores,una espada plateada
+dorado / dorada,doré,colores,,reference colores,una armadura dorada
+un poquito,un petit peu,cantidad,,reference colores,un poquito de pan
+un poco,un peu,cantidad,,reference colores,un poco de agua
+mucho,beaucoup,cantidad,,reference colores,mucho oro
+demasiado,trop,cantidad,,reference colores,Esta espada es demasiado cara
+pobre,médiocre,qualité,,reference colores,un equipo pobre
+promedio,moyen,qualité,,reference colores,un resultado promedio
+bueno,bon,qualité,,reference colores,un guerrero bueno
+excelente,excellent,qualité,,reference colores,una magia excelente
+de hierro,en fer,matériaux,,reference colores,un casco de hierro
+de madera,en bois,matériaux,,reference colores,un bastón de madera
+de cuero,de cuir,matériaux,,reference colores,una armadura de cuero
+de cobre,de cuivre,matériaux,,reference colores,una moneda de cobre
