@@ -11,6 +11,12 @@ Two French-speaking kids (~age 10) are learning Spanish through a D&D campaign w
 - **Scripts** to generate Anki flashcard decks (with TTS audio) and a PDF reference book
 - **DM session guides** and pre-session bridging stories
 
+## Download
+
+The latest PDF reference book and Anki decks are automatically generated and deployed to GitHub Pages:
+
+- **[GitHub Pages — PDF + Anki Decks](https://simoncoulombe.github.io/Calabozos_y_Dragones/)**
+
 ## Quick Start
 
 ```bash
