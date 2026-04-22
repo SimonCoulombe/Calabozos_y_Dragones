@@ -1,8 +1,9 @@
 spanish,french,category,icon,tags,notes
+la misión,la mission / la quête,lugares,scroll-quill,misión,Tenemos una misión importante.
 necesito ayuda,j'ai besoin d'aide,frases,two-shadows,misión,El anciano dice: Necesito ayuda.
 ¿puedes ayudarme?,peux-tu m'aider?,frases,helping-hand,misión,¿Puedes ayudarme? — ¡Sí puedo!
-la misión,la mission / la quête,lugares,scroll-quill,misión,Tenemos una misión importante.
 el enemigo,l'ennemi,personajes,evil-minion,enemigo,El enemigo se esconde en el norte.
+corro,je cours,verbos,run,acción,Corro hacia el río.
 ¿dónde está?,où est-il/elle?,frases,map-pin,direcciones,¿Dónde está el castillo del enemigo?
 el castillo,le château,lugares,castle,lugares,El castillo está al norte.
 la recompensa,la récompense,tesoro,trophy,misión,¿Cuál es la recompensa? — Cien monedas.
@@ -11,7 +12,6 @@ importante,important(e),adjetivos,exclamación,adjetivos,Una misión muy importa
 la taberna,la taverne,lugares,barrel,lugares,Nos reunimos en la taberna.
 el anciano,le vieillard,personajes,wizard-staff,pnj,El anciano nos da la misión.
 ¿cuál es el plan?,quel est le plan?,frases,scroll-quill,estrategia,¿Cuál es el plan de ataque?
-vamos al norte,allons au nord,frases,compass,direcciones,Vamos al norte del bosque.
 adónde vamos,où allons-nous,frases,path-distance,direcciones,¿Adónde vamos primero?
 peligroso,dangereux,adjetivos,warning,adjetivos,El camino al norte es peligroso.
 ¡cuidado!,attention !,exclamaciones,warning,exclamación,¡Cuidado! Hay una trampa.

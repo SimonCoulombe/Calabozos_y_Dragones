@@ -1,18 +1,19 @@
 spanish,french,category,icon,tags,notes
+el camino,le chemin,entorno,path-distance,entorno,Seguimos el camino.
 veo,je vois,verbos,eye,percepción,Veo algo en el bosque.
 escucho,j'entends,verbos,ear,percepción,Escucho un ruido.
 huelo,je sens (odeur),verbos,nose,percepción,Huele raro aquí.
 hay,il y a,verbos,map-pin,entorno,Hay un río delante.
+voy / vamos, je vais / nous allons, verbos, , acción, vamos al norte
+el norte /  el sur / el este / el oeste , le nord / le sud / l'est / l'ouest, frases, straight-arrow, direcciones, Vamos al norte.
 sigo recto,je continue tout droit,frases,straight-arrow,direcciones,Sigo recto por el camino.
 giro a la izquierda,je tourne à gauche,frases,return-arrow,direcciones,Giro a la izquierda en el cruce.
 giro a la derecha,je tourne à droite,frases,curved-arrow,direcciones,Giro a la derecha.
 abro la puerta,j'ouvre la porte,frases,door-handle,acción,Abro la puerta lentamente.
 me escondo,je me cache,frases,hidden,acción,Me escondo detrás del árbol.
-corro,je cours,verbos,run,acción,Corro hacia el río.
 el bosque,la forêt,entorno,pine-tree,entorno,Hay un bosque oscuro.
 el río,la rivière,entorno,river,entorno,Hay un río ruidoso.
 la montaña,la montagne,entorno,mountain-road,entorno,Veo una montaña enorme.
-el camino,le chemin,entorno,path-distance,entorno,Seguimos el camino.
 la cueva,la caverne,entorno,cave-entrance,entorno,Hay una cueva en la montaña.
 el puente,le pont,entorno,bridge,entorno,Cruzamos el puente.
 oscuro/a,sombre,adjetivos,night-sleep,adjetivos,El bosque está muy oscuro.
