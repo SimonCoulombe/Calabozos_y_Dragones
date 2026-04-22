@@ -5,12 +5,16 @@ escucho,j'entends,verbos,delapouite/sound-on.svg,percepción,Escucho un ruido.
 huelo,je sens (odeur),verbos,delapouite/nose-side.svg,percepción,Huele raro aquí.
 hay,il y a,verbos,delapouite/position-marker.svg,entorno,Hay un río delante.
 voy / vamos, je vais / nous allons, verbos, , acción, vamos al norte
-el norte /  el sur / el este / el oeste , le nord / le sud / l'est / l'ouest, frases,lorc/compass.svg, direcciones, Vamos al norte.
+el mapa,la carte,equipo,lorc/treasure-map.svg,equipamiento,El mapa muestra el camino.
+el norte , le nord, frases,lorc/compass.svg, direcciones, Vamos al norte.
+el sur, le sud, frases,lorc/compass.svg, direcciones, Vamos al sur.
+el este , l'est, frases,lorc/compass.svg, direcciones, Los enemigos son al norte.
+el oeste , l'ouest, frases,lorc/compass.svg, direcciones, Vamos al oeste.
 sigo recto,je continue tout droit,frases,,direcciones,Sigo recto por el camino.
 giro a la izquierda,je tourne à gauche,frases,,direcciones,Giro a la izquierda en el cruce.
 giro a la derecha,je tourne à droite,frases,,direcciones,Giro a la derecha.
-arriba,en haut,direcciones,delapouite/arrow-cursor.svg,direcciones,Las escaleras están arriba.
-abajo,en bas,direcciones,delapouite/arrow-cursor.svg,direcciones,La mazmorra está abajo.
+arriba,en haut,direcciones,,direcciones,Las escaleras están arriba.
+abajo,en bas,direcciones,,direcciones,La mazmorra está abajo.
 abro la puerta,j'ouvre la porte,frases,delapouite/door-handle.svg,acción,Abro la puerta lentamente.
 me escondo,je me cache,frases,lorc/hidden.svg,acción,Me escondo detrás del árbol.
 el bosque,la forêt,entorno,lorc/pine-tree.svg,entorno,Hay un bosque oscuro.
@@ -18,7 +22,4 @@ el río,la rivière,entorno,delapouite/river.svg,entorno,Hay un río ruidoso.
 la montaña,la montagne,entorno,delapouite/mountain-road.svg,entorno,Veo una montaña enorme.
 la cueva,la caverne,entorno,delapouite/cave-entrance.svg,entorno,Hay una cueva en la montaña.
 el puente,le pont,entorno,lorc/bridge.svg,entorno,Cruzamos el puente.
-oscuro/a,sombre,adjetivos,delapouite/night-sleep.svg,adjetivos,El bosque está muy oscuro.
-ruidoso/a,bruyant(e),adjetivos,skoll/sound-waves.svg,adjetivos,El río es ruidoso.
-peligroso/a,dangereux(se),adjetivos,lorc/laser-warning.svg,adjetivos,¡El camino es peligroso!
-el mapa,la carte,equipo,lorc/treasure-map.svg,equipamiento,El mapa muestra el camino.
+

@@ -3,7 +3,6 @@ la misión,la mission / la quête,lugares,delapouite/scroll-quill.svg,misión,Te
 necesito ayuda,j'ai besoin d'aide,frases,lorc/two-shadows.svg,misión,El anciano dice: Necesito ayuda.
 ¿puedes ayudarme?,peux-tu m'aider?,frases,sbed/help.svg,misión,¿Puedes ayudarme? — ¡Sí puedo!
 el enemigo,l'ennemi,personajes,lorc/evil-minion.svg,enemigo,El enemigo se esconde en el norte.
-corro,je cours,verbos,lorc/run.svg,acción,Corro hacia el río.
 ¿dónde está?,où est-il/elle?,frases,delapouite/position-marker.svg,direcciones,¿Dónde está el castillo del enemigo?
 el castillo,le château,lugares,delapouite/castle.svg,lugares,El castillo está al norte.
 la recompensa,la récompense,tesoro,lorc/trophy.svg,misión,¿Cuál es la recompensa? — Cien monedas.
@@ -21,3 +20,4 @@ sí entiendo,oui je comprends,frases,,comunicación,Sí entiendo. Vamos.
 no entiendo,je ne comprends pas,frases,,comunicación,No entiendo — ¿puedes repetir?
 ataco,j'attaque,combate,lorc/sword-clash.svg,combate,Ataco al goblin.
 me defiendo,je me défends,combate,lorc/shield-reflect.svg,combate,Me defiendo con mi escudo.
+corro,je cours,verbos,lorc/run.svg,acción,Corro hacia el río.

@@ -30,8 +30,11 @@ el humano,l'humain,razas,delapouite/person.svg,raza,Somos humanos.
 el gnomo,le gnome,razas,cathelineau/bad-gnome.svg,raza,Es un gnomo.
 el nivel, le niveau,  atributos,,atributos, Soy de nivel uno.
 el alineamiento, l'alignement, atributos, , atributos, Brueno es dee alineamiento legal bueno
-legal / neutral / caótico , loyal / neutre / chaotique, atributos, , atributos, Muchos elfos son caóticos buenos
-bueno / neutral / malvado, bon / neutre / mauvais, atributos , , atributos, Los demonios son caóticos malvados
+legal, loyal, atributos, , atributos, La mayoría de los enanos son legales buenos
+neutral , neutre, atributos, , atributos, La mayoría de los druidas son neutrales
+caótico , chaotique, atributos, , atributos, Los unicornios son caóticos buenos
+bueno , bon, atributos , , atributos, Muchos elfos son caóticos buenos
+malvado, mauvais, atributos , , atributos, Los demonios son caóticos malvados
 los puntos de golpe, les points de vie, atributos,lorc/angel-wings.svg,atributos,Tiene doce puntos de golpe.
 la fuerza,la force,atributos,delapouite/biceps.svg,atributos,Tengo trece de fuerza.
 la destreza,la dextérité,atributos,lorc/juggler.svg,atributos,Tengo catorce de destreza.
