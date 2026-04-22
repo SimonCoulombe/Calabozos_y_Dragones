@@ -9,11 +9,15 @@ gris / gris,gris,un casco gris,colores
 morado / morada,violet,una gema morada,colores
 plateado / plateada,argenté,una espada plateada,colores
 dorado / dorada,doré,una armadura dorada,colores
-un poco,un peu,un poco de agua,cantidad
 un poquito,un petit peu,un poquito de pan,cantidad
+un poco,un peu,un poco de agua,cantidad
 mucho,beaucoup,mucho oro,cantidad
+demasiado, trop, Esta espada es demasiado cara, cantidad
 pobre,médiocre,un equipo pobre,calidad
 promedio,moyen,un resultado promedio,calidad
 bueno,bon,un guerrero bueno,calidad
 excelente,excellent,una magia excelente,calidad
-
+de hierro,en fer,materiales,anvil-impact,materiales,un casco de hierro
+de madera,en bois,materiales,wood-beam,materiales,un bastón de madera
+de cuero, de cuir, materiales, , materiales,  una armadura de cuero
+de cobre, de cuivre, materiales, ,  materiales, una moneda de cobre

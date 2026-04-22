@@ -4,6 +4,10 @@ quiero comprar,je veux acheter,frases,shopping-cart,compra,Quiero comprar una es
 cuesta,ça coûte,verbos,coins,compra,Cuesta diez monedas de oro.
 tengo… monedas,j'ai… pièces,frases,gold-bar,compra,Tengo quince monedas de oro.
 ¿tienes…?,tu as… ?,frases,open-chest,compra,¿Tienes una poción de curación?
+la tienda,la boutique,lugares,shop,lugares,Vamos a la tienda.
+el vendedor,le marchand,personajes,merchant,pnj,El vendedor tiene muchas cosas.
+barato / barata, peu cher / peu chère, frases,  , compra,  Esta poción es barata
+caro / cara, cher / chère, frases, , compare , Esta espada es demasiado cara
 la espada,l'épée,armas,sword,armas equipamiento,Quiero una espada grande.
 la daga,la dague,armas,daggers,armas equipamiento,Una daga para el pícaro.
 el arco,l'arc,armas,bow-arrow,armas equipamiento,El arquero necesita un arco.
@@ -18,7 +22,3 @@ la poción de curación,la potion de soin,magia,potion,magia,¿Cuántas pociones
 la antorcha,la torche,equipo,torch,equipamiento,Necesito una antorcha.
 la cuerda,la corde,equipo,rope-coil,equipamiento,La cuerda es muy útil.
 las provisiones,les provisions,equipo,bread,equipamiento,Comida para el viaje.
-la tienda,la boutique,lugares,shop,lugares,Vamos a la tienda.
-el vendedor,le marchand,personajes,merchant,pnj,El vendedor tiene muchas cosas.
-de hierro,en fer,materiales,anvil-impact,materiales,un casco de hierro
-de madera,en bois,materiales,wood-beam,materiales,un bastón de madera
