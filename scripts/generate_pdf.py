@@ -85,7 +85,7 @@ REFERENCE_TITLES = {
     "reference_races":     ("Las Razas y las Clases",   "Todas las razas y clases jugables"),
     "reference_equipment": ("El Equipo del Aventurero", "Armas, armaduras y equipo básico"),
     "reference_spells":    ("Los Hechizos",             "Hechizos comunes y escuelas de magia"),
-    "reference_enemies":   ("Los Enemigos",             "Monstruos comunes por nivel de desafío"),
+    "reference_enemies":   ("Los Enemigos",             "Monstruos comunes"),
     "reference_lugares":   ("Los Lugares",              "Lugares, edificios y zonas por explorar"),
     "reference_numbers":   ("Los Números",              "1 → 20 — ¡para tirar los dados!"),
     "reference_colors":   ("Los Colores",             "¡Describe tu equipo!"),
