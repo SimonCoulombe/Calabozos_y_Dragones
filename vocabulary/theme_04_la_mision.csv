@@ -2,15 +2,22 @@ spanish,french,category,icon,tags,notes
 la misión,la mission / la quête,lugares,delapouite/scroll-quill.svg,misión,Tenemos una misión importante.
 necesito ayuda,j'ai besoin d'aide,frases,lorc/two-shadows.svg,misión,El anciano dice: Necesito ayuda.
 ¿puedes ayudarme?,peux-tu m'aider?,frases,sbed/help.svg,misión,¿Puedes ayudarme? — ¡Sí puedo!
+¿qué?, quoi? que? qu'est-ce que?,los interrogativos,,los interrogativos, 
+¿cuándo?, quand?,los interrogativos,,los interrogativos,
+¿cómo?, comment?,los interrogativos,,los interrogativos,
+¿dónde?,où?,los interrogativos,delapouite/position-marker.svg,direcciones,¿Dónde está el castillo del enemigo?
+¿por qué?, pourquoi?,los interrogativos,,los interrogativos,
+¿cuál? / ¿cuáles?,quel(le)? / quelles?,frases,delapouite/scroll-quill.svg,estrategia,¿Cuál es el plan de ataque?
+¿quién? / ¿quiénes? ,qui?,los interrogativos,,los interrogativos,
+¿cuánto? / ¿cuánta? / ¿cuántos? / ¿cuántas?, combien (de) ?,los interrogativos,,los interrogativos,
+porque ,parce que,,,,
 el enemigo,l'ennemi,personajes,lorc/evil-minion.svg,enemigo,El enemigo se esconde en el norte.
-¿dónde está?,où est-il/elle?,frases,delapouite/position-marker.svg,direcciones,¿Dónde está el castillo del enemigo?
 el castillo,le château,lugares,delapouite/castle.svg,lugares,El castillo está al norte.
 la recompensa,la récompense,tesoro,lorc/trophy.svg,misión,¿Cuál es la recompensa? — Cien monedas.
 cien,cent,números,,números,Cien monedas de oro.
 importante,important(e),adjetivos,,adjetivos,Una misión muy importante.
 la taberna,la taverne,lugares,delapouite/barrel.svg,lugares,Nos reunimos en la taberna.
 el anciano,le vieillard,personajes,lorc/wizard-staff.svg,pnj,El anciano nos da la misión.
-¿cuál es el plan?,quel est le plan?,frases,delapouite/scroll-quill.svg,estrategia,¿Cuál es el plan de ataque?
 adónde vamos,où allons-nous,frases,delapouite/path-distance.svg,direcciones,¿Adónde vamos primero?
 peligroso,dangereux,adjetivos,lorc/laser-warning.svg,adjetivos,El camino al norte es peligroso.
 ¡cuidado!,attention !,exclamaciones,lorc/laser-warning.svg,exclamación,¡Cuidado! Hay una trampa.
