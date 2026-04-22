@@ -37,7 +37,7 @@ jobs:
             libffi-dev shared-mime-info fonts-noto
 
       - name: Install Python dependencies
-        run: pip install --quiet weasyprint pyyaml jinja2 genanki wyoming requests pillow pydub cairosvg
+        run: pip install --quiet weasyprint pyyaml jinja2 genanki requests pillow cairosvg
 
       - name: Validate vocabulary
         run: python scripts/validate.py
@@ -46,7 +46,7 @@ jobs:
         run: PYTHONPATH=scripts python scripts/generate_pdf.py
 
       - name: Generate Anki decks
-        run: PYTHONPATH=scripts python scripts/generate_anki.py
+        run: PYTHONPATH=scripts python scripts/generate_anki.py --no-tts
 
       - name: Copy outputs to site folder
         run: |

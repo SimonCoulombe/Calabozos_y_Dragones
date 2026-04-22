@@ -99,32 +99,20 @@ def get_audio_and_icon(
     word: dict,
     config: dict,
     audio_dir: Path,
-) -> tuple[str, str]:
-    """Return (audio_field_html, icon_field_html) for this word."""
+    skip_tts: bool = False,
+) -> tuple[str, str, bytes | None, str | None]:
+    """Return (audio_field_html, icon_field_html, icon_png_bytes, icon_filename) for this word."""
     from fetch_icons import icon_to_png_bytes
-    from tts_piper import synthesize_to_wav
 
     audio_html = ""
     icon_html = ""
 
-    tts = config["tts"]
     safe = word['spanish'].replace(' ', '_').replace('/', '-')
     safe = ''.join(c for c in safe if c.isalnum() or c in '_-áéíóúüñÁÉÍÓÚÜÑ')
     audio_filename = f"{safe}.wav"
     audio_path = audio_dir / audio_filename
 
-    if not audio_path.exists():
-        ok = synthesize_to_wav(
-            word["spanish"],
-            audio_path,
-            host=tts["host"],
-            port=tts["port"],
-            skip_on_failure=tts.get("skip_on_failure", True),
-        )
-    else:
-        ok = True
-
-    if ok and audio_path.exists():
+    if not skip_tts and audio_path.exists():
         audio_html = f"[sound:{audio_filename}]"
 
     icon_slug = word["icon"] or config["images"].get("fallback_icon", "help")
@@ -138,7 +126,7 @@ def get_audio_and_icon(
     return audio_html, icon_html, None, None
 
 
-def build_deck(child: dict, words: list[dict], config: dict, out_dir: Path, audio_dir: Path) -> Path:
+def build_deck(child: dict, words: list[dict], config: dict, out_dir: Path, audio_dir: Path, skip_tts: bool = False) -> Path:
     deck_id = stable_id(f"calabozos-{child['id']}")
     model_id = stable_id(f"model-calabozos-v1")
 
@@ -176,7 +164,7 @@ def build_deck(child: dict, words: list[dict], config: dict, out_dir: Path, audi
             continue
         seen.add(word["spanish"])
 
-        audio_html, icon_html, png_bytes, icon_filename = get_audio_and_icon(word, config, audio_dir)
+        audio_html, icon_html, png_bytes, icon_filename = get_audio_and_icon(word, config, audio_dir, skip_tts=skip_tts)
 
         if png_bytes and icon_filename:
             icon_path = audio_dir / icon_filename
@@ -220,6 +208,8 @@ def build_deck(child: dict, words: list[dict], config: dict, out_dir: Path, audi
 
 
 def main() -> int:
+    skip_tts = "--no-tts" in sys.argv
+
     config = load_config()
     out_dir = BASE / config["output"]["anki_dir"]
     audio_dir = BASE / config["output"]["audio_dir"]
@@ -232,10 +222,12 @@ def main() -> int:
         return 1
 
     print(f"Loaded {len(words)} words from vocabulary CSVs")
+    if skip_tts:
+        print("TTS disabled — cards will have no audio")
 
     for child in config.get("children", []):
         print(f"Building deck for {child['id']} ({child.get('name', 'unnamed')})...")
-        out_path = build_deck(child, words, config, out_dir, audio_dir)
+        out_path = build_deck(child, words, config, out_dir, audio_dir, skip_tts=skip_tts)
         print(f"  ANKI  →  {out_path}")
 
     return 0

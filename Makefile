@@ -17,7 +17,7 @@ pdf:
 	PYTHONPATH=$(SCRIPTS) $(PYTHON) $(SCRIPTS)/generate_pdf.py
 
 anki:
-	PYTHONPATH=$(SCRIPTS) $(PYTHON) $(SCRIPTS)/generate_anki.py
+	PYTHONPATH=$(SCRIPTS) $(PYTHON) $(SCRIPTS)/generate_anki.py $(ANKI_FLAGS)
 
 audio:
 	PYTHONPATH=$(SCRIPTS) $(PYTHON) $(SCRIPTS)/generate_audio.py
