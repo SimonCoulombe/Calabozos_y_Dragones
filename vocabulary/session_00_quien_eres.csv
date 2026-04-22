@@ -30,6 +30,8 @@ el humano,l'humain,razas,person,raza,Somos humanos.
 el gnomo,le gnome,razas,fairy,raza,Es un gnomo.
 el nivel, le niveau,  atributos,,atributos, Soy de nivel uno.
 el alineamiento, l'alignement, atributos, , atributos, Brueno es dee alineamiento legal bueno
+legal / neutral / caótico , loyal / neutre / chaotique, atributos, , atributos, Muchos elfos son caóticos buenos
+bueno / neutral / malvado, bon / neutre / mauvais, atributos , , atributos, Los demonios son caóticos malvados
 los puntos de golpe, les points de vie, atributos,angel-wings,atributos,Tiene doce puntos de golpe.
 la fuerza,la force,atributos,biceps,atributos,Tengo trece de fuerza.
 la destreza,la dextérité,atributos,juggler,atributos,Tengo catorce de destreza.
