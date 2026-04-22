@@ -35,7 +35,7 @@ jobs:
             libffi-dev shared-mime-info fonts-noto
 
       - name: Install Python dependencies
-        run: pip install --quiet weasyprint pyyaml jinja2
+        run: pip install --quiet weasyprint pyyaml jinja2 genanki wyoming requests pillow pydub cairosvg
 
       - name: Validate vocabulary
         run: python scripts/validate.py
@@ -43,29 +43,49 @@ jobs:
       - name: Generate PDF
         run: PYTHONPATH=scripts python scripts/generate_pdf.py
 
-      - name: Copy PDF to site folder
+      - name: Generate Anki decks
+        run: PYTHONPATH=scripts python scripts/generate_anki.py
+
+      - name: Copy outputs to site folder
         run: |
           mkdir -p _site
           cp output/pdfs/livre_aventurier.pdf _site/
+          cp output/anki/*.apkg _site/
           echo "PDF size: $(du -h _site/livre_aventurier.pdf | cut -f1)"
+          echo "Anki files:"
+          ls -lh _site/*.apkg 2>/dev/null || echo "  (no .apkg files)"
 
       - name: Create landing page
         run: |
           python3 - <<'PY'
-          html = """\
+          import glob, os
+
+          pdf_link = '<p><a href="livre_aventurier.pdf">Telecharger le PDF</a></p>'
+
+          anki_files = sorted(glob.glob("_site/*.apkg"))
+          anki_links = ""
+          for f in anki_files:
+              name = os.path.basename(f)
+              label = name.replace(".apkg", "").replace("calabozos_", "").replace("_", " ").title()
+              anki_links += f'<p><a href="{name}">Telecharger Anki — {label}</a></p>'
+
+          html = f"""\
           <!doctype html>
           <html lang="fr">
           <head>
             <meta charset="utf-8">
             <title>El Libro del Aventurero</title>
             <style>
-              body { font-family: sans-serif; max-width: 600px; margin: 4rem auto; text-align: center; }
-              a { font-size: 1.3rem; color: #7c3aed; }
+              body {{ font-family: sans-serif; max-width: 600px; margin: 4rem auto; text-align: center; }}
+              a {{ font-size: 1.3rem; color: #7c3aed; }}
+              h2 {{ font-size: 1.2rem; color: #555; margin-top: 2rem; }}
             </style>
           </head>
           <body>
             <h1>El Libro del Aventurero</h1>
-            <p><a href="livre_aventurier.pdf">Telecharger le PDF</a></p>
+            {pdf_link}
+            <h2>Cartes Anki</h2>
+            {anki_links}
           </body>
           </html>
           """
