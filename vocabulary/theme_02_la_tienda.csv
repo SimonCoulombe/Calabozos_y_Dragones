@@ -1,24 +1,24 @@
-spanish,french,category,icon,tags,notes
-la tienda,la boutique,lugares,delapouite/shop.svg,lugares,Vamos a la tienda.
-quiero comprar,je veux acheter,frases,delapouite/shopping-cart.svg,compra,Quiero comprar una espada.
-¿cuánto cuesta?,combien ça coûte?,frases,delapouite/coins.svg,compra,¿Cuánto cuesta el escudo?
-cuesta,ça coûte,verbos,delapouite/coins.svg,compra,Cuesta diez monedas de oro.
-tengo… monedas,j'ai… pièces,frases,willdabeast/gold-bar.svg,compra,Tengo quince monedas de oro.
-¿tienes…?,tu as… ?,frases,skoll/open-chest.svg,compra,¿Tienes una poción de curación?
-el vendedor,le marchand,personajes,delapouite/shop.svg,pnj,El vendedor tiene muchas cosas.
-barato / barata,peu cher / peu chère,frases,,compra,Esta poción es barata.
-caro / cara,cher / chère,frases,,compra,Esta espada es demasiado cara.
-la espada,l'épée,armas,cathelineau/swordman.svg,armas equipamiento,Quiero una espada grande.
-la daga,la dague,armas,lorc/daggers.svg,armas equipamiento,Una daga para el pícaro.
-el arco,l'arc,armas,delapouite/bow-arrow.svg,armas equipamiento,El arquero necesita un arco.
-el hacha,la hache,armas,lorc/battle-axe.svg,armas equipamiento,El enano tiene un hacha.
-el bastón mágico,le bâton magique,armas,lorc/wizard-staff.svg,armas magia,La maga tiene un bastón mágico.
-el escudo,le bouclier,armadura,sbed/shield.svg,armadura equipamiento,Un escudo para protegerte.
-el casco,le casque,armadura,lorc/visored-helm.svg,armadura equipamiento,Quiero un casco de hierro.
-la armadura,l'armure,armadura,lorc/breastplate.svg,armadura equipamiento,Una armadura de cuero.
-las botas,les bottes,ropa,lorc/boots.svg,ropa equipamiento,Unas botas de cuero.
-la capa,la cape,ropa,lucasms/cloak.svg,ropa equipamiento,Una capa oscura para el pícaro.
-la poción de curación,la potion de soin,magia,lorc/potion-ball.svg,magia,¿Cuántas pociones tienes?
-la antorcha,la torche,equipo,delapouite/torch.svg,equipamiento,Necesito una antorcha.
-la cuerda,la corde,equipo,delapouite/rope-coil.svg,equipamiento,La cuerda es muy útil.
-las provisiones,les provisions,equipo,delapouite/bread.svg,equipamiento,Comida para el viaje.
+spanish,french,category,icon,tags,notes,cloze,french_sentence
+la tienda,la boutique,lugares,delapouite/shop.svg,lugares,Los aventureros entran en la tienda del pueblo para comprar equipo.,(boutique) Los aventureros entran en {{c1::la tienda}} del pueblo para comprar equipo.,Les aventuriers entrent dans la boutique du village pour acheter de l'équipement.
+quiero comprar,je veux acheter,frases,delapouite/shopping-cart.svg,compra,Quiero comprar una espada larga y un escudo.,(acheter) {{c1::Quiero comprar}} una espada larga y un escudo.,Je veux acheter une épée longue et un bouclier.
+¿cuánto cuesta?,combien ça coûte ?,frases,delapouite/coins.svg,compra,¿Cuánto cuesta esta poción de curación?,(combien ça coûte) ¿{{c1::Cuánto cuesta}} esta poción de curación?,Combien coûte cette potion de soin ?
+cuesta,ça coûte,verbos,delapouite/coins.svg,compra,Esta espada cuesta veinte monedas de oro.,(coûte) Esta espada {{c1::cuesta}} veinte monedas de oro.,Cette épée coûte vingt pièces d'or.
+tengo… monedas,j'ai… pièces,frases,willdabeast/gold-bar.svg,compra,Tengo cincuenta monedas de oro para comprar equipo.,(j'ai… pièces) {{c1::Tengo}} cincuenta {{c1::monedas}} de oro para comprar equipo.,J'ai cinquante pièces d'or pour acheter de l'équipement.
+¿tienes…?,tu as… ?,frases,skoll/open-chest.svg,compra,¿Tienes pociones de curación en tu tienda?,(tu as) ¿{{c1::Tienes}} pociones de curación en tu tienda?,Tu as des potions de soin dans ta boutique ?
+el vendedor,le marchand,personajes,delapouite/shop.svg,pnj,El vendedor muestra sus mejores armas a los aventureros.,(marchand) {{c1::El vendedor}} muestra sus mejores armas a los aventureros.,Le marchand montre ses meilleures armes aux aventuriers.
+barato / barata,peu cher / peu chère,frases,,compra,"Esta poción es muy barata, solo cuesta cinco monedas.","(peu cher) Esta poción es muy {{c1::barata}}, solo cuesta cinco monedas.","Cette potion est très peu chère, elle ne coûte que cinq pièces."
+caro / cara,cher / chère,frases,,compra,Esa armadura es demasiado cara para nosotros.,(cher) Esa armadura es demasiado {{c1::cara}} para nosotros.,Cette armure est trop chère pour nous.
+la espada,l'épée,armas,cathelineau/swordman.svg,armas equipamiento,El guerrero compra la espada más grande de la tienda.,(épée) El guerrero compra {{c1::la espada}} más grande de la tienda.,Le guerrier achète l'épée la plus grande de la boutique.
+la daga,la dague,armas,lorc/daggers.svg,armas equipamiento,El pícaro esconde la daga debajo de su capa.,(dague) El pícaro esconde {{c1::la daga}} debajo de su capa.,Le roublard cache la dague sous sa cape.
+el arco,l'arc,armas,delapouite/bow-arrow.svg,armas equipamiento,El arquero prueba el arco nuevo antes de comprarlo.,(arc) El arquero prueba {{c1::el arco}} nuevo antes de comprarlo.,L'archer essaie l'arc neuf avant de l'acheter.
+el hacha,la hache,armas,lorc/battle-axe.svg,armas equipamiento,El enano quiere comprar el hacha más pesada de la tienda.,(hache) El enano quiere comprar {{c1::el hacha}} más pesada de la tienda.,Le nain veut acheter la hache la plus lourde de la boutique.
+el bastón mágico,le bâton magique,armas,lorc/wizard-staff.svg,armas magia,La maga necesita el bastón mágico para lanzar sus hechizos.,(bâton magique) La maga necesita {{c1::el bastón mágico}} para lanzar sus hechizos.,La mage a besoin du bâton magique pour lancer ses sorts.
+el escudo,le bouclier,armadura,sbed/shield.svg,armadura equipamiento,El paladín necesita el escudo para proteger al grupo.,(bouclier) El paladín necesita {{c1::el escudo}} para proteger al grupo.,Le paladin a besoin du bouclier pour protéger le groupe.
+el casco,le casque,armadura,lorc/visored-helm.svg,armadura equipamiento,El guerrero se pone el casco de hierro antes de la batalla.,(casque) El guerrero se pone {{c1::el casco}} de hierro antes de la batalla.,Le guerrier met le casque de fer avant la bataille.
+la armadura,l'armure,armadura,lorc/breastplate.svg,armadura equipamiento,La armadura de cuero es más ligera que la de metal.,(armure) {{c1::La armadura}} de cuero es más ligera que la de metal.,L'armure de cuir est plus légère que celle en métal.
+las botas,les bottes,ropa,lorc/boots.svg,ropa equipamiento,El pícaro compra las botas de cuero para caminar en silencio.,(bottes) El pícaro compra {{c1::las botas}} de cuero para caminar en silencio.,Le roublard achète les bottes en cuir pour marcher en silence.
+la capa,la cape,ropa,lucasms/cloak.svg,ropa equipamiento,La elfa se pone la capa oscura para esconderse en las sombras.,(cape) La elfa se pone {{c1::la capa}} oscura para esconderse en las sombras.,L'elfe met la cape sombre pour se cacher dans les ombres.
+la poción de curación,la potion de soin,magia,lorc/potion-ball.svg,magia,El clérigo compra la poción de curación por diez monedas de oro.,(potion de soin) El clérigo compra {{c1::la poción de curación}} por diez monedas de oro.,Le clerc achète la potion de soin pour dix pièces d'or.
+la antorcha,la torche,equipo,delapouite/torch.svg,equipamiento,Necesitamos la antorcha para ver en la oscuridad de la mazmorra.,(torche) Necesitamos {{c1::la antorcha}} para ver en la oscuridad de la mazmorra.,Nous avons besoin de la torche pour voir dans l'obscurité du donjon.
+la cuerda,la corde,equipo,delapouite/rope-coil.svg,equipamiento,La cuerda es muy útil para bajar al fondo del pozo.,(corde) {{c1::La cuerda}} es muy útil para bajar al fondo del pozo.,La corde est très utile pour descendre au fond du puits.
+las provisiones,les provisions,equipo,delapouite/bread.svg,equipamiento,Compramos las provisiones para tres días de viaje.,(provisions) Compramos {{c1::las provisiones}} para tres días de viaje.,Nous achetons les provisions pour trois jours de voyage.

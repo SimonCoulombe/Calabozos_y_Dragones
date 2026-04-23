@@ -1,24 +1,24 @@
-spanish,french,category,icon,tags,notes
-la mazmorra,le donjon,lugares,delapouite/dungeon-gate.svg,lugares,Entramos en la mazmorra oscura.
-la trampa,le piège,peligros,lorc/wolf-trap.svg,peligro,¡Hay una trampa en el suelo!
-el cofre,le coffre,tesoro,skoll/open-chest.svg,tesoro,Hay un cofre en la esquina.
-la llave,la clé,objetos,sbed/key.svg,objetos,Necesito la llave para abrir la puerta.
-el tesoro,le trésor,tesoro,delapouite/coins.svg,tesoro,¡Encontramos un tesoro!
-la antorcha,la torche,equipo,delapouite/torch.svg,equipamiento,Necesito una antorcha para ver.
-el pasillo,le couloir,lugares,,lugares,Hay tres puertas en el pasillo.
-el monstruo,le monstre,enemigos,lorc/daemon-skull.svg,enemigo,Hay un monstruo en la sala.
-el esqueleto,le squelette,enemigos,skoll/skeleton.svg,enemigo,El esqueleto ataca con una espada.
-el troll,le troll,enemigos,skoll/troll.svg,enemigo,El troll es muy fuerte. ¡Cuidado!
-lanzo un hechizo,je lance un sort,magia,lorc/magic-swirl.svg,magia combate,Lanzo un hechizo de fuego.
-el fuego,le feu,magia,sbed/fire.svg,magia,¡Bola de fuego!
-el hielo,la glace,magia,delapouite/frozen-ring.svg,magia,Un rayo de hielo congela al enemigo.
-la oscuridad,l'obscurité,entorno,lorc/dark-squad.svg,entorno,Hay mucha oscuridad en la mazmorra.
-el sonido,le son,percepción,skoll/sound-waves.svg,percepción,Escucho un sonido extraño.
-huele raro,ça sent bizarre,percepción,delapouite/nose-side.svg,percepción,Huele raro en este pasillo.
-el suelo está mojado,le sol est mouillé,entorno,sbed/water-drop.svg,entorno,El suelo está mojado. Hay agua cerca.
-encuentro,je trouve,verbos,lorc/magnifying-glass.svg,acción,Encuentro una llave en el cofre.
-la sala,la salle,lugares,,lugares,La sala está vacía... o eso parece.
-la escalera,l'escalier,lugares,,lugares,Las escaleras bajan a un nivel más oscuro.
-la puerta secreta,la porte secrète,objetos,,objetos,El pícaro encuentra una puerta secreta en la pared.
-el veneno,le poison,peligros,,peligro,La trampa tiene veneno. ¡No la toques!
-la telaraña,la toile d'araignée,entorno,,entorno,Hay telarañas en el techo de la cueva.
+spanish,french,category,icon,tags,notes,cloze,french_sentence
+la mazmorra,le donjon,lugares,delapouite/dungeon-gate.svg,lugares,Entramos en la mazmorra oscura con las antorchas encendidas.,(donjon) Entramos en {{c1::la mazmorra}} oscura con las antorchas encendidas.,Nous entrons dans le donjon obscur avec les torches allumées.
+el pasillo,le couloir,lugares,,lugares,Hay tres puertas al final del pasillo oscuro.,(couloir) Hay tres puertas al final del {{c1::pasillo}} oscuro.,Il y a trois portes au bout du couloir sombre.
+la sala,la salle,lugares,,lugares,La sala está vacía... o eso parece.,(salle) {{c1::La sala}} está vacía... o eso parece.,La salle est vide... ou c'est ce qu'il semble.
+la escalera,l'escalier,lugares,,lugares,Las escaleras bajan a un nivel más oscuro de la mazmorra.,(escalier) Las {{c1::escaleras}} bajan a un nivel más oscuro de la mazmorra.,Les escaliers descendent à un niveau plus sombre du donjon.
+la puerta secreta,la porte secrète,objetos,,objetos,El pícaro encuentra una puerta secreta en la pared.,(porte secrète) El pícaro encuentra una {{c1::puerta secreta}} en la pared.,Le roublard trouve une porte secrète dans le mur.
+la trampa,le piège,peligros,lorc/wolf-trap.svg,peligro,¡Hay una trampa escondida en el suelo de piedra!,(piège) ¡Hay una {{c1::trampa}} escondida en el suelo de piedra!,Il y a un piège caché dans le sol de pierre !
+el veneno,le poison,peligros,,peligro,La trampa tiene veneno en las flechas. ¡No la toques!,(poison) La trampa tiene {{c1::veneno}} en las flechas. ¡No la toques!,Le piège a du poison sur les flèches. Ne le touche pas !
+el cofre,le coffre,tesoro,skoll/open-chest.svg,tesoro,Hay un cofre de madera en la esquina de la sala.,(coffre) Hay un {{c1::cofre}} de madera en la esquina de la sala.,Il y a un coffre en bois dans le coin de la salle.
+la llave,la clé,objetos,sbed/key.svg,objetos,Necesito la llave dorada para abrir la puerta del cofre.,(clé) Necesito {{c1::la llave}} dorada para abrir la puerta del cofre.,J'ai besoin de la clé dorée pour ouvrir la porte du coffre.
+el tesoro,le trésor,tesoro,delapouite/coins.svg,tesoro,¡Encontramos un tesoro escondido detrás de la pared secreta!,(trésor) ¡Encontramos un {{c1::tesoro}} escondido detrás de la pared secreta!,Nous trouvons un trésor caché derrière le mur secret !
+la antorcha,la torche,equipo,delapouite/torch.svg,equipamiento,Necesito una antorcha para ver en la oscuridad de la cueva.,(torche) Necesito una {{c1::antorcha}} para ver en la oscuridad de la cueva.,J'ai besoin d'une torche pour voir dans l'obscurité de la grotte.
+el monstruo,le monstre,enemigos,lorc/daemon-skull.svg,enemigo,Hay un monstruo enorme en la sala del trono.,(monstre) Hay un {{c1::monstruo}} enorme en la sala del trono.,Il y a un monstre énorme dans la salle du trône.
+el esqueleto,le squelette,enemigos,skoll/skeleton.svg,enemigo,El esqueleto ataca con una espada oxidada.,(squelette) {{c1::El esqueleto}} ataca con una espada oxidada.,Le squelette attaque avec une épée rouillée.
+el troll,le troll,enemigos,skoll/troll.svg,enemigo,El troll es muy fuerte. ¡Cuidado con sus garras!,(troll) {{c1::El troll}} es muy fuerte. ¡Cuidado con sus garras!,Le troll est très fort. Attention à ses griffes !
+lanzo un hechizo,je lance un sort,magia,lorc/magic-swirl.svg,magia combate,El mago grita: ¡Lanzo un hechizo de fuego contra el troll!,(je lance un sort) El mago grita: ¡{{c1::Lanzo un hechizo}} de fuego contra el troll!,Le mage crie : Je lance un sort de feu contre le troll !
+el fuego,le feu,magia,sbed/fire.svg,magia,¡Una bola de fuego ilumina toda la sala oscura!,(feu) ¡Una bola de {{c1::fuego}} ilumina toda la sala oscura!,Une boule de feu illumine toute la salle sombre !
+el hielo,la glace,magia,delapouite/frozen-ring.svg,magia,Un rayo de hielo congela al enemigo en su lugar.,(glace) Un rayo de {{c1::hielo}} congela al enemigo en su lugar.,Un rayon de glace gèle l'ennemi sur place.
+la oscuridad,l'obscurité,entorno,lorc/dark-squad.svg,entorno,Hay mucha oscuridad en la mazmorra. No veo nada.,(obscurité) Hay mucha {{c1::oscuridad}} en la mazmorra. No veo nada.,Il y a beaucoup d'obscurité dans le donjon. Je ne vois rien.
+la telaraña,la toile d'araignée,entorno,,entorno,Hay telarañas enormes en el techo de la cueva.,(toile d'araignée) Hay {{c1::telarañas}} enormes en el techo de la cueva.,Il y a d'énormes toiles d'araignée au plafond de la grotte.
+el suelo está mojado,le sol est mouillé,entorno,sbed/water-drop.svg,entorno,El suelo está mojado y resbaladizo. Ten cuidado al caminar.,(le sol est mouillé) {{c1::El suelo está mojado}} y resbaladizo. Ten cuidado al caminar.,Le sol est mouillé et glissant. Fais attention en marchant.
+el sonido,le son,percepción,skoll/sound-waves.svg,percepción,Escucho un sonido extraño detrás de la puerta de piedra.,(son) Escucho un {{c1::sonido}} extraño detrás de la puerta de piedra.,J'entends un son étrange derrière la porte de pierre.
+huele raro,ça sent bizarre,percepción,delapouite/nose-side.svg,percepción,Huele raro en este pasillo. Algo no está bien.,(ça sent bizarre) {{c1::Huele raro}} en este pasillo. Algo no está bien.,Ça sent bizarre dans ce couloir. Quelque chose ne va pas.
+encuentro,je trouve,verbos,lorc/magnifying-glass.svg,acción,Encuentro una llave brillante en el fondo del cofre viejo.,(je trouve) {{c1::Encuentro}} una llave brillante en el fondo del cofre viejo.,Je trouve une clé brillante au fond du vieux coffre.

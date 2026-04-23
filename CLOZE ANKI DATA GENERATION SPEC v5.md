@@ -190,3 +190,94 @@ stable multi-word expression handling
 deterministic matching (no NLP guessing)
 D&D immersive contextual sentences
 consistent learning signal across entire deck
+
+---
+
+IMPLEMENTATION NOTES (v5.1 — lessons learned)
+
+ACTUAL CSV FORMAT IMPLEMENTED
+
+spanish,french,category,icon,tags,notes,cloze,french_sentence
+
+Key change from original spec: cloze markup IS stored directly in CSV in a `cloze` column.
+The original spec said "do not store cloze markup in CSV" but this was impractical —
+storing it directly is easier to author, debug, and process.
+
+The `hint_sentence` column was renamed to `cloze` to reflect that it contains {{c1::}} markup.
+A new `french_sentence` column was added for the French translation of the full sentence.
+
+CLOZE COLUMN FORMAT
+
+French hint goes FIRST, then the cloze sentence:
+  (magicienne) La {{c1::maga}} elfa lanza un hechizo.
+
+NOT at the end. This way the learner sees the hint immediately when the card appears.
+
+ANKI CARD LAYOUT
+
+FRONT:
+  (épée) El guerrero saca su _____ del cinturón.
+
+BACK:
+  espada                              ← Spanish answer (bold, large)
+  El guerrero saca su espada del cinturón.   ← full Spanish sentence
+  Le guerrier sort son épée de la ceinture.  ← full French sentence
+  🔊 audio of full Spanish sentence (when .wav available)
+
+ANKI MODEL
+
+Uses genanki.Model.CLOZE with model_type parameter.
+Model name: "Calabozos Cloze v2"
+Model ID: stable_id("model-calabozos-cloze-v2")
+
+Fields: Text, Spanish, FullSentence, FrenchSentence, Audio, Icon, Category, Session
+- Text = cloze column from CSV (contains {{c1::}} markup + french hint)
+- Spanish = spanish column
+- FullSentence = notes column
+- FrenchSentence = french_sentence column
+
+GENDER PAIR RULES (CLARIFIED)
+
+When spanish contains "el X / la Y":
+- Merge into ONE CSV row
+- Pick ONE gender for the example sentence (randomly or consistently)
+- In the cloze, wrap ONLY the noun (not the article): El {{c1::guerrero}} humano...
+- The `spanish` field keeps both forms: el guerrero / la guerrera
+
+When spanish is a single-gender noun with article (el personaje, la fuerza):
+- Cloze may or may not include the article depending on sentence structure
+- For "Tengo trece de fuerza" → wrap just "fuerza" (article not in sentence)
+- For "Voy a comprar el equipo" → wrap "el equipo" (article is part of expression)
+
+SCRIPT USAGE
+
+  # Generate only theme_01 cards (for testing):
+  PYTHONPATH=scripts python scripts/generate_anki.py --no-tts --only theme_01
+
+  # Generate all cards:
+  PYTHONPATH=scripts python scripts/generate_anki.py --no-tts
+
+  # With TTS (when server is available):
+  PYTHONPATH=scripts python scripts/generate_anki.py
+
+FILE ORGANIZATION
+
+- Audio files: output/audio/*.wav
+- Icon PNGs: output/icons/icon_*.png (NOT in audio dir)
+- Anki decks: output/anki/calabozos_child_*.apkg
+
+BACKWARD COMPATIBILITY
+
+Old CSVs without `cloze` and `french_sentence` columns still load without errors.
+When using --only filter, rows without cloze data are skipped.
+validate.py treats cloze and french_sentence as optional columns.
+
+COMMON PITFALLS
+
+1. Sentences must contain the EXACT target word from the spanish field.
+   "mi personaje" does NOT match "el personaje" — rewrite the sentence.
+2. Plural forms don't match singular: "jugadores" ≠ "el jugador" — rewrite.
+3. For phrases like "la clase de armadura (CA)" — drop the parenthetical from spanish field.
+4. DictWriter quoting: use csv module to write, not manual string concatenation.
+5. When processing CSVs with heredoc (cat << EOF), commas inside fields are fine
+   because CSV fields with special chars get auto-quoted by csv.DictWriter.

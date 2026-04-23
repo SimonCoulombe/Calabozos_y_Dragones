@@ -1,24 +1,24 @@
-spanish,french,category,icon,tags,notes
-uno,un,números,delapouite/dice-twenty-faces-one.svg,reference números,¡Fallo crítico!
-dos,deux,números,,reference números,Hay dos salidas en esta sala.
-tres,trois,números,,reference números,El goblin tiene tres puntos de golpe.
-cuatro,quatre,números,,reference números,Saqué un cuatro. ¡Fallo!
-cinco,cinq,números,,reference números,Cinco enemigos nos rodean.
-seis,six,números,,reference números,Saqué un seis.
-siete,sept,números,,reference números,Hay siete puertas en el pasillo.
-ocho,huit,números,,reference números,Lanzo un dado de ocho caras.
-nueve,neuf,números,,reference números,Tengo nueve monedas de plata.
-diez,dix,números,,reference números,Tengo diez puntos de golpe.
-once,onze,números,,reference números,Mi clase de armadura es once.
-doce,douze,números,,reference números,El monstruo tiene doce puntos de golpe.
-trece,treize,números,,reference números,Trece escalones bajan a la mazmorra.
-catorce,quatorze,números,,reference números,Mi destreza es catorce.
-quince,quinze,números,,reference números,Saqué un quince. ¡Impacto!
-dieciséis,seize,números,,reference números,El puente tiene dieciséis metros de largo.
-diecisiete,dix-sept,números,,reference números,Saqué un diecisiete. ¡Impacto seguro!
-dieciocho,dix-huit,números,,reference números,¡18 de fuerza! Eres muy fuerte.
-diecinueve,dix-neuf,números,,reference números,Diecinueve de sabiduría. ¡Increíble!
-veinte,vingt,números,delapouite/dice-twenty-faces-twenty.svg,reference números,¡Golpe crítico!
-cincuenta,cinquante,números,,reference números,La recompensa es cincuenta monedas de oro.
-cien,cent,números,,reference números,Hay cien monedas en el cofre.
-mil,mille,números,,reference números,El dragón guarda mil monedas de oro.
+spanish,french,category,icon,tags,notes,cloze,french_sentence
+uno,un,números,delapouite/dice-twenty-faces-one.svg,reference números,Solo queda uno y es el más fuerte del grupo.,(un) Solo queda {{c1::uno}} y es el más fuerte del grupo.,Il n'en reste qu'un et c'est le plus fort du groupe.
+dos,deux,números,,reference números,Hay dos salidas en esta sala.,(deux) Hay {{c1::dos}} salidas en esta sala.,Il y a deux sorties dans cette salle.
+tres,trois,números,,reference números,El goblin tiene tres puntos de golpe.,(trois) El goblin tiene {{c1::tres}} puntos de golpe.,Le gobelin a trois points de vie.
+cuatro,quatre,números,,reference números,Saqué un cuatro en el dado. ¡Fallo!,(quatre) Saqué un {{c1::cuatro}} en el dado. ¡Fallo!,J'ai fait quatre au dé. Raté !
+cinco,cinq,números,,reference números,Cinco enemigos nos rodean en la oscuridad.,(cinq) {{c1::Cinco}} enemigos nos rodean en la oscuridad.,Cinq ennemis nous encerclent dans l'obscurité.
+seis,six,números,,reference números,Saqué un seis en el dado de daño.,(six) Saqué un {{c1::seis}} en el dado de daño.,J'ai fait six au dé de dégâts.
+siete,sept,números,,reference números,Hay siete puertas en el largo pasillo de la mazmorra.,(sept) Hay {{c1::siete}} puertas en el largo pasillo de la mazmorra.,Il y a sept portes dans le long couloir du donjon.
+ocho,huit,números,,reference números,Lanzo un dado de ocho caras para calcular el daño.,(huit) Lanzo un dado de {{c1::ocho}} caras para calcular el daño.,Je lance un dé à huit faces pour calculer les dégâts.
+nueve,neuf,números,,reference números,Tengo nueve monedas de plata en mi bolsa.,(neuf) Tengo {{c1::nueve}} monedas de plata en mi bolsa.,J'ai neuf pièces d'argent dans ma bourse.
+diez,dix,números,,reference números,Tengo diez puntos de golpe antes de la batalla.,(dix) Tengo {{c1::diez}} puntos de golpe antes de la batalla.,J'ai dix points de vie avant la bataille.
+once,onze,números,,reference números,"Mi clase de armadura es once, no es muy alta.","(onze) Mi clase de armadura es {{c1::once}}, no es muy alta.","Ma classe d'armure est onze, ce n'est pas très élevé."
+doce,douze,números,,reference números,El monstruo tiene doce puntos de golpe y parece débil.,(douze) El monstruo tiene {{c1::doce}} puntos de golpe y parece débil.,Le monstre a douze points de vie et semble faible.
+trece,treize,números,,reference números,Trece escalones bajan a la mazmorra oscura.,(treize) {{c1::Trece}} escalones bajan a la mazmorra oscura.,Treize marches descendent vers le donjon obscur.
+catorce,quatorze,números,,reference números,"Mi destreza es catorce, soy bastante ágil.","(quatorze) Mi destreza es {{c1::catorce}}, soy bastante ágil.","Ma dextérité est quatorze, je suis assez agile."
+quince,quinze,números,,reference números,Saqué un quince en la tirada de ataque. ¡Impacto!,(quinze) Saqué un {{c1::quince}} en la tirada de ataque. ¡Impacto!,J'ai fait quinze au jet d'attaque. Touché !
+dieciséis,seize,números,,reference números,El puente tiene dieciséis metros de largo sobre el abismo.,(seize) El puente tiene {{c1::dieciséis}} metros de largo sobre el abismo.,Le pont fait seize mètres de long au-dessus du gouffre.
+diecisiete,dix-sept,números,,reference números,Saqué un diecisiete en la tirada. ¡Impacto seguro!,(dix-sept) Saqué un {{c1::diecisiete}} en la tirada. ¡Impacto seguro!,J'ai fait dix-sept au jet. Touché à coup sûr !
+dieciocho,dix-huit,números,,reference números,"Mi fuerza es dieciocho, soy muy fuerte.","(dix-huit) Mi fuerza es {{c1::dieciocho}}, soy muy fuerte.","Ma force est dix-huit, je suis très fort."
+diecinueve,dix-neuf,números,,reference números,Diecinueve de sabiduría es una puntuación increíble.,(dix-neuf) {{c1::Diecinueve}} de sabiduría es una puntuación increíble.,"Dix-neuf de sagesse, c'est un score incroyable."
+veinte,vingt,números,delapouite/dice-twenty-faces-twenty.svg,reference números,¡Saqué un veinte natural! ¡Golpe crítico!,(vingt) ¡Saqué un {{c1::veinte}} natural! ¡Golpe crítico!,J'ai fait un vingt naturel ! Coup critique !
+cincuenta,cinquante,números,,reference números,La recompensa es cincuenta monedas de oro por la misión.,(cinquante) La recompensa es {{c1::cincuenta}} monedas de oro por la misión.,La récompense est cinquante pièces d'or pour la mission.
+cien,cent,números,,reference números,Hay cien monedas brillantes en el cofre del tesoro.,(cent) Hay {{c1::cien}} monedas brillantes en el cofre del tesoro.,Il y a cent pièces brillantes dans le coffre au trésor.
+mil,mille,números,,reference números,El dragón guarda mil monedas de oro en su cueva.,(mille) El dragón guarda {{c1::mil}} monedas de oro en su cueva.,Le dragon garde mille pièces d'or dans sa grotte.

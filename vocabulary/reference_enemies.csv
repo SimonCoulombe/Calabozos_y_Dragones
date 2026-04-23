@@ -1,25 +1,25 @@
-spanish,french,category,icon,tags,notes
-el goblin,le gobelin,monstruos,caro-asercion/goblin.svg,reference enemigos nivel-bajo,"NC 1/4. Pequeño, furtivo, vive en cuevas."
-el kobold,le kobold,monstruos,lorc/lizardman.svg,reference enemigos nivel-bajo,"NC 1/8. Reptil pequeño, en grupos, trampas."
-la rata gigante,le rat géant,monstruos,delapouite/rat.svg,reference enemigos nivel-bajo,NC 1/8. En las mazmorras y alcantarillas.
-el bandido,le bandit,monstruos,delapouite/robber.svg,reference enemigos nivel-bajo,NC 1/8. Humano criminal. Arma sencilla.
-el esqueleto,le squelette,monstruos,lorc/skeleton-inside.svg,reference enemigos nivel-bajo,NC 1/4. No-muerto. Inmune a veneno.
-el zombi,le zombie,monstruos,lorc/daemon-skull.svg,reference enemigos nivel-bajo,NC 1/4. No-muerto lento pero resistente.
-el orco,l'orc,monstruos,delapouite/ogre.svg,reference enemigos nivel-bajo,NC 1/2. Fuerza bruta. +5 a ataques.
-el hobgoblin,le hobgobelin,monstruos,caro-asercion/goblin.svg,reference enemigos nivel-bajo,"NC 1/2. Goblin militar, disciplinado."
-el bugbear,l'ogroblin,monstruos,caro-asercion/goblin.svg,reference enemigos nivel-bajo,"NC 1. Goblin enorme, furtivo para su tamaño."
-el gnoll,le gnoll,monstruos,lorc/wolf-head.svg,reference enemigos nivel-bajo,"NC 1/2. Hiena humanoide, salvaje."
-el troll,le troll,monstruos,skoll/troll.svg,reference enemigos nivel-medio,NC 5. Regenera PV. Fuego o ácido para matarlo.
-el ogro,l'ogre,monstruos,delapouite/ogre.svg,reference enemigos nivel-medio,"NC 2. Grande, torpe pero muy fuerte."
-el oso pardo,l'ours brun,monstruos,sparker/bear-face.svg,reference enemigos nivel-medio,NC 1. Animal. Garras y mordisco.
-el lobo,le loup,monstruos,lorc/wolf-head.svg,reference enemigos nivel-bajo,NC 1/4. En manada. Derriba al objetivo.
-la araña gigante,l'araignée géante,monstruos,carl-olsen/spider-face.svg,reference enemigos nivel-bajo,NC 1. Veneno que paraliza.
-el dragón joven azul,le jeune dragon bleu,monstruos,lorc/dragon-head.svg,reference enemigos nivel-alto,"NC 9. Aliento de rayo, desértico."
-el necromante,le nécromancien,monstruos,lorc/skull-crack.svg,reference enemigos nivel-medio,NC 9. Lanza hechizos de muerte.
-el vampiro,le vampire,monstruos,skoll/bat.svg,reference enemigos nivel-alto,NC 13. No-muerto poderoso. Drena vida.
-el no-muerto,le mort-vivant,monstruos,lorc/skull-crack.svg,reference enemigos categoría,Categoría general de criaturas muertas animadas.
-el gigante de fuego,le géant de feu,monstruos,sbed/fire.svg,reference enemigos nivel-alto,NC 9. Fuego e inmunidad. Enorme.
-el elemental de fuego,l'élémentaire de feu,monstruos,,reference enemigos nivel-medio,NC 5. Invocado por magos. Daño de fuego.
-el elemental de agua,l'élémentaire d'eau,monstruos,,reference enemigos nivel-medio,NC 5. Fluye por cualquier espacio. Daño de agua.
-el elemental de tierra,l'élémentaire de terre,monstruos,,reference enemigos nivel-medio,NC 5. Lento pero brutal. Daño de aplastamiento.
-el elemental de aire,l'élémentaire d'air,monstruos,,reference enemigos nivel-medio,NC 5. Invisible en la niebla. Daño de rayo.
+spanish,french,category,icon,tags,notes,cloze,french_sentence
+el goblin,le gobelin,monstruos,caro-asercion/goblin.svg,reference enemigos nivel-bajo,El goblin se esconde en las cuevas oscuras.,(gobelin) El {{c1::goblin}} se esconde en las cuevas oscuras.,Le gobelin se cache dans les grottes sombres.
+el kobold,le kobold,monstruos,lorc/lizardman.svg,reference enemigos nivel-bajo,El kobold pone trampas por toda la mazmorra.,(kobold) El {{c1::kobold}} pone trampas por toda la mazmorra.,Le kobold pose des pièges dans tout le donjon.
+la rata gigante,le rat géant,monstruos,delapouite/rat.svg,reference enemigos nivel-bajo,La rata gigante vive en las alcantarillas de la ciudad.,(rat géant) La {{c1::rata gigante}} vive en las alcantarillas de la ciudad.,Le rat géant vit dans les égouts de la ville.
+el bandido,le bandit,monstruos,delapouite/robber.svg,reference enemigos nivel-bajo,El bandido roba a los viajeros en el camino.,(bandit) El {{c1::bandido}} roba a los viajeros en el camino.,Le bandit vole les voyageurs sur le chemin.
+el esqueleto,le squelette,monstruos,lorc/skeleton-inside.svg,reference enemigos nivel-bajo,El esqueleto ataca con una espada oxidada.,(squelette) El {{c1::esqueleto}} ataca con una espada oxidada.,Le squelette attaque avec une épée rouillée.
+el zombi,le zombie,monstruos,lorc/daemon-skull.svg,reference enemigos nivel-bajo,El zombi camina lento pero no se detiene nunca.,(zombie) El {{c1::zombi}} camina lento pero no se detiene nunca.,Le zombie marche lentement mais ne s'arrête jamais.
+el orco,l'orc,monstruos,delapouite/ogre.svg,reference enemigos nivel-bajo,El orco golpea con su hacha enorme.,(orc) El {{c1::orco}} golpea con su hacha enorme.,L'orc frappe avec sa hache énorme.
+el hobgoblin,le hobgobelin,monstruos,caro-asercion/goblin.svg,reference enemigos nivel-bajo,El hobgoblin lidera un escuadrón de goblins.,(hobgobelin) El {{c1::hobgoblin}} lidera un escuadrón de goblins.,Le hobgobelin commande un escadron de gobelins.
+el bugbear,l'ogroblin,monstruos,caro-asercion/goblin.svg,reference enemigos nivel-bajo,El bugbear es enorme pero se mueve en silencio.,(ogroblin) El {{c1::bugbear}} es enorme pero se mueve en silencio.,L'ogroblin est énorme mais se déplace en silence.
+el gnoll,le gnoll,monstruos,lorc/wolf-head.svg,reference enemigos nivel-bajo,El gnoll aúlla antes de atacar a su presa.,(gnoll) El {{c1::gnoll}} aúlla antes de atacar a su presa.,Le gnoll hurle avant d'attaquer sa proie.
+el troll,le troll,monstruos,skoll/troll.svg,reference enemigos nivel-medio,El troll regenera sus heridas a menos que uses fuego.,(troll) El {{c1::troll}} regenera sus heridas a menos que uses fuego.,Le troll régénère ses blessures à moins d'utiliser le feu.
+el ogro,l'ogre,monstruos,delapouite/ogre.svg,reference enemigos nivel-medio,El ogro es torpe pero muy fuerte.,(ogre) El {{c1::ogro}} es torpe pero muy fuerte.,L'ogre est maladroit mais très fort.
+el oso pardo,l'ours brun,monstruos,sparker/bear-face.svg,reference enemigos nivel-medio,El oso pardo ataca con sus garras enormes.,(ours brun) El {{c1::oso pardo}} ataca con sus garras enormes.,L'ours brun attaque avec ses griffes énormes.
+el lobo,le loup,monstruos,lorc/wolf-head.svg,reference enemigos nivel-bajo,El lobo caza en manada y derriba a su presa.,(loup) El {{c1::lobo}} caza en manada y derriba a su presa.,Le loup chasse en meute et renverse sa proie.
+la araña gigante,l'araignée géante,monstruos,carl-olsen/spider-face.svg,reference enemigos nivel-bajo,La araña gigante atrapa a sus víctimas con telarañas.,(araignée géante) La {{c1::araña gigante}} atrapa a sus víctimas con telarañas.,L'araignée géante piège ses victimes avec des toiles.
+el dragón joven azul,le jeune dragon bleu,monstruos,lorc/dragon-head.svg,reference enemigos nivel-alto,El dragón joven azul lanza un rayo de su boca.,(jeune dragon bleu) El {{c1::dragón joven azul}} lanza un rayo de su boca.,Le jeune dragon bleu lance un éclair de sa gueule.
+el necromante,le nécromancien,monstruos,lorc/skull-crack.svg,reference enemigos nivel-medio,El necromante invoca esqueletos para luchar por él.,(nécromancien) El {{c1::necromante}} invoca esqueletos para luchar por él.,Le nécromancien invoque des squelettes pour combattre à sa place.
+el vampiro,le vampire,monstruos,skoll/bat.svg,reference enemigos nivel-alto,El vampiro drena la vida de sus víctimas por la noche.,(vampire) El {{c1::vampiro}} drena la vida de sus víctimas por la noche.,Le vampire draine la vie de ses victimes la nuit.
+el no-muerto,le mort-vivant,monstruos,lorc/skull-crack.svg,reference enemigos categoría,El no-muerto es una criatura que ha vuelto de la muerte.,(mort-vivant) El {{c1::no-muerto}} es una criatura que ha vuelto de la muerte.,Le mort-vivant est une créature revenue de la mort.
+el gigante de fuego,le géant de feu,monstruos,sbed/fire.svg,reference enemigos nivel-alto,El gigante de fuego lanza rocas ardientes desde la montaña.,(géant de feu) El {{c1::gigante de fuego}} lanza rocas ardientes desde la montaña.,Le géant de feu lance des rochers brûlants depuis la montagne.
+el elemental de fuego,l'élémentaire de feu,monstruos,,reference enemigos nivel-medio,El elemental de fuego quema todo lo que toca.,(élémentaire de feu) El {{c1::elemental de fuego}} quema todo lo que toca.,L'élémentaire de feu brûle tout ce qu'il touche.
+el elemental de agua,l'élémentaire d'eau,monstruos,,reference enemigos nivel-medio,El elemental de agua fluye por cualquier espacio estrecho.,(élémentaire d'eau) El {{c1::elemental de agua}} fluye por cualquier espacio estrecho.,L'élémentaire d'eau s'écoule dans n'importe quel espace étroit.
+el elemental de tierra,l'élémentaire de terre,monstruos,,reference enemigos nivel-medio,El elemental de tierra aplasta a sus enemigos con puños de roca.,(élémentaire de terre) El {{c1::elemental de tierra}} aplasta a sus enemigos con puños de roca.,L'élémentaire de terre écrase ses ennemis avec des poings de roche.
+el elemental de aire,l'élémentaire d'air,monstruos,,reference enemigos nivel-medio,El elemental de aire se vuelve invisible en la niebla.,(élémentaire d'air) El {{c1::elemental de aire}} se vuelve invisible en la niebla.,L'élémentaire d'air devient invisible dans le brouillard.

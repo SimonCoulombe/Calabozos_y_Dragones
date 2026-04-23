@@ -1,37 +1,37 @@
-spanish,french,category,icon,tags,notes
-la espada corta,l'épée courte,armas,cathelineau/swordman.svg,reference armas,Daño: 1d6 perforante. Ligera. Ideal para el pícaro.
-la espada larga,l'épée longue,armas,cathelineau/swordman.svg,reference armas,Daño: 1d8 cortante (1d10 a dos manos).
-la espada bastarda,l'épée bâtarde,armas,cathelineau/swordman.svg,reference armas,Daño: 1d8 cortante (1d10 a dos manos).
-el espadón,l'espadon,armas,lorc/broadsword.svg,reference armas,Daño: 2d6 cortante. A dos manos. Muy poderoso.
-la daga,la dague,armas,lorc/daggers.svg,reference armas,Daño: 1d4 perforante. Lanzable. Pícaro.
-el puñal,le poignard,armas,lorc/daggers.svg,reference armas,Sinónimo de daga.
-el hacha de mano,la hache de main,armas,lorc/battle-axe.svg,reference armas,Daño: 1d6 cortante. Lanzable.
-el hacha de batalla,la hache de bataille,armas,lorc/battle-axe.svg,reference armas,Daño: 1d8 cortante. Favorita de enanos.
-la maza,la masse,armas,delapouite/bone-mace.svg,reference armas,Daño: 1d6 contundente. Favorita de clérigos.
-la lanza,la lance,armas,lorc/spears.svg,reference armas,Daño: 1d6 perforante. Lanzable.
-el arco corto,l'arc court,armas,delapouite/bow-arrow.svg,reference armas,Daño: 1d6 perforante. Alcance 80/320 m.
-el arco largo,l'arc long,armas,delapouite/bow-arrow.svg,reference armas,Daño: 1d8 perforante. Alcance 150/600 m.
-la ballesta de mano,l'arbalète de poing,armas,carl-olsen/crossbow.svg,reference armas,Daño: 1d6 perforante. Ligera.
-el bastón,le bâton (bourdon),armas,lorc/wizard-staff.svg,reference armas,Daño: 1d6 contundente. Arma de mago/druida.
-la armadura de cuero,l'armure de cuir,armadura,lorc/breastplate.svg,reference armadura,CA: 11 + Des. Ligera. Sin desventaja en sigilo.
-la armadura de cuero tachonado,l'armure de cuir clouté,armadura,lorc/breastplate.svg,reference armadura,CA: 12 + Des. Ligera.
-la cota de malla,la cotte de mailles,armadura,lorc/mail-shirt.svg,reference armadura,CA: 16. Media. Des máx +2.
-la armadura de escamas,l'armure d'écailles,armadura,lorc/breastplate.svg,reference armadura,CA: 14. Media. Des máx +2.
-la armadura de placas,l'armure de plaques,armadura,lorc/breastplate.svg,reference armadura,CA: 18. Pesada. Sin bonus de Des. Muy cara.
-el escudo,le bouclier,armadura,sbed/shield.svg,reference armadura,+2 CA. Se lleva en una mano.
-el yelmo,le heaume / casque,armadura,lorc/visored-helm.svg,reference armadura,Protege la cabeza.
-la capa,la cape,ropa,lucasms/cloak.svg,reference ropa,Prenda de viaje.
-las botas de cuero,les bottes de cuir,ropa,lorc/boots.svg,reference ropa,Calzado estándar de aventurero.
-el saco de dormir,le sac de couchage,equipo,delapouite/bed.svg,reference equipo,Para descansar largo.
-la mochila,le sac à dos,equipo,delapouite/backpack.svg,reference equipo,Lleva el equipo.
-la cuerda,la corde,equipo,delapouite/rope-coil.svg,reference equipo,Muy útil en la mazmorra.
-la antorcha,la torche,equipo,delapouite/torch.svg,reference equipo,Ilumina 6 m. Dura 1 hora.
-el sílex y el pedernal,le briquet (silex et amadou),equipo,sbed/fire.svg,reference equipo,Para encender fuego.
-la ración de viaje,la ration de voyage,equipo,delapouite/bread.svg,reference equipo,Comida para un día.
-la bolsa de monedas,la bourse,equipo,delapouite/coins.svg,reference equipo,Guarda el oro.
-las monedas de oro,les pièces d'or (po),dinero,willdabeast/gold-bar.svg,reference dinero,1 po = 10 pp = 100 pc. Moneda principal.
-las monedas de plata,les pièces d'argent (pa),dinero,delapouite/coins.svg,reference dinero,10 pa = 1 po.
-las monedas de cobre,les pièces de cuivre (pc),dinero,delapouite/coins.svg,reference dinero,100 pc = 1 po.
-la poción de curación,la potion de soin,magia,lorc/potion-ball.svg,reference magia,Restaura 2d4+2 puntos de golpe.
-el antídoto,l'antidote,magia,lorc/potion-ball.svg,reference magia,Cura el veneno.
-el componente de hechizo,la composante de sort,magia,lorc/magic-swirl.svg,reference magia,Necesario para algunos hechizos.
+spanish,french,category,icon,tags,notes,cloze,french_sentence
+la espada corta,l'épée courte,armas,cathelineau/swordman.svg,reference armas,El pícaro desenvaina su espada corta antes de entrar en la cueva.,(épée courte) El pícaro desenvaina su {{c1::espada corta}} antes de entrar en la cueva.,Le roublard dégaine son épée courte avant d'entrer dans la grotte.
+la espada larga,l'épée longue,armas,cathelineau/swordman.svg,reference armas,El paladín levanta su espada larga y carga contra el enemigo.,(épée longue) El paladín levanta su {{c1::espada larga}} y carga contra el enemigo.,Le paladin lève son épée longue et charge contre l'ennemi.
+la espada bastarda,l'épée bâtarde,armas,cathelineau/swordman.svg,reference armas,La guerrera usa su espada bastarda con una o dos manos.,(épée bâtarde) La guerrera usa su {{c1::espada bastarda}} con una o dos manos.,La guerrière utilise son épée bâtarde à une ou deux mains.
+el espadón,l'espadon,armas,lorc/broadsword.svg,reference armas,El bárbaro necesita dos manos para blandir su espadón.,(espadon) El bárbaro necesita dos manos para blandir su {{c1::espadón}}.,Le barbare a besoin de deux mains pour manier son espadon.
+la daga,la dague,armas,lorc/daggers.svg,reference armas,El pícaro esconde una daga en su bota.,(dague) El pícaro esconde una {{c1::daga}} en su bota.,Le roublard cache une dague dans sa botte.
+el puñal,le poignard,armas,lorc/daggers.svg,reference armas,El asesino lanza su puñal con precisión mortal.,(poignard) El asesino lanza su {{c1::puñal}} con precisión mortal.,L'assassin lance son poignard avec une précision mortelle.
+el hacha de mano,la hache de main,armas,lorc/battle-axe.svg,reference armas,El enano lanza su hacha de mano contra el goblin.,(hache de main) El enano lanza su {{c1::hacha de mano}} contra el goblin.,Le nain lance sa hache de main contre le gobelin.
+el hacha de batalla,la hache de bataille,armas,lorc/battle-axe.svg,reference armas,El enano derriba al orco con su hacha de batalla.,(hache de bataille) El enano derriba al orco con su {{c1::hacha de batalla}}.,Le nain abat l'orc avec sa hache de bataille.
+la maza,la masse,armas,delapouite/bone-mace.svg,reference armas,El clérigo golpea al no-muerto con su maza sagrada.,(masse) El clérigo golpea al no-muerto con su {{c1::maza}} sagrada.,Le clerc frappe le mort-vivant avec sa masse sacrée.
+la lanza,la lance,armas,lorc/spears.svg,reference armas,El soldado clava su lanza en el suelo y espera al enemigo.,(lance) El soldado clava su {{c1::lanza}} en el suelo y espera al enemigo.,Le soldat plante sa lance dans le sol et attend l'ennemi.
+el arco corto,l'arc court,armas,delapouite/bow-arrow.svg,reference armas,La exploradora dispara su arco corto desde los arbustos.,(arc court) La exploradora dispara su {{c1::arco corto}} desde los arbustos.,L'exploratrice tire avec son arc court depuis les buissons.
+el arco largo,l'arc long,armas,delapouite/bow-arrow.svg,reference armas,El elfo puede alcanzar al dragón con su arco largo.,(arc long) El elfo puede alcanzar al dragón con su {{c1::arco largo}}.,L'elfe peut atteindre le dragon avec son arc long.
+la ballesta de mano,l'arbalète de poing,armas,carl-olsen/crossbow.svg,reference armas,El pícaro recarga su ballesta de mano detrás de la columna.,(arbalète de poing) El pícaro recarga su {{c1::ballesta de mano}} detrás de la columna.,Le roublard recharge son arbalète de poing derrière la colonne.
+el bastón,le bâton (bourdon),armas,lorc/wizard-staff.svg,reference armas,El mago golpea el suelo con su bastón y lanza un hechizo.,(bâton) El mago golpea el suelo con su {{c1::bastón}} y lanza un hechizo.,Le mage frappe le sol avec son bâton et lance un sort.
+la armadura de cuero,l'armure de cuir,armadura,lorc/breastplate.svg,reference armadura,El pícaro lleva una armadura de cuero para moverse en silencio.,(armure de cuir) El pícaro lleva una {{c1::armadura de cuero}} para moverse en silencio.,Le roublard porte une armure de cuir pour se déplacer en silence.
+la armadura de cuero tachonado,l'armure de cuir clouté,armadura,lorc/breastplate.svg,reference armadura,La exploradora se pone su armadura de cuero tachonado antes de salir.,(armure de cuir clouté) La exploradora se pone su {{c1::armadura de cuero tachonado}} antes de salir.,L'exploratrice enfile son armure de cuir clouté avant de partir.
+la cota de malla,la cotte de mailles,armadura,lorc/mail-shirt.svg,reference armadura,El guerrero se protege con su cota de malla en la batalla.,(cotte de mailles) El guerrero se protege con su {{c1::cota de malla}} en la batalla.,Le guerrier se protège avec sa cotte de mailles dans la bataille.
+la armadura de escamas,l'armure d'écailles,armadura,lorc/breastplate.svg,reference armadura,El caballero lleva una armadura de escamas que brilla al sol.,(armure d'écailles) El caballero lleva una {{c1::armadura de escamas}} que brilla al sol.,Le chevalier porte une armure d'écailles qui brille au soleil.
+la armadura de placas,l'armure de plaques,armadura,lorc/breastplate.svg,reference armadura,La paladina se pone su armadura de placas para el combate final.,(armure de plaques) La paladina se pone su {{c1::armadura de placas}} para el combate final.,La paladine enfile son armure de plaques pour le combat final.
+el escudo,le bouclier,armadura,sbed/shield.svg,reference armadura,El guerrero bloquea el golpe del orco con su escudo.,(bouclier) El guerrero bloquea el golpe del orco con su {{c1::escudo}}.,Le guerrier bloque le coup de l'orc avec son bouclier.
+el yelmo,le heaume / casque,armadura,lorc/visored-helm.svg,reference armadura,El caballero se pone el yelmo antes de entrar en batalla.,(heaume) El caballero se pone el {{c1::yelmo}} antes de entrar en batalla.,Le chevalier met son heaume avant d'entrer en bataille.
+la capa,la cape,ropa,lucasms/cloak.svg,reference ropa,El mago lleva una capa oscura que ondea con el viento.,(cape) El mago lleva una {{c1::capa}} oscura que ondea con el viento.,Le mage porte une cape sombre qui flotte au vent.
+las botas de cuero,les bottes de cuir,ropa,lorc/boots.svg,reference ropa,El explorador camina por el bosque con sus botas de cuero.,(bottes de cuir) El explorador camina por el bosque con sus {{c1::botas de cuero}}.,L'explorateur marche dans la forêt avec ses bottes de cuir.
+el saco de dormir,le sac de couchage,equipo,delapouite/bed.svg,reference equipo,El aventurero extiende su saco de dormir junto al fuego.,(sac de couchage) El aventurero extiende su {{c1::saco de dormir}} junto al fuego.,L'aventurier étend son sac de couchage près du feu.
+la mochila,le sac à dos,equipo,delapouite/backpack.svg,reference equipo,La aventurera guarda las pociones en su mochila.,(sac à dos) La aventurera guarda las pociones en su {{c1::mochila}}.,L'aventurière range les potions dans son sac à dos.
+la cuerda,la corde,equipo,delapouite/rope-coil.svg,reference equipo,El explorador ata la cuerda al árbol para bajar el acantilado.,(corde) El explorador ata la {{c1::cuerda}} al árbol para bajar el acantilado.,L'explorateur attache la corde à l'arbre pour descendre la falaise.
+la antorcha,la torche,equipo,delapouite/torch.svg,reference equipo,La exploradora enciende una antorcha para iluminar la mazmorra.,(torche) La exploradora enciende una {{c1::antorcha}} para iluminar la mazmorra.,L'exploratrice allume une torche pour éclairer le donjon.
+el sílex y el pedernal,le briquet (silex et amadou),equipo,sbed/fire.svg,reference equipo,El explorador usa el sílex y el pedernal para encender la hoguera.,(briquet) El explorador usa el {{c1::sílex y el pedernal}} para encender la hoguera.,L'explorateur utilise le briquet pour allumer le feu de camp.
+la ración de viaje,la ration de voyage,equipo,delapouite/bread.svg,reference equipo,Los aventureros comen una ración de viaje antes de seguir caminando.,(ration de voyage) Los aventureros comen una {{c1::ración de viaje}} antes de seguir caminando.,Les aventuriers mangent une ration de voyage avant de continuer à marcher.
+la bolsa de monedas,la bourse,equipo,delapouite/coins.svg,reference equipo,El pícaro esconde su bolsa de monedas debajo de la capa.,(bourse) El pícaro esconde su {{c1::bolsa de monedas}} debajo de la capa.,Le roublard cache sa bourse sous sa cape.
+las monedas de oro,les pièces d'or (po),dinero,willdabeast/gold-bar.svg,reference dinero,El grupo encuentra diez monedas de oro en el cofre del tesoro.,(pièces d'or) El grupo encuentra diez {{c1::monedas de oro}} en el cofre del tesoro.,Le groupe trouve dix pièces d'or dans le coffre au trésor.
+las monedas de plata,les pièces d'argent (pa),dinero,delapouite/coins.svg,reference dinero,El mercader cobra cinco monedas de plata por la poción.,(pièces d'argent) El mercader cobra cinco {{c1::monedas de plata}} por la poción.,Le marchand demande cinq pièces d'argent pour la potion.
+las monedas de cobre,les pièces de cuivre (pc),dinero,delapouite/coins.svg,reference dinero,El mendigo pide unas monedas de cobre en la plaza del pueblo.,(pièces de cuivre) El mendigo pide unas {{c1::monedas de cobre}} en la plaza del pueblo.,Le mendiant demande quelques pièces de cuivre sur la place du village.
+la poción de curación,la potion de soin,magia,lorc/potion-ball.svg,reference magia,El clérigo le da una poción de curación al guerrero herido.,(potion de soin) El clérigo le da una {{c1::poción de curación}} al guerrero herido.,Le clerc donne une potion de soin au guerrier blessé.
+el antídoto,l'antidote,magia,lorc/potion-ball.svg,reference magia,La druida prepara un antídoto contra el veneno de la araña.,(antidote) La druida prepara un {{c1::antídoto}} contra el veneno de la araña.,La druide prépare un antidote contre le venin de l'araignée.
+el componente de hechizo,la composante de sort,magia,lorc/magic-swirl.svg,reference magia,El mago busca un componente de hechizo en su bolsa.,(composante de sort) El mago busca un {{c1::componente de hechizo}} en su bolsa.,Le mage cherche une composante de sort dans sa sacoche.

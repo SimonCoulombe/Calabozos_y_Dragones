@@ -1,23 +1,23 @@
-spanish,french,category,icon,tags,notes
-rojo / roja,rouge,colores,,reference colores,una espada roja
-azul / azul,bleu,colores,,reference colores,un escudo azul
-verde / verde,vert,colores,,reference colores,una poción verde
-negro / negra,noir,colores,,reference colores,una capa negra
-blanco / blanca,blanc,colores,,reference colores,un dragón blanco
-amarillo / amarilla,jaune,colores,,reference colores,el oro amarillo
-gris / gris,gris,colores,,reference colores,un casco gris
-morado / morada,violet,colores,,reference colores,una gema morada
-plateado / plateada,argenté,colores,,reference colores,una espada plateada
-dorado / dorada,doré,colores,,reference colores,una armadura dorada
-un poquito,un petit peu,cantidad,,reference cantidad,un poquito de pan
-un poco,un peu,cantidad,,reference cantidad,un poco de agua
-mucho,beaucoup,cantidad,,reference cantidad,mucho oro
-demasiado,trop,cantidad,,reference cantidad,Esta espada es demasiado cara.
-malo / mala,mauvais / mauvaise,calidad,,reference calidad,un equipo malo
-promedio,moyen,calidad,,reference calidad,un resultado promedio
-bueno,bon,calidad,,reference calidad,un guerrero bueno
-excelente,excellent,calidad,,reference calidad,una magia excelente
-de hierro,en fer,materiales,,reference materiales,un casco de hierro
-de madera,en bois,materiales,,reference materiales,un bastón de madera
-de cuero,de cuir,materiales,,reference materiales,una armadura de cuero
-de cobre,de cuivre,materiales,,reference materiales,una moneda de cobre
+spanish,french,category,icon,tags,notes,cloze,french_sentence
+rojo / roja,rouge,colores,,reference colores,El mago lleva una capa roja.,(rouge) El mago lleva una capa {{c1::roja}}.,Le mage porte une cape rouge.
+azul / azul,bleu,colores,,reference colores,El guerrero tiene un escudo azul.,(bleu) El guerrero tiene un escudo {{c1::azul}}.,Le guerrier a un bouclier bleu.
+verde / verde,vert,colores,,reference colores,La bruja prepara una poción verde.,(vert) La bruja prepara una poción {{c1::verde}}.,La sorcière prépare une potion verte.
+negro / negra,noir,colores,,reference colores,El ladrón se esconde bajo una capa negra.,(noir) El ladrón se esconde bajo una capa {{c1::negra}}.,Le voleur se cache sous une cape noire.
+blanco / blanca,blanc,colores,,reference colores,Un dragón blanco vive en las montañas.,(blanc) Un dragón {{c1::blanco}} vive en las montañas.,Un dragon blanc vit dans les montagnes.
+amarillo / amarilla,jaune,colores,,reference colores,El enano encuentra una gema amarilla en la cueva.,(jaune) El enano encuentra una gema {{c1::amarilla}} en la cueva.,Le nain trouve une gemme jaune dans la grotte.
+gris / gris,gris,colores,,reference colores,El caballero lleva un casco gris.,(gris) El caballero lleva un casco {{c1::gris}}.,Le chevalier porte un casque gris.
+morado / morada,violet,colores,,reference colores,El hechicero encuentra una gema morada en el cofre.,(violet) El hechicero encuentra una gema {{c1::morada}} en el cofre.,Le sorcier trouve une gemme violette dans le coffre.
+plateado / plateada,argenté,colores,,reference colores,La guerrera empuña una espada plateada.,(argenté) La guerrera empuña una espada {{c1::plateada}}.,La guerrière brandit une épée argentée.
+dorado / dorada,doré,colores,,reference colores,El rey lleva una armadura dorada.,(doré) El rey lleva una armadura {{c1::dorada}}.,Le roi porte une armure dorée.
+un poquito,un petit peu,cantidad,,reference cantidad,Queda un poquito de pan en la mochila.,(un petit peu) Queda {{c1::un poquito}} de pan en la mochila.,Il reste un petit peu de pain dans le sac.
+un poco,un peu,cantidad,,reference cantidad,El aventurero bebe un poco de agua.,(un peu) El aventurero bebe {{c1::un poco}} de agua.,L'aventurier boit un peu d'eau.
+mucho,beaucoup,cantidad,,reference cantidad,Hay mucho oro en el tesoro del dragón.,(beaucoup) Hay {{c1::mucho}} oro en el tesoro del dragón.,Il y a beaucoup d'or dans le trésor du dragon.
+demasiado,trop,cantidad,,reference cantidad,Esta espada es demasiado pesada para el halfling.,(trop) Esta espada es {{c1::demasiado}} pesada para el halfling.,Cette épée est trop lourde pour le halfelin.
+malo / mala,mauvais / mauvaise,calidad,,reference calidad,El ogro es un enemigo malo.,(mauvais) El ogro es un enemigo {{c1::malo}}.,L'ogre est un ennemi redoutable.
+promedio,moyen,calidad,,reference calidad,El resultado de la tirada es promedio.,(moyen) El resultado de la tirada es {{c1::promedio}}.,Le résultat du lancer est moyen.
+bueno,bon,calidad,,reference calidad,Este guerrero es bueno con la espada.,(bon) Este guerrero es {{c1::bueno}} con la espada.,Ce guerrier est bon avec l'épée.
+excelente,excellent,calidad,,reference calidad,La magia del elfo es excelente.,(excellent) La magia del elfo es {{c1::excelente}}.,La magie de l'elfe est excellente.
+de hierro,en fer,materiales,,reference materiales,El caballero lleva un casco de hierro.,(en fer) El caballero lleva un casco {{c1::de hierro}}.,Le chevalier porte un casque en fer.
+de madera,en bois,materiales,,reference materiales,El druida usa un bastón de madera.,(en bois) El druida usa un bastón {{c1::de madera}}.,Le druide utilise un bâton en bois.
+de cuero,de cuir,materiales,,reference materiales,El explorador viste una armadura de cuero.,(de cuir) El explorador viste una armadura {{c1::de cuero}}.,L'explorateur porte une armure de cuir.
+de cobre,de cuivre,materiales,,reference materiales,El comerciante le da una moneda de cobre.,(de cuivre) El comerciante le da una moneda {{c1::de cobre}}.,Le marchand lui donne une pièce de cuivre.

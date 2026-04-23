@@ -1,24 +1,24 @@
-spanish,french,category,icon,tags,notes
-el jefe,le boss / le chef,enemigos,delapouite/boss-key.svg,enemigo,El jefe del castillo aparece.
-¡ríndete!,rends-toi !,frases,delapouite/peace-dove.svg,combate,¡Ríndete o te derroto!
-¡nunca!,jamais !,frases,cathelineau/swordman.svg,combate,El jefe grita: ¡Nunca me rendiré!
-me rindo,je me rends,frases,,combate,Me rindo. No puedo más.
-la victoria,la victoire,resultado,lorc/trophy.svg,combate,¡La victoria es nuestra!
-hemos ganado,nous avons gagné,frases,skoll/fist.svg,combate,¡Hemos ganado la batalla!
-derroté al jefe,j'ai vaincu le boss,frases,cathelineau/swordman.svg,combate,Derroté al jefe. ¡Soy el héroe!
-encontramos,nous avons trouvé,verbos,lorc/magnifying-glass.svg,acción,Encontramos el mapa del siguiente reino.
-una carta,une lettre,objetos,delapouite/love-letter.svg,objetos,Hay una carta en el cofre del jefe.
-el reino,le royaume,lugares,delapouite/castle.svg,lugares,El siguiente reino nos necesita.
-la siguiente aventura,la prochaine aventure,frases,lorc/compass.svg,misión,¿Estás listo para la siguiente aventura?
-poderoso/a,puissant(e),adjetivos,lorc/power-lightning.svg,adjetivos,El jefe es muy poderoso.
-fuerte,fort(e),adjetivos,delapouite/biceps.svg,adjetivos,El troll es fuerte pero lento.
-lento/a,lent(e),adjetivos,lorc/snail.svg,adjetivos,El troll es lento. ¡Corre!
-rápido/a,rapide,adjetivos,lorc/sprint.svg,adjetivos,El pícaro es muy rápido.
-fui,je suis allé(e),verbos,lorc/footprint.svg,pasado,Fui al castillo.
-vi,j'ai vu,verbos,delapouite/angry-eyes.svg,pasado,Vi al jefe.
-luché,j'ai combattu,verbos,delapouite/swords-power.svg,pasado,Luché muy bien hoy.
-encontré,j'ai trouvé,verbos,skoll/open-chest.svg,pasado,Encontré el tesoro.
-la siguiente sesión,la prochaine séance,frases,delapouite/scroll-quill.svg,meta,¿Qué pasó la última vez?
-¿qué pasó?,qu'est-ce qui s'est passé?,frases,lorc/conversation.svg,ritual,Ritual de apertura de cada sesión.
-abro el cofre,j'ouvre le coffre,frases,skoll/open-chest.svg,acción,Abro el cofre. ¡Hay oro!
-ganar un nivel,gagner un niveau,verbos,,acción,¡Gané un nivel después de derrotar al jefe!
+spanish,french,category,icon,tags,notes,cloze,french_sentence
+el jefe,le boss / le chef,enemigos,delapouite/boss-key.svg,enemigo,El jefe del castillo aparece con una espada enorme.,(boss) El {{c1::jefe}} del castillo aparece con una espada enorme.,Le boss du château apparaît avec une épée énorme.
+¡ríndete!,rends-toi !,frases,delapouite/peace-dove.svg,combate,El jefe grita: ¡Ríndete! No puedes escapar de mi castillo.,(rends-toi) El jefe grita: ¡{{c1::Ríndete}}! No puedes escapar de mi castillo.,Le boss crie : Rends-toi ! Tu ne peux pas t'échapper de mon château.
+¡nunca!,jamais !,frases,cathelineau/swordman.svg,combate,El paladín responde al jefe: ¡Nunca! Lucharemos hasta el final.,(jamais) El paladín responde al jefe: ¡{{c1::Nunca}}! Lucharemos hasta el final.,Le paladin répond au boss : Jamais ! Nous nous battrons jusqu'à la fin.
+me rindo,je me rends,frases,,combate,El monstruo dice: Me rindo. Ya no puedo luchar más.,(je me rends) El monstruo dice: {{c1::Me rindo}}. Ya no puedo luchar más.,Le monstre dit : Je me rends. Je ne peux plus me battre.
+la victoria,la victoire,resultado,lorc/trophy.svg,combate,La victoria contra el jefe nos llena de alegría.,(victoire) {{c1::La victoria}} contra el jefe nos llena de alegría.,La victoire contre le boss nous remplit de joie.
+hemos ganado,nous avons gagné,frases,skoll/fist.svg,combate,¡Hemos ganado la batalla contra el jefe del castillo!,(nous avons gagné) ¡{{c1::Hemos ganado}} la batalla contra el jefe del castillo!,Nous avons gagné la bataille contre le boss du château !
+derroté al jefe,j'ai vaincu le boss,frases,cathelineau/swordman.svg,combate,Derroté al jefe con un golpe crítico de mi espada.,(j'ai vaincu le boss) {{c1::Derroté al jefe}} con un golpe crítico de mi espada.,J'ai vaincu le boss avec un coup critique de mon épée.
+encontramos,nous avons trouvé,verbos,lorc/magnifying-glass.svg,acción,Encontramos un mapa escondido en el cofre del jefe.,(nous avons trouvé) {{c1::Encontramos}} un mapa escondido en el cofre del jefe.,Nous avons trouvé une carte cachée dans le coffre du boss.
+una carta,une lettre,objetos,delapouite/love-letter.svg,objetos,Hay una carta del rey dentro del cofre del jefe.,(lettre) Hay una {{c1::carta}} del rey dentro del cofre del jefe.,Il y a une lettre du roi dans le coffre du boss.
+el reino,le royaume,lugares,delapouite/castle.svg,lugares,El reino vecino está en peligro y necesita nuestra ayuda.,(royaume) El {{c1::reino}} vecino está en peligro y necesita nuestra ayuda.,Le royaume voisin est en danger et a besoin de notre aide.
+la siguiente aventura,la prochaine aventure,frases,lorc/compass.svg,misión,¿Estás listo para la siguiente aventura en el reino del norte?,(prochaine aventure) ¿Estás listo para {{c1::la siguiente aventura}} en el reino del norte?,Es-tu prêt pour la prochaine aventure dans le royaume du nord ?
+poderoso/a,puissant(e),adjetivos,lorc/power-lightning.svg,adjetivos,El jefe es muy poderoso y tiene un ejército de esqueletos.,(puissant) El jefe es muy {{c1::poderoso}} y tiene un ejército de esqueletos.,Le boss est très puissant et il a une armée de squelettes.
+fuerte,fort(e),adjetivos,delapouite/biceps.svg,adjetivos,El troll es fuerte pero no es muy inteligente.,(fort) El troll es {{c1::fuerte}} pero no es muy inteligente.,Le troll est fort mais il n'est pas très intelligent.
+lento/a,lent(e),adjetivos,lorc/snail.svg,adjetivos,El ogro es lento. ¡Podemos escapar corriendo!,(lent) El ogro es {{c1::lento}}. ¡Podemos escapar corriendo!,L'ogre est lent. Nous pouvons nous échapper en courant !
+rápido/a,rapide,adjetivos,lorc/sprint.svg,adjetivos,El pícaro es rápido y esquiva los ataques del jefe.,(rapide) El pícaro es {{c1::rápido}} y esquiva los ataques del jefe.,Le roublard est rapide et esquive les attaques du boss.
+fui,je suis allé(e),verbos,lorc/footprint.svg,pasado,Fui al castillo del jefe con mi grupo de aventureros.,(je suis allé) {{c1::Fui}} al castillo del jefe con mi grupo de aventureros.,Je suis allé au château du boss avec mon groupe d'aventuriers.
+vi,j'ai vu,verbos,delapouite/angry-eyes.svg,pasado,Vi al jefe sentado en su trono oscuro.,(j'ai vu) {{c1::Vi}} al jefe sentado en su trono oscuro.,J'ai vu le boss assis sur son trône sombre.
+luché,j'ai combattu,verbos,delapouite/swords-power.svg,pasado,Luché contra el jefe durante tres turnos sin descansar.,(j'ai combattu) {{c1::Luché}} contra el jefe durante tres turnos sin descansar.,J'ai combattu le boss pendant trois tours sans me reposer.
+encontré,j'ai trouvé,verbos,skoll/open-chest.svg,pasado,Encontré un tesoro brillante después de derrotar al jefe.,(j'ai trouvé) {{c1::Encontré}} un tesoro brillante después de derrotar al jefe.,J'ai trouvé un trésor brillant après avoir vaincu le boss.
+la siguiente sesión,la prochaine séance,frases,delapouite/scroll-quill.svg,meta,En la siguiente sesión descubriremos un nuevo reino.,(prochaine séance) En {{c1::la siguiente sesión}} descubriremos un nuevo reino.,"Lors de la prochaine séance, nous découvrirons un nouveau royaume."
+¿qué pasó?,qu'est-ce qui s'est passé ?,frases,lorc/conversation.svg,ritual,¿Qué pasó? ¡Cuéntame la historia de la última batalla!,(qu'est-ce qui s'est passé) ¿{{c1::Qué pasó}}? ¡Cuéntame la historia de la última batalla!,Qu'est-ce qui s'est passé ? Raconte-moi l'histoire de la dernière bataille !
+abro el cofre,j'ouvre le coffre,frases,skoll/open-chest.svg,acción,Abro el cofre del jefe y encuentro una espada mágica.,(j'ouvre le coffre) {{c1::Abro el cofre}} del jefe y encuentro una espada mágica.,J'ouvre le coffre du boss et je trouve une épée magique.
+ganar un nivel,gagner un niveau,verbos,,acción,Después de la batalla puedo ganar un nivel y ser más fuerte.,(gagner un niveau) Después de la batalla puedo {{c1::ganar un nivel}} y ser más fuerte.,"Après la bataille, je peux gagner un niveau et être plus fort."

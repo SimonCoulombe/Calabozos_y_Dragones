@@ -1,30 +1,30 @@
-spanish,french,category,icon,tags,notes
-la ciudad,la ville,lugares,delapouite/city-car.svg,reference lugares,"Gran ciudad con mercaderes, guardias y tabernas."
-el pueblo,le village,lugares,delapouite/village.svg,reference lugares,Pueblo pequeño. Suele ser el punto de partida.
-la aldea,le hameau,lugares,delapouite/village.svg,reference lugares,Aldea muy pequeña y rural.
-la taberna,la taverne,lugares,delapouite/tavern-sign.svg,reference lugares,"Lugar de descanso, información y reclutamiento."
-la posada,l'auberge,lugares,delapouite/tavern-sign.svg,reference lugares,Posada con habitaciones para dormir.
-la tienda,la boutique,lugares,delapouite/shop.svg,reference lugares,Tienda del mercader.
-el mercado,le marché,lugares,delapouite/shop.svg,reference lugares,Zona comercial con varios mercaderes.
-el castillo,le château,lugares,delapouite/castle.svg,reference lugares,Fortaleza noble o real.
-la torre,la tour,lugares,delapouite/tv-tower.svg,reference lugares,Torre de vigilancia o torre del mago.
-el palacio,le palais,lugares,delapouite/castle.svg,reference lugares,Residencia del rey o de un noble poderoso.
-el templo,le temple,lugares,skoll/pentacle.svg,reference lugares,Lugar de culto a un dios.
-la biblioteca,la bibliothèque,lugares,delapouite/notebook.svg,reference lugares,Lugar para encontrar pergaminos e información.
-el calabozo,le cachot,lugares,,reference lugares,Prisión subterránea o celda.
-la mazmorra,le donjon,lugares,delapouite/dungeon-gate.svg,reference lugares,Lugar de exploración subterráneo.
-la cueva,la grotte / caverne,lugares,delapouite/caveman.svg,reference lugares,Cueva natural habitada frecuentemente por monstruos.
-el pasillo,le couloir,lugares,delapouite/dungeon-gate.svg,reference lugares,Corredor en una mazmorra o en un castillo.
-la entrada,l'entrée,lugares,delapouite/door.svg,reference lugares,"Entrada de un lugar, puerta principal."
-la salida,la sortie,lugares,delapouite/exit-door.svg,reference lugares,Salida de un lugar.
-el tesoro,le trésor,lugares,delapouite/chest.svg,reference lugares,Cofre o escondite de riquezas.
-el bosque,la forêt,lugares,delapouite/forest.svg,reference lugares,Zona boscosa con animales y bandidos.
-el camino,le chemin / la route,lugares,delapouite/road.svg,reference lugares,Camino entre dos destinos.
-el río,la rivière,lugares,lorc/waves.svg,reference lugares,Río que cruzar o seguir.
-la montaña,la montagne,lugares,lorc/mountains.svg,reference lugares,Zona montañosa difícil de atravesar.
-la llanura,la plaine,lugares,delapouite/grass.svg,reference lugares,Zona plana y abierta.
-el desierto,le désert,lugares,delapouite/desert.svg,reference lugares,Zona árida con calor intenso.
-el pantano,le marécage,lugares,lorc/poison-gas.svg,reference lugares,Zona húmeda que ralentiza el movimiento.
-la isla,l'île,lugares,delapouite/island.svg,reference lugares,Tierra rodeada de agua.
-el puente,le pont,lugares,lorc/bridge.svg,reference lugares,Construcción para cruzar un río.
-el puerto,le port,lugares,lorc/anchor.svg,reference lugares,Puerto marítimo o fluvial.
+spanish,french,category,icon,tags,notes,cloze,french_sentence
+la ciudad,la ville,lugares,delapouite/city-car.svg,reference lugares,Los aventureros llegan a la ciudad buscando un mercader de armas.,(ville) Los aventureros llegan a la {{c1::ciudad}} buscando un mercader de armas.,Les aventuriers arrivent à la ville en cherchant un marchand d'armes.
+el pueblo,le village,lugares,delapouite/village.svg,reference lugares,El grupo empieza su aventura en un pequeño pueblo al borde del bosque.,(village) El grupo empieza su aventura en un pequeño {{c1::pueblo}} al borde del bosque.,Le groupe commence son aventure dans un petit village au bord de la forêt.
+la aldea,le hameau,lugares,delapouite/village.svg,reference lugares,La aldea solo tiene cinco casas y una fuente en el centro.,(hameau) La {{c1::aldea}} solo tiene cinco casas y una fuente en el centro.,Le hameau n'a que cinq maisons et une fontaine au centre.
+la taberna,la taverne,lugares,delapouite/tavern-sign.svg,reference lugares,Los héroes entran en la taberna para buscar información sobre la misión.,(taverne) Los héroes entran en la {{c1::taberna}} para buscar información sobre la misión.,Les héros entrent dans la taverne pour chercher des informations sur la mission.
+la posada,l'auberge,lugares,delapouite/tavern-sign.svg,reference lugares,"Después de un largo viaje, el grupo descansa en la posada.","(auberge) Después de un largo viaje, el grupo descansa en la {{c1::posada}}.","Après un long voyage, le groupe se repose à l'auberge."
+la tienda,la boutique,lugares,delapouite/shop.svg,reference lugares,El mago compra componentes mágicos en la tienda del alquimista.,(boutique) El mago compra componentes mágicos en la {{c1::tienda}} del alquimista.,Le mage achète des composants magiques dans la boutique de l'alchimiste.
+el mercado,le marché,lugares,delapouite/shop.svg,reference lugares,En el mercado hay mercaderes que venden pociones y armas.,(marché) En el {{c1::mercado}} hay mercaderes que venden pociones y armas.,"Au marché, il y a des marchands qui vendent des potions et des armes."
+el castillo,le château,lugares,delapouite/castle.svg,reference lugares,El rey espera a los aventureros en su castillo fortificado.,(château) El rey espera a los aventureros en su {{c1::castillo}} fortificado.,Le roi attend les aventuriers dans son château fortifié.
+la torre,la tour,lugares,delapouite/tv-tower.svg,reference lugares,El mago oscuro vive en la torre más alta de la región.,(tour) El mago oscuro vive en la {{c1::torre}} más alta de la región.,Le mage sombre vit dans la tour la plus haute de la région.
+el palacio,le palais,lugares,delapouite/castle.svg,reference lugares,La reina recibe a los héroes en el gran salón del palacio.,(palais) La reina recibe a los héroes en el gran salón del {{c1::palacio}}.,La reine reçoit les héros dans la grande salle du palais.
+el templo,le temple,lugares,skoll/pentacle.svg,reference lugares,El clérigo reza en el templo antes de partir a la aventura.,(temple) El clérigo reza en el {{c1::templo}} antes de partir a la aventura.,Le clerc prie dans le temple avant de partir à l'aventure.
+la biblioteca,la bibliothèque,lugares,delapouite/notebook.svg,reference lugares,El mago busca un pergamino antiguo en la biblioteca de la ciudad.,(bibliothèque) El mago busca un pergamino antiguo en la {{c1::biblioteca}} de la ciudad.,Le mage cherche un parchemin ancien dans la bibliothèque de la ville.
+el calabozo,le cachot,lugares,,reference lugares,Los prisioneros esperan en el calabozo oscuro bajo la fortaleza.,(cachot) Los prisioneros esperan en el {{c1::calabozo}} oscuro bajo la fortaleza.,Les prisonniers attendent dans le cachot sombre sous la forteresse.
+la mazmorra,le donjon,lugares,delapouite/dungeon-gate.svg,reference lugares,El grupo explora la mazmorra llena de trampas y monstruos.,(donjon) El grupo explora la {{c1::mazmorra}} llena de trampas y monstruos.,Le groupe explore le donjon rempli de pièges et de monstres.
+la cueva,la grotte / caverne,lugares,delapouite/caveman.svg,reference lugares,Un oso enorme vive dentro de la cueva al norte del camino.,(grotte) Un oso enorme vive dentro de la {{c1::cueva}} al norte del camino.,Un ours énorme vit dans la grotte au nord du chemin.
+el pasillo,le couloir,lugares,delapouite/dungeon-gate.svg,reference lugares,El pícaro avanza en silencio por el pasillo oscuro de la mazmorra.,(couloir) El pícaro avanza en silencio por el {{c1::pasillo}} oscuro de la mazmorra.,Le roublard avance en silence dans le couloir sombre du donjon.
+la entrada,l'entrée,lugares,delapouite/door.svg,reference lugares,Dos guardias vigilan la entrada del castillo día y noche.,(entrée) Dos guardias vigilan la {{c1::entrada}} del castillo día y noche.,Deux gardes surveillent l'entrée du château jour et nuit.
+la salida,la sortie,lugares,delapouite/exit-door.svg,reference lugares,El grupo busca la salida de la mazmorra antes de que lleguen más enemigos.,(sortie) El grupo busca la {{c1::salida}} de la mazmorra antes de que lleguen más enemigos.,Le groupe cherche la sortie du donjon avant que d'autres ennemis n'arrivent.
+el tesoro,le trésor,lugares,delapouite/chest.svg,reference lugares,"Detrás de la puerta secreta, el grupo encuentra el tesoro del dragón.","(trésor) Detrás de la puerta secreta, el grupo encuentra el {{c1::tesoro}} del dragón.","Derrière la porte secrète, le groupe trouve le trésor du dragon."
+el bosque,la forêt,lugares,delapouite/forest.svg,reference lugares,El druida guía al grupo a través del bosque encantado.,(forêt) El druida guía al grupo a través del {{c1::bosque}} encantado.,Le druide guide le groupe à travers la forêt enchantée.
+el camino,le chemin / la route,lugares,delapouite/road.svg,reference lugares,El camino entre los dos pueblos es peligroso por la noche.,(chemin) El {{c1::camino}} entre los dos pueblos es peligroso por la noche.,Le chemin entre les deux villages est dangereux la nuit.
+el río,la rivière,lugares,lorc/waves.svg,reference lugares,El grupo necesita cruzar el río para llegar a la torre del mago.,(rivière) El grupo necesita cruzar el {{c1::río}} para llegar a la torre del mago.,Le groupe doit traverser la rivière pour atteindre la tour du mage.
+la montaña,la montagne,lugares,lorc/mountains.svg,reference lugares,El dragón rojo tiene su guarida en lo alto de la montaña.,(montagne) El dragón rojo tiene su guarida en lo alto de la {{c1::montaña}}.,Le dragon rouge a son repaire au sommet de la montagne.
+la llanura,la plaine,lugares,delapouite/grass.svg,reference lugares,El ejército de orcos avanza por la llanura hacia el pueblo.,(plaine) El ejército de orcos avanza por la {{c1::llanura}} hacia el pueblo.,L'armée d'orcs avance dans la plaine vers le village.
+el desierto,le désert,lugares,delapouite/desert.svg,reference lugares,"Sin agua suficiente, cruzar el desierto puede ser mortal.","(désert) Sin agua suficiente, cruzar el {{c1::desierto}} puede ser mortal.","Sans assez d'eau, traverser le désert peut être mortel."
+el pantano,le marécage,lugares,lorc/poison-gas.svg,reference lugares,El pantano huele mal y ralentiza a todos los que lo cruzan.,(marécage) El {{c1::pantano}} huele mal y ralentiza a todos los que lo cruzan.,Le marécage sent mauvais et ralentit tous ceux qui le traversent.
+la isla,l'île,lugares,delapouite/island.svg,reference lugares,El pirata escondió su tesoro en una isla desierta.,(île) El pirata escondió su tesoro en una {{c1::isla}} desierta.,Le pirate a caché son trésor sur une île déserte.
+el puente,le pont,lugares,lorc/bridge.svg,reference lugares,Un trol enorme bloquea el puente y pide un peaje para cruzar.,(pont) Un trol enorme bloquea el {{c1::puente}} y pide un peaje para cruzar.,Un troll énorme bloque le pont et demande un péage pour traverser.
+el puerto,le port,lugares,lorc/anchor.svg,reference lugares,El grupo busca un barco en el puerto para navegar hacia la isla.,(port) El grupo busca un barco en el {{c1::puerto}} para navegar hacia la isla.,Le groupe cherche un bateau au port pour naviguer vers l'île.

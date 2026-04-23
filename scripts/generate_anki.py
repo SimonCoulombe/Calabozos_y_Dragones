@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Generate Anki decks (.apkg) from vocabulary CSVs.
+"""Generate Anki cloze-deletion decks (.apkg) from vocabulary CSVs.
 
-One deck per child defined in config.yaml.
-Each card: front = Spanish word + icon, back = French translation + TTS audio.
+New format (v2): uses cloze model with french hint on front, french sentence on back.
+Supports --only PATTERN to filter CSVs, --no-tts to skip audio.
 """
 
 import csv
@@ -35,35 +35,40 @@ CARD_CSS = """
   color: #2c1a0e;
   padding: 20px;
 }
-.spanish { font-size: 28px; font-weight: bold; color: #5c1a00; margin-bottom: 10px; }
-.french  { font-size: 22px; color: #2c1a0e; margin-top: 10px; }
+.cloze-sentence { font-size: 22px; color: #2c1a0e; margin-bottom: 12px; line-height: 1.5; }
+.spanish-word { font-size: 28px; font-weight: bold; color: #5c1a00; margin: 10px 0; }
+.full-sentence { font-size: 18px; color: #2c1a0e; margin: 8px 0; }
+.french-sentence { font-size: 16px; color: #5c3a1e; font-style: italic; margin: 8px 0; }
 .category { font-size: 12px; color: #7a3a10; font-style: italic; margin-top: 5px; }
-.example { font-size: 14px; color: #5c3a1e; font-style: italic; margin-top: 8px; }
-.icon img { width: 80px; height: 80px; margin-bottom: 10px; }
+.icon img { width: 64px; height: 64px; margin-bottom: 8px; }
+.cloze { font-weight: bold; color: #5c1a00; }
 """
 
+# Cloze front: show the cloze sentence (with blank + french hint)
 FRONT_TEMPLATE = """
 <div class="card">
   <div class="icon">{{Icon}}</div>
-  <div class="spanish">{{Spanish}}</div>
+  <div class="cloze-sentence">{{cloze:Text}}</div>
   <div class="category">{{Category}}</div>
-  {{Audio}}  <!-- This will include the audio field here -->
 </div>
 """
 
+# Cloze back: answer + full spanish sentence + french sentence + audio
 BACK_TEMPLATE = """
-{{FrontSide}}
-<hr>
 <div class="card">
-  <div class="french">{{French}}</div>
-  <div class="example">{{Example}}</div>
-
+  <div class="icon">{{Icon}}</div>
+  <div class="cloze-sentence">{{cloze:Text}}</div>
+  <div class="category">{{Category}}</div>
+  <hr>
+  <div class="spanish-word">{{Spanish}}</div>
+  <div class="full-sentence">{{FullSentence}}</div>
+  <div class="french-sentence">{{FrenchSentence}}</div>
+  {{Audio}}
 </div>
 """
 
 
 def stable_id(text: str) -> int:
-    """Generate a stable integer ID from a string (fits in Anki's int range)."""
     return int(hashlib.md5(text.encode()).hexdigest()[:8], 16)
 
 
@@ -72,26 +77,37 @@ def load_config() -> dict:
         return yaml.safe_load(f)
 
 
-def load_all_words() -> list[dict]:
-    """Load all vocabulary CSVs (session and reference), tagged with source."""
+def load_words(only_pattern: str | None = None) -> list[dict]:
+    """Load vocabulary CSVs, optionally filtered by pattern."""
     words = []
     csv_files = sorted(VOCAB_DIR.glob("theme_*.csv")) + sorted(VOCAB_DIR.glob("reference_*.csv"))
+
     for p in csv_files:
+        if only_pattern and only_pattern not in p.stem:
+            continue
         is_session = p.stem.startswith("theme_")
         num = p.stem.split("_")[1] if is_session else None
         with open(p, newline="", encoding="utf-8") as f:
             for row in csv.DictReader(f):
-                if row.get("spanish", "").strip():
-                    words.append({
-                        "spanish": row["spanish"].strip(),
-                        "french": row.get("french", "").strip(),
-                        "category": row.get("category", "").strip(),
-                        "icon": row.get("icon", "").strip(),
-                        "tags": [t.strip() for t in row.get("tags", "").split(",") if t.strip()],
-                        "notes": row.get("notes", "").strip(),
-                        "session": num,
-                        "session_name": SESSION_NAMES.get(num, f"Tema {num}") if num else p.stem,
-                    })
+                spanish = row.get("spanish", "").strip()
+                cloze = row.get("cloze", "").strip()
+                if not spanish:
+                    continue
+                # Skip rows without cloze data (old format CSVs)
+                if only_pattern and not cloze:
+                    continue
+                words.append({
+                    "spanish": spanish,
+                    "french": row.get("french", "").strip(),
+                    "category": row.get("category", "").strip(),
+                    "icon": row.get("icon", "").strip(),
+                    "tags": [t.strip() for t in row.get("tags", "").split(",") if t.strip()],
+                    "notes": row.get("notes", "").strip(),
+                    "cloze": cloze,
+                    "french_sentence": row.get("french_sentence", "").strip(),
+                    "session": num,
+                    "session_name": SESSION_NAMES.get(num, f"Tema {num}") if num else p.stem,
+                })
     return words
 
 
@@ -99,58 +115,69 @@ def get_audio_and_icon(
     word: dict,
     config: dict,
     audio_dir: Path,
+    icons_dir: Path,
     skip_tts: bool = False,
-) -> tuple[str, str, bytes | None, str | None]:
-    """Return (audio_field_html, icon_field_html, icon_png_bytes, icon_filename) for this word."""
-    from fetch_icons import icon_to_png_bytes
-
+) -> tuple[str, str, list[str]]:
+    """Return (audio_field_html, icon_field_html, media_files_to_add)."""
+    media = []
     audio_html = ""
     icon_html = ""
 
+    # Audio: based on notes (full sentence)
     safe = word['spanish'].replace(' ', '_').replace('/', '-')
     safe = ''.join(c for c in safe if c.isalnum() or c in '_-áéíóúüñÁÉÍÓÚÜÑ')
     audio_filename = f"{safe}.wav"
     audio_path = audio_dir / audio_filename
-
     if not skip_tts and audio_path.exists():
         audio_html = f"[sound:{audio_filename}]"
+        if str(audio_path) not in media:
+            media.append(str(audio_path))
 
-    icon_ref = word["icon"].strip() or config["images"].get("fallback_icon")
+    # Icon: try to load from cache, skip gracefully if missing
+    icon_ref = word["icon"] or config["images"].get("fallback_icon", "")
     if config["images"]["provider"] == "game_icons" and icon_ref and "/" in icon_ref:
-        png_bytes = icon_to_png_bytes(icon_ref)
-        if png_bytes:
-            safe_name = icon_ref.replace("/", "_").replace(".svg", "")
-            icon_filename = f"icon_{safe_name}.png"
-            icon_html = f'<img src="{icon_filename}">'
-            return audio_html, icon_html, png_bytes, icon_filename
+        try:
+            from fetch_icons import icon_to_png_bytes
+            png_bytes = icon_to_png_bytes(icon_ref)
+            if png_bytes:
+                safe_name = icon_ref.replace("/", "_").replace(".svg", "")
+                icon_filename = f"icon_{safe_name}.png"
+                icon_path = icons_dir / icon_filename
+                if not icon_path.exists():
+                    icon_path.write_bytes(png_bytes)
+                icon_html = f'<img src="{icon_filename}">'
+                if str(icon_path) not in media:
+                    media.append(str(icon_path))
+        except Exception:
+            pass  # icons not available, skip
 
-    return audio_html, icon_html, None, None
+    return audio_html, icon_html, media
 
 
-def build_deck(child: dict, words: list[dict], config: dict, out_dir: Path, audio_dir: Path, skip_tts: bool = False) -> Path:
+def build_deck(child: dict, words: list[dict], config: dict, out_dir: Path, audio_dir: Path, icons_dir: Path, skip_tts: bool = False) -> Path:
     deck_id = stable_id(f"calabozos-{child['id']}")
-    model_id = stable_id(f"model-calabozos-v1")
+    model_id = stable_id("model-calabozos-cloze-v2")
 
     model = genanki.Model(
         model_id,
-        "Calabozos Card",
+        "Calabozos Cloze v2",
         fields=[
-            {"name": "Spanish"},
-            {"name": "French"},
-            {"name": "Category"},
-            {"name": "Example"},
+            {"name": "Text"},            # cloze sentence with {{c1::}} markup + french hint
+            {"name": "Spanish"},         # target word/phrase
+            {"name": "FullSentence"},    # notes = full spanish sentence
+            {"name": "FrenchSentence"},  # french translation of the sentence
             {"name": "Audio"},
             {"name": "Icon"},
+            {"name": "Category"},
             {"name": "Session"},
         ],
-        templates=[
-            {
-                "name": "ES → FR",
-                "qfmt": FRONT_TEMPLATE,
-                "afmt": BACK_TEMPLATE,
-            }
-        ],
+        templates=[{
+            "name": "Cloze ES→FR",
+            "qfmt": FRONT_TEMPLATE,
+            "afmt": BACK_TEMPLATE,
+        }],
         css=CARD_CSS,
+        model_type=genanki.Model.CLOZE,
     )
 
     deck_name = child.get("anki_deck_name", f"Calabozos - {child['id']}")
@@ -158,27 +185,19 @@ def build_deck(child: dict, words: list[dict], config: dict, out_dir: Path, audi
 
     media_files: list[str] = []
     seen: set[str] = set()
-    icon_cache: dict[str, bytes] = {}
 
     for word in words:
         if word["spanish"] in seen:
             continue
         seen.add(word["spanish"])
 
-        audio_html, icon_html, png_bytes, icon_filename = get_audio_and_icon(word, config, audio_dir, skip_tts=skip_tts)
+        if not word.get("cloze"):
+            continue
 
-        if png_bytes and icon_filename:
-            icon_path = audio_dir / icon_filename
-            if not icon_path.exists():
-                icon_path.write_bytes(png_bytes)
-            if str(icon_path) not in media_files:
-                media_files.append(str(icon_path))
-
-        safe_for_path = word['spanish'].replace(' ', '_').replace('/', '-')
-        safe_for_path = ''.join(c for c in safe_for_path if c.isalnum() or c in '_-áéíóúüñÁÉÍÓÚÜÑ')
-        audio_path = audio_dir / f"{safe_for_path}.wav"
-        if audio_path.exists() and str(audio_path) not in media_files:
-            media_files.append(str(audio_path))
+        audio_html, icon_html, word_media = get_audio_and_icon(word, config, audio_dir, icons_dir, skip_tts=skip_tts)
+        for m in word_media:
+            if m not in media_files:
+                media_files.append(m)
 
         def sanitize_tag(t: str) -> str:
             return t.replace(" ", "_").replace("—", "").replace("?", "").strip("_")
@@ -188,12 +207,13 @@ def build_deck(child: dict, words: list[dict], config: dict, out_dir: Path, audi
         note = genanki.Note(
             model=model,
             fields=[
+                word["cloze"],
                 word["spanish"],
-                word["french"],
-                word["category"],
                 word["notes"],
+                word["french_sentence"],
                 audio_html,
                 icon_html,
+                word["category"],
                 word["session_name"],
             ],
             tags=[t for t in tags if t],
@@ -211,24 +231,32 @@ def build_deck(child: dict, words: list[dict], config: dict, out_dir: Path, audi
 def main() -> int:
     skip_tts = "--no-tts" in sys.argv
 
+    only_pattern = None
+    if "--only" in sys.argv:
+        idx = sys.argv.index("--only")
+        if idx + 1 < len(sys.argv):
+            only_pattern = sys.argv[idx + 1]
+
     config = load_config()
     out_dir = BASE / config["output"]["anki_dir"]
     audio_dir = BASE / config["output"]["audio_dir"]
+    icons_dir = BASE / "output" / "icons"
     out_dir.mkdir(parents=True, exist_ok=True)
     audio_dir.mkdir(parents=True, exist_ok=True)
+    icons_dir.mkdir(parents=True, exist_ok=True)
 
-    words = load_all_words()
+    words = load_words(only_pattern)
     if not words:
-        print("ERROR: no vocabulary words loaded — check your session CSV files")
+        print("ERROR: no vocabulary words loaded — check your CSV files")
         return 1
 
-    print(f"Loaded {len(words)} words from vocabulary CSVs")
+    print(f"Loaded {len(words)} words" + (f" (filter: {only_pattern})" if only_pattern else ""))
     if skip_tts:
         print("TTS disabled — cards will have no audio")
 
     for child in config.get("children", []):
-        print(f"Building deck for {child['id']} ({child.get('name', 'unnamed')})...")
-        out_path = build_deck(child, words, config, out_dir, audio_dir, skip_tts=skip_tts)
+        print(f"Building deck for {child['id']}...")
+        out_path = build_deck(child, words, config, out_dir, audio_dir, icons_dir, skip_tts=skip_tts)
         print(f"  ANKI  →  {out_path}")
 
     return 0

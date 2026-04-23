@@ -1,48 +1,47 @@
-spanish,french,category,icon,tags,notes
-me llamo,je m'appelle,frases,,identidad,Me llamo Zara.
-soy,je suis (permanent),verbos,delapouite/person.svg,ser,Soy un elfo. / Soy una guerrera.
-eres,tu es (permanent),verbos,delapouite/person.svg,ser,¿Eres un mago?
-es,il/elle est,verbos,delapouite/person.svg,ser,Es un dragón.
-somos,nous sommes,verbos,delapouite/meeple-group.svg,ser,Somos héroes.
-son,ils/elles sont,verbos,delapouite/meeple-group.svg,ser,Son los enemigos.
-¿de dónde eres?,d'où es-tu?,frases,,identidad,¿De dónde eres? — Soy de las montañas.
-¿cuál es tu clase?,quelle est ta classe?,frases,,identidad,clase del personaje
-¿qué quieres hacer?,que veux-tu faire?,frases,,acción,Quiero atacar. / Quiero correr.
-quiero,je veux,verbos,,acción,Quiero una espada.
-puedo,je peux,verbos,,acción,Puedo lanzar un hechizo.
-tengo,j'ai,verbos,,posesión,Tengo 15 de fuerza.
-el personaje,le personnage,,,, ¡Has matado a mi personaje!
-el jugador,le joueur,,,,Hay cinco jugadores en nuestra mesa.
-el grupo,le groupe,,,,Nuestro grupo entra en la mazmorra.
-un dado,un dé,,delapouite/dice-six-faces-six.svg,,Lanzo diez dados d8 para determinar el daño.
-la raza,la race,,,,¿Cuál es tu raza? — Soy un elfo.
-la clase,la classe,,,,¿Cuál es tu clase? — Soy un guerrero.
-el guerrero,le guerrier,clases,cathelineau/swordman.svg,clase,un guerrero humano
-el mago / la maga,le magicien / la magicienne,clases,lorc/magic-swirl.svg,clase,una maga elfa
-el pícaro,le voleur,clases,lorc/hood.svg,clase,un pícaro gnomo
-el clérigo,le clerc,clases,lorc/holy-grail.svg,clase,un clérigo enano
-el arquero,l'archer,clases,delapouite/bow-arrow.svg,clase,una arquera elfa
-el elfo,l'elfe,razas,delapouite/elf-ear.svg,raza,Soy un elfo.
-la elfa,l'elfe (f.),razas,delapouite/elf-ear.svg,raza,Soy una elfa.
-el enano,le nain,razas,delapouite/dwarf-face.svg,raza,Es un enano.
-el orco,l'orc,razas,delapouite/orc-head.svg,raza,Soy un orco.
-el humano,l'humain,razas,delapouite/person.svg,raza,Somos humanos.
-el gnomo,le gnome,razas,cathelineau/bad-gnome.svg,raza,Es un gnomo.
-el nivel,le niveau,atributos,,atributos,Soy de nivel uno.
-el alineamiento,l'alignement,atributos,,atributos,Bruno es de alineamiento legal bueno.
-legal,loyal,atributos,,atributos,La mayoría de los enanos son legales buenos.
-neutral,neutre,atributos,,atributos,La mayoría de los druidas son neutrales.
-caótico,chaotique,atributos,,atributos,Los unicornios son caóticos buenos.
-bueno,bon,atributos,,atributos,Muchos elfos son caóticos buenos.
-malvado,mauvais,atributos,,atributos,Los demonios son caóticos malvados.
-los puntos de golpe,les points de vie,atributos,lorc/angel-wings.svg,atributos,Tiene doce puntos de golpe.
-la fuerza,la force,atributos,delapouite/biceps.svg,atributos,Tengo trece de fuerza.
-la destreza,la dextérité,atributos,lorc/juggler.svg,atributos,Tengo catorce de destreza.
-la inteligencia,l'intelligence,atributos,lorc/brain.svg,atributos,Tengo quince de inteligencia.
-la sabiduría,la sagesse,atributos,lorc/meditation.svg,atributos,Tengo dieciséis de sabiduría.
-el carisma,le charisme,atributos,lorc/angel-wings.svg,atributos,Tengo diecisiete de carisma.
-la constitución,la constitution,atributos,delapouite/strong-man.svg,atributos,Tengo dieciocho de constitución.
-el bonificador de competencia,le bonus de maîtrise,atributos,,atributos,Mi número de Puntos de Golpe es igual a 10 + mi modificador de Constitución.
-la clase de armadura (CA),la classe d'armure (CA),atributos,,atributos,Sin armadura o escudo la CA de tu personaje es igual a 10 + tu modificador de Destreza.
-los idiomas,les langues,atributos,,atributos,Tu personaje puede hablar leer y escribir ciertos idiomas.
-el equipo,l'équipement,,,,Voy a comprar mi equipo al mercado.
+spanish,french,category,icon,tags,notes,cloze,french_sentence
+me llamo,je m'appelle,frases,,identidad,Me llamo Zara.,(je m'appelle) {{c1::Me llamo}} Zara.,Je m'appelle Zara.
+soy,je suis (permanent),verbos,delapouite/person.svg,ser,Soy una guerrera elfa.,(je suis) {{c1::Soy}} una guerrera elfa.,Je suis une guerrière elfe.
+eres,tu es (permanent),verbos,delapouite/person.svg,ser,¿Eres un mago?,(tu es) ¿{{c1::Eres}} un mago?,Es-tu un magicien ?
+es,il/elle est,verbos,delapouite/person.svg,ser,Es un dragón enorme.,(il est) {{c1::Es}} un dragón enorme.,C'est un dragon énorme.
+somos,nous sommes,verbos,delapouite/meeple-group.svg,ser,Somos héroes valientes.,(nous sommes) {{c1::Somos}} héroes valientes.,Nous sommes des héros courageux.
+son,ils/elles sont,verbos,delapouite/meeple-group.svg,ser,Son los enemigos del reino.,(ils sont) {{c1::Son}} los enemigos del reino.,Ce sont les ennemis du royaume.
+¿de dónde eres?,d'où es-tu ?,frases,,identidad,¿De dónde eres? — Soy de las montañas.,(d'où es-tu ?) {{c1::¿De dónde eres?}} — Soy de las montañas.,D'où es-tu ? — Je suis des montagnes.
+¿cuál es tu clase?,quelle est ta classe ?,frases,,identidad,¿Cuál es tu clase? — Soy un guerrero.,(quelle est ta classe ?) {{c1::¿Cuál es tu clase?}} — Soy un guerrero.,Quelle est ta classe ? — Je suis un guerrier.
+¿qué quieres hacer?,que veux-tu faire ?,frases,,acción,¿Qué quieres hacer? — Quiero atacar.,(que veux-tu faire ?) {{c1::¿Qué quieres hacer?}} — Quiero atacar.,Que veux-tu faire ? — Je veux attaquer.
+quiero,je veux,verbos,,acción,Quiero una espada mágica.,(je veux) {{c1::Quiero}} una espada mágica.,Je veux une épée magique.
+puedo,je peux,verbos,,acción,Puedo lanzar un hechizo.,(je peux) {{c1::Puedo}} lanzar un hechizo.,Je peux lancer un sort.
+tengo,j'ai,verbos,,posesión,Tengo quince de fuerza.,(j'ai) {{c1::Tengo}} quince de fuerza.,J'ai quinze en force.
+el personaje,le personnage,,,identidad,Mi grupo protege el personaje del rey.,(le personnage) Mi grupo protege {{c1::el personaje}} del rey.,Mon groupe protège le personnage du roi.
+el jugador / la jugadora,le joueur / la joueuse,,,identidad,Cada jugador elige una clase.,(joueur) Cada {{c1::jugador}} elige una clase.,Chaque joueur choisit une classe.
+el grupo,le groupe,,,identidad,Nuestro grupo entra en la mazmorra.,(groupe) Nuestro {{c1::grupo}} entra en la mazmorra.,Notre groupe entre dans le donjon.
+un dado,un dé,,delapouite/dice-six-faces-six.svg,,Lanza un dado para atacar.,(un dé) Lanza {{c1::un dado}} para atacar.,Lance un dé pour attaquer.
+la raza,la race,,,identidad,¿Cuál es tu raza? — Soy un elfo.,(race) ¿Cuál es tu {{c1::raza}}? — Soy un elfo.,Quelle est ta race ? — Je suis un elfe.
+la clase,la classe,,,identidad,¿Cuál es tu clase? — Soy un guerrero.,(classe) ¿Cuál es tu {{c1::clase}}? — Soy un guerrero.,Quelle est ta classe ? — Je suis un guerrier.
+el guerrero / la guerrera,le guerrier / la guerrière,clases,cathelineau/swordman.svg,clase,El guerrero humano protege al grupo.,(guerrier) El {{c1::guerrero}} humano protege al grupo.,Le guerrier humain protège le groupe.
+el mago / la maga,le magicien / la magicienne,clases,lorc/magic-swirl.svg,clase,La maga elfa lanza un hechizo.,(magicienne) La {{c1::maga}} elfa lanza un hechizo.,La magicienne elfe lance un sort.
+el pícaro / la pícara,le voleur / la voleuse,clases,lorc/hood.svg,clase,El pícaro gnomo abre la cerradura.,(voleur) El {{c1::pícaro}} gnomo abre la cerradura.,Le voleur gnome ouvre la serrure.
+el clérigo / la clériga,le clerc / la clerc,clases,lorc/holy-grail.svg,clase,El clérigo enano cura al guerrero.,(clerc) El {{c1::clérigo}} enano cura al guerrero.,Le clerc nain soigne le guerrier.
+el arquero / la arquera,l'archer / l'archère,clases,delapouite/bow-arrow.svg,clase,La arquera elfa dispara una flecha.,(archère) La {{c1::arquera}} elfa dispara una flecha.,L'archère elfe tire une flèche.
+el elfo / la elfa,l'elfe,razas,delapouite/elf-ear.svg,raza,Soy un elfo del bosque.,(elfe) Soy un {{c1::elfo}} del bosque.,Je suis un elfe de la forêt.
+el enano / la enana,le nain / la naine,razas,delapouite/dwarf-face.svg,raza,El enano lleva un hacha enorme.,(nain) El {{c1::enano}} lleva un hacha enorme.,Le nain porte une hache énorme.
+el orco / la orco,l'orc,razas,delapouite/orc-head.svg,raza,El orco ataca con su maza.,(orc) El {{c1::orco}} ataca con su maza.,L'orc attaque avec sa masse.
+el humano / la humana,l'humain / l'humaine,razas,delapouite/person.svg,raza,La humana es una guerrera valiente.,(humaine) La {{c1::humana}} es una guerrera valiente.,L'humaine est une guerrière courageuse.
+el gnomo / la gnoma,le gnome,razas,cathelineau/bad-gnome.svg,raza,El gnomo prepara una poción.,(gnome) El {{c1::gnomo}} prepara una poción.,Le gnome prépare une potion.
+el nivel,le niveau,atributos,,atributos,Soy de nivel tres.,(niveau) Soy de {{c1::nivel}} tres.,Je suis de niveau trois.
+el alineamiento,l'alignement,atributos,,atributos,Mi alineamiento es caótico bueno.,(alignement) Mi {{c1::alineamiento}} es caótico bueno.,Mon alignement est chaotique bon.
+legal,loyal,atributos,,atributos,Mi personaje es legal bueno.,(loyal) Mi personaje es {{c1::legal}} bueno.,Mon personnage est loyal bon.
+neutral,neutre,atributos,,atributos,El druida es neutral.,(neutre) El druida es {{c1::neutral}}.,Le druide est neutre.
+caótico,chaotique,atributos,,atributos,El pícaro es caótico bueno.,(chaotique) El pícaro es {{c1::caótico}} bueno.,Le voleur est chaotique bon.
+bueno / buena,bon / bonne,atributos,,atributos,El clérigo es bueno.,(bon) El clérigo es {{c1::bueno}}.,Le clerc est bon.
+malvado / malvada,mauvais / mauvaise,atributos,,atributos,El nigromante es malvado.,(mauvais) El nigromante es {{c1::malvado}}.,Le nécromancien est mauvais.
+los puntos de golpe,les points de vie,atributos,lorc/angel-wings.svg,atributos,Tengo doce puntos de golpe.,(points de vie) Tengo doce {{c1::puntos de golpe}}.,J'ai douze points de vie.
+la fuerza,la force,atributos,delapouite/biceps.svg,atributos,Tengo trece de fuerza.,(force) Tengo trece de {{c1::fuerza}}.,J'ai treize en force.
+la destreza,la dextérité,atributos,lorc/juggler.svg,atributos,Tengo catorce de destreza.,(dextérité) Tengo catorce de {{c1::destreza}}.,J'ai quatorze en dextérité.
+la inteligencia,l'intelligence,atributos,lorc/brain.svg,atributos,Tengo quince de inteligencia.,(intelligence) Tengo quince de {{c1::inteligencia}}.,J'ai quinze en intelligence.
+la sabiduría,la sagesse,atributos,lorc/meditation.svg,atributos,Tengo dieciséis de sabiduría.,(sagesse) Tengo dieciséis de {{c1::sabiduría}}.,J'ai seize en sagesse.
+el carisma,le charisme,atributos,lorc/angel-wings.svg,atributos,Tengo diecisiete de carisma.,(charisme) Tengo diecisiete de {{c1::carisma}}.,J'ai dix-sept en charisme.
+la constitución,la constitution,atributos,delapouite/strong-man.svg,atributos,Tengo dieciocho de constitución.,(constitution) Tengo dieciocho de {{c1::constitución}}.,J'ai dix-huit en constitution.
+el bonificador de competencia,le bonus de maîtrise,atributos,,atributos,Tu bonificador de competencia es +2.,(bonus de maîtrise) Tu {{c1::bonificador de competencia}} es +2.,Ton bonus de maîtrise est +2.
+la clase de armadura,la classe d'armure,atributos,,atributos,Mi clase de armadura es quince.,(classe d'armure) Mi {{c1::clase de armadura}} es quince.,Ma classe d'armure est quinze.
+los idiomas,les langues,atributos,,atributos,Mi personaje habla tres idiomas.,(langues) Mi personaje habla tres {{c1::idiomas}}.,Mon personnage parle trois langues.
+el equipo,l'équipement,,,identidad,Voy a comprar el equipo en el mercado.,(l'équipement) Voy a comprar {{c1::el equipo}} en el mercado.,Je vais acheter l'équipement au marché.

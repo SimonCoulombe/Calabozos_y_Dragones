@@ -1,32 +1,32 @@
-spanish,french,category,icon,tags,notes
-la magia misil,le projectile magique,hechizos,lorc/magic-swirl.svg,reference hechizos nivel-1,Nivel 1. Tres dardos de fuerza. Siempre impacta.
-el escudo arcano,le bouclier arcanique,hechizos,sbed/shield.svg,reference hechizos nivel-1,Nivel 1. +5 CA hasta el próximo turno.
-el sueño,le sommeil,hechizos,delapouite/night-sleep.svg,reference hechizos nivel-1,Nivel 1. Duerme hasta 5d8 PV de criaturas.
-el rayo de escarcha,le rayon de givre,hechizos,delapouite/frozen-ring.svg,reference hechizos trucco,Truco. Daño por frío + ralentiza al objetivo.
-la mano de mago,la main du mage,hechizos,lorc/magic-swirl.svg,reference hechizos trucco,Truco. Mano espectral que mueve objetos.
-la luz,la lumière,hechizos,delapouite/torch.svg,reference hechizos trucco,Truco. Ilumina un objeto durante 1 hora.
-el rayo de fuego,le rayon de feu,hechizos,sbed/fire.svg,reference hechizos trucco,Truco. Dos rayos de fuego.
-el toque de taumaturgia,la thaumaturgie,hechizos,lorc/lightning-storm.svg,reference hechizos trucco,Truco del clérigo. Efectos menores.
-curar heridas,soins,hechizos,zeromancer/heart-plus.svg,reference hechizos nivel-1,Nivel 1. Restaura 1d8+mod PV. Toque.
-la bendición,la bénédiction,hechizos,lorc/angel-wings.svg,reference hechizos nivel-1,Nivel 1. +1d4 a ataques y tiradas de salvación.
-el guía,guidage,hechizos,lorc/compass.svg,reference hechizos trucco,Truco druida. +1d4 a una habilidad.
-el veneno en aerosol,vaporisation de poison,hechizos,sbed/poison.svg,reference hechizos trucco,Truco druida. Daño venenoso.
-el paso brumoso,foulée brumeuse,hechizos,lorc/run.svg,reference hechizos nivel-2,Nivel 2. Teletransportación corta (bonificación).
-la bola de fuego,boule de feu,hechizos,sbed/fire.svg,reference hechizos nivel-3,"Nivel 3. 8d6 fuego, radio 6 m. El clásico."
-el vuelo,vol,hechizos,lorc/angel-wings.svg,reference hechizos nivel-3,"Nivel 3. Velocidad de vuelo 18 m, 10 min."
-la invisibilidad,invisibilité,hechizos,lorc/hidden.svg,reference hechizos nivel-2,Nivel 2. Objetivo invisible hasta que ataca.
-la curación en masa,soins de groupe,hechizos,zeromancer/heart-plus.svg,reference hechizos nivel-5,Nivel 5. Cura a todos los aliados visibles.
-la resurrección,résurrection,hechizos,lorc/skull-crack.svg,reference hechizos nivel-7,Nivel 7. Devuelve la vida a un muerto.
-el rayo del sol,rayon de soleil,hechizos,lorc/sun.svg,reference hechizos trucco,Truco del clérigo.
-la palabra de curación,mot de guérison,hechizos,zeromancer/heart-plus.svg,reference hechizos nivel-1,Nivel 1. Cura a distancia como acción adicional.
-la escuela de abjuración,école d'abjuration,magia,sbed/shield.svg,reference escuelas,Escuela mágica — protección y barreras.
-la escuela de conjuración,école de conjuration,magia,lorc/magic-swirl.svg,reference escuelas,Escuela mágica — invocar y teletransportar.
-la escuela de adivinación,école de divination,magia,delapouite/egg-eye.svg,reference escuelas,Escuela mágica — conocimiento y previsión.
-la escuela de encantamiento,école d'enchantement,magia,lorc/music-spell.svg,reference escuelas,Escuela mágica — controlar mentes.
-la escuela de evocación,école d'évocation,magia,sbed/fire.svg,reference escuelas,Escuela mágica — energía y daño elemental.
-la escuela de ilusión,école d'illusion,magia,lorc/hidden.svg,reference escuelas,Escuela mágica — engaño visual y auditivo.
-la escuela de nigromancia,école de nécromancie,magia,lorc/skull-crack.svg,reference escuelas,Escuela mágica — muerte y no-muertos.
-la escuela de transmutación,école de transmutation,magia,lorc/recycle.svg,reference escuelas,Escuela mágica — transformar y alterar.
-,,,,,
-,,,,,
-,,,,,
+spanish,french,category,icon,tags,notes,cloze,french_sentence
+la magia misil,le projectile magique,hechizos,lorc/magic-swirl.svg,reference hechizos nivel-1,El mago lanza la magia misil y tres dardos de fuerza golpean al enemigo.,(projectile magique) El mago lanza {{c1::la magia misil}} y tres dardos de fuerza golpean al enemigo.,Le mage lance le projectile magique et trois dards de force frappent l'ennemi.
+el escudo arcano,le bouclier arcanique,hechizos,sbed/shield.svg,reference hechizos nivel-1,El mago activa el escudo arcano y gana +5 a su CA hasta el próximo turno.,(bouclier arcanique) El mago activa {{c1::el escudo arcano}} y gana +5 a su CA hasta el próximo turno.,Le mage active le bouclier arcanique et gagne +5 à sa CA jusqu'au prochain tour.
+el sueño,le sommeil,hechizos,delapouite/night-sleep.svg,reference hechizos nivel-1,El mago lanza el sueño y las criaturas caen dormidas al instante.,(sommeil) El mago lanza {{c1::el sueño}} y las criaturas caen dormidas al instante.,Le mage lance le sommeil et les créatures s'endorment instantanément.
+curar heridas,soins,hechizos,zeromancer/heart-plus.svg,reference hechizos nivel-1,El clérigo toca al guerrero y usa curar heridas para restaurar sus puntos de vida.,(soins) El clérigo toca al guerrero y usa {{c1::curar heridas}} para restaurar sus puntos de vida.,Le clerc touche le guerrier et utilise soins pour restaurer ses points de vie.
+la bendición,la bénédiction,hechizos,lorc/angel-wings.svg,reference hechizos nivel-1,El clérigo lanza la bendición y sus aliados ganan +1d4 a los ataques.,(bénédiction) El clérigo lanza {{c1::la bendición}} y sus aliados ganan +1d4 a los ataques.,Le clerc lance la bénédiction et ses alliés gagnent +1d4 aux attaques.
+la palabra de curación,mot de guérison,hechizos,zeromancer/heart-plus.svg,reference hechizos nivel-1,El clérigo pronuncia la palabra de curación y cura a un aliado a distancia.,(mot de guérison) El clérigo pronuncia {{c1::la palabra de curación}} y cura a un aliado a distancia.,Le clerc prononce le mot de guérison et soigne un allié à distance.
+el rayo de escarcha,le rayon de givre,hechizos,delapouite/frozen-ring.svg,reference hechizos trucco,El mago lanza el rayo de escarcha y el enemigo se mueve más lento.,(rayon de givre) El mago lanza {{c1::el rayo de escarcha}} y el enemigo se mueve más lento.,Le mage lance le rayon de givre et l'ennemi se déplace plus lentement.
+la mano de mago,la main du mage,hechizos,lorc/magic-swirl.svg,reference hechizos trucco,El mago invoca la mano de mago para mover un objeto a distancia.,(main du mage) El mago invoca {{c1::la mano de mago}} para mover un objeto a distancia.,Le mage invoque la main du mage pour déplacer un objet à distance.
+la luz,la lumière,hechizos,delapouite/torch.svg,reference hechizos trucco,El mago toca su bastón y la luz ilumina la habitación durante una hora.,(lumière) El mago toca su bastón y {{c1::la luz}} ilumina la habitación durante una hora.,Le mage touche son bâton et la lumière illumine la pièce pendant une heure.
+el rayo de fuego,le rayon de feu,hechizos,sbed/fire.svg,reference hechizos trucco,El mago dispara el rayo de fuego y quema al goblin.,(rayon de feu) El mago dispara {{c1::el rayo de fuego}} y quema al goblin.,Le mage tire le rayon de feu et brûle le gobelin.
+el toque de taumaturgia,la thaumaturgie,hechizos,lorc/lightning-storm.svg,reference hechizos trucco,El clérigo usa el toque de taumaturgia y la puerta se abre con un estruendo.,(thaumaturgie) El clérigo usa {{c1::el toque de taumaturgia}} y la puerta se abre con un estruendo.,Le clerc utilise la thaumaturgie et la porte s'ouvre avec fracas.
+el guía,guidage,hechizos,lorc/compass.svg,reference hechizos trucco,El druida lanza el guía y su compañero gana +1d4 a una prueba de habilidad.,(guidage) El druida lanza {{c1::el guía}} y su compañero gana +1d4 a una prueba de habilidad.,Le druide lance guidage et son compagnon gagne +1d4 à un test de compétence.
+el veneno en aerosol,vaporisation de poison,hechizos,sbed/poison.svg,reference hechizos trucco,El druida lanza el veneno en aerosol y una nube tóxica golpea al enemigo.,(vaporisation de poison) El druida lanza {{c1::el veneno en aerosol}} y una nube tóxica golpea al enemigo.,Le druide lance la vaporisation de poison et un nuage toxique frappe l'ennemi.
+el rayo del sol,rayon de soleil,hechizos,lorc/sun.svg,reference hechizos trucco,El clérigo invoca el rayo del sol y la luz sagrada quema al no-muerto.,(rayon de soleil) El clérigo invoca {{c1::el rayo del sol}} y la luz sagrada quema al no-muerto.,Le clerc invoque le rayon de soleil et la lumière sacrée brûle le mort-vivant.
+el paso brumoso,foulée brumeuse,hechizos,lorc/run.svg,reference hechizos nivel-2,El mago usa el paso brumoso y se teletransporta detrás del enemigo.,(foulée brumeuse) El mago usa {{c1::el paso brumoso}} y se teletransporta detrás del enemigo.,Le mage utilise la foulée brumeuse et se téléporte derrière l'ennemi.
+la invisibilidad,invisibilité,hechizos,lorc/hidden.svg,reference hechizos nivel-2,El mago lanza la invisibilidad y el pícaro desaparece hasta que ataca.,(invisibilité) El mago lanza {{c1::la invisibilidad}} y el pícaro desaparece hasta que ataca.,Le mage lance l'invisibilité et le roublard disparaît jusqu'à ce qu'il attaque.
+la bola de fuego,boule de feu,hechizos,sbed/fire.svg,reference hechizos nivel-3,El mago lanza la bola de fuego y una explosión de 8d6 arrasa a los enemigos.,(boule de feu) El mago lanza {{c1::la bola de fuego}} y una explosión de 8d6 arrasa a los enemigos.,Le mage lance la boule de feu et une explosion de 8d6 ravage les ennemis.
+el vuelo,vol,hechizos,lorc/angel-wings.svg,reference hechizos nivel-3,El mago lanza el vuelo y su aliado vuela por el cielo durante diez minutos.,(vol) El mago lanza {{c1::el vuelo}} y su aliado vuela por el cielo durante diez minutos.,Le mage lance le vol et son allié vole dans le ciel pendant dix minutes.
+la curación en masa,soins de groupe,hechizos,zeromancer/heart-plus.svg,reference hechizos nivel-5,El clérigo lanza la curación en masa y todos los aliados recuperan puntos de vida.,(soins de groupe) El clérigo lanza {{c1::la curación en masa}} y todos los aliados recuperan puntos de vida.,Le clerc lance les soins de groupe et tous les alliés récupèrent des points de vie.
+la resurrección,résurrection,hechizos,lorc/skull-crack.svg,reference hechizos nivel-7,El clérigo realiza la resurrección y el guerrero caído vuelve a la vida.,(résurrection) El clérigo realiza {{c1::la resurrección}} y el guerrero caído vuelve a la vida.,Le clerc réalise la résurrection et le guerrier tombé revient à la vie.
+la escuela de abjuración,école d'abjuration,magia,sbed/shield.svg,reference escuelas,La escuela de abjuración enseña hechizos de protección y barreras mágicas.,(abjuration) {{c1::La escuela de abjuración}} enseña hechizos de protección y barreras mágicas.,L'école d'abjuration enseigne des sorts de protection et des barrières magiques.
+la escuela de conjuración,école de conjuration,magia,lorc/magic-swirl.svg,reference escuelas,La escuela de conjuración permite invocar criaturas y teletransportarse.,(conjuration) {{c1::La escuela de conjuración}} permite invocar criaturas y teletransportarse.,L'école de conjuration permet d'invoquer des créatures et de se téléporter.
+la escuela de adivinación,école de divination,magia,delapouite/egg-eye.svg,reference escuelas,La escuela de adivinación revela secretos ocultos y permite ver el futuro.,(divination) {{c1::La escuela de adivinación}} revela secretos ocultos y permite ver el futuro.,L'école de divination révèle des secrets cachés et permet de voir l'avenir.
+la escuela de encantamiento,école d'enchantement,magia,lorc/music-spell.svg,reference escuelas,La escuela de encantamiento permite controlar la mente de los enemigos.,(enchantement) {{c1::La escuela de encantamiento}} permite controlar la mente de los enemigos.,L'école d'enchantement permet de contrôler l'esprit des ennemis.
+la escuela de evocación,école d'évocation,magia,sbed/fire.svg,reference escuelas,La escuela de evocación canaliza energía pura para causar daño elemental.,(évocation) {{c1::La escuela de evocación}} canaliza energía pura para causar daño elemental.,L'école d'évocation canalise l'énergie pure pour infliger des dégâts élémentaires.
+la escuela de ilusión,école d'illusion,magia,lorc/hidden.svg,reference escuelas,La escuela de ilusión crea imágenes falsas para engañar a los enemigos.,(illusion) {{c1::La escuela de ilusión}} crea imágenes falsas para engañar a los enemigos.,L'école d'illusion crée de fausses images pour tromper les ennemis.
+la escuela de nigromancia,école de nécromancie,magia,lorc/skull-crack.svg,reference escuelas,La escuela de nigromancia manipula la energía de la muerte y los no-muertos.,(nécromancie) {{c1::La escuela de nigromancia}} manipula la energía de la muerte y los no-muertos.,L'école de nécromancie manipule l'énergie de la mort et des morts-vivants.
+la escuela de transmutación,école de transmutation,magia,lorc/recycle.svg,reference escuelas,La escuela de transmutación transforma la materia y altera la realidad.,(transmutation) {{c1::La escuela de transmutación}} transforma la materia y altera la realidad.,L'école de transmutation transforme la matière et altère la réalité.
+,,,,,,,
+,,,,,,,
+,,,,,,,

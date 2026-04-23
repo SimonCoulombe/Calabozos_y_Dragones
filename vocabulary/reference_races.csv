@@ -1,24 +1,22 @@
-spanish,french,category,icon,tags,notes
-el enano,le nain,razas,kier-heyl/dwarf-king.svg,reference razas,Corto y robusto. +2 Constitución. Vive bajo tierra.
-la enana,la naine,razas,kier-heyl/dwarf-king.svg,reference razas,Forma femenina de enano.
-el elfo,l'elfe,razas,delapouite/elf-ear.svg,reference razas,Alto y esbelto. +2 Destreza. Vive en los bosques.
-la elfa,l'elfe (f.),razas,delapouite/elf-ear.svg,reference razas,Forma femenina de elfo.
-el mediano,le petit-peuple (halfling),razas,lorc/fairy.svg,reference razas,Pequeño y ágil. +2 Destreza. Pies peludos.
-el humano,l'humain,razas,delapouite/person.svg,reference razas,+1 a todos los atributos. La raza más versátil.
-el dracónido,le draconide,razas,lorc/dragon-head.svg,reference razas,"Descendiente de dragones. +2 Fuerza, +1 Carisma."
-el gnomo,le gnome,razas,lorc/fairy.svg,reference razas,"+2 Inteligencia. Pequeño, curioso, inventor."
-el semielfo,le demi-elfe,razas,delapouite/elf-ear.svg,reference razas,"+2 Carisma, +1 a dos atributos. Lo mejor de dos mundos."
-el semiorco,le demi-orc,razas,delapouite/ogre.svg,reference razas,"+2 Fuerza, +1 Constitución. Resistente y feroz."
-el tiefling,le tieffelin,razas,lorc/daemon-skull.svg,reference razas,"+2 Carisma, +1 Inteligencia. Sangre infernal."
-el brujo,le sorcier (warlock),clases,lorc/magic-swirl.svg,reference clases,Clase — pacto con una entidad poderosa.
-el bárbaro,le barbare,clases,delapouite/axe-sword.svg,reference clases,"Clase — rabia en combate, muy resistente."
-el bardo,le barde,clases,lorc/music-spell.svg,reference clases,Clase — magia y persuasión con música.
-el clérigo,le clerc,clases,lorc/holy-grail.svg,reference clases,Clase — curación y magia divina.
-el druida,le druide,clases,sbed/clover.svg,reference clases,Clase — magia natural y transformación.
-el explorador,le rôdeur (ranger),clases,delapouite/bow-arrow.svg,reference clases,Clase — rastreador y arquero del bosque.
-el guerrero,le guerrier,clases,cathelineau/swordman.svg,reference clases,Clase — combatiente versátil con armas.
-el hechicero,l'ensorceleur,clases,lorc/magic-swirl.svg,reference clases,Clase — magia innata en la sangre.
-el mago,le magicien,clases,lorc/wizard-staff.svg,reference clases,"Clase — inteligencia, conjuros aprendidos."
-el monje,le moine,clases,lorc/meditation.svg,reference clases,Clase — artes marciales y ki.
-el paladín,le paladin,clases,lorc/holy-grail.svg,reference clases,Clase — guerrero sagrado con poderes divinos.
-el pícaro,le roublard,clases,lorc/hood.svg,reference clases,"Clase — sigilo, trampas y ataques furtivos."
+spanish,french,category,icon,tags,notes,cloze,french_sentence
+el enano / la enana,le nain / la naine,razas,kier-heyl/dwarf-king.svg,reference razas,El enano vive bajo tierra y es muy robusto.,(nain) El {{c1::enano}} vive bajo tierra y es muy robusto.,Le nain vit sous terre et est très robuste.
+el elfo / la elfa,l'elfe (m./f.),razas,delapouite/elf-ear.svg,reference razas,La elfa camina en silencio por el bosque antiguo.,(elfe) La {{c1::elfa}} camina en silencio por el bosque antiguo.,L'elfe marche en silence dans la forêt ancienne.
+el mediano,le halfling,razas,lorc/fairy.svg,reference razas,El mediano es pequeño pero muy valiente.,(halfling) El {{c1::mediano}} es pequeño pero muy valiente.,Le halfling est petit mais très courageux.
+el humano,l'humain,razas,delapouite/person.svg,reference razas,El humano se adapta a cualquier situación.,(humain) El {{c1::humano}} se adapta a cualquier situación.,L'humain s'adapte à n'importe quelle situation.
+el dracónido,le draconide,razas,lorc/dragon-head.svg,reference razas,El dracónido desciende de los dragones antiguos.,(draconide) El {{c1::dracónido}} desciende de los dragones antiguos.,Le draconide descend des dragons anciens.
+el gnomo,le gnome,razas,lorc/fairy.svg,reference razas,El gnomo inventa máquinas increíbles en su taller.,(gnome) El {{c1::gnomo}} inventa máquinas increíbles en su taller.,Le gnome invente des machines incroyables dans son atelier.
+el semielfo,le demi-elfe,razas,delapouite/elf-ear.svg,reference razas,El semielfo tiene lo mejor de dos mundos.,(demi-elfe) El {{c1::semielfo}} tiene lo mejor de dos mundos.,Le demi-elfe a le meilleur des deux mondes.
+el semiorco,le demi-orc,razas,delapouite/ogre.svg,reference razas,El semiorco es fuerte y resistente en combate.,(demi-orc) El {{c1::semiorco}} es fuerte y resistente en combate.,Le demi-orc est fort et résistant au combat.
+el tiefling,le tieffelin,razas,lorc/daemon-skull.svg,reference razas,El tiefling tiene sangre infernal y cuernos en la cabeza.,(tieffelin) El {{c1::tiefling}} tiene sangre infernal y cuernos en la cabeza.,Le tieffelin a du sang infernal et des cornes sur la tête.
+el brujo,le sorcier,clases,lorc/magic-swirl.svg,reference clases,El brujo tiene un pacto con una entidad poderosa.,(sorcier) El {{c1::brujo}} tiene un pacto con una entidad poderosa.,Le sorcier a un pacte avec une entité puissante.
+el bárbaro,le barbare,clases,delapouite/axe-sword.svg,reference clases,El bárbaro entra en rabia y golpea con furia.,(barbare) El {{c1::bárbaro}} entra en rabia y golpea con furia.,Le barbare entre en rage et frappe avec fureur.
+el bardo,le barde,clases,lorc/music-spell.svg,reference clases,El bardo toca música mágica para inspirar al grupo.,(barde) El {{c1::bardo}} toca música mágica para inspirar al grupo.,Le barde joue de la musique magique pour inspirer le groupe.
+el clérigo,le clerc,clases,lorc/holy-grail.svg,reference clases,El clérigo cura las heridas de sus compañeros.,(clerc) El {{c1::clérigo}} cura las heridas de sus compañeros.,Le clerc soigne les blessures de ses compagnons.
+el druida,le druide,clases,sbed/clover.svg,reference clases,El druida se transforma en un lobo para luchar.,(druide) El {{c1::druida}} se transforma en un lobo para luchar.,Le druide se transforme en loup pour combattre.
+el explorador,le rôdeur,clases,delapouite/bow-arrow.svg,reference clases,El explorador rastrea huellas en el bosque oscuro.,(rôdeur) El {{c1::explorador}} rastrea huellas en el bosque oscuro.,Le rôdeur suit des traces dans la forêt sombre.
+el guerrero,le guerrier,clases,cathelineau/swordman.svg,reference clases,El guerrero sabe usar cualquier arma con maestría.,(guerrier) El {{c1::guerrero}} sabe usar cualquier arma con maestría.,Le guerrier sait manier n'importe quelle arme avec maîtrise.
+el hechicero,l'ensorceleur,clases,lorc/magic-swirl.svg,reference clases,El hechicero lanza conjuros con el poder de su sangre.,(ensorceleur) El {{c1::hechicero}} lanza conjuros con el poder de su sangre.,L'ensorceleur lance des sorts avec le pouvoir de son sang.
+el mago,le magicien,clases,lorc/wizard-staff.svg,reference clases,El mago estudia sus conjuros en un libro antiguo.,(magicien) El {{c1::mago}} estudia sus conjuros en un libro antiguo.,Le magicien étudie ses sorts dans un livre ancien.
+el monje,le moine,clases,lorc/meditation.svg,reference clases,El monje golpea con las manos usando la energía del ki.,(moine) El {{c1::monje}} golpea con las manos usando la energía del ki.,Le moine frappe avec les mains en utilisant l'énergie du ki.
+el paladín,le paladin,clases,lorc/holy-grail.svg,reference clases,El paladín protege a los débiles con su espada sagrada.,(paladin) El {{c1::paladín}} protege a los débiles con su espada sagrada.,Le paladin protège les faibles avec son épée sacrée.
+el pícaro,le roublard,clases,lorc/hood.svg,reference clases,El pícaro se mueve en las sombras sin hacer ruido.,(roublard) El {{c1::pícaro}} se mueve en las sombras sin hacer ruido.,Le roublard se déplace dans les ombres sans faire de bruit.

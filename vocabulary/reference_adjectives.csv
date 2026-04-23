@@ -1,53 +1,53 @@
-spanish,french,category,icon,tags,notes
-mi,mon / ma,posesivos,,reference adjectifs,Mi espada es nueva.
-mis,mes,posesivos,,reference adjectifs,Mis puntos de golpe son bajos.
-tu,ton / ta,posesivos,,reference adjectifs,¿Tu personaje es un mago?
-tus,tes,posesivos,,reference adjectifs,¿Cuáles son tus habilidades?
-su,son / sa,posesivos,,reference adjectifs,"mais aussi ""votre"" pour vouvoyer une personne"
-sus,ses,posesivos,,reference adjectifs,"mais aussi ""votre"" pour vouvoyer une personne"
-nuestro / nuestra,notre,posesivos,,reference adjectifs,Nuestro grupo entra en la mazmorra.
-nuestros / nuestras,nos,posesivos,,reference adjectifs,Nuestros enemigos son muy fuertes.
-vuestro / vuestra,votre,posesivos,,reference adjectifs,pour tutoyer un groupe
-vuestros / vuestras,vos,posesivos,,reference adjectifs,pour tutoyer un groupe
-su,leur,posesivos,,reference adjectifs,"mais aussi ""votre"" pour vouvoyer un groupe"
-sus,leurs,posesivos,,reference adjectifs,"mais aussi ""vos"" pour vouvoyer un groupe"
-grande / grande,grand / gros,adjetivos,,reference adjectifs,un dragón grande
-pequeño / pequeña,petit,adjetivos,,reference adjectifs,un goblin pequeño
-nuevo / nueva,nouveau / neuf,adjetivos,,reference adjectifs,una espada nueva
-viejo / vieja,vieux,adjetivos,,reference adjectifs,un escudo viejo
-gastado / gastada,usé / abîmé,adjetivos,,reference adjectifs,una armadura gastada
-joven / joven,jeune,adjetivos,,reference adjectifs,un elfo joven
-rico / rica,riche,adjetivos,,reference adjectifs,el mercader rico
-pobre / pobre,pauvre,adjetivos,,reference adjectifs,el aldeano pobre
-fuerte / fuerte,fort / puissant,adjetivos,,reference adjectifs,el guerrero fuerte
-débil / débil,faible,adjetivos,,reference adjectifs,el enemigo débil
-rápido / rápida,rapide,adjetivos,,reference adjectifs,el ladrón rápido
-lento / lenta,lent,adjetivos,,reference adjectifs,el troll lento
-oscuro/a,sombre,adjetivos,delapouite/night-sleep.svg,adjetivos,El bosque está muy oscuro.
-ruidoso/a,bruyant(e),adjetivos,skoll/sound-waves.svg,adjetivos,El río es ruidoso.
-luminoso / luminosa,lumineux,adjetivos,,reference adjectifs,un hechizo luminoso
-peligroso/a,dangereux(se),adjetivos,lorc/laser-warning.svg,adjetivos,¡El camino es peligroso!
-seguro / segura,sûr / en sécurité,adjetivos,,reference adjectifs,un lugar seguro
-mágico / mágica,magique,adjetivos,,reference adjectifs,un objeto mágico
-misterioso / misteriosa,mystérieux,adjetivos,,reference adjectifs,una puerta misteriosa
-antiguo / antigua,ancien / vieux,adjetivos,,reference adjectifs,un mapa antiguo
-pesado / pesada,lourd,adjetivos,,reference adjectifs,una armadura pesada
-ligero / ligera,léger,adjetivos,,reference adjectifs,un arco ligero
-cerca,près,adverbios,,reference adjectifs,La aldea está cerca.
-lejos,loin,adverbios,,reference adjectifs,El castillo está lejos.
-cercano / cercana,proche,adjetivos,,reference adjectifs,un pueblo cercano
-lejano / lejana,lointain / éloigné,adjetivos,,reference adjectifs,un reino lejano
-importante,important(e),adjetivos,,reference adjectifs,una misión importante
-extraño / extraña,étrange / bizarre,adjetivos,,reference adjectifs,un sonido extraño
-enorme,énorme,adjetivos,,reference adjectifs,un dragón enorme
-vacío / vacía,vide,adjetivos,,reference adjectifs,una sala vacía
-poderoso / poderosa,puissant(e),adjetivos,,reference adjectifs,un guerrero poderoso
-mojado / mojada,mouillé(e),adjetivos,,reference adjectifs,el suelo mojado
-seco / seca,sec / sèche,adjetivos,,reference adjectifs,un desierto seco
-útil,utile,adjetivos,,reference adjectifs,una cuerda útil
-silencioso / silenciosa,silencieux(se),adjetivos,,reference adjectifs,un pícaro silencioso
-frío / fría,froid(e),adjetivos,,reference adjectifs,la mazmorra fría
-caliente,chaud(e),adjetivos,,reference adjectifs,la lava caliente
-primero / primera,premier / première,adjetivos,,reference adjectifs,el primer nivel
-penúltimo / penúltima,avant-dernier / avant-dernière,adjetivos,,reference adjectifs,la penúltima sala de la mazmorra
-último / última,dernier / dernière,adjetivos,,reference adjectifs,el último nivel
+spanish,french,category,icon,tags,notes,cloze,french_sentence
+mi,mon / ma,posesivos,,reference adjectifs,Mi espada es nueva.,(mon / ma) {{c1::Mi}} espada es nueva.,Mon épée est nouvelle.
+mis,mes,posesivos,,reference adjectifs,Mis puntos de golpe son bajos.,(mes) {{c1::Mis}} puntos de golpe son bajos.,Mes points de vie sont bas.
+tu,ton / ta,posesivos,,reference adjectifs,¿Tu personaje es un mago?,(ton / ta) ¿{{c1::Tu}} personaje es un mago?,Ton personnage est-il un mage ?
+tus,tes,posesivos,,reference adjectifs,¿Cuáles son tus habilidades?,(tes) ¿Cuáles son {{c1::tus}} habilidades?,Quelles sont tes compétences ?
+su,son / sa,posesivos,,reference adjectifs,Su hechizo es muy poderoso.,(son / sa) {{c1::Su}} hechizo es muy poderoso.,Son sort est très puissant.
+sus,ses,posesivos,,reference adjectifs,Sus flechas están envenenadas.,(ses) {{c1::Sus}} flechas están envenenadas.,Ses flèches sont empoisonnées.
+nuestro / nuestra,notre,posesivos,,reference adjectifs,Nuestro grupo entra en la mazmorra.,(notre) {{c1::Nuestro}} grupo entra en la mazmorra.,Notre groupe entre dans le donjon.
+nuestros / nuestras,nos,posesivos,,reference adjectifs,Nuestros enemigos son muy fuertes.,(nos) {{c1::Nuestros}} enemigos son muy fuertes.,Nos ennemis sont très forts.
+vuestro / vuestra,votre,posesivos,,reference adjectifs,Vuestro grupo necesita un plan.,(votre) {{c1::Vuestro}} grupo necesita un plan.,Votre groupe a besoin d'un plan.
+vuestros / vuestras,vos,posesivos,,reference adjectifs,Vuestros compañeros esperan en la taberna.,(vos) {{c1::Vuestros}} compañeros esperan en la taberna.,Vos compagnons attendent à la taverne.
+su,leur,posesivos,,reference adjectifs,Su guarida está escondida en la montaña.,(leur) {{c1::Su}} guarida está escondida en la montaña.,Leur repaire est caché dans la montagne.
+sus,leurs,posesivos,,reference adjectifs,Sus tropas marchan hacia el castillo.,(leurs) {{c1::Sus}} tropas marchan hacia el castillo.,Leurs troupes marchent vers le château.
+grande / grande,grand / gros,adjetivos,,reference adjectifs,El dragón del castillo es muy grande.,(grand / gros) El dragón del castillo es muy {{c1::grande}}.,Le dragon du château est très grand.
+pequeño / pequeña,petit,adjetivos,,reference adjectifs,El goblin es muy pequeño pero muy astuto.,(petit) El goblin es muy {{c1::pequeño}} pero muy astuto.,Le gobelin est très petit mais très rusé.
+nuevo / nueva,nouveau / neuf,adjetivos,,reference adjectifs,La espada del guerrero es nueva.,(nouveau / neuf) La espada del guerrero es {{c1::nueva}}.,L'épée du guerrier est neuve.
+viejo / vieja,vieux,adjetivos,,reference adjectifs,El escudo del caballero es viejo.,(vieux) El escudo del caballero es {{c1::viejo}}.,Le bouclier du chevalier est vieux.
+gastado / gastada,usé / abîmé,adjetivos,,reference adjectifs,La armadura del mercenario está gastada.,(usé / abîmé) La armadura del mercenario está {{c1::gastada}}.,L'armure du mercenaire est usée.
+joven / joven,jeune,adjetivos,,reference adjectifs,El elfo joven busca aventuras en el bosque.,(jeune) El elfo {{c1::joven}} busca aventuras en el bosque.,Le jeune elfe cherche des aventures dans la forêt.
+rico / rica,riche,adjetivos,,reference adjectifs,El mercader de la ciudad es muy rico.,(riche) El mercader de la ciudad es muy {{c1::rico}}.,Le marchand de la ville est très riche.
+pobre / pobre,pauvre,adjetivos,,reference adjectifs,El aldeano pobre pide ayuda a los aventureros.,(pauvre) El aldeano {{c1::pobre}} pide ayuda a los aventureros.,Le villageois pauvre demande de l'aide aux aventuriers.
+fuerte / fuerte,fort / puissant,adjetivos,,reference adjectifs,El guerrero es fuerte y lleva una gran hacha.,(fort / puissant) El guerrero es {{c1::fuerte}} y lleva una gran hacha.,Le guerrier est fort et porte une grande hache.
+débil / débil,faible,adjetivos,,reference adjectifs,El enemigo está débil después de la batalla.,(faible) El enemigo está {{c1::débil}} después de la batalla.,L'ennemi est faible après la bataille.
+rápido / rápida,rapide,adjetivos,,reference adjectifs,El ladrón es rápido y escapa por los tejados.,(rapide) El ladrón es {{c1::rápido}} y escapa por los tejados.,Le voleur est rapide et s'échappe par les toits.
+lento / lenta,lent,adjetivos,,reference adjectifs,El troll es lento pero muy peligroso.,(lent) El troll es {{c1::lento}} pero muy peligroso.,Le troll est lent mais très dangereux.
+oscuro/a,sombre,adjetivos,delapouite/night-sleep.svg,adjetivos,El bosque está muy oscuro por la noche.,(sombre) El bosque está muy {{c1::oscuro}} por la noche.,La forêt est très sombre la nuit.
+ruidoso/a,bruyant(e),adjetivos,skoll/sound-waves.svg,adjetivos,El río de la montaña es muy ruidoso.,(bruyant(e)) El río de la montaña es muy {{c1::ruidoso}}.,La rivière de la montagne est très bruyante.
+luminoso / luminosa,lumineux,adjetivos,,reference adjectifs,El hechizo del mago es luminoso y cega al enemigo.,(lumineux) El hechizo del mago es {{c1::luminoso}} y cega al enemigo.,Le sort du mage est lumineux et aveugle l'ennemi.
+peligroso/a,dangereux(se),adjetivos,lorc/laser-warning.svg,adjetivos,¡El camino por la montaña es peligroso!,(dangereux(se)) ¡El camino por la montaña es {{c1::peligroso}}!,Le chemin par la montagne est dangereux !
+seguro / segura,sûr / en sécurité,adjetivos,,reference adjectifs,La taberna del pueblo es un lugar seguro.,(sûr / en sécurité) La taberna del pueblo es un lugar {{c1::seguro}}.,La taverne du village est un endroit sûr.
+mágico / mágica,magique,adjetivos,,reference adjectifs,El anillo del druida es mágico.,(magique) El anillo del druida es {{c1::mágico}}.,L'anneau du druide est magique.
+misterioso / misteriosa,mystérieux,adjetivos,,reference adjectifs,Una puerta misteriosa aparece al fondo del pasillo.,(mystérieux) Una puerta {{c1::misteriosa}} aparece al fondo del pasillo.,Une porte mystérieuse apparaît au fond du couloir.
+antiguo / antigua,ancien / vieux,adjetivos,,reference adjectifs,El mapa antiguo muestra la entrada secreta.,(ancien / vieux) El mapa {{c1::antiguo}} muestra la entrada secreta.,La carte ancienne montre l'entrée secrète.
+pesado / pesada,lourd,adjetivos,,reference adjectifs,La armadura del paladín es muy pesada.,(lourd) La armadura del paladín es muy {{c1::pesada}}.,L'armure du paladin est très lourde.
+ligero / ligera,léger,adjetivos,,reference adjectifs,El arco del elfo es ligero y fácil de llevar.,(léger) El arco del elfo es {{c1::ligero}} y fácil de llevar.,L'arc de l'elfe est léger et facile à porter.
+cerca,près,adverbios,,reference adjectifs,La aldea está cerca del bosque encantado.,(près) La aldea está {{c1::cerca}} del bosque encantado.,Le village est près de la forêt enchantée.
+lejos,loin,adverbios,,reference adjectifs,El castillo del rey está muy lejos de aquí.,(loin) El castillo del rey está muy {{c1::lejos}} de aquí.,Le château du roi est très loin d'ici.
+cercano / cercana,proche,adjetivos,,reference adjectifs,El pueblo cercano tiene un mercado con pociones.,(proche) El pueblo {{c1::cercano}} tiene un mercado con pociones.,Le village proche a un marché avec des potions.
+lejano / lejana,lointain / éloigné,adjetivos,,reference adjectifs,Los héroes viajan a un reino lejano.,(lointain / éloigné) Los héroes viajan a un reino {{c1::lejano}}.,Les héros voyagent vers un royaume lointain.
+importante,important(e),adjetivos,,reference adjectifs,La misión del gremio es muy importante.,(important(e)) La misión del gremio es muy {{c1::importante}}.,La mission de la guilde est très importante.
+extraño / extraña,étrange / bizarre,adjetivos,,reference adjectifs,Un sonido extraño viene de la cueva.,(étrange / bizarre) Un sonido {{c1::extraño}} viene de la cueva.,Un son étrange vient de la grotte.
+enorme,énorme,adjetivos,,reference adjectifs,Un dragón enorme duerme sobre un montón de oro.,(énorme) Un dragón {{c1::enorme}} duerme sobre un montón de oro.,Un dragon énorme dort sur un tas d'or.
+vacío / vacía,vide,adjetivos,,reference adjectifs,La sala del trono está vacía y silenciosa.,(vide) La sala del trono está {{c1::vacía}} y silenciosa.,La salle du trône est vide et silencieuse.
+poderoso / poderosa,puissant(e),adjetivos,,reference adjectifs,El hechicero es poderoso y controla el fuego.,(puissant(e)) El hechicero es {{c1::poderoso}} y controla el fuego.,Le sorcier est puissant et contrôle le feu.
+mojado / mojada,mouillé(e),adjetivos,,reference adjectifs,El suelo de la cueva está mojado y resbaladizo.,(mouillé(e)) El suelo de la cueva está {{c1::mojado}} y resbaladizo.,Le sol de la grotte est mouillé et glissant.
+seco / seca,sec / sèche,adjetivos,,reference adjectifs,El desierto del sur es seco y caliente.,(sec / sèche) El desierto del sur es {{c1::seco}} y caliente.,Le désert du sud est sec et chaud.
+útil,utile,adjetivos,,reference adjectifs,La cuerda del explorador es muy útil en la mazmorra.,(utile) La cuerda del explorador es muy {{c1::útil}} en la mazmorra.,La corde de l'explorateur est très utile dans le donjon.
+silencioso / silenciosa,silencieux(se),adjetivos,,reference adjectifs,El pícaro es silencioso y se mueve entre las sombras.,(silencieux(se)) El pícaro es {{c1::silencioso}} y se mueve entre las sombras.,Le roublard est silencieux et se déplace dans les ombres.
+frío / fría,froid(e),adjetivos,,reference adjectifs,La mazmorra del norte es fría y oscura.,(froid(e)) La mazmorra del norte es {{c1::fría}} y oscura.,Le donjon du nord est froid et sombre.
+caliente,chaud(e),adjetivos,,reference adjectifs,La lava del volcán está muy caliente.,(chaud(e)) La lava del volcán está muy {{c1::caliente}}.,La lave du volcan est très chaude.
+primero / primera,premier / première,adjetivos,,reference adjectifs,El guerrero es el primero en entrar a la mazmorra.,(premier / première) El guerrero es el {{c1::primero}} en entrar a la mazmorra.,Le guerrier est le premier à entrer dans le donjon.
+penúltimo / penúltima,avant-dernier / avant-dernière,adjetivos,,reference adjectifs,La penúltima sala de la mazmorra esconde una trampa.,(avant-dernier / avant-dernière) La {{c1::penúltima}} sala de la mazmorra esconde una trampa.,L'avant-dernière salle du donjon cache un piège.
+último / última,dernier / dernière,adjetivos,,reference adjectifs,El último nivel de la mazmorra es el más peligroso.,(dernier / dernière) El {{c1::último}} nivel de la mazmorra es el más peligroso.,Le dernier niveau du donjon est le plus dangereux.
