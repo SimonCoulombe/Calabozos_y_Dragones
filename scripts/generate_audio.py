@@ -26,26 +26,23 @@ def main() -> int:
 
     from tts_piper import synthesize_to_wav
 
-    words: list[str] = []
+    # Collect (spanish_word, sentence) pairs from all CSVs
+    entries: dict[str, str] = {}  # spanish -> notes sentence
     csv_files = sorted(VOCAB_DIR.glob("theme_*.csv")) + sorted(VOCAB_DIR.glob("reference_*.csv"))
     for p in csv_files:
         with open(p, newline="", encoding="utf-8") as f:
             for row in csv.DictReader(f):
                 w = row.get("spanish", "").strip()
-                if w:
-                    words.append(w)
+                sentence = row.get("notes", "").strip()
+                if w and w not in entries:
+                    entries[w] = sentence
 
-    words = list(dict.fromkeys(words))  # deduplicate, preserve order
-    print(f"Generating audio for {len(words)} unique Spanish words...")
+    print(f"Generating audio for {len(entries)} unique Spanish words...")
 
     ok = skipped = failed = 0
-    for word in words:
-        # For pronunciation, use only the part before the first "/" or "-"
-        pronounce = word
-        for sep in ('/', '-'):
-            idx = pronounce.find(sep)
-            if idx != -1:
-                pronounce = pronounce[:idx].strip()
+    for word, sentence in entries.items():
+        # Synthesize the full sentence (notes column) if available, otherwise the word
+        pronounce = sentence if sentence else word
         safe = word.replace(' ', '_').replace('/', '-')
         safe = ''.join(c for c in safe if c.isalnum() or c in '_-áéíóúüñÁÉÍÓÚÜÑ')
         filename = f"{safe}.wav"
