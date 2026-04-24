@@ -12,9 +12,9 @@ necesito ayuda,j'ai besoin d'aide,frases,lorc/two-shadows.svg,misión,¡Necesito
 ¿cuánto? / ¿cuánta? / ¿cuántos? / ¿cuántas?,combien (de) ?,interrogativos,,interrogativos,¿Cuántas pociones de curación nos quedan para la misión?,(combien) ¿{{c1::Cuántas}} pociones de curación nos quedan para la misión?,Combien de potions de soin nous reste-t-il pour la mission ?
 porque,parce que,,,,No entramos en la cueva porque es demasiado peligrosa.,(parce que) No entramos en la cueva {{c1::porque}} es demasiado peligrosa.,Nous n'entrons pas dans la caverne parce qu'elle est trop dangereuse.
 el enemigo,l'ennemi,personajes,lorc/evil-minion.svg,enemigo,El enemigo se esconde en las sombras.,(ennemi) {{c1::El enemigo}} se esconde en las sombras.,L'ennemi se cache dans les ombres.
-el castillo,le château,lugares,delapouite/castle.svg,lugares,El castillo está protegido por un dragón.,(château) {{c1::El castillo}} está protegido por un dragón.,Le château est protégé par un dragon.
+el castillo,le château,lugares,delapouite/castle.svg,lugares,El castillo tiene un dragón guardián.,(château) {{c1::El castillo}} tiene un dragón guardián.,Le château a un dragon gardien.
 la recompensa,la récompense,tesoro,lorc/trophy.svg,misión,La recompensa es un cofre de oro.,(récompense) {{c1::La recompensa}} es un cofre de oro.,La récompense est un coffre d'or.
-importante,important(e),adjetivos,,adjetivos,El anciano tiene un mensaje importante.,(important) El anciano tiene un mensaje {{c1::importante}}.,Le vieillard a un message important.
+importante,important(e),adjetivos,,adjetivos,Este mensaje es muy importante.,(important) Este mensaje es muy {{c1::importante}}.,Ce message est très important.
 la taberna,la taverne,lugares,delapouite/barrel.svg,lugares,El grupo se reúne en la taberna.,(taverne) El grupo se reúne en {{c1::la taberna}}.,Le groupe se retrouve à la taverne.
 peligroso,dangereux,adjetivos,lorc/laser-warning.svg,adjetivos,El camino es muy peligroso.,(dangereux) El camino es muy {{c1::peligroso}}.,Le chemin est très dangereux.
 ¡cuidado!,attention !,exclamaciones,lorc/laser-warning.svg,exclamación,¡Cuidado! Hay una trampa en el suelo.,(attention) ¡{{c1::Cuidado}}! Hay una trampa en el suelo.,Attention ! Il y a un piège sur le sol.
