@@ -14,8 +14,6 @@ Two French-speaking kids (ages ~10) are learning Spanish through a D&D campaign 
 
 ```
 vocabulary/          CSV word lists per session + grammar YAML files
-characters/          Character sheet per child (filled in during Session 0)
-progress/            Per-child word tracking (updated after each session)
 content/sessions/    DM guides for each session (Markdown)
 content/stories/     Pre-session bridging stories (Markdown)
 scripts/             Python generation scripts
@@ -62,6 +60,5 @@ If TTS server is unreachable, Anki cards are generated without audio (`skip_on_f
 ## Workflow After Each Session
 
 1. DM or parent opens the relevant session CSV on GitHub and adds new words to blank rows
-2. Update `progress/child_N_progress.yaml` with words the child owned vs. struggled with
-3. Run `make all` to regenerate PDF and Anki decks
-4. Share updated PDF via Google Drive; send `.apkg` to child's AnkiDroid
+2. Run `make all` to regenerate PDF and Anki decks
+3. Share updated PDF via Google Drive; send `.apkg` to child's AnkiDroid

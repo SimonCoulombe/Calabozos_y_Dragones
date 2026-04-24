@@ -109,14 +109,6 @@ vocabulary/
     regular_verbs.yaml          ← -AR / -ER / -IR pattern + examples
     dnd_verbs.yaml              ← D&D verb list by category
 
-characters/
-  child_1_character.yaml        ← Character sheet (fill in during Session 0)
-  child_2_character.yaml
-
-progress/
-  child_1_progress.yaml         ← Words owned vs. struggling (update after each session)
-  child_2_progress.yaml
-
 content/
   sessions/                     ← DM guides per session (Markdown)
   stories/                      ← Pre-session bridging stories (Markdown)
