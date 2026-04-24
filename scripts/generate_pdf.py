@@ -112,7 +112,7 @@ REFERENCE_TITLES = {
     "reference_spells":    ("Los Hechizos",             "Hechizos comunes y escuelas de magia"),
     "reference_enemies":   ("Los Enemigos",             "Monstruos comunes"),
     "reference_lugares":   ("Los Lugares",              "Lugares, edificios y zonas por explorar"),
-    "reference_numbers":   ("Los Números",              "11 → 20, 50, 100, 1000"),
+    "reference_numbers":   ("Los Números",              "1 → 20, 50, 100, 1000"),
     "reference_colors":   ("Los Colores",             "¡Describe tu equipo!"),
     "reference_adjectives": ("Otros Adjetivos",         "Adjetivos útiles para describir el mundo"),
     "reference_mis_palabras":   ("Mis Palabras",              "Mis nuevas palabras"),    
