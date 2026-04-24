@@ -8,6 +8,9 @@ tengo… monedas,j'ai… pièces,frases,willdabeast/gold-bar.svg,compra,Tengo ci
 el vendedor,le marchand,personajes,delapouite/shop.svg,pnj,El vendedor muestra sus mejores armas a los aventureros.,(marchand) {{c1::El vendedor}} muestra sus mejores armas a los aventureros.,Le marchand montre ses meilleures armes aux aventuriers.
 barato / barata,peu cher / peu chère,frases,,compra,"Esta poción es muy barata, solo cuesta cinco monedas.","(peu cher) Esta poción es muy {{c1::barata}}, solo cuesta cinco monedas.","Cette potion est très peu chère, elle ne coûte que cinq pièces."
 caro / cara,cher / chère,frases,,compra,Esa armadura es demasiado cara para nosotros.,(cher) Esa armadura es demasiado {{c1::cara}} para nosotros.,Cette armure est trop chère pour nous.
+un poco,un peu,cantidad,,cantidad,El aventurero bebe un poco de agua.,(un peu) El aventurero bebe {{c1::un poco}} de agua.,L'aventurier boit un peu d'eau.
+mucho,beaucoup,cantidad,,cantidad,Hay mucho oro en el tesoro del dragón.,(beaucoup) Hay {{c1::mucho}} oro en el tesoro del dragón.,Il y a beaucoup d'or dans le trésor du dragon.
+demasiado,trop,cantidad,,cantidad,Esta espada es demasiado pesada para el halfling.,(trop) Esta espada es {{c1::demasiado}} pesada para el halfling.,Cette épée est trop lourde pour le halfelin.
 la espada,l'épée,armas,cathelineau/swordman.svg,armas equipamiento,El guerrero compra la espada más grande de la tienda.,(épée) El guerrero compra {{c1::la espada}} más grande de la tienda.,Le guerrier achète l'épée la plus grande de la boutique.
 la daga,la dague,armas,lorc/daggers.svg,armas equipamiento,El pícaro esconde la daga debajo de su capa.,(dague) El pícaro esconde {{c1::la daga}} debajo de su capa.,Le roublard cache la dague sous sa cape.
 el arco,l'arc,armas,delapouite/bow-arrow.svg,armas equipamiento,El arquero prueba el arco nuevo antes de comprarlo.,(arc) El arquero prueba {{c1::el arco}} nuevo antes de comprarlo.,L'archer essaie l'arc neuf avant de l'acheter.
@@ -35,6 +38,4 @@ diez,dix,números,,números,Tengo diez puntos de golpe antes de la batalla.,(dix
 mi,mon / ma,posesivos,,posesivos,Mi espada es nueva.,(mon / ma) {{c1::Mi}} espada es nueva.,Mon épée est nouvelle.
 tu,ton / ta,posesivos,,posesivos,¿Tu personaje es un mago?,(ton / ta) ¿{{c1::Tu}} personaje es un mago?,Ton personnage est-il un mage ?
 su,son / sa,posesivos,,posesivos,Su hechizo es muy poderoso.,(son / sa) {{c1::Su}} hechizo es muy poderoso.,Son sort est très puissant.
-mucho,beaucoup,cantidad,,cantidad,Hay mucho oro en el tesoro del dragón.,(beaucoup) Hay {{c1::mucho}} oro en el tesoro del dragón.,Il y a beaucoup d'or dans le trésor du dragon.
-un poco,un peu,cantidad,,cantidad,El aventurero bebe un poco de agua.,(un peu) El aventurero bebe {{c1::un poco}} de agua.,L'aventurier boit un peu d'eau.
-demasiado,trop,cantidad,,cantidad,Esta espada es demasiado pesada para el halfling.,(trop) Esta espada es {{c1::demasiado}} pesada para el halfling.,Cette épée est trop lourde pour le halfelin.
+

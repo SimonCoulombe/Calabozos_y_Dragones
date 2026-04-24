@@ -69,18 +69,18 @@ SESSION_TITLES = {
     "01": ("Tema 1 — ¡Hola, aventurero!", "Les bases pour survivre à la table"),
     "02": ("Tema 2 — Mi Personaje", "Créer ton personnage"),
     "03": ("Tema 3 — La Tienda", "Acheter de l'équipement"),
-    "04": ("Tema 4 — El Camino", "Voyager et explorer"),
-    "05": ("Tema 5 — La Misión", "Recevoir une quête et explorer le donjon"),
-    "06": ("Tema 6 — El Jefe", "Affronter le boss"),
+    "04": ("Tema 4 — La Misión", "Poser des questions et accepter une quête"),
+    "05": ("Tema 5 — El Camino", "Voyager, explorer et demander son chemin"),
+    "06": ("Tema 6 — El Jefe", "Explorer le donjon, combattre et vaincre le boss"),
 }
 
 SESSION_FRAMINGS = {
     "01": "Avant de partir à l'aventure, apprends à dire bonjour, à te présenter et à poser des questions simples en espagnol !",
     "02": "Tu crées ton personnage. Choisis ta race et ta classe — en espagnol, bien sûr !",
     "03": "Tu arrives en ville avec de l'or mais sans équipement. Le marchand ne parle qu'espagnol — nomme ce que tu veux acheter !",
-    "04": "Sur la route, tu dois décrire ce que tu vois, entends et fais. En espagnol, bien sûr !",
-    "05": "Un vieil homme t'aborde dans la taverne. Il a besoin d'aide. Comprends sa mission, explore le donjon et bats-toi !",
-    "06": "Le boss final attend. Tout ce que tu as appris va servir dans ce combat épique !",
+    "04": "Un vieil homme t'aborde dans la taverne. Il a besoin d'aide — pose-lui des questions pour comprendre sa mission !",
+    "05": "Tu pars en voyage ! Décris ce que tu vois, demande ton chemin et explore le monde — en espagnol !",
+    "06": "Tu entres dans le donjon du boss. Explore les salles, bats les monstres et affronte le boss final !",
 }
 
 
