@@ -1,6 +1,7 @@
 spanish,french,category,icon,tags,notes,cloze,french_sentence
 ataco,j'attaque,combate,lorc/sword-clash.svg,combate,Ataco al goblin con mi espada antes de que pueda huir.,(j'attaque) {{c1::Ataco}} al goblin con mi espada antes de que pueda huir.,J'attaque le gobelin avec mon épée avant qu'il puisse fuir.
 me defiendo,je me défends,combate,lorc/shield-reflect.svg,combate,Me defiendo con mi escudo cuando el orco me ataca.,(je me défends) {{c1::Me defiendo}} con mi escudo cuando el orco me ataca.,Je me défends avec mon bouclier quand l'orc m'attaque.
+busco,je cherche,verbos,lorc/magnifying-glass.svg,acción,Busco la llave del cofre.,(je cherche) {{c1::Busco}} la llave del cofre.,Je cherche la clé du coffre.
 encuentro,je trouve,verbos,lorc/magnifying-glass.svg,acción,Encuentro una llave brillante en el fondo del cofre viejo.,(je trouve) {{c1::Encuentro}} una llave brillante en el fondo del cofre viejo.,Je trouve une clé brillante au fond du vieux coffre.
 me escondo,je me cache,frases,lorc/hidden.svg,acción,Me escondo detrás del árbol cuando escucho pasos.,(je me cache) {{c1::Me escondo}} detrás del árbol cuando escucho pasos.,Je me cache derrière l'arbre quand j'entends des pas.
 corro,je cours,verbos,lorc/run.svg,acción,Corro hacia la salida de la mazmorra lo más rápido posible.,(je cours) {{c1::Corro}} hacia la salida de la mazmorra lo más rápido posible.,Je cours vers la sortie du donjon le plus vite possible.

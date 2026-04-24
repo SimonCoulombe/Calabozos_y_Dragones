@@ -1,4 +1,5 @@
 spanish,french,category,icon,tags,notes,cloze,french_sentence
+camino,je marche,verbos,,acción,Camino por el bosque.,(je marche) {{c1::Camino}} por el bosque.,Je marche dans la forêt.
 voy / vamos,je vais / nous allons,verbos,,acción,Vamos al castillo antes de que anochezca.,(nous allons) {{c1::Vamos}} al castillo antes de que anochezca.,Nous allons au château avant la tombée de la nuit.
 sigo, je continue, verbos,,acción, Sigo recto por el camino hasta llegar al cruce.,(je continue) {{c1::Sigo}} recto por el camino hasta llegar al cruce., Je continue tout droit sur le chemin jusqu'au croisement.
 giro, je tourne,  verbos,, acción, Giro a la derecha cuando veo la señal de la posada., (Je tourne) {{c1::Giro}}  a la derecha., Je tourne à droite.
@@ -21,5 +22,4 @@ arriba,en haut,direcciones,,direcciones,"La habitación del mago está arriba, a
 abajo,en bas,direcciones,,direcciones,"La mazmorra está abajo, debajo de la torre del castillo.","(en bas) La mazmorra está {{c1::abajo}}, debajo de la torre del castillo.","Le donjon est en bas, sous la tour du château."
 el bosque,la forêt,entorno,lorc/pine-tree.svg,entorno,El bosque es oscuro y lleno de criaturas misteriosas.,(forêt) {{c1::El bosque}} es oscuro y lleno de criaturas misteriosas.,La forêt est sombre et pleine de créatures mystérieuses.
 el río,la rivière,entorno,delapouite/river.svg,entorno,El río es muy profundo para cruzar a pie.,(rivière) {{c1::El río}} es muy profundo para cruzar a pie.,La rivière est trop profonde pour traverser à pied.
-la montaña,la montagne,entorno,delapouite/mountain-road.svg,entorno,La montaña es tan alta que las nubes cubren la cima.,(montagne) {{c1::La montaña}} es tan alta que las nubes cubren la cima.,La montagne est si haute que les nuages couvrent le sommet.
-la cueva,la caverne,entorno,delapouite/cave-entrance.svg,entorno,La cueva es oscura y un olor extraño viene de dentro.,(caverne) {{c1::La cueva}} es oscura y un olor extraño viene de dentro.,La caverne est sombre et une odeur étrange vient de l'intérieur.
+
