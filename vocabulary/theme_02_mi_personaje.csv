@@ -1,13 +1,7 @@
 spanish,french,category,icon,tags,notes,cloze,french_sentence
-es,il/elle est,verbos,delapouite/person.svg,ser,Es un dragón enorme.,(il est) {{c1::Es}} un dragón enorme.,C'est un dragon énorme.
-somos,nous sommes,verbos,delapouite/meeple-group.svg,ser,Somos héroes valientes.,(nous sommes) {{c1::Somos}} héroes valientes.,Nous sommes des héros courageux.
-son,ils/elles sont,verbos,delapouite/meeple-group.svg,ser,Son los enemigos del reino.,(ils sont) {{c1::Son}} los enemigos del reino.,Ce sont les ennemis du royaume.
 tengo,j'ai,verbos,,posesión,Tengo quince de fuerza.,(j'ai) {{c1::Tengo}} quince de fuerza.,J'ai quinze en force.
 quiero,je veux,verbos,,acción,Quiero una espada mágica.,(je veux) {{c1::Quiero}} una espada mágica.,Je veux une épée magique.
 puedo,je peux,verbos,,acción,Puedo lanzar un hechizo.,(je peux) {{c1::Puedo}} lanzar un hechizo.,Je peux lancer un sort.
-¿de dónde eres?,d'où es-tu ?,frases,,identidad,¿De dónde eres? — Soy de las montañas.,(d'où es-tu ?) {{c1::¿De dónde eres?}} — Soy de las montañas.,D'où es-tu ? — Je suis des montagnes.
-¿cuál es tu clase?,quelle est ta classe ?,frases,,identidad,¿Cuál es tu clase? — Soy un guerrero.,(quelle est ta classe ?) {{c1::¿Cuál es tu clase?}} — Soy un guerrero.,Quelle est ta classe ? — Je suis un guerrier.
-¿qué quieres hacer?,que veux-tu faire ?,frases,,acción,¿Qué quieres hacer? — Quiero atacar.,(que veux-tu faire ?) {{c1::¿Qué quieres hacer?}} — Quiero atacar.,Que veux-tu faire ? — Je veux attaquer.
 el personaje,le personnage,,,identidad,Mi grupo protege el personaje del rey.,(le personnage) Mi grupo protege {{c1::el personaje}} del rey.,Mon groupe protège le personnage du roi.
 el jugador / la jugadora,le joueur / la joueuse,,,identidad,Cada jugador elige una clase.,(joueur) Cada {{c1::jugador}} elige una clase.,Chaque joueur choisit une classe.
 el grupo,le groupe,,,identidad,Nuestro grupo entra en la mazmorra.,(groupe) Nuestro {{c1::grupo}} entra en la mazmorra.,Notre groupe entre dans le donjon.
