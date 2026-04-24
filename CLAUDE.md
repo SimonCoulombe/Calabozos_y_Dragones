@@ -27,7 +27,7 @@ output/              Generated files (gitignored)
 ```bash
 make validate   # check all CSVs and YAMLs for errors
 make pdf        # generate output/pdfs/livre_aventurier.pdf
-make anki       # generate output/anki/*.apkg for each child
+make anki       # generate output/anki/calabozos.apkg
 make all        # validate + pdf + anki
 ```
 
@@ -35,7 +35,7 @@ make all        # validate + pdf + anki
 
 Edit `config.yaml` to change:
 - Piper TTS server address/port/voice
-- Child names and deck names
+- Anki deck name
 - Output directories
 
 ## Vocabulary CSV Format
@@ -61,4 +61,4 @@ If TTS server is unreachable, Anki cards are generated without audio (`skip_on_f
 
 1. DM or parent opens the relevant session CSV on GitHub and adds new words to blank rows
 2. Run `make all` to regenerate PDF and Anki decks
-3. Share updated PDF via Google Drive; send `.apkg` to child's AnkiDroid
+3. Share updated PDF via Google Drive; send `.apkg` to AnkiDroid

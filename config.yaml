@@ -18,13 +18,8 @@ output:
 campaign:
   title: "Calabozos y Dragones"
   pdf_title: "El Libro del Aventurero"
+  anki_deck_name: "Calabozos y Dragones"
   source_lang: es
   target_lang: fr
 
-children:
-  - id: child_1
-    name: ""                  # fill in child's name
-    anki_deck_name: "Calabozos - Enfant 1"
-  - id: child_2
-    name: ""                  # fill in child's name
-    anki_deck_name: "Calabozos - Enfant 2"
+

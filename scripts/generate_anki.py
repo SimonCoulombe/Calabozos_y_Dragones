@@ -154,8 +154,8 @@ def get_audio_and_icon(
     return audio_html, icon_html, media
 
 
-def build_deck(child: dict, words: list[dict], config: dict, out_dir: Path, audio_dir: Path, icons_dir: Path, skip_tts: bool = False) -> Path:
-    deck_id = stable_id(f"calabozos-{child['id']}")
+def build_deck(words: list[dict], config: dict, out_dir: Path, audio_dir: Path, icons_dir: Path, skip_tts: bool = False) -> Path:
+    deck_id = stable_id("calabozos-deck")
     model_id = stable_id("model-calabozos-cloze-v2")
 
     model = genanki.Model(
@@ -180,7 +180,7 @@ def build_deck(child: dict, words: list[dict], config: dict, out_dir: Path, audi
         model_type=genanki.Model.CLOZE,
     )
 
-    deck_name = child.get("anki_deck_name", f"Calabozos - {child['id']}")
+    deck_name = config.get("campaign", {}).get("anki_deck_name", "Calabozos y Dragones")
     deck = genanki.Deck(deck_id, deck_name)
 
     media_files: list[str] = []
@@ -220,8 +220,7 @@ def build_deck(child: dict, words: list[dict], config: dict, out_dir: Path, audi
         )
         deck.add_note(note)
 
-    child_id = child["id"]
-    out_path = out_dir / f"calabozos_{child_id}.apkg"
+    out_path = out_dir / "calabozos.apkg"
     package = genanki.Package(deck)
     package.media_files = media_files
     package.write_to_file(str(out_path))
@@ -254,10 +253,9 @@ def main() -> int:
     if skip_tts:
         print("TTS disabled — cards will have no audio")
 
-    for child in config.get("children", []):
-        print(f"Building deck for {child['id']}...")
-        out_path = build_deck(child, words, config, out_dir, audio_dir, icons_dir, skip_tts=skip_tts)
-        print(f"  ANKI  →  {out_path}")
+    print("Building deck...")
+    out_path = build_deck(words, config, out_dir, audio_dir, icons_dir, skip_tts=skip_tts)
+    print(f"  ANKI  →  {out_path}")
 
     return 0
 

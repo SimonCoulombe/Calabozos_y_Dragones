@@ -38,7 +38,7 @@ help:
 	@echo "First time setup:  make setup"
 	@echo ""
 	@echo "make pdf       - Generate El Libro del Aventurero PDF"
-	@echo "make anki      - Generate Anki decks for both children"
+	@echo "make anki      - Generate Anki flashcard deck (.apkg)"
 	@echo "make audio     - Pre-generate all TTS audio files"
 	@echo "make icons     - Pre-cache all game-icons.net SVGs"
 	@echo "make validate  - Validate all CSV and YAML files"
