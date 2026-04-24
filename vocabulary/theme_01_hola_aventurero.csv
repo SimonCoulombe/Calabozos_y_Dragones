@@ -19,4 +19,6 @@ o,ou,frases,,conectores,¿Quieres atacar o correr?,(ou) ¿Quieres atacar {{c1::o
 pero,mais,frases,,conectores,Soy fuerte pero no soy rápido.,(mais) Soy fuerte {{c1::pero}} no soy rápido.,Je suis fort mais je ne suis pas rapide.
 también,aussi,frases,,conectores,Yo también quiero una espada.,(aussi) Yo {{c1::también}} quiero una espada.,Moi aussi je veux une épée.
 esto,ceci / ça,frases,,demostrativos,¿Qué es esto? — Esto es un mapa.,(ceci / ça) ¿Qué es {{c1::esto}}? — Esto es un mapa.,Qu'est-ce que c'est ? — C'est une carte.
-aquí,ici,frases,,demostrativos,Los aventureros están aquí en la taberna.,(ici) Los aventureros están {{c1::aquí}} en la taberna.,Les aventuriers sont ici à la taverne.
+mi,mon / ma,posesivos,,posesivos,Mi espada es nueva.,(mon / ma) {{c1::Mi}} espada es nueva.,Mon épée est nouvelle.
+tu,ton / ta,posesivos,,posesivos,¿Tu personaje es un mago?,(ton / ta) ¿{{c1::Tu}} personaje es un mago?,Ton personnage est-il un mage ?
+su,son / sa,posesivos,,posesivos,Su hechizo es muy poderoso.,(son / sa) {{c1::Su}} hechizo es muy poderoso.,Son sort est très puissant.
