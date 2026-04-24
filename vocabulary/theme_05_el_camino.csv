@@ -14,9 +14,9 @@ el norte,le nord,frases,lorc/compass.svg,direcciones,Los aventureros viajan haci
 el sur,le sud,frases,lorc/compass.svg,direcciones,Los aventureros caminan hacia el sur para llegar al río.,(sud) Los aventureros caminan hacia {{c1::el sur}} para llegar al río.,Les aventuriers marchent vers le sud pour arriver à la rivière.
 el este,l'est,frases,lorc/compass.svg,direcciones,El sol sale por el este e ilumina el camino.,(est) El sol sale por {{c1::el este}} e ilumina el camino.,Le soleil se lève à l'est et illumine le chemin.
 el oeste,l'ouest,frases,lorc/compass.svg,direcciones,El bosque encantado se encuentra hacia el oeste.,(ouest) El bosque encantado se encuentra hacia {{c1::el oeste}}.,La forêt enchantée se trouve vers l'ouest.
-todo recto,
-la izquierda, la gauche,
-la derecha, la droite,
+todo recto,tout droit,frases,lorc/compass.svg,direcciones,El camino bifurca pero debemos seguir todo recto.,(tout droit) Los aventureros siguen {{c1::todo recto}} sin desviarse del sendero.,Les aventuriers continuent tout droit sans dévier du sentier.
+la izquierda,la gauche,frases,lorc/compass.svg,direcciones,Giro a la izquierda cuando veo el árbol gigante.,(gauche) Giro a {{c1::la izquierda}} cuando veo el árbol gigante.,Je tourne à gauche quand je vois l'arbre géant.
+la derecha,la droite,frases,lorc/compass.svg,direcciones,Debemos ir a la derecha para evitar al monstruo.,(droite) Debemos ir a {{c1::la derecha}} para evitar al monstruo.,Nous devons aller à droite pour éviter le monstre.
 arriba,en haut,direcciones,,direcciones,"La habitación del mago está arriba, al final de las escaleras.","(en haut) La habitación del mago está {{c1::arriba}}, al final de las escaleras.","La chambre du mage est en haut, au bout des escaliers."
 abajo,en bas,direcciones,,direcciones,"La mazmorra está abajo, debajo de la torre del castillo.","(en bas) La mazmorra está {{c1::abajo}}, debajo de la torre del castillo.","Le donjon est en bas, sous la tour du château."
 el bosque,la forêt,entorno,lorc/pine-tree.svg,entorno,El bosque es oscuro y lleno de criaturas misteriosas.,(forêt) {{c1::El bosque}} es oscuro y lleno de criaturas misteriosas.,La forêt est sombre et pleine de créatures mystérieuses.
