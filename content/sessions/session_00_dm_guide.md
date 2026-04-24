@@ -1,13 +1,14 @@
-# Tema 1 — ¿Quién eres tú ? (Guide du MJ)
+# Session 0 — Création de personnage (Guide du MJ)
 
 **Durée** : 45 minutes  
-**Objectif linguistique** : se présenter, nommer sa race et sa classe, comprendre les nombres 1–20
+**Objectif linguistique** : se présenter, nommer sa race et sa classe, comprendre les nombres  
+**Vocabulaire** : `theme_01_hola_aventurero.csv` + `theme_02_mi_personaje.csv`
 
 ---
 
 ## Avant la séance
 
-Envoie au joueur le vocabulaire de `theme_01_quien_eres.csv` 3 jours avant (en PDF ou en image).  
+Envoie au joueur le vocabulaire des Temas 1 et 2 (PDF ou image) 3 jours avant.  
 Dis-lui que c'est son "Parchemin du Guerrier" — il doit le lire une fois pour être prêt.
 
 ---

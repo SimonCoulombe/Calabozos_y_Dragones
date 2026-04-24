@@ -66,20 +66,20 @@ def load_session_csv(path: Path) -> dict:
 
 
 SESSION_TITLES = {
-    "01": ("Tema 1 — ¿Quién eres tú ?", "Créer ton personnage"),
-    "02": ("Tema 2 — La Tienda", "Acheter de l'équipement"),
-    "03": ("Tema 3 — El Camino", "Voyager et se battre"),
-    "04": ("Tema 4 — La Misión", "Recevoir une quête"),
-    "05": ("Tema 5 — La Mazmorra", "Explorer le donjon"),
+    "01": ("Tema 1 — ¡Hola, aventurero!", "Les bases pour survivre à la table"),
+    "02": ("Tema 2 — Mi Personaje", "Créer ton personnage"),
+    "03": ("Tema 3 — La Tienda", "Acheter de l'équipement"),
+    "04": ("Tema 4 — El Camino", "Voyager et explorer"),
+    "05": ("Tema 5 — La Misión", "Recevoir une quête et explorer le donjon"),
     "06": ("Tema 6 — El Jefe", "Affronter le boss"),
 }
 
 SESSION_FRAMINGS = {
-    "01": "Avant de partir à l'aventure, tu dois créer ton personnage. Réponds aux questions du Maître de Donjon en espagnol !",
-    "02": "Tu arrives en ville avec de l'or mais sans équipement. Le marchand ne parle qu'espagnol — nomme ce que tu veux acheter !",
-    "03": "Sur la route, tu dois décrire ce que tu vois, entends et fais. En espagnol, bien sûr !",
-    "04": "Un vieil homme t'aborde dans la taverne. Il a besoin d'aide. Comprends sa mission et pose tes questions.",
-    "05": "L'obscurité t'entoure. Tu dois explorer, trouver des trésors et éviter les pièges — en décrivant tout en espagnol.",
+    "01": "Avant de partir à l'aventure, apprends à dire bonjour, à te présenter et à poser des questions simples en espagnol !",
+    "02": "Tu crées ton personnage. Choisis ta race et ta classe — en espagnol, bien sûr !",
+    "03": "Tu arrives en ville avec de l'or mais sans équipement. Le marchand ne parle qu'espagnol — nomme ce que tu veux acheter !",
+    "04": "Sur la route, tu dois décrire ce que tu vois, entends et fais. En espagnol, bien sûr !",
+    "05": "Un vieil homme t'aborde dans la taverne. Il a besoin d'aide. Comprends sa mission, explore le donjon et bats-toi !",
     "06": "Le boss final attend. Tout ce que tu as appris va servir dans ce combat épique !",
 }
 
@@ -105,12 +105,14 @@ def load_grammar() -> dict:
 
 
 REFERENCE_TITLES = {
+    "reference_attributes": ("Los Atributos",           "Les caractéristiques de ton personnage"),
+    "reference_game_words": ("Palabras del Juego",       "Le vocabulaire des mécaniques de jeu"),
     "reference_races":     ("Las Razas y las Clases",   "Todas las razas y clases jugables"),
     "reference_equipment": ("El Equipo del Aventurero", "Armas, armaduras y equipo básico"),
     "reference_spells":    ("Los Hechizos",             "Hechizos comunes y escuelas de magia"),
     "reference_enemies":   ("Los Enemigos",             "Monstruos comunes"),
     "reference_lugares":   ("Los Lugares",              "Lugares, edificios y zonas por explorar"),
-    "reference_numbers":   ("Los Números",              "1 → 20 — ¡para tirar los dados!"),
+    "reference_numbers":   ("Los Números",              "11 → 20, 50, 100, 1000"),
     "reference_colors":   ("Los Colores",             "¡Describe tu equipo!"),
     "reference_adjectives": ("Otros Adjetivos",         "Adjetivos útiles para describir el mundo"),
     "reference_mis_palabras":   ("Mis Palabras",              "Mis nuevas palabras"),    

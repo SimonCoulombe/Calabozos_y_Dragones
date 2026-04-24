@@ -1,0 +1,28 @@
+spanish,french,category,icon,tags,notes,cloze,french_sentence
+es,il/elle est,verbos,delapouite/person.svg,ser,Es un dragón enorme.,(il est) {{c1::Es}} un dragón enorme.,C'est un dragon énorme.
+somos,nous sommes,verbos,delapouite/meeple-group.svg,ser,Somos héroes valientes.,(nous sommes) {{c1::Somos}} héroes valientes.,Nous sommes des héros courageux.
+son,ils/elles sont,verbos,delapouite/meeple-group.svg,ser,Son los enemigos del reino.,(ils sont) {{c1::Son}} los enemigos del reino.,Ce sont les ennemis du royaume.
+tengo,j'ai,verbos,,posesión,Tengo quince de fuerza.,(j'ai) {{c1::Tengo}} quince de fuerza.,J'ai quinze en force.
+quiero,je veux,verbos,,acción,Quiero una espada mágica.,(je veux) {{c1::Quiero}} una espada mágica.,Je veux une épée magique.
+puedo,je peux,verbos,,acción,Puedo lanzar un hechizo.,(je peux) {{c1::Puedo}} lanzar un hechizo.,Je peux lancer un sort.
+¿de dónde eres?,d'où es-tu ?,frases,,identidad,¿De dónde eres? — Soy de las montañas.,(d'où es-tu ?) {{c1::¿De dónde eres?}} — Soy de las montañas.,D'où es-tu ? — Je suis des montagnes.
+¿cuál es tu clase?,quelle est ta classe ?,frases,,identidad,¿Cuál es tu clase? — Soy un guerrero.,(quelle est ta classe ?) {{c1::¿Cuál es tu clase?}} — Soy un guerrero.,Quelle est ta classe ? — Je suis un guerrier.
+¿qué quieres hacer?,que veux-tu faire ?,frases,,acción,¿Qué quieres hacer? — Quiero atacar.,(que veux-tu faire ?) {{c1::¿Qué quieres hacer?}} — Quiero atacar.,Que veux-tu faire ? — Je veux attaquer.
+el personaje,le personnage,,,identidad,Mi grupo protege el personaje del rey.,(le personnage) Mi grupo protege {{c1::el personaje}} del rey.,Mon groupe protège le personnage du roi.
+el jugador / la jugadora,le joueur / la joueuse,,,identidad,Cada jugador elige una clase.,(joueur) Cada {{c1::jugador}} elige una clase.,Chaque joueur choisit une classe.
+el grupo,le groupe,,,identidad,Nuestro grupo entra en la mazmorra.,(groupe) Nuestro {{c1::grupo}} entra en la mazmorra.,Notre groupe entre dans le donjon.
+un dado,un dé,,delapouite/dice-six-faces-six.svg,,Lanza un dado para atacar.,(un dé) Lanza {{c1::un dado}} para atacar.,Lance un dé pour attaquer.
+la raza,la race,,,identidad,¿Cuál es tu raza? — Soy un elfo.,(race) ¿Cuál es tu {{c1::raza}}? — Soy un elfo.,Quelle est ta race ? — Je suis un elfe.
+la clase,la classe,,,identidad,¿Cuál es tu clase? — Soy un guerrero.,(classe) ¿Cuál es tu {{c1::clase}}? — Soy un guerrero.,Quelle est ta classe ? — Je suis un guerrier.
+el guerrero / la guerrera,le guerrier / la guerrière,clases,cathelineau/swordman.svg,clase,El guerrero humano protege al grupo.,(guerrier) El {{c1::guerrero}} humano protege al grupo.,Le guerrier humain protège le groupe.
+el mago / la maga,le magicien / la magicienne,clases,lorc/magic-swirl.svg,clase,La maga elfa lanza un hechizo.,(magicienne) La {{c1::maga}} elfa lanza un hechizo.,La magicienne elfe lance un sort.
+el pícaro / la pícara,le voleur / la voleuse,clases,lorc/hood.svg,clase,El pícaro gnomo abre la cerradura.,(voleur) El {{c1::pícaro}} gnomo abre la cerradura.,Le voleur gnome ouvre la serrure.
+el clérigo / la clériga,le clerc / la clerc,clases,lorc/holy-grail.svg,clase,El clérigo enano cura al guerrero.,(clerc) El {{c1::clérigo}} enano cura al guerrero.,Le clerc nain soigne le guerrier.
+el elfo / la elfa,l'elfe,razas,delapouite/elf-ear.svg,raza,Soy un elfo del bosque.,(elfe) Soy un {{c1::elfo}} del bosque.,Je suis un elfe de la forêt.
+el enano / la enana,le nain / la naine,razas,delapouite/dwarf-face.svg,raza,El enano lleva un hacha enorme.,(nain) El {{c1::enano}} lleva un hacha enorme.,Le nain porte une hache énorme.
+el humano / la humana,l'humain / l'humaine,razas,delapouite/person.svg,raza,La humana es una guerrera valiente.,(humaine) La {{c1::humana}} es una guerrera valiente.,L'humaine est une guerrière courageuse.
+el equipo,l'équipement,,,identidad,Voy a comprar el equipo en el mercado.,(l'équipement) Voy a comprar {{c1::el equipo}} en el mercado.,Je vais acheter l'équipement au marché.
+bueno / buena,bon / bonne,adjetivos,,adjetivos,El clérigo es bueno.,(bon) El clérigo es {{c1::bueno}}.,Le clerc est bon.
+malvado / malvada,mauvais / mauvaise,adjetivos,,adjetivos,El nigromante es malvado.,(mauvais) El nigromante es {{c1::malvado}}.,Le nécromancien est mauvais.
+grande / grande,grand / gros,adjetivos,,adjetivos,El dragón del castillo es muy grande.,(grand / gros) El dragón del castillo es muy {{c1::grande}}.,Le dragon du château est très grand.
+pequeño / pequeña,petit,adjetivos,,adjetivos,El goblin es muy pequeño pero muy astuto.,(petit) El goblin es muy {{c1::pequeño}} pero muy astuto.,Le gobelin est très petit mais très rusé.

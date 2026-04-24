@@ -1,0 +1,16 @@
+spanish,french,category,icon,tags,notes,cloze,french_sentence
+el nivel,le niveau,atributos,,reference atributos,Soy de nivel tres.,(niveau) Soy de {{c1::nivel}} tres.,Je suis de niveau trois.
+los puntos de golpe,les points de vie,atributos,lorc/angel-wings.svg,reference atributos,Tengo doce puntos de golpe.,(points de vie) Tengo doce {{c1::puntos de golpe}}.,J'ai douze points de vie.
+la fuerza,la force,atributos,delapouite/biceps.svg,reference atributos,Tengo trece de fuerza.,(force) Tengo trece de {{c1::fuerza}}.,J'ai treize en force.
+la destreza,la dextérité,atributos,lorc/juggler.svg,reference atributos,Tengo catorce de destreza.,(dextérité) Tengo catorce de {{c1::destreza}}.,J'ai quatorze en dextérité.
+la inteligencia,l'intelligence,atributos,lorc/brain.svg,reference atributos,Tengo quince de inteligencia.,(intelligence) Tengo quince de {{c1::inteligencia}}.,J'ai quinze en intelligence.
+la sabiduría,la sagesse,atributos,lorc/meditation.svg,reference atributos,Tengo dieciséis de sabiduría.,(sagesse) Tengo dieciséis de {{c1::sabiduría}}.,J'ai seize en sagesse.
+el carisma,le charisme,atributos,lorc/angel-wings.svg,reference atributos,Tengo diecisiete de carisma.,(charisme) Tengo diecisiete de {{c1::carisma}}.,J'ai dix-sept en charisme.
+la constitución,la constitution,atributos,delapouite/strong-man.svg,reference atributos,Tengo dieciocho de constitución.,(constitution) Tengo dieciocho de {{c1::constitución}}.,J'ai dix-huit en constitution.
+el alineamiento,l'alignement,atributos,,reference atributos,Mi alineamiento es caótico bueno.,(alignement) Mi {{c1::alineamiento}} es caótico bueno.,Mon alignement est chaotique bon.
+legal,loyal,atributos,,reference atributos,Mi personaje es legal bueno.,(loyal) Mi personaje es {{c1::legal}} bueno.,Mon personnage est loyal bon.
+neutral,neutre,atributos,,reference atributos,El druida es neutral.,(neutre) El druida es {{c1::neutral}}.,Le druide est neutre.
+caótico,chaotique,atributos,,reference atributos,El pícaro es caótico bueno.,(chaotique) El pícaro es {{c1::caótico}} bueno.,Le voleur est chaotique bon.
+el bonificador de competencia,le bonus de maîtrise,atributos,,reference atributos,Tu bonificador de competencia es +2.,(bonus de maîtrise) Tu {{c1::bonificador de competencia}} es +2.,Ton bonus de maîtrise est +2.
+la clase de armadura,la classe d'armure,atributos,,reference atributos,Mi clase de armadura es quince.,(classe d'armure) Mi {{c1::clase de armadura}} es quince.,Ma classe d'armure est quinze.
+los idiomas,les langues,atributos,,reference atributos,Mi personaje habla tres idiomas.,(langues) Mi personaje habla tres {{c1::idiomas}}.,Mon personnage parle trois langues.

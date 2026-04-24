@@ -1,7 +1,8 @@
-# Tema 3 — El Camino (Guide du MJ)
+# Tema 4 — El Camino (Guide du MJ)
 
 **Durée** : 45 minutes  
-**Objectif linguistique** : décrire l'environnement, les directions, premier combat
+**Objectif linguistique** : décrire l'environnement, les directions, premier combat  
+**Vocabulaire** : `theme_04_el_camino.csv`
 
 ---
 
@@ -9,7 +10,7 @@
 
 > "¿Qué pasó la última vez?"
 
-L'enfant raconte les temas 1 et 2. Guide :
+L'enfant raconte les temas 1 à 3. Guide :
 > "¿Compraste algo en la tienda? ¿Qué compraste?"
 
 Utilise le passé composé en français si besoin pour expliquer, mais reste en espagnol dans le jeu.

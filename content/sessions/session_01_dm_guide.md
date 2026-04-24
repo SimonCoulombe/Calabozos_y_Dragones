@@ -1,7 +1,8 @@
-# Tema 2 — La Tienda (Guide du MJ)
+# Tema 3 — La Tienda (Guide du MJ)
 
 **Durée** : 45 minutes  
-**Objectif linguistique** : nommer l'équipement, acheter en espagnol, utiliser les nombres pour les prix
+**Objectif linguistique** : nommer l'équipement, acheter en espagnol, utiliser les nombres 1–10 pour les prix  
+**Vocabulaire** : `theme_03_la_tienda.csv`
 
 ---
 
