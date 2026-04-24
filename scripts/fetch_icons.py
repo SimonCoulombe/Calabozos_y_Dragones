@@ -19,14 +19,6 @@ log = logging.getLogger(__name__)
 GAME_ICONS_BASE = "https://raw.githubusercontent.com/game-icons/icons/master/{author}/{slug}.svg"
 
 
-def icon_path(icon_ref: str) -> Path:
-    """Get the local path for an icon reference.
-
-    icon_ref is 'author/filename.svg'.
-    """
-    return ICONS_DIR / icon_ref
-
-
 def fetch_icon(icon_ref: str, force: bool = False) -> Path | None:
     """Download icon SVG to cache. Returns local path or None on failure.
 

@@ -43,7 +43,7 @@ Edit `config.yaml` to change:
 All session word lists are CSV files with columns:
 `spanish,french,category,icon,tags,notes`
 
-- `icon`: slug from game-icons.net (e.g. `sword`, `visored-helm`, `potion`)
+- `icon`: slug from game-icons.net (e.g. `sword`, `visored-helm`, `potion`) — see `all_icons.txt` for the full list of available icon slugs
 - `tags`: comma-separated, used to filter cards
 - Blank rows at the bottom are for adding new words
 

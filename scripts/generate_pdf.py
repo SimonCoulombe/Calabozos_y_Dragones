@@ -93,8 +93,7 @@ def load_grammar() -> dict:
         ("dnd_verbs.yaml", "dnd_verbs"),        
         ("ser_estar.yaml", "ser_estar"),
         ("hacer_tener.yaml", "hacer_tener"),        
-        ("ir_poder_hay.yaml", "ir_poder_hay"),        
-        ("colors.yaml", "colors")
+        ("ir_poder_hay.yaml", "ir_poder_hay"),
     ]:
         p = grammar_dir / name
         if p.exists():

@@ -24,11 +24,7 @@ campaign:
 children:
   - id: child_1
     name: ""                  # fill in child's name
-    character_file: characters/child_1_character.yaml
-    progress_file: progress/child_1_progress.yaml
     anki_deck_name: "Calabozos - Enfant 1"
   - id: child_2
     name: ""                  # fill in child's name
-    character_file: characters/child_2_character.yaml
-    progress_file: progress/child_2_progress.yaml
     anki_deck_name: "Calabozos - Enfant 2"

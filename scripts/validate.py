@@ -10,10 +10,6 @@ BASE = Path(__file__).parent.parent
 VOCAB_DIR = BASE / "vocabulary"
 
 CSV_REQUIRED_COLUMNS = {"spanish", "french", "category", "icon", "tags", "notes"}
-CSV_OPTIONAL_COLUMNS = {"cloze", "french_sentence"}
-GRAMMAR_REQUIRED_KEYS_SER_ESTAR = {"title", "tables"}
-GRAMMAR_REQUIRED_KEYS_NUMBERS = {"title", "numbers"}
-GRAMMAR_REQUIRED_KEYS_COLORS = {"title", "colors"}
 
 errors = []
 warnings = []
